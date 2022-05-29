@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Dát tomuto příspěvku spropitné",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Příspěvek ",
+    "description": "Icon label for tip button"
+  }
+}

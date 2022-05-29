@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "ለዚህ ፖስት ፍንጭ ስጥ",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "ምክር",
+    "description": "Icon label for tip button"
+  }
+}

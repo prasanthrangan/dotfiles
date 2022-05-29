@@ -1,0 +1,16 @@
+<svg width="60" height="40" viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 28.5C3.94036 28.5 4.5 27.9404 4.5 27.25C4.5 26.5596 3.94036 26 3.25 26C2.55964 26 2 26.5596 2 27.25C2 27.9404 2.55964 28.5 3.25 28.5Z" stroke="#D7DBE0"/>
+<path d="M53.1042 3.10417L55.4795 5.47952" stroke="#D7DBE0" stroke-linecap="round"/>
+<path d="M55.3958 3.10417L53.0205 5.47952" stroke="#D7DBE0" stroke-linecap="round"/>
+<rect x="54" y="32" width="2.5" height="2.50001" stroke="#D7DBE0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="2.5" height="2.5" transform="matrix(0.707106 -0.707107 0.707106 0.707107 4 17.0034)" stroke="#D7DBE0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="36" height="36" rx="3.38824" transform="matrix(1 0 0 -1 12 38)" fill="white" stroke="#D7DBE0" stroke-width="1.25" stroke-linecap="round" stroke-dasharray="194.82 5.93 0.85 3.39"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M36.4 36.6152V29.1564C36.4 27.753 37.5377 26.6152 38.9412 26.6152H46.4L36.4 36.6152Z" fill="white" stroke="#D7DBE0" stroke-width="1.25"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M47.6539 26.4536V35.1124C47.6539 36.5159 46.5161 37.6536 45.1127 37.6536H36.4539L47.6539 26.4536Z" fill="#D7DBE0" stroke="#D7DBE0" stroke-width="1.25"/>
+<rect x="26.4" y="11.6001" width="18" height="0.800002" rx="0.400001" fill="#D7DBE0" stroke="#D7DBE0" stroke-width="1.69412"/>
+<rect x="16" y="11.6001" width="6.4" height="0.800002" rx="0.400001" fill="#D7DBE0" stroke="#D7DBE0" stroke-width="1.69412"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 20.7999C16 20.579 16.1791 20.3999 16.4 20.3999H44C44.2209 20.3999 44.4 20.579 44.4 20.7999C44.4 21.0208 44.2209 21.1999 44 21.1999H16.4C16.1791 21.1999 16 21.0208 16 20.7999Z" fill="#E3E3E3" stroke="#D7DBE0" stroke-width="1.69412"/>
+<rect x="16" y="16" width="18.4" height="0.799999" rx="0.399999" fill="#E3E3E3" stroke="#D7DBE0" stroke-width="1.69412"/>
+<rect x="16" y="24.7998" width="18.4" height="0.799995" rx="0.399998" fill="#E3E3E3" stroke="#D7DBE0" stroke-width="1.69412"/>
+<rect x="38.4" y="16" width="6" height="0.799999" rx="0.399999" fill="#E3E3E3" stroke="#D7DBE0" stroke-width="1.69412"/>
+</svg>

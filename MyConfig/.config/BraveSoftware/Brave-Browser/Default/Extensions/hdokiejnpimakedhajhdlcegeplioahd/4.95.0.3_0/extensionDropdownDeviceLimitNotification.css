@@ -1,0 +1,97 @@
+.deviceLimitNotification .panelContent h1 {
+  margin: 6px 0 0;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  color: #1D3049;
+  letter-spacing: -0.24px;
+}
+
+.deviceLimitNotification .panelContent p {
+  text-align: center;
+  color: #353F47;
+  margin: 6px 0;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.deviceLimitNotification .panelContent {
+  padding: 12px;
+  text-align: center;
+}
+
+.deviceLimitNotification .panelContent button {
+  padding: 0px 26px;
+  border-radius: 5px;
+  line-height: 45px;
+  width: initial;
+  font-size: 13px;
+}
+
+.deviceLimitNotification .panelContent button#deviceLimitUpgradeBtn {
+  padding: 8px 36px;
+  font-size: 13px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.deviceLimitNotification .panelContent button#deviceLimitDismissBtn {
+  background: transparent;
+  font-weight: 400;
+  color: #2C405A;
+  box-shadow: none;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  line-height: initial;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.deviceLimitNotification .panelContent a {
+  color: #3B70D4;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.deviceLimitNotification .panelContent a:hover {
+  text-decoration: underline;
+}
+
+.deviceLimitNotification .panelContent img {
+  display: block;
+  margin: 15px auto 15px;
+  max-width: 147px;
+}
+
+.deviceLimitNotification.panelIsActive #container {
+  position: relative;
+}
+
+.deviceLimitNotification.panelIsActive #container::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.deviceLimitNotification .panelContainer * {
+  box-sizing: border-box;
+}
+
+.deviceLimitNotification.panelIsActive .panelContainer {
+  display: inline-block;
+  float: left;
+  color: rgb(23, 33, 40);
+  overflow: hidden;
+  padding: 0;
+}
+
+.deviceLimitNotification.panelIsActive .innerWrapper {
+  width: 350px;
+  right: 0;
+  float: right;
+}

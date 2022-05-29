@@ -1,0 +1,33 @@
+#paywallView {
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  color: #172128;
+  width: 324px;
+  padding: 16px 16px 0 16px; }
+  #paywallView #paywallHeader {
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: -0.18px;
+    display: flex;
+    align-items: center; }
+    #paywallView #paywallHeader img {
+      margin-right: 8px; }
+  #paywallView #paywallContent {
+    padding-top: 16px;
+    line-height: 21px; }
+    #paywallView #paywallContent b {
+      font-weight: 600;
+      margin-right: 3px; }
+  #paywallView #paywallFooter {
+    padding-top: 16px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #paywallView #paywallFooter .footer-buttons {
+      margin: 0; }
+    #paywallView #paywallFooter .lp-logo {
+      padding: 0; }
+    #paywallView #paywallFooter button {
+      padding-left: 28px;
+      padding-right: 28px; }

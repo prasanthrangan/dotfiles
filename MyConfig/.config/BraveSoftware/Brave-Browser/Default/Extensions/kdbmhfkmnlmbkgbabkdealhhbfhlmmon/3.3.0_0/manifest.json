@@ -1,0 +1,139 @@
+{
+   "author": "SteamDB",
+   "background": {
+      "persistent": false,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "content_scripts": [ {
+      "exclude_matches": [ "https://steamdb.info/api/*", "https://steamdb.info/static/*", "https://steamdb.info/embed/*" ],
+      "js": [ "scripts/common.js", "scripts/steamdb/global.js" ],
+      "matches": [ "https://steamdb.info/*" ]
+   }, {
+      "css": [ "styles/global.css", "styles/store.css" ],
+      "exclude_matches": [ "https://store.steampowered.com/login/*", "https://store.steampowered.com/join/*", "https://store.steampowered.com/api/*", "https://store.steampowered.com/actions/*", "https://store.steampowered.com/dynamicstore/*", "https://store.steampowered.com/checkout*", "https://store.steampowered.com/widget/*", "https://store.steampowered.com/account/ackgift*", "https://store.steampowered.com/account/redeemwalletcode*" ],
+      "js": [ "scripts/common.js", "scripts/global.js", "scripts/store/invalidate_cache.js" ],
+      "matches": [ "https://store.steampowered.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/app.js" ],
+      "matches": [ "https://store.steampowered.com/app/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/app_images.js" ],
+      "matches": [ "https://store.steampowered.com/app/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/account.js" ],
+      "matches": [ "https://store.steampowered.com/account/licenses*" ]
+   }, {
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/registerkey.js" ],
+      "matches": [ "https://store.steampowered.com/account/registerkey*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/sub.js" ],
+      "matches": [ "https://store.steampowered.com/sub/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/bundle.js" ],
+      "matches": [ "https://store.steampowered.com/bundle/*" ]
+   }, {
+      "all_frames": true,
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/widget.js" ],
+      "matches": [ "https://store.steampowered.com/widget/*" ]
+   }, {
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/video.js" ],
+      "matches": [ "https://store.steampowered.com/video/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/agecheck.js" ],
+      "matches": [ "https://store.steampowered.com/app/*/agecheck", "https://store.steampowered.com/agecheck/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/explore.js" ],
+      "matches": [ "https://store.steampowered.com/explore*" ]
+   }, {
+      "js": [ "scripts/store/gifting.js" ],
+      "matches": [ "https://store.steampowered.com/checkout/sendgift/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/appicon.js" ],
+      "matches": [ "https://store.steampowered.com/app/*", "https://steamcommunity.com/app/*", "https://steamcommunity.com/sharedfiles/filedetails*", "https://steamcommunity.com/workshop/browse*", "https://steamcommunity.com/workshop/discussions*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "styles/global.css" ],
+      "exclude_matches": [ "https://steamcommunity.com/login/*", "https://steamcommunity.com/miniprofile/*" ],
+      "js": [ "scripts/common.js", "scripts/global.js" ],
+      "matches": [ "https://steamcommunity.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile.js" ],
+      "matches": [ "https://steamcommunity.com/id/*", "https://steamcommunity.com/profiles/*" ]
+   }, {
+      "css": [ "styles/inventory.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_inventory.js" ],
+      "matches": [ "https://steamcommunity.com/id/*/inventory*", "https://steamcommunity.com/profiles/*/inventory*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/profile_achievements.js" ],
+      "matches": [ "https://steamcommunity.com/id/*/stats*", "https://steamcommunity.com/profiles/*/stats*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/global_achievements.js" ],
+      "matches": [ "https://steamcommunity.com/stats/*/achievements*" ]
+   }, {
+      "exclude_matches": [ "https://steamcommunity.com/tradeoffer/*/confirm*" ],
+      "js": [ "scripts/common.js", "scripts/community/tradeoffer.js" ],
+      "matches": [ "https://steamcommunity.com/tradeoffer/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/profile_games.js" ],
+      "matches": [ "https://steamcommunity.com/id/*/games*", "https://steamcommunity.com/profiles/*/games*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_recommended.js" ],
+      "matches": [ "https://steamcommunity.com/id/*/recommended/*", "https://steamcommunity.com/profiles/*/recommended/*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_badges.js" ],
+      "matches": [ "https://steamcommunity.com/id/*/badges*", "https://steamcommunity.com/profiles/*/badges*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_gamecards.js" ],
+      "matches": [ "https://steamcommunity.com/id/*/gamecards/*", "https://steamcommunity.com/profiles/*/gamecards/*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/gamehub.js" ],
+      "matches": [ "https://steamcommunity.com/app/*", "https://steamcommunity.com/sharedfiles/filedetails*", "https://steamcommunity.com/workshop/browse*", "https://steamcommunity.com/workshop/discussions*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/agecheck.js" ],
+      "matches": [ "https://steamcommunity.com/app/*", "https://steamcommunity.com/sharedfiles/*", "https://steamcommunity.com/workshop/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "scripts/common.js", "scripts/community/market_ssa.js" ],
+      "matches": [ "https://steamcommunity.com/market/*", "https://steamcommunity.com/id/*/inventory*", "https://steamcommunity.com/profiles/*/inventory*" ]
+   } ],
+   "description": "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.",
+   "differential_fingerprint": "1.20f90bc0927154122495e7bf849c052217aaa2f106c7c0cc0bae492f2ce86a69",
+   "homepage_url": "https://steamdb.info/",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvaD4yBXCoxl7bgn2OV/y2dnd/md9Lh8xYXSI9xAd9YDS+NRMd2t03MU6fHRgXRm4p944bm/PL6HevxnkQTL+RVbiqknuB+TG21um/F0Ow6eEDBfHIYKBWU78nNRMbwAfCwBRo/ZGCHENMFDgpE7rPWLlW46vTE/h87k/Zfdg3jxTL2R4uOGNVvkUxEdCyCYWXpCfQdAXJpk9Zx6/OvsicieH3p8qZeVuwMs1PVJTERXfazVxbr9XGIvjm5H1uz7b+3md8SEO33mkjMmmOwr24XlitJOWVMnX/ArJnXxiE59MUwCWMbU8g1aXyaweKjuBc5iH2Megmh1ZdqkN6PLpTwIDAQAB",
+   "manifest_version": 2,
+   "name": "SteamDB",
+   "options_page": "options/options.html",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "options/options.html"
+   },
+   "permissions": [ "storage", "https://steamdb.info/", "https://store.steampowered.com/", "https://steamcommunity.com/" ],
+   "short_name": "SteamDB",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.0",
+   "web_accessible_resources": [ "options/options.html", "icons/white.svg", "icons/pcgamingwiki.svg", "icons/image.svg", "styles/appicon.css", "styles/inventory-sidebar.css", "scripts/community/inventory.js", "scripts/community/agecheck_injected.js", "scripts/community/tradeoffer_injected.js", "scripts/store/invalidate_cache_injected.js", "scripts/store/explore_injected.js", "scripts/store/registerkey_injected.js", "scripts/store/subscriptions.js" ]
+}

@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Bu gönderi için bahşiş bırak",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Bahşiş",
+    "description": "Icon label for tip button"
+  }
+}

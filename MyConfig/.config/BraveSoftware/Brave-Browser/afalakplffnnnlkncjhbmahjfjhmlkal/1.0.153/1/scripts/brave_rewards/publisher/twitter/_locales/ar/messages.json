@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "أعط إكرامية لهذه التغريدة",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "مكافأة",
+    "description": "Icon label for tip button"
+  }
+}

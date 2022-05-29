@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	background: #1b1b24;
+}
+
+body {
+	margin: 2rem auto;
+	padding: 0 1rem;
+	font: 1rem/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	color: #c6d4df;
+	max-width: 34rem;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0 0 0.5rem;
+	font-weight: normal;
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	margin-top: 3rem;
+	font-size: 1.75rem;
+	font-weight: 600;
+	font-style: italic;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 1.25rem;
+}
+
+h3:first-child {
+	margin-top: 0;
+}
+
+p {
+	margin: 0 0 1rem;
+}
+
+summary {
+	cursor: pointer;
+}
+
+summary:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.muted {
+	font-size: 80%;
+	color: #999;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	margin-top: 3rem;
+	margin-left: -1rem;
+	margin-right: -1rem;
+	padding-top: 2rem;
+	border-top: 1px solid #0197cf;
+	color: #34c8fe;
+}
+
+.footer p {
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.checkbox {
+	display: block;
+}
+
+.checkbox-sub {
+	margin-left: 1.5rem;
+}
+
+#welcome {
+	font-size: 16px;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #0197cf;
+	color: #34c8fe;
+}
+
+#welcome h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}

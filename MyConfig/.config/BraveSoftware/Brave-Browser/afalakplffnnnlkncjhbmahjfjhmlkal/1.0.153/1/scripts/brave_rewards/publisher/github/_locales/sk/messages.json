@@ -1,0 +1,10 @@
+{
+  "githubTipsHoverText": {
+    "message": "Prispej",
+    "description": "Hover text for tip button"
+  },
+  "githubTipsIconLabel": {
+    "message": "Príspevok",
+    "description": "Icon label for tip button"
+  }
+}

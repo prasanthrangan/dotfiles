@@ -1,0 +1,27 @@
+{
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/protondbCard.css" ],
+      "js": [ "js/steamStore.js" ],
+      "matches": [ "https://store.steampowered.com/app/*" ]
+   }, {
+      "css": [ "css/protondbCard.css" ],
+      "js": [ "js/steamSearch.js" ],
+      "matches": [ "https://store.steampowered.com/search*" ]
+   } ],
+   "description": "Adds the ProtonDB rating to games in the Steam store so you get an idea of how it will run before you buy it!",
+   "host_permissions": [ "https://www.protondb.com/*" ],
+   "icons": {
+      "128": "/icons/proton_128.png",
+      "16": "/icons/proton_16.png",
+      "32": "/icons/proton_32.png",
+      "48": "/icons/proton_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkJLVRpvXs7TjNMsJ7V5o175kEOIg3o7cQ5ek+Z24FWOQ6nYLwlrwLwOyLN/5t8XfiqIs+C8wle+GR3KlcyWxaxsvjoN8ICvKASADXDKNoDioTNRvHjG2PkC+6o38W1cW1CrYcC6p6gPe3ztzlQQHrjBRkTR/0R/TZojdWtlcTT6+l7vvhh/Rf7uOgNOPl8+OreJ8NKeSImo/SPdyI8RuK/jMhoGWXtulRVGdi5Gt3Cy4Vzmz67BDm0c9YuBICTYXUiZuV89RoVBXU0TLcDnvDEsiBijkiQiZkO8ji3GYqwSuEItCSy+42wNhWDCphwAR7QUMkKXoFzKqjQZGR39oQIDAQAB",
+   "manifest_version": 3,
+   "name": "ProtonDB for Steam",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}

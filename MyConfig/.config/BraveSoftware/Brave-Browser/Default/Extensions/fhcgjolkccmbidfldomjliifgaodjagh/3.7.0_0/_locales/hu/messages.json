@@ -1,0 +1,32 @@
+{
+   "contributeText": {
+      "description": "Contribute",
+      "message": "Hozzájárulás"
+   },
+   "domainPlaceholderText": {
+      "description": "Domain Expression",
+      "message": "example.com, aldomain.example.com, *. example.com"
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "notificationTitle": {
+      "description": "Cookies were deleted!  Used in Notification Title.",
+      "message": "Cookies were deleted!"
+   },
+   "preferencesText": {
+      "description": "Settings",
+      "message": "Beállítások"
+   },
+   "versionText": {
+      "description": "Firefox version",
+      "message": "$browser$ verzió",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         }
+      }
+   }
+}

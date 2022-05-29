@@ -1,0 +1,5 @@
+2022/05/28-12:49:04.824 392 Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_dnhpnfgdlenaccegplpojghhmaamnnfp_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/28-12:49:04.824 392 Recovering log #41
+2022/05/28-12:49:04.867 392 Reusing old log /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_dnhpnfgdlenaccegplpojghhmaamnnfp_0.indexeddb.leveldb/000041.log 
+2022/05/28-12:49:04.867 392 Delete type=2 #39
+2022/05/28-12:49:04.867 392 Delete type=2 #42

@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Anna tippi tästä julkaisusta",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Tippi",
+    "description": "Icon label for tip button"
+  }
+}

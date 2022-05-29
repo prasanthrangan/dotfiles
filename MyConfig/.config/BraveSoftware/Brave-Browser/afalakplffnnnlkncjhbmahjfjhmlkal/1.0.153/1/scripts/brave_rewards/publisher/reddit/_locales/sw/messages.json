@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Changia mala hii",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Mchango",
+    "description": "Icon label for tip button"
+  }
+}

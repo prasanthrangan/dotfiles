@@ -1,0 +1,66 @@
+/**
+ * Copyright (c) 2022 CAD Team (https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/graphs/contributors)
+ * Licensed under MIT (https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/blob/3.X.X-Branch/LICENSE)
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+.addHover:hover {
+  cursor: pointer;
+}
+
+.alertPreWrap {
+  white-space: pre-wrap;
+}
+
+label:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+@keyframes successAnimation {
+  0% {
+  }
+  10% {
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  50% {
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  100% {
+  }
+}
+
+.successAnimated button {
+  animation: successAnimation 1.5s ease-in-out;
+}
+
+@keyframes failureAnimation {
+  0% {
+  }
+  10% {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+  50% {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+  100% {
+  }
+}
+
+.failureAnimated button {
+  animation: failureAnimation 1.5s ease-in-out;
+}
+
+.table {
+  margin-bottom: 0;
+}

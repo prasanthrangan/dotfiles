@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "checkJs": true,
+    "allowJs": true,
+    "noEmit": true,
+    // "typeRoots": ["@types", "../spicetify-cli"],
+    // "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    // "strict": true,
+    "importHelpers": true,
+  },
+  "include": ["index.js"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Dona propina per a aquesta publicació",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Propina",
+    "description": "Icon label for tip button"
+  }
+}

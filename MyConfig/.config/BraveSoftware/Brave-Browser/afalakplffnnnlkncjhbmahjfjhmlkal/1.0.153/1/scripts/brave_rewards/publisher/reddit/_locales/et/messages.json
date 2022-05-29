@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Premeeri seda postitust",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Premeeri",
+    "description": "Icon label for tip button"
+  }
+}

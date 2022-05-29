@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "この投稿にチップを払う",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "チップ",
+    "description": "Icon label for tip button"
+  }
+}

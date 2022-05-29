@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Sumokėti arbatpinigių už šį įrašą",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Arbatpinigiai",
+    "description": "Icon label for tip button"
+  }
+}

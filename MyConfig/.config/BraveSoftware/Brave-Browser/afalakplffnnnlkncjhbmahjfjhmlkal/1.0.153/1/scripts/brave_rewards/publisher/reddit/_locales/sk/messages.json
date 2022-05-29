@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Prispejte za tento príspevok",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Príspevok",
+    "description": "Icon label for tip button"
+  }
+}

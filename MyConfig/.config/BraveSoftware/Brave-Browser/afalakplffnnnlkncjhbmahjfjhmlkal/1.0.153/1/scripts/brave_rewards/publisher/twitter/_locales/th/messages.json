@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "ให้ทิปทวีตนี้",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "ทิป",
+    "description": "Icon label for tip button"
+  }
+}

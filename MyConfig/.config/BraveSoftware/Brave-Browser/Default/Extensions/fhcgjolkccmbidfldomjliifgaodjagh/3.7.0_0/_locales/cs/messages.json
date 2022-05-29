@@ -1,0 +1,996 @@
+{
+   "aboutText": {
+      "description": "About",
+      "message": "O aplikaci"
+   },
+   "activeModeDelayText": {
+      "description": "Delay Before Automatic Cleaning",
+      "message": "Zpoždění před automatickým čištěním"
+   },
+   "activeModeText": {
+      "description": "Enable Automatic Cleaning",
+      "message": "Povolit automatické čištění? Zpoždění před čištěním:"
+   },
+   "activityLogSiteDataDomainsText": {
+      "description": "Invoked cleanup of $siteData$ for: $domains$. Found in Activity Log Detailed Entries.",
+      "message": "Uvolněné vyčištění $siteData$ pro: $domains$",
+      "placeholders": {
+         "domains": {
+            "content": "$2",
+            "example": "example.com, github.com"
+         },
+         "siteData": {
+            "content": "$1",
+            "example": "Cache (translated version)"
+         }
+      }
+   },
+   "addNewExpressionNotification": {
+      "description": "Adding $expression$ to list type $listType$ under cookie store $cookieStore$. Used in notification when right-click action was performed.",
+      "message": "Přidání $expression$ do seznamu typu $listType$ v obchodě cookie $cookieStore$.",
+      "placeholders": {
+         "cookieStore": {
+            "content": "$3",
+            "example": "'default' -or- 'firefox-container-1 (Personal)'"
+         },
+         "expression": {
+            "content": "$1",
+            "example": "example.com"
+         },
+         "listType": {
+            "content": "$2",
+            "example": "WHITE"
+         }
+      }
+   },
+   "addNewExpressionNotificationFailed": {
+      "description": "Could not fetch domain to add from where right-click was issued.",
+      "message": "Nelze načíst doménu pro přidání z místa, kde bylo vydáno kliknutí pravým tlačítkem."
+   },
+   "addNewExpressionNotificationIgnore": {
+      "description": "If expression already exists, this will be ignored. Used in notification when right-click action was performed.",
+      "message": "Pokud výraz již existuje, bude ignorován."
+   },
+   "autoDeleteDisabledText": {
+      "description": "Auto-clean disabled",
+      "message": "Automatické čištění zakázáno"
+   },
+   "autoDeleteEnabledText": {
+      "description": "Auto-clean enabled",
+      "message": "Automatické čištění povoleno"
+   },
+   "browsingDataWarning": {
+      "description": "WARNING: Upon enabling any of the following site data cleanup options, ALL existing data for that type will be cleared. Found in CAD Settings",
+      "message": "VAROVÁNÍ: Po povolení některé z následujících možností čištění dat o webu budou vymazány VŠECHNY existující údaje pro tento typ."
+   },
+   "cacheCleanupText": {
+      "description": "Enable Cache Cleanup (Firefox 78+, Chrome 74+). Found in CAD Settings.",
+      "message": "Povolit čištění mezipaměti (Firefox 78+, Chrome 74+)"
+   },
+   "cacheText": {
+      "description": "Cache. Primarily used in notifications.",
+      "message": "Mezipaměť"
+   },
+   "chromeDebugMode": {
+      "description": "Ensure 'Developer Mode' is enabled, then click on 'background page' under Inspect View. This is shown if debug mode is enabled.",
+      "message": "Ujistěte se, že je \"Vývojářský režim\" povolen, poté klikněte na 'stránku pozadí' pod kontrolou zobrazení."
+   },
+   "cleanDiscardedText": {
+      "description": "Enable Cleanup for Discarded/Unloaded Tabs. Found in Settings.",
+      "message": "Povolit čištění pro deaktivované/nezatížené panely"
+   },
+   "cleanExpiredCookiesText": {
+      "description": "Clean All Expired Cookies. Found in Settings.",
+      "message": "Vyčistit všechny prošlé cookies"
+   },
+   "cleanIgnoringOpenTabsText": {
+      "description": "Clean, include open tabs. Found in the additional cleanup options in the popup.",
+      "message": "Čiré, včetně otevřených panelů"
+   },
+   "cleanText": {
+      "description": "Clean",
+      "message": "Vyčistit"
+   },
+   "cleanupActionsBypass": {
+      "description": "Warning - Actions below ignore settings! Found in the additional cleanup options in the popup.",
+      "message": "Varování - Akce níže ignorují nastavení!"
+   },
+   "cleanupDomainChangeText": {
+      "description": "Enable Cleanup on Domain Change",
+      "message": "Povolit čištění při změně domény"
+   },
+   "cleanupLogText": {
+      "description": "Cleanup Log",
+      "message": "Vyčistit protokol"
+   },
+   "clearLogsText": {
+      "description": "Clear Logs",
+      "message": "Vymazat protokoly"
+   },
+   "consoleDebugMode": {
+      "description": "Click on the Console Tab. Found after enabling debug mode.",
+      "message": "Klikněte na záložku konzole"
+   },
+   "containerSiteDataWarning": {
+      "description": "WARNING: Enabling Container Tabs with any of the additional browsing data cleanups above may cause unwanted side effects due to browser API limitations. Site data types, with the exception of cookies, will be cleared by hostname for ALL containers. Found in CAD Settings.",
+      "message": "UPOZORNĚNÍ: Povolení kontejnerových karet s kterýmkoli dodatečným čištěním dat výše může způsobit nežádoucí vedlejší efekty kvůli omezením API prohlížeče. Typy dat webu s výjimkou souborů cookie budou vymazány pomocí názvu hostitele pro VŠECHNY kontejnery."
+   },
+   "contextMenusParentClean": {
+      "description": "Manual Cleaning Menu. Shown on right-clicks of Page/Browser Action.",
+      "message": "Manuální čištění menu"
+   },
+   "contextMenusParentExpression": {
+      "description": "Add Domain/Expression Menu. Shown on right-clicks of Page/Link/Selection.",
+      "message": "Přidat doménu/nabídku"
+   },
+   "contextMenusSelectedDomainLink": {
+      "description": "For domain only of selected link. Shown in right-click menu.",
+      "message": "Pouze pro doménu vybraného odkazu"
+   },
+   "contextMenusSelectedDomainPage": {
+      "description": "For domain only of selected page. Shown in right-click menu.",
+      "message": "Pouze pro doménu vybrané stránky"
+   },
+   "contextMenusSelectedDomainText": {
+      "description": "For domain only of selected text: $selected$. Shown in right-click menu.",
+      "message": "Pouze pro doménu vybraného textu: $selected$",
+      "placeholders": {
+         "selected": {
+            "content": "$1",
+            "example": "github.com"
+         }
+      }
+   },
+   "contextMenusSelectedSubdomainLink": {
+      "description": "For all subdomains with domain of selected link. Shown in right-click menu.",
+      "message": "Pro všechny subdomény s doménou vybraného odkazu"
+   },
+   "contextMenusSelectedSubdomainPage": {
+      "description": "For all subdomains with domain of selected page. Shown in right-click menu.",
+      "message": "Pro všechny subdomény s doménou vybrané stránky"
+   },
+   "contextMenusSelectedSubdomainText": {
+      "description": "For all subdomains with domain of selected text: $selected$. Shown in right-click menu.",
+      "message": "Pro všechny poddomény s doménou vybraného textu: $selected$",
+      "placeholders": {
+         "selected": {
+            "content": "$1",
+            "example": "github.com"
+         }
+      }
+   },
+   "contextualIdentitiesEnabledText": {
+      "description": "Enable Support for Container Tabs. Currently only in Firefox.",
+      "message": "Povolit podporu pro karty kontejneru"
+   },
+   "contributeText": {
+      "description": "Contribute",
+      "message": "Přispějte"
+   },
+   "contributorsText": {
+      "description": "Contributors",
+      "message": "Přispěvatelé"
+   },
+   "cookieCleanUpOnStartText": {
+      "description": "Clean Cookies and other Site Data from Open Tabs on Startup",
+      "message": "Vyčistit soubory cookie a další data webu z otevřených panelů při spuštění"
+   },
+   "cookieCleanupIgnoreOpenTabsText": {
+      "description": "Run cleanup now, include cookies from open tabs. This is shown on mouseover from the available dropdown buttons.",
+      "message": "Spustit čištění, zahrnout domény z otevřených panelů"
+   },
+   "cookieCleanupText": {
+      "description": "Run cleanup now, exclude domains from open tabs. This is shown on mouseover on the button.",
+      "message": "Spustit čištění nyní, vyloučit domény z otevřených panelů"
+   },
+   "cookiesText": {
+      "description": "Cookies. Primarily used in popup via alternate clean action dropdown.",
+      "message": "Cookies"
+   },
+   "createDefaultExpressionOptionsText": {
+      "description": "Create Default Expression Options. Used in 'List of Expressions'",
+      "message": "Vytvořit výchozí možnosti výrazu"
+   },
+   "currentContainerInfo": {
+      "description": "Current Container Selected: $ID$ ( $Name ). Found in List of Expressions only if Firefox containers enabled.",
+      "message": "Aktuální kontejner vybrán: $ID$ ( $Name$ )",
+      "placeholders": {
+         "ID": {
+            "content": "$1",
+            "example": "firefox-container-1"
+         },
+         "Name": {
+            "content": "$2",
+            "example": "Personal (whatever the user has named the container) - or - translated version of 'Invalid Container'"
+         }
+      }
+   },
+   "debugMode": {
+      "description": "Enable Debug Mode (Additional Console Outputs). Found in CAD Settings.",
+      "message": "Povolit režim ladění (další výstupy konzoly)"
+   },
+   "defaultContainerText": {
+      "description": "No Container. This will be in brackets. Used in List of Expression in Firefox for Default / No Container",
+      "message": "Žádný kontejner"
+   },
+   "defaultSettingsText": {
+      "description": "Restore Default Settings",
+      "message": "Obnovit výchozí nastavení"
+   },
+   "defaultText": {
+      "description": "Default. Used in List of Expression in Firefox for Default / No Container.",
+      "message": "Výchozí"
+   },
+   "disableAutoDeleteText": {
+      "description": "Toggle to disable automatic cleanup (manual mode)",
+      "message": "Přepnout pro vypnutí automatického čištění (ruční režim)"
+   },
+   "documentationText": {
+      "description": "Documentation",
+      "message": "Dokumentace"
+   },
+   "domainExpressionsText": {
+      "description": "Domain Expression",
+      "message": "Výraz domény"
+   },
+   "dropdownAdditionalCleaningOptions": {
+      "description": "(Screen-readers only) - Toggle Additional Cleaning Actions Dropdown",
+      "message": "Přepnout rozbalovací seznam dodatečných čistících akcí"
+   },
+   "editExpressionText": {
+      "description": "Edit expression",
+      "message": "Upravit výraz"
+   },
+   "enableAutoDeleteText": {
+      "description": "Toggle to enable automatic cleanup (automatic mode)",
+      "message": "Zapnout/zapnout automatické čištění (automatický režim)"
+   },
+   "enableCleanupLogText": {
+      "description": "Enable Cleanup Log and Counter",
+      "message": "Povolit vyčištění logu a počítadla"
+   },
+   "enableContextMenus": {
+      "description": "Enable Context Menus (Right-Click Menu). Shown in CAD Settings",
+      "message": "Povolit kontextové menu (menu kliknutím pravým tlačítkem)"
+   },
+   "enableGreyListCleanup": {
+      "description": "Enable Greylist Cleanup on Browser Restart",
+      "message": "Povolit čištění Greylist při restartu prohlížeče"
+   },
+   "enableNewVersionPopup": {
+      "description": "Enable Popup when New Version is Released",
+      "message": "Povolit vyskakovací okno, když je vydána nová verze"
+   },
+   "errorText": {
+      "description": "Error!",
+      "message": "Chyba!"
+   },
+   "exportSettingsText": {
+      "description": "Export Core Settings... Found in CAD Settings.",
+      "message": "Exportovat nastavení jádra..."
+   },
+   "exportTitleTimestamp": {
+      "description": "A timestamp will be appended to the filename on export.",
+      "message": "Časové razítko bude připojeno k názvu souboru při vývozu."
+   },
+   "exportURLSText": {
+      "description": "Export Expressions... Found in List of Expressions.",
+      "message": "Exportovat výrazy..."
+   },
+   "expressionListText": {
+      "description": "List of Expressions",
+      "message": "Seznam výrazů"
+   },
+   "extensionDescription": {
+      "description": "Control your cookies! Automatically delete unwanted cookies from your closed tabs while keeping the ones you want.",
+      "message": "Ovládejte soubory cookie! Automaticky odstraňte nechtěné soubory cookie z uzavřených karet při zachování toho, co chcete."
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "faqText": {
+      "description": "Frequently Asked Questions, Common issues and solutions",
+      "message": "Často kladené otázky, společné otázky a řešení"
+   },
+   "filterDebugMode": {
+      "description": "To see only debug outputs by this extension, filter output by the following line. Found after enabling debug mode.",
+      "message": "Chcete-li zobrazit pouze ladící výstupy podle tohoto rozšíření, filtrovat výstup podle následujícího řádku:"
+   },
+   "filterText": {
+      "description": "Filter",
+      "message": "Filtr"
+   },
+   "greyListWordText": {
+      "description": "Greylist",
+      "message": "Greylist"
+   },
+   "groupExpressionDefaultNotice": {
+      "description": "Looking to set default expression options for new expressions?  It has been enhanced to be an expression option itself!  Visit $listExpression$ to get started!  Shown in Settings",
+      "message": "Hledáte nastavení výchozích možností výrazů pro nové výrazy? Bylo vylepšeno, že se jedná o možnost výrazu samotné! Navštivte $listExpression$ a začněte!",
+      "placeholders": {
+         "listExpression": {
+            "content": "$1",
+            "example": "List of Expressions \u003C- the translated version"
+         }
+      }
+   },
+   "importCoreSettingsFailed": {
+      "description": "Import Core Settings Failed - Found unknown setting",
+      "message": "Nastavení importu jádra selhalo - Nalezeno neznámé nastavení"
+   },
+   "importCoreSettingsText": {
+      "description": "Import Core Settings... Found in CAD Settings.",
+      "message": "Importovat nastavení jádra..."
+   },
+   "importFileTypeInvalid": {
+      "description": "File given is not a type we handle",
+      "message": "Uvedený soubor není typ, kterým se zabýváme"
+   },
+   "importFileValidationFailed": {
+      "description": "File given failed validation",
+      "message": "Zadaný soubor se nepodařilo ověřit"
+   },
+   "importMissingKey": {
+      "description": "Missing identifier",
+      "message": "Chybějící identifikátor"
+   },
+   "importURLSText": {
+      "description": "Import Expressions... Found in List of Expressions.",
+      "message": "Importovat výrazy..."
+   },
+   "indexedDBCleanupText": {
+      "description": "Enable IndexedDB Cleanup (Firefox 77+, Chrome 74+). Found in CAD Settings.",
+      "message": "Povolit IndexedDB Cleanup (Firefox 77+, Chrome 74+)"
+   },
+   "indexedDBText": {
+      "description": "IndexedDB. Primarily used in notifications.",
+      "message": "Index edDB"
+   },
+   "keepAllCookiesGreyText": {
+      "description": "Keep All Cookies until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Ponechat všechny cookies do restartu"
+   },
+   "keepAllCookiesText": {
+      "description": "Keep All Cookies. Found in Expression Options. For Whitelist entries.",
+      "message": "Zachovat všechny cookies"
+   },
+   "keepCacheGreyText": {
+      "description": "Keep Cache until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Ponechat mezipaměť do restartu"
+   },
+   "keepCacheText": {
+      "description": "Keep Cache. Found in Expression Options. For Whitelist entries.",
+      "message": "Zachovat mezipaměť"
+   },
+   "keepDefaultIcon": {
+      "description": "Keep Default Icons on all list types. Disabled: keep blue icon, grey for automatic cleaning disabled. Enabled: red/yellow/blue depending on matching expressions in list.",
+      "message": "Ponechat výchozí ikony ve všech typech seznamu"
+   },
+   "keepIndexedDBGreyText": {
+      "description": "Keep IndexedDB until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Ponechat IndexedDB do restartu"
+   },
+   "keepIndexedDBText": {
+      "description": "Keep IndexedDB. Found in Expression Options. For Whitelist entries.",
+      "message": "Ponechat IndexedDB"
+   },
+   "keepLocalstorageGreyText": {
+      "description": "Keep LocalStorage until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Udržet LocalStorage až do restartu"
+   },
+   "keepLocalstorageText": {
+      "description": "Keep LocalStorage. Found in Expression Options. For Whitelist entries.",
+      "message": "Ponechat lokální úložiště"
+   },
+   "keepPluginDataGreyText": {
+      "description": "Keep Plugin Data until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Ponechat data pluginu do restartu"
+   },
+   "keepPluginDataText": {
+      "description": "Keep Plugin Data. Found in Expression Options. For Whitelist entries.",
+      "message": "Zachovat data zásuvného modulu"
+   },
+   "keepServiceWorkersGreyText": {
+      "description": "Keep Service Workers until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Ponechat Service Workers až do restartu"
+   },
+   "keepServiceWorkersText": {
+      "description": "Keep Service Workers. Found in Expression Options. For Whitelist entries.",
+      "message": "Zachovat servisní pracovníky"
+   },
+   "keepText": {
+      "description": "Keep",
+      "message": "Zachovat"
+   },
+   "listTypeText": {
+      "description": "List Type",
+      "message": "Typ seznamu"
+   },
+   "localStorageCleanupText": {
+      "description": "Enable LocalStorage Cleanup (Firefox 58+, Chrome 74+). Found in CAD Settings.",
+      "message": "Povolit vyčištění LocalStorage (Firefox 58+, Chrome 74+)"
+   },
+   "localStorageText": {
+      "description": "LocalStorage. Primarily used in notifications.",
+      "message": "Místní Úložiště"
+   },
+   "manualActionNotification": {
+      "description": "Manual Action Notification - used as Notification Title.",
+      "message": "Ruční oznámení o akci"
+   },
+   "manualCleanError": {
+      "description": "$siteData$ cannot be cleaned for tab:. Shown as notification if manual clean cookies cannot be done.",
+      "message": "$siteData$ nelze vyčistit na kartu:",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         }
+      }
+   },
+   "manualCleanNothing": {
+      "description": "No $siteData$ were found for cleaning on $url$. Used in notification after manual clean.",
+      "message": "Nebyl nalezen žádný $siteData$ pro čištění dne $url$.",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         },
+         "url": {
+            "content": "$2",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanRemoved": {
+      "description": "Removed $deleted$ of $total$. Used as part of success notification on manual clean.",
+      "message": "Odstraněno $deleted$ z $total$.",
+      "placeholders": {
+         "deleted": {
+            "content": "$1",
+            "example": "5"
+         },
+         "total": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "manualCleanSiteDataAll": {
+      "description": "Clean All for this domain. Found in Popup clean dropdown menu.",
+      "message": "Vyčistit vše pro tuto doménu"
+   },
+   "manualCleanSiteDataAllDomain": {
+      "description": "Clear all site data for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Vymazat všechna data pro $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataCache": {
+      "description": "Clean Cache for this domain. Found in Popup clean dropdown menu.",
+      "message": "Vyčistit mezipaměť pro tuto doménu"
+   },
+   "manualCleanSiteDataCacheDomain": {
+      "description": "Clear all Cache for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Vymazat všechny mezipaměť pro $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataCookies": {
+      "description": "Clean Cookies for this domain. Found in Popup clean dropdown menu.",
+      "message": "Vyčistit soubory cookie pro tuto doménu"
+   },
+   "manualCleanSiteDataCookiesDomain": {
+      "description": "Clear all Cookies for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Vymazat všechny soubory cookie pro $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataIndexedDB": {
+      "description": "Clean IndexedDB for this domain. Found in Popup clean dropdown menu.",
+      "message": "Vyčistit indexedDB pro tuto doménu"
+   },
+   "manualCleanSiteDataIndexedDBDomain": {
+      "description": "Clear all IndexedDB for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Vymazat všechny indexované DB pro $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataLocalStorage": {
+      "description": "Clean LocalStorage for this domain. Found in Popup clean dropdown menu.",
+      "message": "Vyčistit LocalStorage pro tuto doménu"
+   },
+   "manualCleanSiteDataLocalStorageDomain": {
+      "description": "Clear all LocalStorage for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Vymazat všechny lokální úložiště pro $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataPluginData": {
+      "description": "Clean Plugin Data for this domain. Found in Popup clean dropdown menu.",
+      "message": "Vyčistit data pluginů pro tuto doménu"
+   },
+   "manualCleanSiteDataPluginDataDomain": {
+      "description": "Clear all Plugin Data for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Vymazat všechna data pluginu pro $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataServiceWorkers": {
+      "description": "Clean Service Workers for this domain. Found in Popup clean dropdown menu.",
+      "message": "Čistý servisní pracovníci pro tuto doménu"
+   },
+   "manualCleanSiteDataServiceWorkersDomain": {
+      "description": "Clear all Service Workers for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Vymazat všechny Service Workers pro $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSuccess": {
+      "description": "Cleanup for $siteData$ on $url$ result:  Shown as notification after successful manual cleaning.",
+      "message": "Vyčistit $siteData$ pro výsledek $url$:",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         },
+         "url": {
+            "content": "$2",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualNotificationsText": {
+      "description": "Show Notification from Manual Site Data Cleanups. Found in settings",
+      "message": "Zobrazit oznámení z manuálního čištění dat webu"
+   },
+   "matchedDomainExpressionText": {
+      "description": "Matched Domain Expression",
+      "message": "Odpovídající výraz domény"
+   },
+   "menuText": {
+      "description": "Menu. Only shown when the settings screen is small / when the hamburger icon shows / when the menu is collapsed.",
+      "message": "Menu"
+   },
+   "minutesText": {
+      "description": "minute(s)",
+      "message": "minut(y)"
+   },
+   "missingContainerText": {
+      "description": "INVALID CONTAINER. Shown when a CAD list exists but cannot link id to available containers (Firefox).",
+      "message": "NEPLATNÝ KONTAKTOR"
+   },
+   "noCleanupLogText": {
+      "description": "No Cleanup Logs Found",
+      "message": "Nebyly nalezeny žádné čistící protokoly"
+   },
+   "noExpressionsText": {
+      "description": "No expressions defined.",
+      "message": "Nebyly definovány žádné výrazy."
+   },
+   "noPrivateLogging": {
+      "description": "Cleanup Logs will not be generated for tabs in Private Browsing / Incognito / InPrivate.",
+      "message": "Vyčistit logy nebudou generovány pro karty v anonymním prohlížení / anonymním / InPrivate."
+   },
+   "noRulesText": {
+      "description": "No rules matched this domain",
+      "message": "Žádná pravidla neodpovídají této doméně."
+   },
+   "noneText": {
+      "description": "None",
+      "message": "Nic"
+   },
+   "notificationContent": {
+      "description": "Some site data, including 123 Cookie(s), removed from 8 domain(s), including: google.com, facebook.com",
+      "message": "Některá data stránky, včetně $Num$ cookie, odstraněna z $total$ domén (domény), včetně: $Websites$",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "123"
+         },
+         "total": {
+            "content": "$2",
+            "example": "8"
+         },
+         "websites": {
+            "content": "$3",
+            "example": "google.com, facebook.com"
+         }
+      }
+   },
+   "notificationDisabledText": {
+      "description": "Notification disabled",
+      "message": "Oznámení zakázáno"
+   },
+   "notificationEnabledText": {
+      "description": "Notification enabled",
+      "message": "Oznámení povoleno"
+   },
+   "notificationTitle": {
+      "description": "Cookies were deleted!  Used in Notification Title.",
+      "message": "Cookies were deleted!"
+   },
+   "notificationTitleSiteData": {
+      "description": "Site Data Removal Triggered!  Used in Notification Title.",
+      "message": "Odstranění dat webu spuštěno!"
+   },
+   "notifyCookieCleanUpText": {
+      "description": "Show Notification After Automatic Cleanup. Found in settings.",
+      "message": "Zobrazit oznámení po automatickém čištění"
+   },
+   "notifyCookieCleanupDelayText": {
+      "description": "Duration for Notifications",
+      "message": "Doba trvání oznámení"
+   },
+   "oldReleasesText": {
+      "description": "Older release notes can be viewed online at",
+      "message": "Starší poznámky k vydání lze zobrazit online na"
+   },
+   "openDebugMode": {
+      "description": "To view the debug outputs, open a new tab and visit",
+      "message": "Chcete-li zobrazit výstupy ladění, otevřete novou kartu a navštivte"
+   },
+   "optionsText": {
+      "description": "Options",
+      "message": "Možnosti"
+   },
+   "pluginDataCleanupText": {
+      "description": "Enable Plugin Data Cleanup (Firefox 78+, Chrome 74+). Found in CAD Settings.",
+      "message": "Povolit čištění dat pluginu (Firefox 78+, Chrome 74+)"
+   },
+   "pluginDataText": {
+      "description": "Plugin Data. Primarily used in notifications.",
+      "message": "Data pluginu"
+   },
+   "popupCookieCountText": {
+      "description": "Cookies. Due to visual formatting, Cookie Count will always be located on the right side after the colon. Found in Popup near top-right.",
+      "message": "Cookies"
+   },
+   "preferencesText": {
+      "description": "Settings",
+      "message": "Nastavení"
+   },
+   "questionExpression": {
+      "description": "How do Expressions work?",
+      "message": "Jak fungují výrazy?"
+   },
+   "reasonCADSiteDataCookie": {
+      "description": "Clean to trigger Site Data cleaning for $hostname$. Found in Activity Log Detailed Entries.",
+      "message": "Vyčistit a spustit čištění dat webu pro $hostname$.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "placeholder": "example.com"
+         }
+      }
+   },
+   "reasonCleanCookieExpired": {
+      "description": "Partial clean because of expired cookies from $hostname$.",
+      "message": "Částečné čištění kvůli vypršení platnosti cookies od $hostname$.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "placeholder": "sub.domain.com"
+         }
+      }
+   },
+   "reasonCleanCookieName": {
+      "description": "Partial clean because of matched $matchedExpression$ in the $listType$. Used in cleanup logs.",
+      "message": "Částečné čištění z důvodu shodnosti $matchedExpression$ v $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanGreyList": {
+      "description": "Clean because of startup cleanup and $matchedExpression$ is in the Greylist. Used in cleanup log.",
+      "message": "Vyčistit kvůli čištění startu a $matchedExpression$ je v Greylist",
+      "placeholders": {
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanNoList": {
+      "description": "Clean because $hostname$ is not in the White or Grey lists",
+      "message": "Vyčistit, protože $hostname$ není v bílém nebo šedém seznamu",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonCleanStartupNoList": {
+      "description": "Clean because of startup cleanup and $hostname$ is not in the White or Grey lists",
+      "message": "Vyčistit kvůli startu a $hostname$ není v bílém nebo šedém seznamu",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonKeep": {
+      "description": "Keep because of matched $matchedExpression$ in the $listType$",
+      "message": "Ponechat z důvodu shodnosti $matchedExpression$ v $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonKeepOpenTab": {
+      "description": "Keep because of open tabs of *.$mainDomain$",
+      "message": "Ponechat z otevřených panelů *.$mainDomain$",
+      "placeholders": {
+         "mainDomain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "reasonTabsWereIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] and also open tabs were ignored",
+      "message": "a také otevřené panely byly ignorovány"
+   },
+   "reasonTabsWereNotIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] or in any open tabs",
+      "message": "nebo v jakémkoliv otevřeném panelu"
+   },
+   "releaseNotesText": {
+      "description": "Release Notes",
+      "message": "Poznámky k vydání"
+   },
+   "removeActivityLogEntryText": {
+      "description": "Remove Log Entry. Shown in summary activity log for individual log removal.",
+      "message": "Odstranit záznam protokolu"
+   },
+   "removeAllExpressions": {
+      "description": "Remove All Expressions",
+      "message": "Odstranit všechny výrazy"
+   },
+   "removeAllExpressionsConfirm": {
+      "description": "Are you sure you want to remove ALL ($expressionCount$) saved expression(s) from ($listCount$) list(s)?\n\nTHIS CANNOT BE UNDONE!\n\nType [ $expressionCount$ ] and click OK to delete. Popup prompt if Delete All Expression is clicked.",
+      "message": "Jste si jisti, že chcete odstranit VŠECHNY ($expressionCount$) uložené výrazy ze seznamů ($listCount$) ?\n\nNEMŮŽE BÝT NEDONE!\n\nNapište [ $expressionCount$ ] a klepněte na tlačítko OK pro odstranění.",
+      "placeholders": {
+         "expressionCount": {
+            "content": "$1",
+            "example": "75"
+         },
+         "listCount": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "removeAllExpressionsNoneFound": {
+      "description": "No expressions to remove!",
+      "message": "Žádné výrazy k odstranění!"
+   },
+   "removeExpressionText": {
+      "description": "Remove expression",
+      "message": "Odstranit výraz"
+   },
+   "removeListText": {
+      "description": "Remove All Expressions from Selected List. Shown in List of Expressions, only on Firefox and if containers/contextual identities is enabled.",
+      "message": "Odstranit všechny výrazy z vybraného seznamu"
+   },
+   "removeStorageCount": {
+      "description": "Removed $count$ item(s) from $storageType$. Used in manual localstorage clean notification.",
+      "message": "Odstraněno $count$ položek z $storageType$.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "1"
+         },
+         "storageType": {
+            "content": "$2",
+            "example": "LocalStorage"
+         }
+      }
+   },
+   "reportIssuesText": {
+      "description": "Report issues and suggest features",
+      "message": "Nahlásit problémy a navrhnout funkce"
+   },
+   "resetCookieCounterText": {
+      "description": "Reset Cookie Counters. Button in Welcome Page.",
+      "message": "Resetovat počítadla souborů cookie"
+   },
+   "resetExtensionDataText": {
+      "description": "Reset Extension Data",
+      "message": "Resetovat data rozšíření"
+   },
+   "restoreText": {
+      "description": "Restore. Restores cookies that was cleaned up by this extension. Found in Activity Log entries.",
+      "message": "Obnovit"
+   },
+   "reviewLinkMessage": {
+      "description": "Thanks for trying out Cookie AutoDelete. If you liked it, then please give a review.",
+      "message": "Děkujeme, že jste vyzkoušeli $cadTitle$. Pokud se vám líbí, pak prosím podejte recenzi.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         }
+      }
+   },
+   "saveExpressionText": {
+      "description": "Save expression",
+      "message": "Uložit výraz"
+   },
+   "secondsText": {
+      "description": "second(s)",
+      "message": "sekund(y)"
+   },
+   "serviceWorkersCleanupText": {
+      "description": "Enable Service Workers Cleanup (Firefox 77+, Chrome 74+). Found in CAD Settings.",
+      "message": "Povolit čištění Service Workers (Firefox 77+, Chrome 74+)"
+   },
+   "serviceWorkersText": {
+      "description": "Service Workers. Primarily used in notifications.",
+      "message": "Servisní pracovníci"
+   },
+   "sessionStorageText": {
+      "description": "SessionStorage. Used in manual localstorage clean notification",
+      "message": "Úložiště relací"
+   },
+   "settingGroupAutoClean": {
+      "description": "Automatic Cleaning Options",
+      "message": "Možnosti automatického čištění"
+   },
+   "settingGroupExpression": {
+      "description": "Expression Options",
+      "message": "Možnosti výrazu"
+   },
+   "settingGroupExtension": {
+      "description": "Extension Options",
+      "message": "Možnosti rozšíření"
+   },
+   "settingGroupOtherBrowsing": {
+      "description": "Other Browsing Data Cleanup Options",
+      "message": "Další možnosti čištění dat"
+   },
+   "settingsText": {
+      "description": "$CAD$ Settings",
+      "message": "Nastavení cookie",
+      "placeholders": {
+         "CAD": {
+            "content": "CAD",
+            "example": "CAD - Short form of Cookie AutoDelete"
+         }
+      }
+   },
+   "showNumberOfCookiesInIconText": {
+      "description": "Show Number of Cookies for that Domain over the Icon",
+      "message": "Zobrazit počet souborů cookie pro danou doménu"
+   },
+   "siteDataText": {
+      "description": "Site Data. Found in Activity Log Summary and Notifications.",
+      "message": "Data webu"
+   },
+   "sizePopupText": {
+      "description": "Size of Popup (in px). This sets the font size in the Popup.",
+      "message": "Velikost vyskakovacího okna (v px)"
+   },
+   "sizeSettingText": {
+      "description": "Size of Setting Pages (in px). This sets the font size in the Setting Pages.",
+      "message": "Velikost stránky nastavení (v px)"
+   },
+   "stopEditingText": {
+      "description": "Stop editing",
+      "message": "Zastavit úpravy"
+   },
+   "successText": {
+      "description": "Success!",
+      "message": "Úspěch!"
+   },
+   "toGreyListText": {
+      "description": "Add to Greylist (Clean on Browser Restart)",
+      "message": "Přidat do Greylist (Clean on Browser Restart)"
+   },
+   "toWhiteListText": {
+      "description": "Add to Whitelist (Never Clean)",
+      "message": "Přidat do Whitelist (nečistit)"
+   },
+   "toggleNotificationText": {
+      "description": "Toggle to enable or disable notifications",
+      "message": "Zapnout nebo vypnout oznámení"
+   },
+   "toggleToGreyListWordText": {
+      "description": "Toggle to greylist",
+      "message": "Přepnout na greylist"
+   },
+   "toggleToWhiteListWordText": {
+      "description": "Toggle to whitelist",
+      "message": "Přepnout na seznam povolených"
+   },
+   "versionNumberText": {
+      "description": "$CAD$ version 3.2.1. The actual number is formatted differently and will be right below this text.",
+      "message": "$CAD$ verze",
+      "placeholders": {
+         "CAD": {
+            "content": "$1",
+            "example": "CAD or Cookie AutoDelete"
+         }
+      }
+   },
+   "versionText": {
+      "description": "Firefox version",
+      "message": "$browser$ verze",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         }
+      }
+   },
+   "welcomeMessage": {
+      "description": "Hi there! During this session, Cookie AutoDelete has deleted 123 cookies and in total 456 cookies.",
+      "message": "Ahoj! Během této relace $cadTitle$ odstranil $sessionDeleted$ cookies a celkem $totalDeleted$ cookies.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         },
+         "sessionDeleted": {
+            "content": "$2",
+            "example": "123"
+         },
+         "totalDeleted": {
+            "content": "$3",
+            "example": "456"
+         }
+      }
+   },
+   "welcomeText": {
+      "description": "Welcome",
+      "message": "Vítejte"
+   },
+   "whiteListWordText": {
+      "description": "Whitelist",
+      "message": "Seznam povolených"
+   }
+}

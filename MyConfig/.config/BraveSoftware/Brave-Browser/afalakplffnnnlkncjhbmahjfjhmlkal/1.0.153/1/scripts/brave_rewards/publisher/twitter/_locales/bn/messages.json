@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "এই সাইটে প্রতি মাসে দান করুন",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "দান",
+    "description": "Icon label for tip button"
+  }
+}

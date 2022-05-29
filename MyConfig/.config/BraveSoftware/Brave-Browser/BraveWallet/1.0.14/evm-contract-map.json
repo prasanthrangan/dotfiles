@@ -1,0 +1,749 @@
+{
+  "0xad6d458402f60fd3bd25163575031acdce07538d": {
+    "name": "Dai Stablecoin",
+    "logo": "dai.png",
+    "erc20": true,
+    "symbol": "DAI",
+    "decimals": 18,
+    "coingeckoId": "dai",
+    "chainId": "0x3"
+  },
+  "0x07865c6e87b9f70255377e024ace6630c1eaa37f": {
+    "name": "USD Coin",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC",
+    "decimals": 6,
+    "coingeckoId": "usd-coin",
+    "chainId": "0x3"
+  },
+  "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+    "name": "Tether USD (PoS)",
+    "logo": "usdt.png",
+    "erc20": true,
+    "symbol": "USDT",
+    "decimals": 6,
+    "coingeckoId": "tether",
+    "chainId": "0x89"
+  },
+  "0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3": {
+    "name": "Binance Coin",
+    "logo": "bnb.png",
+    "erc20": true,
+    "symbol": "BNB",
+    "decimals": 18,
+    "coingeckoId": "binancecoin",
+    "chainId": "0x89"
+  },
+  "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+    "name": "USD Coin (PoS)",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC",
+    "decimals": 6,
+    "coingeckoId": "usd-coin",
+    "chainId": "0x89"
+  },
+  "0x692597b009d13C4049a947CAB2239b7d6517875F": {
+    "name": "Wrapped UST",
+    "logo": "ust.png",
+    "erc20": true,
+    "symbol": "UST",
+    "decimals": 18,
+    "coingeckoId": "wrapped-ust",
+    "chainId": "0x89"
+  },
+  "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7": {
+    "name": "Binance USD",
+    "logo": "busd.png",
+    "erc20": true,
+    "symbol": "BUSD",
+    "decimals": 18,
+    "coingeckoId": "binance-usd",
+    "chainId": "0x89"
+  },
+  "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6": {
+    "name": "Wrapped Bitcoin (PoS)",
+    "logo": "wbtc.png",
+    "erc20": true,
+    "symbol": "WBTC",
+    "decimals": 8,
+    "coingeckoId": "wrapped-bitcoin",
+    "chainId": "0x89"
+  },
+  "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063": {
+    "name": "Dai Stablecoin (PoS)",
+    "logo": "dai.png",
+    "erc20": true,
+    "symbol": "DAI",
+    "decimals": 18,
+    "coingeckoId": "dai",
+    "chainId": "0x89"
+  },
+  "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39": {
+    "name": "ChainLink",
+    "logo": "chainlink.png",
+    "erc20": true,
+    "symbol": "LINK",
+    "decimals": 18,
+    "coingeckoId": "chainlink",
+    "chainId": "0x89"
+  },
+  "0xb33EaAd8d922B1083446DC23f610c2567fB5180f": {
+    "name": "Uniswap (PoS)",
+    "logo": "uni.png",
+    "erc20": true,
+    "symbol": "UNI",
+    "decimals": 18,
+    "coingeckoId": "uniswap",
+    "chainId": "0x89"
+  },
+  "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4": {
+    "name": "Decentraland",
+    "logo": "mana.png",
+    "erc20": true,
+    "symbol": "MANA",
+    "decimals": 18,
+    "coingeckoId": "decentraland",
+    "chainId": "0x89"
+  },
+  "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
+    "name": "The Sandbox",
+    "logo": "sand.png",
+    "erc20": true,
+    "symbol": "SAND",
+    "decimals": 18,
+    "coingeckoId": "the-sandbox",
+    "chainId": "0x89"
+  },
+  "0xD6DF932A45C0f255f85145f286eA0b292B21C90B": {
+    "name": "Aave (PoS)",
+    "logo": "aave.png",
+    "erc20": true,
+    "symbol": "AAVE",
+    "decimals": 18,
+    "coingeckoId": "aave",
+    "chainId": "0x89"
+  },
+  "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a": {
+    "name": "Sushi (PoS)",
+    "logo": "",
+    "erc20": true,
+    "symbol": "SUSHI",
+    "decimals": 18,
+    "coingeckoId": "sushi",
+    "chainId": "0x89"
+  },
+  "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+    "name": "Wrapped Ether",
+    "logo": "weth.png",
+    "erc20": true,
+    "symbol": "WETH",
+    "decimals": 18,
+    "coingeckoId": "weth",
+    "chainId": "0x89"
+  },
+  "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270": {
+    "name": "Wrapped Matic",
+    "logo": "matic.png",
+    "erc20": true,
+    "symbol": "WMATIC",
+    "decimals": 18,
+    "coingeckoId": "wmatic",
+    "chainId": "0x89"
+  },
+  "0x831753DD7087CaC61aB5644b308642cc1c33Dc13": {
+    "name": "Quickswap",
+    "logo": "quick.png",
+    "erc20": true,
+    "symbol": "QUICK",
+    "decimals": 18,
+    "coingeckoId": "quick",
+    "chainId": "0x89"
+  },
+  "0x172370d5Cd63279eFa6d502DAB29171933a610AF": {
+    "name": "Curve (PoS)",
+    "logo": "curve.png",
+    "erc20": true,
+    "symbol": "CRV",
+    "decimals": 18,
+    "coingeckoId": "curve-dao-token",
+    "chainId": "0x89"
+  },
+  "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3": {
+    "name": "Balancer",
+    "logo": "balancer.png",
+    "erc20": true,
+    "symbol": "BAL",
+    "decimals": 18,
+    "coingeckoId": "balancer",
+    "chainId": "0x89"
+  },
+  "0x3Cef98bb43d732E2F285eE605a8158cDE967D219": {
+    "name": "Basic Attention Token",
+    "logo": "bat.png",
+    "erc20": true,
+    "symbol": "BAT",
+    "decimals": 18,
+    "coingeckoId": "basic-attention-token",
+    "chainId": "0x89"
+  },
+  "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
+    "name": "Tether USD",
+    "logo": "usdt.png",
+    "erc20": true,
+    "symbol": "USDT",
+    "decimals": 6,
+    "coingeckoId": "tether",
+    "chainId": "0xa"
+  },
+  "0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
+    "name": "USD Coin",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC",
+    "decimals": 6,
+    "coingeckoId": "usd-coin",
+    "chainId": "0xa"
+  },
+  "0x68f180fcCe6836688e9084f035309E29Bf0A2095": {
+    "name": "Wrapped BTC",
+    "logo": "wbtc.png",
+    "erc20": true,
+    "symbol": "WBTC",
+    "decimals": 8,
+    "coingeckoId": "wrapped-bitcoin",
+    "chainId": "0xa"
+  },
+  "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "name": "Dai Stablecoin",
+    "logo": "dai.png",
+    "erc20": true,
+    "symbol": "DAI",
+    "decimals": 18,
+    "coingeckoId": "dai",
+    "chainId": "0xa"
+  },
+  "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6": {
+    "name": "ChainLink",
+    "logo": "chainlink.png",
+    "erc20": true,
+    "symbol": "LINK",
+    "decimals": 18,
+    "coingeckoId": "chainlink",
+    "chainId": "0xa"
+  },
+  "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4": {
+    "name": "Synthetix",
+    "logo": "synthetix.png",
+    "erc20": true,
+    "symbol": "SNX",
+    "decimals": 18,
+    "coingeckoId": "havven",
+    "chainId": "0xa"
+  },
+  "0x298B9B95708152ff6968aafd889c6586e9169f1D": {
+    "name": "Synth sBTC",
+    "logo": "synthetix_sbtc.png",
+    "erc20": true,
+    "symbol": "sBTC",
+    "decimals": 18,
+    "coingeckoId": "sbtc",
+    "chainId": "0xa"
+  },
+  "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49": {
+    "name": "Synth sETH",
+    "logo": "synthetix_seth.png",
+    "erc20": true,
+    "symbol": "sETH",
+    "decimals": 18,
+    "coingeckoId": "seth",
+    "chainId": "0xa"
+  },
+  "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9": {
+    "name": "Synth sUSD",
+    "logo": "synthetix_susd.png",
+    "erc20": true,
+    "symbol": "sUSD",
+    "decimals": 18,
+    "coingeckoId": "susd",
+    "chainId": "0xa"
+  },
+  "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08": {
+    "name": "Synth sLINK",
+    "logo": "chainlink.png",
+    "erc20": true,
+    "symbol": "sLINK",
+    "decimals": 18,
+    "coingeckoId": "slink",
+    "chainId": "0xa"
+  },
+  "0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
+    "name": "Binance-Peg Ethereum Token",
+    "logo": "eth.png",
+    "erc20": true,
+    "symbol": "ETH",
+    "decimals": 18,
+    "coingeckoId": "ethereum",
+    "chainId": "0x38"
+  },
+  "0x55d398326f99059fF775485246999027B3197955": {
+    "name": "Binance-Peg BSC-USD",
+    "logo": "usdt.png",
+    "erc20": true,
+    "symbol": "BSC-USD",
+    "decimals": 18,
+    "coingeckoId": "tether",
+    "chainId": "0x38"
+  },
+  "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
+    "name": "Wrapped BNB",
+    "logo": "bnb.png",
+    "erc20": true,
+    "symbol": "WBNB",
+    "decimals": 18,
+    "coingeckoId": "wbnb",
+    "chainId": "0x38"
+  },
+  "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
+    "name": "Binance-Peg USD Coin",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC",
+    "decimals": 18,
+    "coingeckoId": "usd-coin",
+    "chainId": "0x38"
+  },
+  "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE": {
+    "name": "Binance-Peg XRP Token",
+    "logo": "xrp.png",
+    "erc20": true,
+    "symbol": "XRP",
+    "decimals": 18,
+    "coingeckoId": "binance-peg-xrp",
+    "chainId": "0x38"
+  },
+  "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47": {
+    "name": "Binance-Peg Cardano Token",
+    "logo": "ada.png",
+    "erc20": true,
+    "symbol": "ADA",
+    "decimals": 18,
+    "coingeckoId": "binance-peg-cardano",
+    "chainId": "0x38"
+  },
+  "0x1CE0c2827e2eF14D5C4f29a091d735A204794041": {
+    "name": "Binance-Peg Avalanche Token",
+    "logo": "avax.png",
+    "erc20": true,
+    "symbol": "AVAX",
+    "decimals": 18,
+    "coingeckoId": "binance-peg-avalanche",
+    "chainId": "0x38"
+  },
+  "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402": {
+    "name": "Binance-Peg Polkadot Token",
+    "logo": "dot.png",
+    "erc20": true,
+    "symbol": "DOT",
+    "decimals": 18,
+    "coingeckoId": "binance-peg-polkadot",
+    "chainId": "0x38"
+  },
+  "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56": {
+    "name": "Binance-Peg BUSD Token",
+    "logo": "busd.png",
+    "erc20": true,
+    "symbol": "BUSD",
+    "decimals": 18,
+    "coingeckoId": "binance-usd",
+    "chainId": "0x38"
+  },
+  "0xbA2aE424d960c26247Dd6c32edC70B295c744C43": {
+    "name": "Binance-Peg Dogecoin Token",
+    "logo": "doge.png",
+    "erc20": true,
+    "symbol": "DOGE",
+    "decimals": 8,
+    "coingeckoId": "binance-peg-dogecoin",
+    "chainId": "0x38"
+  },
+  "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D": {
+    "name": "Binance-Peg SHIBA INU Token",
+    "logo": "shib.png",
+    "erc20": true,
+    "symbol": "SHIB",
+    "decimals": 18,
+    "coingeckoId": "shiba-inu",
+    "chainId": "0x38"
+  },
+  "0x23396cF899Ca06c4472205fC903bDB4de249D6fC": {
+    "name": "Wrapped UST Token",
+    "logo": "ust.png",
+    "erc20": true,
+    "symbol": "UST",
+    "decimals": 18,
+    "coingeckoId": "wrapped-ust",
+    "chainId": "0x38"
+  },
+  "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3": {
+    "name": "Binance-Peg Dai Token",
+    "logo": "dai.png",
+    "erc20": true,
+    "symbol": "DAI",
+    "decimals": 18,
+    "coingeckoId": "dai",
+    "chainId": "0x38"
+  },
+  "0x0Eb3a705fc54725037CC9e008bDede697f62F335": {
+    "name": "Binance-Peg Cosmos Token",
+    "logo": "atom.png",
+    "erc20": true,
+    "symbol": "ATOM",
+    "decimals": 18,
+    "coingeckoId": "cosmos",
+    "chainId": "0x38"
+  },
+  "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94": {
+    "name": "Binance-Peg Litecoin Token",
+    "logo": "ltc.png",
+    "erc20": true,
+    "symbol": "LTC",
+    "decimals": 18,
+    "coingeckoId": "binance-peg-litecoin",
+    "chainId": "0x38"
+  },
+  "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD": {
+    "name": "Binance-Peg ChainLink Token",
+    "logo": "chainlink.png",
+    "erc20": true,
+    "symbol": "LINK",
+    "decimals": 18,
+    "coingeckoId": "chainlink",
+    "chainId": "0x38"
+  },
+  "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1": {
+    "name": "Binance-Peg Uniswap",
+    "logo": "uni.png",
+    "erc20": true,
+    "symbol": "UNI",
+    "decimals": 18,
+    "coingeckoId": "uniswap",
+    "chainId": "0x38"
+  },
+  "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
+    "name": "Binance-Peg BTCB Token",
+    "logo": "btc.png",
+    "erc20": true,
+    "symbol": "BTCB",
+    "decimals": 18,
+    "coingeckoId": "bitcoin-bep2",
+    "chainId": "0x38"
+  },
+  "0x14016E85a25aeb13065688cAFB43044C2ef86784": {
+    "name": "Binance-Peg TrueUSD Token",
+    "logo": "tusd.png",
+    "erc20": true,
+    "symbol": "TUSD",
+    "decimals": 18,
+    "coingeckoId": "true-usd",
+    "chainId": "0x38"
+  },
+  "0x101d82428437127bF1608F699CD651e6Abf9766E": {
+    "name": "Binance-Peg Basic Attention Token",
+    "logo": "bat.png",
+    "erc20": true,
+    "symbol": "BAT",
+    "decimals": 18,
+    "coingeckoId": "basic-attention-token",
+    "chainId": "0x38"
+  },
+  "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8": {
+    "name": "Binance-Peg Compound Coin",
+    "logo": "comp.png",
+    "erc20": true,
+    "symbol": "COMP",
+    "decimals": 18,
+    "coingeckoId": "compound-governance-token",
+    "chainId": "0x38"
+  },
+  "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e": {
+    "name": "Binance-Peg yearn.finance",
+    "logo": "yfi.png",
+    "erc20": true,
+    "symbol": "YFI",
+    "decimals": 18,
+    "coingeckoId": "yearn-finance",
+    "chainId": "0x38"
+  },
+  "0x111111111117dC0aa78b770fA6A738034120C302": {
+    "name": "1INCH Token",
+    "logo": "1inch.png",
+    "erc20": true,
+    "symbol": "1INCH",
+    "decimals": 18,
+    "coingeckoId": "1inch",
+    "chainId": "0x38"
+  },
+  "0xc7198437980c041c805A1EDcbA50c1Ce5db95118": {
+    "name": "Tether USD",
+    "logo": "usdt.png",
+    "erc20": true,
+    "symbol": "USDT.e",
+    "decimals": 6,
+    "coingeckoId": "tether",
+    "chainId": "0xa86a"
+  },
+  "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7": {
+    "name": "TetherToken",
+    "logo": "usdt.png",
+    "erc20": true,
+    "symbol": "USDt",
+    "decimals": 6,
+    "coingeckoId": "tether",
+    "chainId": "0xa86a"
+  },
+  "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E": {
+    "name": "USD Coin",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC",
+    "decimals": 6,
+    "coingeckoId": "usd-coin",
+    "chainId": "0xa86a"
+  },
+  "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664": {
+    "name": "USD Coin",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "coingeckoId": "usd-coin",
+    "chainId": "0xa86a"
+  },
+  "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7": {
+    "name": "Wrapped AVAX",
+    "logo": "avax.png",
+    "erc20": true,
+    "symbol": "WAVAX",
+    "decimals": 18,
+    "coingeckoId": "wrapped-avax",
+    "chainId": "0xa86a"
+  },
+  "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98": {
+    "name": "Binance USD",
+    "logo": "busd.png",
+    "erc20": true,
+    "symbol": "BUSD.e",
+    "decimals": 18,
+    "coingeckoId": "binance-usd",
+    "chainId": "0xa86a"
+  },
+  "0x02D980A0D7AF3fb7Cf7Df8cB35d9eDBCF355f665": {
+    "name": "SHIBA INU",
+    "logo": "shib.png",
+    "erc20": true,
+    "symbol": "SHIB.e",
+    "decimals": 18,
+    "coingeckoId": "shiba-inu",
+    "chainId": "0xa86a"
+  },
+  "0x50b7545627a5162F82A992c33b87aDc75187B218": {
+    "name": "Wrapped BTC",
+    "logo": "wbtc.png",
+    "erc20": true,
+    "symbol": "WBTC.e",
+    "decimals": 8,
+    "coingeckoId": "wrapped-bitcoin",
+    "chainId": "0xa86a"
+  },
+  "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70": {
+    "name": "Dai Stablecoin",
+    "logo": "dai.png",
+    "erc20": true,
+    "symbol": "DAI.e",
+    "decimals": 18,
+    "coingeckoId": "dai",
+    "chainId": "0xa86a"
+  },
+  "0x5947BB275c521040051D82396192181b413227A3": {
+    "name": "ChainLink Token",
+    "logo": "chainlink.png",
+    "erc20": true,
+    "symbol": "LINK.e",
+    "decimals": 18,
+    "coingeckoId": "chainlink",
+    "chainId": "0xa86a"
+  },
+  "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580": {
+    "name": "Uniswap",
+    "logo": "uni.png",
+    "erc20": true,
+    "symbol": "UNI",
+    "decimals": 18,
+    "coingeckoId": "uniswap",
+    "chainId": "0xa86a"
+  },
+  "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB": {
+    "name": "TrueUSD",
+    "logo": "tusd.png",
+    "erc20": true,
+    "symbol": "TUSD",
+    "decimals": 18,
+    "coingeckoId": "true-usd",
+    "chainId": "0xa86a"
+  },
+  "0x98443B96EA4b0858FDF3219Cd13e98C7A4690588": {
+    "name": "Basic Attention Token",
+    "logo": "bat.png",
+    "erc20": true,
+    "symbol": "BAT.e",
+    "decimals": 18,
+    "coingeckoId": "basic-attention-token",
+    "chainId": "0xa86a"
+  },
+  "0x6b329326E0F6b95B93b52229b213334278D6f277": {
+    "name": "Basic Attention Token",
+    "logo": "bat.png",
+    "erc20": true,
+    "symbol": "BAT",
+    "decimals": 18,
+    "coingeckoId": "basic-attention-token",
+    "chainId": "0xa86a"
+  },
+  "0x765DE816845861e75A25fCA122bb6898B8B1282a": {
+    "name": "Celo Dollar",
+    "logo": "cusd.png",
+    "erc20": true,
+    "symbol": "cUSD",
+    "decimals": 18,
+    "coingeckoId": "celo-dollar",
+    "chainId": "0xa4ec"
+  },
+  "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73": {
+    "name": "Celo Euro",
+    "logo": "ceur.png",
+    "erc20": true,
+    "symbol": "cEUR",
+    "decimals": 18,
+    "coingeckoId": "celo-euro",
+    "chainId": "0xa4ec"
+  },
+  "0xef4229c8c3250C675F21BCefa42f58EfbfF6002a": {
+    "name": "USD Coin",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC",
+    "decimals": 6,
+    "coingeckoId": "usd-coin",
+    "chainId": "0xa4ec"
+  },
+  "0xAd84341756Bf337f5a0164515b1f6F993D194E1f": {
+    "name": "Fantom USD",
+    "logo": "fusd.png",
+    "erc20": true,
+    "symbol": "FUSD",
+    "decimals": 18,
+    "coingeckoId": "fantom-usd",
+    "chainId": "0xfa"
+  },
+  "0xe1146b9AC456fCbB60644c36Fd3F868A9072fc6E": {
+    "name": "Fantom BTC",
+    "logo": "btc.png",
+    "erc20": true,
+    "symbol": "FBTC",
+    "decimals": 18,
+    "coingeckoId": "bitcoin",
+    "chainId": "0xfa"
+  },
+  "0x658b0c7613e890EE50B8C4BC6A3f41ef411208aD": {
+    "name": "Fantom ETH",
+    "logo": "eth.png",
+    "erc20": true,
+    "symbol": "FETH",
+    "decimals": 18,
+    "coingeckoId": "ethereum",
+    "chainId": "0xfa"
+  },
+  "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75": {
+    "name": "USD Coin",
+    "logo": "usdc.png",
+    "erc20": true,
+    "symbol": "USDC",
+    "decimals": 6,
+    "coingeckoId": "usd-coin",
+    "chainId": "0xfa"
+  },
+  "0x511D35c52a3C244E7b8bd92c0C297755FbD89212": {
+    "name": "Avalanche",
+    "logo": "avax.png",
+    "erc20": true,
+    "symbol": "AVAX",
+    "decimals": 18,
+    "coingeckoId": "avalanche-2",
+    "chainId": "0xfa"
+  },
+  "0x321162Cd933E2Be498Cd2267a90534A804051b11": {
+    "name": "Wrapped Bitcoin",
+    "logo": "wbtc.png",
+    "erc20": true,
+    "symbol": "BTC",
+    "decimals": 8,
+    "coingeckoId": "wrapped-bitcoin",
+    "chainId": "0xfa"
+  },
+  "0x74b23882a30290451A17c44f4F05243b6b58C76d": {
+    "name": "Wrapped Ethereum",
+    "logo": "weth.png",
+    "erc20": true,
+    "symbol": "ETH",
+    "decimals": 18,
+    "coingeckoId": "weth",
+    "chainId": "0xfa"
+  },
+  "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E": {
+    "name": "Dai Stablecoin",
+    "logo": "dai.png",
+    "erc20": true,
+    "symbol": "DAI",
+    "decimals": 18,
+    "coingeckoId": "dai",
+    "chainId": "0xfa"
+  },
+  "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8": {
+    "name": "ChainLink",
+    "logo": "chainlink.png",
+    "erc20": true,
+    "symbol": "LINK",
+    "decimals": 18,
+    "coingeckoId": "chainlink",
+    "chainId": "0xfa"
+  },
+  "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83": {
+    "name": "Wrapped Fantom",
+    "logo": "wftm.png",
+    "erc20": true,
+    "symbol": "WFTM",
+    "decimals": 18,
+    "coingeckoId": "wrapped-fantom",
+    "chainId": "0xfa"
+  },
+  "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B": {
+    "name": "Aave",
+    "logo": "aave.png",
+    "erc20": true,
+    "symbol": "AAVE",
+    "decimals": 18,
+    "coingeckoId": "aave",
+    "chainId": "0xfa"
+  },
+  "0x1E4F97b9f9F913c46F1632781732927B9019C68b": {
+    "name": "Curve DAO",
+    "logo": "curve.png",
+    "erc20": true,
+    "symbol": "CRV",
+    "decimals": 18,
+    "coingeckoId": "curve-dao-token",
+    "chainId": "0xfa"
+  }
+}

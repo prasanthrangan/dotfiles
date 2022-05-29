@@ -1,0 +1,51 @@
+{
+    "com.github.dankni95.ulauncher-anime": {
+        "id": "com.github.dankni95.ulauncher-anime",
+        "url": "https://github.com/Dankni95/ulauncher-anime",
+        "updated_at": "2022-05-21T08:33:50.544273",
+        "last_commit": "d1204807e713a04892303ca98c0752e7e21c57ab",
+        "last_commit_time": "2022-05-08T09:02:15"
+    },
+    "com.github.eckhoff42.ulauncher-kill-process-on-click": {
+        "id": "com.github.eckhoff42.ulauncher-kill-process-on-click",
+        "url": "https://github.com/Eckhoff42/Ulauncher-Kill-process-on-click",
+        "updated_at": "2022-05-21T08:33:52.104212",
+        "last_commit": "1cc49319d1a8811a2db63b6111effbb5ba087494",
+        "last_commit_time": "2022-05-05T09:03:54"
+    },
+    "com.github.nurgasemetey.ulauncher-daily-note": {
+        "id": "com.github.nurgasemetey.ulauncher-daily-note",
+        "url": "https://github.com/nurgasemetey/ulauncher-daily-note",
+        "updated_at": "2022-05-21T08:33:56.544579",
+        "last_commit": "64e08506f499b3edfe87ad18212a223e95e265f6",
+        "last_commit_time": "2022-02-20T20:17:23"
+    },
+    "com.github.lighttigerxiv.ulauncher-terminal-runner-extension": {
+        "id": "com.github.lighttigerxiv.ulauncher-terminal-runner-extension",
+        "url": "https://github.com/lighttigerXIV/ulauncher-terminal-runner-extension/",
+        "updated_at": "2022-05-19T09:48:53.633778",
+        "last_commit": "6b178c4dc06699dfb5e37ebac7947d471ef7f876",
+        "last_commit_time": "2022-05-16T13:42:09"
+    },
+    "com.github.lighttigerxiv.ulauncher-session-manager": {
+        "id": "com.github.lighttigerxiv.ulauncher-session-manager",
+        "url": "https://github.com/lighttigerXIV/ulauncher-session-manager",
+        "updated_at": "2022-05-19T09:55:15.528171",
+        "last_commit": "f8b93ed7c322ebd7d85bc89cd7ade77d27ca4db1",
+        "last_commit_time": "2022-05-16T19:07:18"
+    },
+    "com.github.the-lay.ulauncher-spotify-api": {
+        "id": "com.github.the-lay.ulauncher-spotify-api",
+        "url": "https://github.com/the-lay/ulauncher-spotify-api",
+        "updated_at": "2022-05-21T08:33:58.807922",
+        "last_commit": "fada055fca1ed1787e3908c66f3e326f7babb886",
+        "last_commit_time": "2021-08-30T16:47:42"
+    },
+    "com.github.brpaz.ulauncher-lastpass": {
+        "id": "com.github.brpaz.ulauncher-lastpass",
+        "url": "https://github.com/brpaz/ulauncher-lastpass",
+        "updated_at": "2022-05-19T10:05:13.586162",
+        "last_commit": "d6236bb25110183f478cadba19ee35c27d387c3d",
+        "last_commit_time": "2020-06-27T16:17:54"
+    }
+}

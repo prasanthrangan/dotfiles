@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Doniraj tej objavi",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Donacija",
+    "description": "Icon label for tip button"
+  }
+}

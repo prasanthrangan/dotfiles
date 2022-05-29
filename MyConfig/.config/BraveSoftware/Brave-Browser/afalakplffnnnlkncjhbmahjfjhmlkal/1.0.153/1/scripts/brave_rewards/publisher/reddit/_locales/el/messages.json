@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Βραβεύστε αυτή την δημοσίευση",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Φιλοδώρημα",
+    "description": "Icon label for tip button"
+  }
+}

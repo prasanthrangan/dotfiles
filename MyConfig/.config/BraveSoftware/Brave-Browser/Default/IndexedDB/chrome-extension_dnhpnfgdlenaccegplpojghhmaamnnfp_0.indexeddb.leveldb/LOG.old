@@ -1,0 +1,10 @@
+2022/05/28-12:25:06.971 1238 Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_dnhpnfgdlenaccegplpojghhmaamnnfp_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/28-12:25:06.971 1238 Recovering log #37
+2022/05/28-12:25:06.982 1238 Reusing old log /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_dnhpnfgdlenaccegplpojghhmaamnnfp_0.indexeddb.leveldb/000037.log 
+2022/05/28-12:25:24.536 123f Level-0 table #42: started
+2022/05/28-12:25:24.554 123f Level-0 table #42: 881790 bytes OK
+2022/05/28-12:25:24.555 123f Delete type=0 #37
+2022/05/28-12:25:24.560 123f Compacting 1@1 + 1@2 files
+2022/05/28-12:25:24.579 123f Generated table #43@1: 16751 keys, 265801 bytes
+2022/05/28-12:25:24.579 123f Compacted 1@1 + 1@2 files => 265801 bytes
+2022/05/28-12:25:24.580 123f compacted to: files[ 0 0 1 0 0 0 0 ]

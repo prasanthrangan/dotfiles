@@ -1,0 +1,405 @@
+[
+  {
+    "include": [
+      "*://*.leechall.com/redirect.php?url=*",
+      "*://*.news-gg.com/l/?*",
+      "*://*.mobile01.com/redirect.php?*",
+      "*://*.nurhamka.com/*?url=*",
+      "*://*.linepc.site/*?url=*",
+      "*://*.sopasti.com/anime.php?*",
+      "*://*.zxro.com/u/*?url=*",
+      "*://*.macdownload.org/redirect/?url=*",
+      "*://*.forek.info/*?url=*",
+      "*://*.creditcable.info/*/*?*",
+      "*://*.adfoc.us/serve/sitelinks/?*",
+      "*://*.made-by.org/redirection/?url=*",
+      "*://*.itsbx.com/redirect/?url=*",
+      "*://*.forocoches.com/link.php?url=*",
+      "*://*.pixiv.net/jump.php?url=*",
+      "*://hdblurayindir.com/git.php?url=*",
+      "*://gate.sc/?url=*",
+      "*://freetutsdownload.net/redirect-to/?url=*",
+      "*://mcpedl.com/leaving/?url=*",
+      "*://track.effiliation.com/servlet/effi.redir*&url=*",
+      "*://go.skimresources.com/?id=*&url=*",
+      "*://go.redirectingat.com/?id=*&url=*",
+      "*://shop-links.co/link/*",
+      "*://*.jdoqocy.com/click-*",
+      "*://*.kqzyfj.com/click-*",
+      "*://*.pjtra.com/t/*",
+      "*://*.narrativ.com/*client_redirect/*",
+      "*://c.pepperjamnetwork.com/*",
+      "*://*.avantlink.com/click.php?*",
+      "*://t.cfjump.com/*",
+      "*://*.pjatr.com/t/*",
+      "*://*.pntrs.com/t/*",
+      "*://*.nordstrom.com/Linkshare?*",
+      "*://*.nutribullet.com/t/*",
+      "*://*.gopjn.com/t/*",
+      "*://*.mediamarkt.de/trck/*",
+      "*://*.saturn.de/trck/*",
+      "*://*.tradedoubler.com/click?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "url"
+  },
+  {
+    "include": [
+      "*://redir.tradedoubler.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "_td_deeplink"
+  },
+  {
+    "include": [
+      "*://*.f9tmep.net/c/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "srcref"
+  },
+  {
+    "include": [
+      "*://*.zenaps.com/rclick.php*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "pr"
+  },
+  {
+    "include": [
+      "*://*.clixgalore.com/Lead.aspx*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "AffDirectURL"
+  },
+  {
+    "include": [
+      "*://rd.bizrate.com/rd?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "t"
+  },
+  {
+    "include": [
+      "*://ad.atdmt.com/s/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "h"
+  },
+  {
+    "include": [
+      "*://*.demdex.net/event?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "d_rd"
+  },
+  {
+    "include": [
+      "*://*.awin1.com/cread.php?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "ued"
+  },
+  {
+    "include": [
+      "*://*.awin1.com/awclick.php?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "p"
+  },
+  {
+    "include": [
+      "*://*.spaste.com/r/*link=*",
+      "*://*.getprice.com.au/prodhits.aspx?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "link"
+  },
+  {
+    "include": [
+      "*://*.folderenius.com/*/*?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "aurl"
+  },
+  {
+    "include": [
+      "*://*.ouo.io/*?s=*",
+      "*://*.cpmlink.net/s/*?s=*",
+      "*://*.shon.xyz/s/*?s=*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "s"
+  },
+  {
+    "include": [
+      "*://*.shareasale.com/r.cfm?*",
+      "*://shareasale.com/r.cfm?*",
+      "*://*.shareasale-analytics.com/r.cfm?*",
+      "*://shareasale-analytics.com/r.cfm?*"
+   ],
+   "exclude": [
+   ],
+   "action": "redirect",
+   "param": "urllink"
+  },
+  {
+    "include": [
+      "*://track.webgains.com/click.html*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "wgtarget"
+  },
+  {
+    "include": [
+      "*://*.maranhesduve.club/?*",
+      "*://*.sparbuttantowa.pro/*?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "href"
+  },
+  {
+    "include": [
+      "*://click.icptrack.com/icp/relay.php*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "destination"
+  },
+  {
+    "include": [
+      "*://*.criteo.com/beacon?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "dest"
+  },
+  {
+    "include": [
+      "*://goto.target.com/c/*",
+      "*://goto.walmart.com/c/*",
+      "*://*.sjv.io/c/*",
+      "*://*.8ocm68.net/c/*",
+      "*://*.xovt.net/c/*",
+      "*://*.i114863.net/c/*",
+      "*://*.58dp.net/c/*",
+      "*://*.pxf.io/c/*",
+      "*://*.7tiv.net/c/*",
+      "*://*.5ad6.net/c/*",
+      "*://*.q77h.net/c/*",
+      "*://*.3uu8.net/c/*",
+      "*://*.uxsi.net/c/*",
+      "*://*.njih.net/c/*",
+      "*://*.pdy5.net/c/*",
+      "*://*.igs4ds.net/c/*",
+      "*://*.mvvx.net/c/*",
+      "*://*.xwrk.net/c/*",
+      "*://*.fziv.net/c/*",
+      "*://*.lvuv.net/c/*",
+      "*://*.xibx.net/c/*",
+      "*://*.attfm2.net/c/*",
+      "*://*.tkjf.net/c/*",
+      "*://*.datafeedfile.com/sl/*",
+      "*://*.datafeedfile.com/sl?*",
+      "*://*.a9yw.net/c/*",
+      "*://*.pfm4.net/c/*",
+      "*://*.i254217.net/c/*",
+      "*://*.i182465.net/c/*",
+      "*://*.vthnbx.net/c/*",
+      "*://*.ryvx.net/c/*",
+      "*://*.7eer.net/c/*",
+      "*://*.msafflnk.net/c/*",
+      "*://*.i312864.net/c/*",
+      "*://*.tmfhgn.net/c/*",
+      "*://*.obak77.net/c/*",
+      "*://*.yvzx.net/c/*",
+      "*://*.carters.com/c/*",
+      "*://*.ioym.net/c/*",
+      "*://*.ntaf.net/c/*",
+      "*://*.zlwlj8.net/c/*",
+      "*://*.uvwgb9.net/c/*",
+      "*://*.3anx.net/c/*",
+      "*://*.rrmo.net/c/*",
+      "*://*.i308314.net/c/*",
+      "*://*.uqhv.net/c/*",
+      "*://*.vzew.net/c/*",
+      "*://*.qflm.net/c/*",
+      "*://redirect.viglink.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "u"
+  },
+  {
+    "include": [
+      "*.valuecommerce.com/servlet/*",
+      "*.valuecommerce.com/resolve/*",
+      "*.valuecommerce.ne.jp/cgi-bin/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "vc_url"
+  },
+  {
+    "include": [
+      "*://target.georiot.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "GR_URL"
+  },
+  {
+    "include": [
+      "*://*.linksynergy.com/*",
+      "*://redirect.viglink.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "murl"
+  },
+  {
+    "include": [
+      "*://*.blogspot.com/*/*/*?url=*",
+      "*://*.mispuani.xyz/*?url=*",
+      "*://*.safelinku.icu/*?url=*",
+      "*://*.ad4msan.win/safe?url=*",
+      "*://*.infotekno.net/vga?url=*",
+      "*://*.sehuruf.com/linkku/?url=*",
+      "*://*.novicearea.com/*/?url=*",
+      "*://*.dikatekno.com/go/?url=*",
+      "*://*.blackmod.net/dl/?url=*",
+      "*://*.hulblog.com/*/?url=*",
+      "*://*.omglyrics.com/*/?url=*",
+      "*://*.nyantaidulu.com/linknya/?url=*",
+      "*://*.pixelshost.com/?url=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "url"
+  },
+  {
+    "include": [
+      "*://*.telolet.in/?go=*",
+      "*://*.lompat.in/?go=*",
+      "*://*.grandmovie21.com/?go=*",
+      "*://*.postku.org/?go=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "go"
+  },
+  {
+    "include": [
+      "*://*.masreyhan.com/*?site=*",
+      "*://*.pasardownload.com/*?site=*",
+      "*://*.vius.info/*?site=*",
+      "*://*.cariskuy.com/*?site=*",
+      "*://*.losstor.com/ini/?site=*",
+      "*://*.giga74.com/*?site=*",
+      "*://*.hfiz.site/?site=*",
+      "*://*.cemiw.net/*?site=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "site"
+  },
+  {
+    "include": [
+      "*://*.remiyu.me/*?reff=*",
+      "*://*.ceksite.id/*?reff=*",
+      "*://*.postku.org/*?reff=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "reff"
+  },
+  {
+    "include": [
+      "*://*.kharismanews.com/?rel=*",
+      "*://out.x-forex.site/?rel=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "rel"
+  },
+  {
+    "include": [
+      "*://*.leechpremium.link/cheat/?link=*",
+      "*://*.bdzone.xyz/cheat.php?link=*",
+      "*://*.extramovies.casa/download.php?name=*&link=*",
+      "*://*.gilakerja.com/*/?link=*",
+      "*://sekolahgan.my.id/?link=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "link"
+  },
+  {
+    "include": [
+      "*://*.infosia.xyz/?kesehatan=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "kesehatan"
+  },
+  {
+    "include": [
+      "*://*.ouo.today/?*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "cr"
+  },
+  {
+    "include": [
+      "*://*.adsafelink.net/generate?a=*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "a"
+  }
+]

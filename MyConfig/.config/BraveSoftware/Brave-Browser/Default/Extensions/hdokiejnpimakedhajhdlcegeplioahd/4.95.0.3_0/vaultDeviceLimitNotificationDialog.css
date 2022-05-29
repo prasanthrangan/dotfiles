@@ -1,0 +1,189 @@
+#vaultDeviceLimitNotificationDialog {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+#vaultDeviceLimitNotificationDialog.moreThan15Days {
+  max-width: 760px;
+}
+
+#vaultDeviceLimitNotificationDialog.moreThan15Days .dialogContent {
+  padding: 24px 30px 0;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__header {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__header__title {
+  font-weight: 600;
+  letter-spacing: 0.24px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1D3049;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__header__close-btn {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  cursor: pointer;
+}
+
+#vaultDeviceLimitNotificationDialog.moreThan15Days .device-limit-dialog__header__close-btn {
+  top: 8px;
+  right: 0;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__body {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__body__image {
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__body__image img {
+  width: 150px;
+  height: 150px;
+}
+
+#vaultDeviceLimitNotificationDialog ul {
+  list-style: disc;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1D3049;
+}
+
+#vaultDeviceLimitNotificationDialog p {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1D3049;
+}
+
+#vaultDeviceLimitNotificationDialog a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #3B70D4;
+  text-decoration: none;
+  display: block;
+  margin: 16px 0 0;
+}
+
+#vaultDeviceLimitNotificationDialog a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__footer {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 72px;
+  margin: 0 -30px 0;
+  padding: 0 30px;
+  border-top: 1px solid #dcdfe4;
+  background: #F7F9FC;
+  align-items: center;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__footer__upgrade-btn {
+  border-radius: 5px;
+  display: block;
+  font-weight: 600;
+  padding: 8px 36px;
+  outline: 0;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  -moz-transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  color: #FFFFFF;
+  background-color: #D32D27;
+  box-shadow: 0px 0px 2px rgba(29, 48, 73, 0.16), 0px 2px 2px rgba(29, 48, 73, 0.04), 0px 1px 2px rgba(29, 48, 73, 0.04);
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 0 18px;
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__footer__upgrade-btn:hover {
+  box-shadow: 0px 4px 8px rgba(29, 48, 73, 0.04), 0px 2px 4px rgba(29, 48, 73, 0.08), 0px 2px 4px rgba(29, 48, 73, 0.08);
+}
+
+#vaultDeviceLimitNotificationDialog .device-limit-dialog__footer__dismiss-btn {
+  font-weight: 600;
+  color: #41536B;
+  box-shadow: 0px 0px 2px rgb(29 48 73 / 16%), 0px 2px 2px rgb(29 48 73 / 4%), 0px 1px 2px rgb(29 48 73 / 4%);
+  padding: 8px 36px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 24px;
+  background: #fff;
+}
+
+#vaultDeviceLimitNotificationDialog.lessThan15Days {
+  min-height: 401px;
+  max-height: 442px!important;
+  max-width: 522px;
+}
+
+#vaultDeviceLimitNotificationDialog.lessThan15Days .dialogContent {
+  padding: 0;
+}
+
+#vaultDeviceLimitNotificationDialog #lessThan15Days .device-limit-dialog__header {
+  background: #ECF5FB;
+  padding: 8px 0;
+}
+
+#vaultDeviceLimitNotificationDialog #lessThan15Days .device-limit-dialog__header img {
+  vertical-align: middle;
+  display: block;
+  margin: 0 auto;
+}
+
+#vaultDeviceLimitNotificationDialog #lessThan15Days .device-limit-dialog__body {
+  display: block;
+  padding: 0 24px;
+}
+
+#vaultDeviceLimitNotificationDialog #lessThan15Days .device-limit-dialog__body .title {
+  margin: 16px 0 24px;
+  text-align: center;
+  color: #1D3049;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+#vaultDeviceLimitNotificationDialog #lessThan15Days .device-limit-dialog__body .subtitle {
+  text-align: center;
+  color: #1D3049;
+  margin: 16px 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#vaultDeviceLimitNotificationDialog #lessThan15Days .device-limit-dialog__footer {
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+#vaultDeviceLimitNotificationDialog.lessThan15Days .device-limit-dialog__footer__upgrade-btn {
+  margin: 0;
+}

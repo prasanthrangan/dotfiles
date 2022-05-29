@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Keepa Settings</title>
+	<style type="text/css">
+		.btn-1 {
+			background: #0F0F6D;
+			color: #ffffff;
+			cursor: pointer;
+			font-size: 20px;
+			padding: 1.5rem;
+			border: 0;
+			transition: all 0.5s;
+			border-radius: 10px;
+			width: auto;
+			position: relative;
+		}
+		.btn-1::after {
+			content: "\2192";
+			font-weight: 400;
+			position: absolute;
+			left: 85%;
+			top: 31%;
+			right: 5%;
+			bottom: 0;
+			opacity: 0;
+		}
+		.btn-1:hover {
+			background: #2b2bff;
+			transition: all 0.5s;
+			border-radius: 10px;
+			box-shadow: 0px 6px 15px #0000ff61;
+			padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+		}
+		.btn-1:hover::after {
+			opacity: 1;
+			transition: all 0.5s;
+		}
+
+	</style>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;margin: 70px">
+<div style="text-align: center;width:500px"><img style="width:220px" src="https://cdn.keepa.com/img/logo_circled.svg"><br><h3>Thanks for installing <br>Keepa - Amazon Price Tracker!</h3>
+
+	<div id="optPermissionContainer" style="margin: 10px;    border: 1px solid #DADADA;    padding: 20px;">
+		<span style="font-size: 16px">Our add-on uses cookies to store settings and sessions.</span><br><br>
+			<button class="btn-1" id="acceptCookies">Accept functional cookies</button><br><br>
+		<a style="font-size: 16px;" id="declineCookies" style="color: #0083FF;" href="#">Do not add cookies</a><br><br>
+		<b>If you do not agree, either uninstall the extension or expect many features to fail.</b><br><br>Keepa does not use any tracking or advertisement cookies. For more information you can read our <a target="_blank" href="https://addons.mozilla.org/de/firefox/addon/keepa/privacy/">privacy policy</a>.
+		<br>
+	</div>
+</div>
+
+<script charset="UTF-8" type="text/javascript" src="onboard.js"></script>
+</body>
+</html>

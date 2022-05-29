@@ -1,0 +1,7 @@
+{
+  "description": "Data Files in support of the Brave Wallet",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArxxr39YT+hk6Fo1KEDTe77Vt/ZXr9+b4fKWpltg37Im7HD9TWYg6O7IFmGe19lh+4SPdojB1Fx3b0EVBfKqHRWZz9idqFskUOicOV87BKWp+Q8qiZ5On7a70QeKNBCUAhk/t1ykBzlUm7Mk6kukaIxZmKmY/7czU+W86VG9UpKcX16ANyYRr7zX0alt31PURboEoarnBINmJsT14TsZzi8CW/LJmS5krLO2sPch0Gwt45ogb/1OukuPkwS8wohtJ48byUKu/E+pHbiQ1XGVq3zjL3SVON68DpJdHPEXcPGpOAHCjqu/e0WyJUKf93koaw7b4yZSvu6QJi846OjRVGQIDAQAB",
+  "manifest_version": 2,
+  "name": "Wallet Data Files Updater",
+  "version": "1.0.14"
+}

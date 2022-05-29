@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Napojnica za ovaj tweet",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Napojnica",
+    "description": "Icon label for tip button"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Přispět na tuto zprávu",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Příspěvek ",
+    "description": "Icon label for tip button"
+  }
+}

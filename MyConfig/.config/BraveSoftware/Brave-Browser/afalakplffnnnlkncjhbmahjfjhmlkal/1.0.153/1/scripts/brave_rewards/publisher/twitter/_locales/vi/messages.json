@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Thưởng tweet này",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Tiền tip",
+    "description": "Icon label for tip button"
+  }
+}

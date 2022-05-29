@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Dajte príspevok za tento tweet",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Príspevok",
+    "description": "Icon label for tip button"
+  }
+}

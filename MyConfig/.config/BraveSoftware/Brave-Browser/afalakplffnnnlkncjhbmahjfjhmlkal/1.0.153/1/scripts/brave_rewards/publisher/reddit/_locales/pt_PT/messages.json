@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Sugira este post",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Gratificação",
+    "description": "Icon label for tip button"
+  }
+}

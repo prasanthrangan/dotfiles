@@ -1,0 +1,974 @@
+{
+   "aboutText": {
+      "description": "About",
+      "message": "حول"
+   },
+   "activeModeDelayText": {
+      "description": "Delay Before Automatic Cleaning",
+      "message": "تأخير قبل التنظيف التلقائي"
+   },
+   "activeModeText": {
+      "description": "Enable Automatic Cleaning",
+      "message": "تمكين التنظيف التلقائي"
+   },
+   "activityLogSiteDataDomainsText": {
+      "description": "Invoked cleanup of $siteData$ for: $domains$. Found in Activity Log Detailed Entries.",
+      "message": "تم استدعاء تنظيف $siteData$ لـ: $domains$",
+      "placeholders": {
+         "domains": {
+            "content": "$2",
+            "example": "example.com, github.com"
+         },
+         "siteData": {
+            "content": "$1",
+            "example": "Cache (translated version)"
+         }
+      }
+   },
+   "addNewExpressionNotification": {
+      "description": "Adding $expression$ to list type $listType$ under cookie store $cookieStore$. Used in notification when right-click action was performed.",
+      "message": "إضافة $expression$ إلى قائمة نوع $listType$ تحت متجر ملفات تعريف الارتباط $cookieStore$.",
+      "placeholders": {
+         "cookieStore": {
+            "content": "$3",
+            "example": "'default' -or- 'firefox-container-1 (Personal)'"
+         },
+         "expression": {
+            "content": "$1",
+            "example": "example.com"
+         },
+         "listType": {
+            "content": "$2",
+            "example": "WHITE"
+         }
+      }
+   },
+   "addNewExpressionNotificationFailed": {
+      "description": "Could not fetch domain to add from where right-click was issued.",
+      "message": "تعذر جلب النطاق للإضافة من حيث تم إصدار النقر بالزر الأيمن."
+   },
+   "addNewExpressionNotificationIgnore": {
+      "description": "If expression already exists, this will be ignored. Used in notification when right-click action was performed.",
+      "message": "إذا كان التعبير موجود مسبقا، سيتم تجاهل ذلك."
+   },
+   "autoDeleteDisabledText": {
+      "description": "Auto-clean disabled",
+      "message": "المسح التلقائي معطل"
+   },
+   "autoDeleteEnabledText": {
+      "description": "Auto-clean enabled",
+      "message": "تم تمكين التنظيف التلقائي"
+   },
+   "browsingDataWarning": {
+      "description": "WARNING: Upon enabling any of the following site data cleanup options, ALL existing data for that type will be cleared. Found in CAD Settings",
+      "message": "تحذير: عند تمكين أي من خيارات تنقية بيانات الموقع التالية، سيتم مسح جميع البيانات الموجودة من هذا النوع."
+   },
+   "cacheCleanupText": {
+      "description": "Enable Cache Cleanup (Firefox 78+, Chrome 74+). Found in CAD Settings.",
+      "message": "تمكين تنظيف ذاكرة التخزين المؤقت (Firefox 78+، كروم 74+)"
+   },
+   "cacheText": {
+      "description": "Cache. Primarily used in notifications.",
+      "message": "مخبئ"
+   },
+   "chromeDebugMode": {
+      "description": "Ensure 'Developer Mode' is enabled, then click on 'background page' under Inspect View. This is shown if debug mode is enabled.",
+      "message": "تأكد من تمكين \"وضع المطور\"، ثم انقر فوق \"صفحة الخلفية\" تحت عرض الفحص."
+   },
+   "cleanDiscardedText": {
+      "description": "Enable Cleanup for Discarded/Unloaded Tabs. Found in Settings.",
+      "message": "تمكين تنظيف علامات التبويب التي تم التخلي عنها/إلغاء تحميلها"
+   },
+   "cleanExpiredCookiesText": {
+      "description": "Clean All Expired Cookies. Found in Settings.",
+      "message": "تنظيف جميع ملفات تعريف الارتباط منتهية الصلاحية"
+   },
+   "cleanIgnoringOpenTabsText": {
+      "description": "Clean, include open tabs. Found in the additional cleanup options in the popup.",
+      "message": "تنظيف، تضمين علامات التبويب المفتوحة"
+   },
+   "cleanText": {
+      "description": "Clean",
+      "message": "تنظيف"
+   },
+   "cleanupActionsBypass": {
+      "description": "Warning - Actions below ignore settings! Found in the additional cleanup options in the popup.",
+      "message": "تحذير - الإجراءات أسفل تجاهل الإعدادات!"
+   },
+   "cleanupDomainChangeText": {
+      "description": "Enable Cleanup on Domain Change",
+      "message": "تمكين التنظيف عند تغيير النطاق"
+   },
+   "cleanupLogText": {
+      "description": "Cleanup Log",
+      "message": "مسح السجل"
+   },
+   "clearLogsText": {
+      "description": "Clear Logs",
+      "message": "مَسح السجلات"
+   },
+   "consoleDebugMode": {
+      "description": "Click on the Console Tab. Found after enabling debug mode.",
+      "message": "انقر فوق علامة التبويب وحدة التحكم"
+   },
+   "containerSiteDataWarning": {
+      "description": "WARNING: Enabling Container Tabs with any of the additional browsing data cleanups above may cause unwanted side effects due to browser API limitations. Site data types, with the exception of cookies, will be cleared by hostname for ALL containers. Found in CAD Settings.",
+      "message": "تحذير: تمكين علامات تبويب الحاوية مع أي من عمليات تنظيف بيانات التصفح الإضافية أعلاه قد يسبب تأثيرات جانبية غير مرغوب فيها بسبب قيود API للمتصفح. سيتم مسح أنواع بيانات الموقع، باستثناء ملفات تعريف الارتباط، بواسطة اسم المضيف لجميع الحاويات."
+   },
+   "contextMenusParentClean": {
+      "description": "Manual Cleaning Menu. Shown on right-clicks of Page/Browser Action.",
+      "message": "قائمة التنظيف اليدوي"
+   },
+   "contextMenusParentExpression": {
+      "description": "Add Domain/Expression Menu. Shown on right-clicks of Page/Link/Selection.",
+      "message": "إضافة نطاق/قائمة التعبير"
+   },
+   "contextMenusSelectedDomainLink": {
+      "description": "For domain only of selected link. Shown in right-click menu.",
+      "message": "للنطاق فقط من الرابط المحدد"
+   },
+   "contextMenusSelectedDomainPage": {
+      "description": "For domain only of selected page. Shown in right-click menu.",
+      "message": "للنطاق فقط للصفحة المحددة"
+   },
+   "contextMenusSelectedDomainText": {
+      "description": "For domain only of selected text: $selected$. Shown in right-click menu.",
+      "message": "للنطاق فقط من النص المحدد: $selected$",
+      "placeholders": {
+         "selected": {
+            "content": "$1",
+            "example": "github.com"
+         }
+      }
+   },
+   "contextMenusSelectedSubdomainLink": {
+      "description": "For all subdomains with domain of selected link. Shown in right-click menu.",
+      "message": "لجميع المجالات الفرعية مع نطاق الرابط المحدد"
+   },
+   "contextMenusSelectedSubdomainPage": {
+      "description": "For all subdomains with domain of selected page. Shown in right-click menu.",
+      "message": "لجميع المجالات الفرعية مع نطاق الصفحة المحددة"
+   },
+   "contextMenusSelectedSubdomainText": {
+      "description": "For all subdomains with domain of selected text: $selected$. Shown in right-click menu.",
+      "message": "لجميع المجالات الفرعية ذات النطاق من النص المحدد: $selected$",
+      "placeholders": {
+         "selected": {
+            "content": "$1",
+            "example": "github.com"
+         }
+      }
+   },
+   "contextualIdentitiesEnabledText": {
+      "description": "Enable Support for Container Tabs. Currently only in Firefox.",
+      "message": "تمكين الدعم لعلامات تبويب الحاويات"
+   },
+   "contributeText": {
+      "description": "Contribute",
+      "message": "ساهم"
+   },
+   "contributorsText": {
+      "description": "Contributors",
+      "message": "المساهمون"
+   },
+   "cookieCleanUpOnStartText": {
+      "description": "Clean Cookies and other Site Data from Open Tabs on Startup",
+      "message": "تنظيف ملفات تعريف الارتباط وبيانات الموقع الأخرى من علامات التبويب المفتوحة عند بدء التشغيل"
+   },
+   "cookieCleanupIgnoreOpenTabsText": {
+      "description": "Run cleanup now, include cookies from open tabs. This is shown on mouseover from the available dropdown buttons.",
+      "message": "تشغيل التنظيف الآن، يشمل نطاقات من علامات التبويب المفتوحة"
+   },
+   "cookieCleanupText": {
+      "description": "Run cleanup now, exclude domains from open tabs. This is shown on mouseover on the button.",
+      "message": "تشغيل التنظيف الآن، استبعاد النطاقات من علامات التبويب المفتوحة"
+   },
+   "cookiesText": {
+      "description": "Cookies. Primarily used in popup via alternate clean action dropdown.",
+      "message": "الكعكات"
+   },
+   "createDefaultExpressionOptionsText": {
+      "description": "Create Default Expression Options. Used in 'List of Expressions'",
+      "message": "إنشاء خيارات التعبير الافتراضية"
+   },
+   "currentContainerInfo": {
+      "description": "Current Container Selected: $ID$ ( $Name ). Found in List of Expressions only if Firefox containers enabled.",
+      "message": "الحاوية الحالية المختارة:  $ID$ ( $Name$)",
+      "placeholders": {
+         "ID": {
+            "content": "$1",
+            "example": "firefox-container-1"
+         },
+         "Name": {
+            "content": "$2",
+            "example": "Personal (whatever the user has named the container) - or - translated version of 'Invalid Container'"
+         }
+      }
+   },
+   "debugMode": {
+      "description": "Enable Debug Mode (Additional Console Outputs). Found in CAD Settings.",
+      "message": "تمكين وضع التصحيح (خروج وحدة التحكم الإضافية)"
+   },
+   "defaultContainerText": {
+      "description": "No Container. This will be in brackets. Used in List of Expression in Firefox for Default / No Container",
+      "message": "لا يوجد حاوية"
+   },
+   "defaultSettingsText": {
+      "description": "Restore Default Settings",
+      "message": "إستعادة الإعدادات الإفتراضية"
+   },
+   "defaultText": {
+      "description": "Default. Used in List of Expression in Firefox for Default / No Container.",
+      "message": "الافتراضي"
+   },
+   "disableAutoDeleteText": {
+      "description": "Toggle to disable automatic cleanup (manual mode)",
+      "message": "انقر لتعطيل المسح التلقائي (الوضع اليدوي)"
+   },
+   "documentationText": {
+      "description": "Documentation",
+      "message": "الوثائق"
+   },
+   "domainExpressionsText": {
+      "description": "Domain Expression",
+      "message": "تعبير النطاق"
+   },
+   "dropdownAdditionalCleaningOptions": {
+      "description": "(Screen-readers only) - Toggle Additional Cleaning Actions Dropdown",
+      "message": "تبديل إجراءات التنظيف الإضافية المنسدلة"
+   },
+   "editExpressionText": {
+      "description": "Edit expression",
+      "message": "تعديل الصيغة"
+   },
+   "enableAutoDeleteText": {
+      "description": "Toggle to enable automatic cleanup (automatic mode)",
+      "message": "انقر لتمكين المسح التلقائي (الوضع التلقائي)"
+   },
+   "enableCleanupLogText": {
+      "description": "Enable Cleanup Log and Counter",
+      "message": "تمكين مسح السجل والعداد"
+   },
+   "enableContextMenus": {
+      "description": "Enable Context Menus (Right-Click Menu). Shown in CAD Settings",
+      "message": "تمكين قوائم السياق (القائمة بالضغط الأيمن)"
+   },
+   "enableGreyListCleanup": {
+      "description": "Enable Greylist Cleanup on Browser Restart",
+      "message": "تمكين تنظيف القائمة الرمادية عند إعادة تشغيل المتصفح"
+   },
+   "enableNewVersionPopup": {
+      "description": "Enable Popup when New Version is Released",
+      "message": "تمكين النوافذ المنبثقة عند إصدار الإصدار الجديد"
+   },
+   "errorText": {
+      "description": "Error!",
+      "message": "خطأ!"
+   },
+   "exportSettingsText": {
+      "description": "Export Core Settings... Found in CAD Settings.",
+      "message": "تصدير إعدادات الأساسية..."
+   },
+   "exportTitleTimestamp": {
+      "description": "A timestamp will be appended to the filename on export.",
+      "message": "سيتم إلحاق طابع زمني باسم الملف عند التصدير."
+   },
+   "exportURLSText": {
+      "description": "Export Expressions... Found in List of Expressions.",
+      "message": "تصدير التعبيرات..."
+   },
+   "expressionListText": {
+      "description": "List of Expressions",
+      "message": "قائمة التعبيرات"
+   },
+   "extensionDescription": {
+      "description": "Control your cookies! Automatically delete unwanted cookies from your closed tabs while keeping the ones you want.",
+      "message": "تحكم في سجلات الكوكيز! تلقائيا حذف سجلات الكوكيز الغير المستخدمة من علامات التبويب المغلقة مع الحفاظ على تلك التي تريدها."
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "faqText": {
+      "description": "Frequently Asked Questions, Common issues and solutions",
+      "message": "الأسئلة التي كثيرا ما تطرح والقضايا والحلول المشتركة"
+   },
+   "filterDebugMode": {
+      "description": "To see only debug outputs by this extension, filter output by the following line. Found after enabling debug mode.",
+      "message": "لمشاهدة نواتج التصحيح فقط عن طريق هذا الملحق، إخراج الفلتر بالسطر التالي:"
+   },
+   "filterText": {
+      "description": "Filter",
+      "message": "فلتر"
+   },
+   "greyListWordText": {
+      "description": "Greylist",
+      "message": "القائمة الرمادية"
+   },
+   "groupExpressionDefaultNotice": {
+      "description": "Looking to set default expression options for new expressions?  It has been enhanced to be an expression option itself!  Visit $listExpression$ to get started!  Shown in Settings",
+      "message": "هل تريد تعيين خيارات التعبير الافتراضية للتعبيرات الجديدة؟ تم تعزيزها لتكون خيار التعبير نفسه! قم بزيارة $listExpression$ للبدء!",
+      "placeholders": {
+         "listExpression": {
+            "content": "$1",
+            "example": "List of Expressions \u003C- the translated version"
+         }
+      }
+   },
+   "importCoreSettingsFailed": {
+      "description": "Import Core Settings Failed - Found unknown setting",
+      "message": "فشل استيراد إعدادات النواة - تم العثور على إعدادات غير معروفة"
+   },
+   "importCoreSettingsText": {
+      "description": "Import Core Settings... Found in CAD Settings.",
+      "message": "استيراد الإعدادات الأساسية..."
+   },
+   "importFileTypeInvalid": {
+      "description": "File given is not a type we handle",
+      "message": "الملف المعطى ليس النوع الذي نتعامل معه"
+   },
+   "importFileValidationFailed": {
+      "description": "File given failed validation",
+      "message": "فشل التحقق من صحة الملف"
+   },
+   "importMissingKey": {
+      "description": "Missing identifier",
+      "message": "معرف مفقود"
+   },
+   "importURLSText": {
+      "description": "Import Expressions... Found in List of Expressions.",
+      "message": "استيراد التعبيرات..."
+   },
+   "indexedDBText": {
+      "description": "IndexedDB. Primarily used in notifications.",
+      "message": "فهرس"
+   },
+   "keepAllCookiesGreyText": {
+      "description": "Keep All Cookies until restart. Found in Expression Options. For Greylist entries.",
+      "message": "الاحتفاظ بجميع ملفات تعريف الارتباط حتى إعادة التشغيل"
+   },
+   "keepAllCookiesText": {
+      "description": "Keep All Cookies. Found in Expression Options. For Whitelist entries.",
+      "message": "احتفظ بجميع ملفات تعريف الارتباط"
+   },
+   "keepCacheGreyText": {
+      "description": "Keep Cache until restart. Found in Expression Options. For Greylist entries.",
+      "message": "إبقاء ذاكرة التخزين المؤقت حتى إعادة التشغيل"
+   },
+   "keepCacheText": {
+      "description": "Keep Cache. Found in Expression Options. For Whitelist entries.",
+      "message": "الحفاظ على المخبئ"
+   },
+   "keepDefaultIcon": {
+      "description": "Keep Default Icons on all list types. Disabled: keep blue icon, grey for automatic cleaning disabled. Enabled: red/yellow/blue depending on matching expressions in list.",
+      "message": "الحفاظ على الأيقونات الافتراضية في جميع أنواع القائمة"
+   },
+   "keepIndexedDBText": {
+      "description": "Keep IndexedDB. Found in Expression Options. For Whitelist entries.",
+      "message": "احتفظ بالفهرسة"
+   },
+   "keepLocalstorageGreyText": {
+      "description": "Keep LocalStorage until restart. Found in Expression Options. For Greylist entries.",
+      "message": "الحفاظ على وحدة التخزين المحلية حتى إعادة التشغيل"
+   },
+   "keepLocalstorageText": {
+      "description": "Keep LocalStorage. Found in Expression Options. For Whitelist entries.",
+      "message": "الحفاظ على التخزين المحلي"
+   },
+   "keepPluginDataGreyText": {
+      "description": "Keep Plugin Data until restart. Found in Expression Options. For Greylist entries.",
+      "message": "الاحتفاظ ببيانات المكون الإضافي حتى إعادة التشغيل"
+   },
+   "keepPluginDataText": {
+      "description": "Keep Plugin Data. Found in Expression Options. For Whitelist entries.",
+      "message": "الاحتفاظ ببيانات المكون الإضافي"
+   },
+   "keepServiceWorkersGreyText": {
+      "description": "Keep Service Workers until restart. Found in Expression Options. For Greylist entries.",
+      "message": "إبقاء عمال الخدمة حتى إعادة التشغيل"
+   },
+   "keepServiceWorkersText": {
+      "description": "Keep Service Workers. Found in Expression Options. For Whitelist entries.",
+      "message": "الاحتفاظ بعمال الخدمة"
+   },
+   "keepText": {
+      "description": "Keep",
+      "message": "احتفظ"
+   },
+   "listTypeText": {
+      "description": "List Type",
+      "message": "نوع القائمة"
+   },
+   "localStorageCleanupText": {
+      "description": "Enable LocalStorage Cleanup (Firefox 58+, Chrome 74+). Found in CAD Settings.",
+      "message": "تمكين تنظيف التخزين المحلي (فايرفوكس 58+، كروم 74+)"
+   },
+   "localStorageText": {
+      "description": "LocalStorage. Primarily used in notifications.",
+      "message": "التخزين المحلي"
+   },
+   "manualActionNotification": {
+      "description": "Manual Action Notification - used as Notification Title.",
+      "message": "إشعار الإجراء اليدوي"
+   },
+   "manualCleanError": {
+      "description": "$siteData$ cannot be cleaned for tab:. Shown as notification if manual clean cookies cannot be done.",
+      "message": "لا يمكن تنظيف $siteData$ للتبويب:",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         }
+      }
+   },
+   "manualCleanNothing": {
+      "description": "No $siteData$ were found for cleaning on $url$. Used in notification after manual clean.",
+      "message": "لم يتم العثور على $siteData$ للتنظيف في $url$.",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         },
+         "url": {
+            "content": "$2",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanRemoved": {
+      "description": "Removed $deleted$ of $total$. Used as part of success notification on manual clean.",
+      "message": "تم إزالة $deleted$ من $total$.",
+      "placeholders": {
+         "deleted": {
+            "content": "$1",
+            "example": "5"
+         },
+         "total": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "manualCleanSiteDataAll": {
+      "description": "Clean All for this domain. Found in Popup clean dropdown menu.",
+      "message": "تنظيف الكل لهذا النطاق"
+   },
+   "manualCleanSiteDataAllDomain": {
+      "description": "Clear all site data for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "مسح جميع بيانات الموقع لـ $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataCache": {
+      "description": "Clean Cache for this domain. Found in Popup clean dropdown menu.",
+      "message": "تنظيف ذاكرة التخزين المؤقت لهذا النطاق"
+   },
+   "manualCleanSiteDataCacheDomain": {
+      "description": "Clear all Cache for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "مسح كل ذاكرة التخزين المؤقت لـ $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataCookies": {
+      "description": "Clean Cookies for this domain. Found in Popup clean dropdown menu.",
+      "message": "تنظيف ملفات تعريف الارتباط لهذا النطاق"
+   },
+   "manualCleanSiteDataCookiesDomain": {
+      "description": "Clear all Cookies for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "مسح جميع ملفات تعريف الارتباط لـ $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataLocalStorage": {
+      "description": "Clean LocalStorage for this domain. Found in Popup clean dropdown menu.",
+      "message": "التخزين المحلي النظيف لهذا النطاق"
+   },
+   "manualCleanSiteDataLocalStorageDomain": {
+      "description": "Clear all LocalStorage for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "مسح كل وحدة التخزين المحلية لـ $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataPluginData": {
+      "description": "Clean Plugin Data for this domain. Found in Popup clean dropdown menu.",
+      "message": "تنظيف بيانات المكون الإضافي لهذا النطاق"
+   },
+   "manualCleanSiteDataPluginDataDomain": {
+      "description": "Clear all Plugin Data for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "مسح كافة البيانات الإضافية لـ $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataServiceWorkers": {
+      "description": "Clean Service Workers for this domain. Found in Popup clean dropdown menu.",
+      "message": "عمال خدمة نظيفون لهذا المجال"
+   },
+   "manualCleanSiteDataServiceWorkersDomain": {
+      "description": "Clear all Service Workers for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "مسح جميع عمال الخدمة لـ $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSuccess": {
+      "description": "Cleanup for $siteData$ on $url$ result:  Shown as notification after successful manual cleaning.",
+      "message": "تنظيف $siteData$ نتيجة $url$:",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         },
+         "url": {
+            "content": "$2",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualNotificationsText": {
+      "description": "Show Notification from Manual Site Data Cleanups. Found in settings",
+      "message": "إظهار الإشعار من تنظيف بيانات الموقع اليدوي"
+   },
+   "matchedDomainExpressionText": {
+      "description": "Matched Domain Expression",
+      "message": "تعبير النطاق المتطابق"
+   },
+   "menuText": {
+      "description": "Menu. Only shown when the settings screen is small / when the hamburger icon shows / when the menu is collapsed.",
+      "message": "القائمة"
+   },
+   "minutesText": {
+      "description": "minute(s)",
+      "message": "دقيقة"
+   },
+   "missingContainerText": {
+      "description": "INVALID CONTAINER. Shown when a CAD list exists but cannot link id to available containers (Firefox).",
+      "message": "اتصال غير صالح"
+   },
+   "noCleanupLogText": {
+      "description": "No Cleanup Logs Found",
+      "message": "لم يتم العثور على سجلات مسح"
+   },
+   "noExpressionsText": {
+      "description": "No expressions defined.",
+      "message": "لم يتم تعريف التعبيرات."
+   },
+   "noPrivateLogging": {
+      "description": "Cleanup Logs will not be generated for tabs in Private Browsing / Incognito / InPrivate.",
+      "message": "لن يتم إنشاء سجلات التنظيف لعلامات التبويب في التصفح الخاص / التخفي / غير الخاص."
+   },
+   "noRulesText": {
+      "description": "No rules matched this domain",
+      "message": "لا توجد قواعد مطابقة لهذا النطاق."
+   },
+   "noneText": {
+      "description": "None",
+      "message": "لا شيء"
+   },
+   "notificationContent": {
+      "description": "Some site data, including 123 Cookie(s), removed from 8 domain(s), including: google.com, facebook.com",
+      "message": "بعض بيانات الموقع، بما في ذلك $Num$ ملف تعريف الارتباط، تمت إزالتها من نطاق $total$ ، بما في ذلك: $Websites$",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "123"
+         },
+         "total": {
+            "content": "$2",
+            "example": "8"
+         },
+         "websites": {
+            "content": "$3",
+            "example": "google.com, facebook.com"
+         }
+      }
+   },
+   "notificationDisabledText": {
+      "description": "Notification disabled",
+      "message": "الإشعارات معطلة"
+   },
+   "notificationEnabledText": {
+      "description": "Notification enabled",
+      "message": "تم تمكين الإشعار"
+   },
+   "notificationTitle": {
+      "description": "Cookies were deleted!  Used in Notification Title.",
+      "message": "Cookies were deleted!"
+   },
+   "notificationTitleSiteData": {
+      "description": "Site Data Removal Triggered!  Used in Notification Title.",
+      "message": "تم تفعيل إزالة بيانات الموقع!"
+   },
+   "notifyCookieCleanUpText": {
+      "description": "Show Notification After Automatic Cleanup. Found in settings.",
+      "message": "إظهار الإشعار بعد التنظيف التلقائي"
+   },
+   "notifyCookieCleanupDelayText": {
+      "description": "Duration for Notifications",
+      "message": "مدة الإشعارات"
+   },
+   "oldReleasesText": {
+      "description": "Older release notes can be viewed online at",
+      "message": "يمكن مشاهدة ملاحظات الإصدار الأقدم على الإنترنت في"
+   },
+   "openDebugMode": {
+      "description": "To view the debug outputs, open a new tab and visit",
+      "message": "لعرض مخرجات التصحيح، قم بفتح علامة تبويب جديدة وزيارة"
+   },
+   "optionsText": {
+      "description": "Options",
+      "message": "خيارات"
+   },
+   "pluginDataCleanupText": {
+      "description": "Enable Plugin Data Cleanup (Firefox 78+, Chrome 74+). Found in CAD Settings.",
+      "message": "تمكين تنظيف البيانات الإضافية (فايرفوكس 78+، كروم 74+)"
+   },
+   "pluginDataText": {
+      "description": "Plugin Data. Primarily used in notifications.",
+      "message": "بيانات الإضافات"
+   },
+   "popupCookieCountText": {
+      "description": "Cookies. Due to visual formatting, Cookie Count will always be located on the right side after the colon. Found in Popup near top-right.",
+      "message": "الكعكات"
+   },
+   "preferencesText": {
+      "description": "Settings",
+      "message": "الإعدادات"
+   },
+   "questionExpression": {
+      "description": "How do Expressions work?",
+      "message": "كيف تعمل التعبيرات؟"
+   },
+   "reasonCADSiteDataCookie": {
+      "description": "Clean to trigger Site Data cleaning for $hostname$. Found in Activity Log Detailed Entries.",
+      "message": "تنظيف لتفعيل تنظيف بيانات الموقع لـ $hostname$.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "placeholder": "example.com"
+         }
+      }
+   },
+   "reasonCleanCookieExpired": {
+      "description": "Partial clean because of expired cookies from $hostname$.",
+      "message": "تنظيف جزئي بسبب انتهاء صلاحية ملفات تعريف الارتباط من $hostname$.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "placeholder": "sub.domain.com"
+         }
+      }
+   },
+   "reasonCleanCookieName": {
+      "description": "Partial clean because of matched $matchedExpression$ in the $listType$. Used in cleanup logs.",
+      "message": "تنظيف جزئي بسبب مطابقة $matchedExpression$ في $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanGreyList": {
+      "description": "Clean because of startup cleanup and $matchedExpression$ is in the Greylist. Used in cleanup log.",
+      "message": "تنظيف بسبب تنظيف بدء التشغيل و $matchedExpression$ في القائمة الرمادية",
+      "placeholders": {
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanNoList": {
+      "description": "Clean because $hostname$ is not in the White or Grey lists",
+      "message": "تنظيف لأن $hostname$ ليس في القائمة البيضاء أو الرمادية",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonCleanStartupNoList": {
+      "description": "Clean because of startup cleanup and $hostname$ is not in the White or Grey lists",
+      "message": "تنظيف بسبب تنظيف بدء التشغيل و $hostname$ ليس في القوائم البيضاء أو الرمادية",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonKeep": {
+      "description": "Keep because of matched $matchedExpression$ in the $listType$",
+      "message": "استمر بسبب مطابقة $matchedExpression$ في $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonKeepOpenTab": {
+      "description": "Keep because of open tabs of *.$mainDomain$",
+      "message": "استمر بسبب علامات التبويب المفتوحة لـ *.$mainDomain$",
+      "placeholders": {
+         "mainDomain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "reasonTabsWereIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] and also open tabs were ignored",
+      "message": "و كذلك تم تجاهل علامات التبويب المفتوحة"
+   },
+   "reasonTabsWereNotIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] or in any open tabs",
+      "message": "أو في أي علامات تبويب مفتوحة"
+   },
+   "releaseNotesText": {
+      "description": "Release Notes",
+      "message": "ملاحظات الإصدار"
+   },
+   "removeActivityLogEntryText": {
+      "description": "Remove Log Entry. Shown in summary activity log for individual log removal.",
+      "message": "إزالة إدخال السجل"
+   },
+   "removeAllExpressions": {
+      "description": "Remove All Expressions",
+      "message": "إزالة جميع التعبيرات"
+   },
+   "removeAllExpressionsConfirm": {
+      "description": "Are you sure you want to remove ALL ($expressionCount$) saved expression(s) from ($listCount$) list(s)?\n\nTHIS CANNOT BE UNDONE!\n\nType [ $expressionCount$ ] and click OK to delete. Popup prompt if Delete All Expression is clicked.",
+      "message": "هل أنت متأكد من أنك تريد إزالة كل ($expressionCount$) التعابير المحفوظة من قائمة ($listCount$) ؟\n\nلا يمكن إلغاء هذا!\n\nاكتب [ $expressionCount$ ] وانقر موافق للحذف.",
+      "placeholders": {
+         "expressionCount": {
+            "content": "$1",
+            "example": "75"
+         },
+         "listCount": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "removeAllExpressionsNoneFound": {
+      "description": "No expressions to remove!",
+      "message": "لا توجد عبارات لإزالتها!"
+   },
+   "removeExpressionText": {
+      "description": "Remove expression",
+      "message": "حفظ الصيغة"
+   },
+   "removeListText": {
+      "description": "Remove All Expressions from Selected List. Shown in List of Expressions, only on Firefox and if containers/contextual identities is enabled.",
+      "message": "إزالة جميع التعبيرات من القائمة المحددة"
+   },
+   "removeStorageCount": {
+      "description": "Removed $count$ item(s) from $storageType$. Used in manual localstorage clean notification.",
+      "message": "تمت إزالة $count$ عنصر (عناصر) من $storageType$.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "1"
+         },
+         "storageType": {
+            "content": "$2",
+            "example": "LocalStorage"
+         }
+      }
+   },
+   "reportIssuesText": {
+      "description": "Report issues and suggest features",
+      "message": "الإبلاغ عن المشكلات واقتراح الميزات"
+   },
+   "resetCookieCounterText": {
+      "description": "Reset Cookie Counters. Button in Welcome Page.",
+      "message": "إعادة تعيين عدادات ملفات تعريف الارتباط"
+   },
+   "resetExtensionDataText": {
+      "description": "Reset Extension Data",
+      "message": "إعادة تعيين بيانات الملحق"
+   },
+   "restoreText": {
+      "description": "Restore. Restores cookies that was cleaned up by this extension. Found in Activity Log entries.",
+      "message": "إستعادة"
+   },
+   "reviewLinkMessage": {
+      "description": "Thanks for trying out Cookie AutoDelete. If you liked it, then please give a review.",
+      "message": "شكرا لتجربة $cadTitle$. إذا أعجبته، فيرجى تقديم مراجعة.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         }
+      }
+   },
+   "saveExpressionText": {
+      "description": "Save expression",
+      "message": "حفظ الصيغة"
+   },
+   "secondsText": {
+      "description": "second(s)",
+      "message": "ثانية"
+   },
+   "serviceWorkersCleanupText": {
+      "description": "Enable Service Workers Cleanup (Firefox 77+, Chrome 74+). Found in CAD Settings.",
+      "message": "تمكين تنظيف عمال الخدمات (فايرفوكس 77+، كروم 74+)"
+   },
+   "serviceWorkersText": {
+      "description": "Service Workers. Primarily used in notifications.",
+      "message": "عمال الخدمات"
+   },
+   "sessionStorageText": {
+      "description": "SessionStorage. Used in manual localstorage clean notification",
+      "message": "تخزين الجلسة"
+   },
+   "settingGroupAutoClean": {
+      "description": "Automatic Cleaning Options",
+      "message": "خيارات التنظيف التلقائي"
+   },
+   "settingGroupExpression": {
+      "description": "Expression Options",
+      "message": "خيارات التعبير"
+   },
+   "settingGroupExtension": {
+      "description": "Extension Options",
+      "message": "خيارات الإضافات"
+   },
+   "settingGroupOtherBrowsing": {
+      "description": "Other Browsing Data Cleanup Options",
+      "message": "خيارات تنظيف بيانات التصفح الأخرى"
+   },
+   "settingsText": {
+      "description": "$CAD$ Settings",
+      "message": "إعدادات $CAD$",
+      "placeholders": {
+         "CAD": {
+            "content": "CAD",
+            "example": "CAD - Short form of Cookie AutoDelete"
+         }
+      }
+   },
+   "showNumberOfCookiesInIconText": {
+      "description": "Show Number of Cookies for that Domain over the Icon",
+      "message": "إظهار عدد ملفات تعريف الارتباط لهذا المجال عبر الرمز"
+   },
+   "siteDataText": {
+      "description": "Site Data. Found in Activity Log Summary and Notifications.",
+      "message": "بيانات الموقع"
+   },
+   "sizePopupText": {
+      "description": "Size of Popup (in px). This sets the font size in the Popup.",
+      "message": "حجم النوافذ المنبثقة (بالبكسل)"
+   },
+   "sizeSettingText": {
+      "description": "Size of Setting Pages (in px). This sets the font size in the Setting Pages.",
+      "message": "حجم إعدادات الصفحات (بالبكسل)"
+   },
+   "stopEditingText": {
+      "description": "Stop editing",
+      "message": "إيقاف التعديل"
+   },
+   "successText": {
+      "description": "Success!",
+      "message": "نجاح!"
+   },
+   "toGreyListText": {
+      "description": "Add to Greylist (Clean on Browser Restart)",
+      "message": "إضافة إلى القائمة الرمادية (إعادة تشغيل المتصفح)"
+   },
+   "toWhiteListText": {
+      "description": "Add to Whitelist (Never Clean)",
+      "message": "إضافة إلى القائمة البيضاء (لم يتم تنظيفها)"
+   },
+   "toggleNotificationText": {
+      "description": "Toggle to enable or disable notifications",
+      "message": "انقر لتمكين الإشعارات أو تعطيلها"
+   },
+   "toggleToGreyListWordText": {
+      "description": "Toggle to greylist",
+      "message": "تبديل إلى القائمة الرمادية"
+   },
+   "toggleToWhiteListWordText": {
+      "description": "Toggle to whitelist",
+      "message": "تبديل إلى القائمة الرمادية"
+   },
+   "versionNumberText": {
+      "description": "$CAD$ version 3.2.1. The actual number is formatted differently and will be right below this text.",
+      "message": "الإصدار $CAD$",
+      "placeholders": {
+         "CAD": {
+            "content": "$1",
+            "example": "CAD or Cookie AutoDelete"
+         }
+      }
+   },
+   "versionText": {
+      "description": "Firefox version",
+      "message": "إصدار $browser$",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         }
+      }
+   },
+   "welcomeMessage": {
+      "description": "Hi there! During this session, Cookie AutoDelete has deleted 123 cookies and in total 456 cookies.",
+      "message": "مرحبًا! خلال هذه الجلسة، قام $cadTitle$ بحذف ملفات تعريف الارتباط $sessionDeleted$ وفي المجموع $totalDeleted$ ملفات تعريف الارتباط.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         },
+         "sessionDeleted": {
+            "content": "$2",
+            "example": "123"
+         },
+         "totalDeleted": {
+            "content": "$3",
+            "example": "456"
+         }
+      }
+   },
+   "welcomeText": {
+      "description": "Welcome",
+      "message": "مرحبا"
+   },
+   "whiteListWordText": {
+      "description": "Whitelist",
+      "message": "القائمة البيضاء"
+   }
+}

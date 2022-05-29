@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Dot dzeramnaudu šim tvītam",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Dzeramnauda",
+    "description": "Icon label for tip button"
+  }
+}

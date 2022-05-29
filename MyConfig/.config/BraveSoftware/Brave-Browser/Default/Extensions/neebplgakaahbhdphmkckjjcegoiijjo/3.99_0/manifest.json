@@ -1,0 +1,38 @@
+{
+   "author": "Keepa GmbH",
+   "background": {
+      "page": "chrome/content/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "32": "icons/i32.png",
+         "48": "icons/i48.png"
+      },
+      "default_title": "Keepa automatically loads on Amazon product pages."
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chrome/content/content.js" ],
+      "matches": [ "*://*.keepa.com/*", "*://*.amazon.com/*", "*://*.amzn.com/*", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*", "*://*.amazon.es/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*", "*://*.amazon.com.au/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "Adds price history charts and the option to be alerted on price drops to all Amazon sites.",
+   "homepage_url": "https://keepa.com",
+   "icons": {
+      "128": "icons/i128.png",
+      "16": "icons/i16.png",
+      "32": "icons/i32.png",
+      "48": "icons/i48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDD1oAEkEvui5bB9DFRUZX/gxvpP6iHPPl6rcOuEfG0RGaJe3zbNhjVrX2cCRiCMwVI5utJxQ20+Nzsy0QlHWv4XLe2UWI7p1Yt+2jQuIFM4GhXpqofqem7Nlzm5bq9E7BKRQeg5N+ngwSIaZNHVOhB3CgEtrGXYOC9HuS8PV0XcQIDAQAB",
+   "manifest_version": 2,
+   "name": "Keepa - Amazon Price Tracker",
+   "optional_permissions": [ "webRequest", "webRequestBlocking" ],
+   "options_page": "chrome/content/options.html",
+   "permissions": [ "storage", "cookies", "contextMenus", "*://*.keepa.com/*", "*://*.amazon.com/*", "*://*.amzn.com/*", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*", "*://*.amazon.es/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*", "*://*.amazon.com.au/*" ],
+   "short_name": "Keepa",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.99",
+   "web_accessible_resources": [ "chrome/content/selectionHook.js" ]
+}

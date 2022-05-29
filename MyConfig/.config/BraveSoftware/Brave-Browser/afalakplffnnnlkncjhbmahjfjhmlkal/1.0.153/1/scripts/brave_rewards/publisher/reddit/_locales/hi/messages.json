@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "इस पोस्ट के लिए टिप दें",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "टिप ",
+    "description": "Icon label for tip button"
+  }
+}

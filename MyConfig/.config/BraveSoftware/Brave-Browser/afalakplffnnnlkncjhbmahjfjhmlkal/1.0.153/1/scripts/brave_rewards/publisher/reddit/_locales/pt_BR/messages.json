@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Dê uma gorjeta para esta publicação",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Doar",
+    "description": "Icon label for tip button"
+  }
+}

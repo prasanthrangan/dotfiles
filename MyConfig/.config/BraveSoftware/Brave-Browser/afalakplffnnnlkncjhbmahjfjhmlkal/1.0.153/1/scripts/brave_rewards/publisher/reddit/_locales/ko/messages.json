@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "이 포스팅에 팁",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "팁",
+    "description": "Icon label for tip button"
+  }
+}

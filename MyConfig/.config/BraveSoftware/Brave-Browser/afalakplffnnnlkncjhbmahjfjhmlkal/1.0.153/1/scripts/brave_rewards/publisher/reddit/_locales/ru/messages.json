@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Дать чаевые за этот пост",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Дать чаевые",
+    "description": "Icon label for tip button"
+  }
+}

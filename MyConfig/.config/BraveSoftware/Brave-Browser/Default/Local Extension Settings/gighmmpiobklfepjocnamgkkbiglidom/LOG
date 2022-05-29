@@ -1,0 +1,19 @@
+2022/05/29-15:24:41.996 3e1 Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/05/29-15:24:41.996 3e1 Recovering log #561
+2022/05/29-15:24:42.106 3e1 Level-0 table #564: started
+2022/05/29-15:24:42.177 3e1 Level-0 table #564: 7770738 bytes OK
+2022/05/29-15:24:42.181 3e1 Delete type=0 #561
+2022/05/29-15:25:43.914 40e Level-0 table #567: started
+2022/05/29-15:25:43.977 40e Level-0 table #567: 7770637 bytes OK
+2022/05/29-15:25:43.979 40e Delete type=0 #565
+2022/05/29-15:25:43.980 40e Compacting 4@0 + 2@1 files
+2022/05/29-15:25:44.110 40e Generated table #568@0: 1 keys, 7770554 bytes
+2022/05/29-15:25:44.112 40e Generated table #569@0: 7 keys, 429 bytes
+2022/05/29-15:25:44.112 40e Compacted 4@0 + 2@1 files => 7770983 bytes
+2022/05/29-15:25:44.114 40e compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/05/29-15:25:44.114 40e Delete type=2 #557
+2022/05/29-15:25:44.114 40e Delete type=2 #567
+2022/05/29-15:25:44.114 40e Delete type=2 #558
+2022/05/29-15:25:44.114 40e Delete type=2 #564
+2022/05/29-15:25:44.114 40e Delete type=2 #560
+2022/05/29-15:25:44.114 40e Delete type=2 #562

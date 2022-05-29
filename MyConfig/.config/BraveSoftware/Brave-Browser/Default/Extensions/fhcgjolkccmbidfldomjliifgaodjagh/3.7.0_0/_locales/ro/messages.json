@@ -1,0 +1,996 @@
+{
+   "aboutText": {
+      "description": "About",
+      "message": "Despre"
+   },
+   "activeModeDelayText": {
+      "description": "Delay Before Automatic Cleaning",
+      "message": "Întârziere înainte de curățare automată"
+   },
+   "activeModeText": {
+      "description": "Enable Automatic Cleaning",
+      "message": "Activează curățarea automată"
+   },
+   "activityLogSiteDataDomainsText": {
+      "description": "Invoked cleanup of $siteData$ for: $domains$. Found in Activity Log Detailed Entries.",
+      "message": "Curățarea sugerată a $siteData$ pentru: $domains$",
+      "placeholders": {
+         "domains": {
+            "content": "$2",
+            "example": "example.com, github.com"
+         },
+         "siteData": {
+            "content": "$1",
+            "example": "Cache (translated version)"
+         }
+      }
+   },
+   "addNewExpressionNotification": {
+      "description": "Adding $expression$ to list type $listType$ under cookie store $cookieStore$. Used in notification when right-click action was performed.",
+      "message": "Adăugarea $expression$ la tipul de listă $listType$ sub magazinul de cookie $cookieStore$.",
+      "placeholders": {
+         "cookieStore": {
+            "content": "$3",
+            "example": "'default' -or- 'firefox-container-1 (Personal)'"
+         },
+         "expression": {
+            "content": "$1",
+            "example": "example.com"
+         },
+         "listType": {
+            "content": "$2",
+            "example": "WHITE"
+         }
+      }
+   },
+   "addNewExpressionNotificationFailed": {
+      "description": "Could not fetch domain to add from where right-click was issued.",
+      "message": "Nu s-a putut prelua domeniul de adăugat, de unde a fost emis click-dreapta."
+   },
+   "addNewExpressionNotificationIgnore": {
+      "description": "If expression already exists, this will be ignored. Used in notification when right-click action was performed.",
+      "message": "Dacă expresia există deja, acest lucru va fi ignorat."
+   },
+   "autoDeleteDisabledText": {
+      "description": "Auto-clean disabled",
+      "message": "Ștergerea automată dezactivată"
+   },
+   "autoDeleteEnabledText": {
+      "description": "Auto-clean enabled",
+      "message": "Ștergerea automată activată"
+   },
+   "browsingDataWarning": {
+      "description": "WARNING: Upon enabling any of the following site data cleanup options, ALL existing data for that type will be cleared. Found in CAD Settings",
+      "message": "AVERTISMENT: Activând oricare dintre opțiunile de curățare a datelor din site-ul următor, TOATE datele existente pentru acest tip vor fi șterse."
+   },
+   "cacheCleanupText": {
+      "description": "Enable Cache Cleanup (Firefox 78+, Chrome 74+). Found in CAD Settings.",
+      "message": "Activează curățarea Cache (Firefox 78+, Chrome 74+)"
+   },
+   "cacheText": {
+      "description": "Cache. Primarily used in notifications.",
+      "message": "Geocutie"
+   },
+   "chromeDebugMode": {
+      "description": "Ensure 'Developer Mode' is enabled, then click on 'background page' under Inspect View. This is shown if debug mode is enabled.",
+      "message": "Asigurați-vă că 'Modul Dezvoltator' este activat, apoi faceți clic pe 'pagina de fundal' sub Vizualizare."
+   },
+   "cleanDiscardedText": {
+      "description": "Enable Cleanup for Discarded/Unloaded Tabs. Found in Settings.",
+      "message": "Activează curățarea pentru filele aruncate/descărcate"
+   },
+   "cleanExpiredCookiesText": {
+      "description": "Clean All Expired Cookies. Found in Settings.",
+      "message": "Curăță toate cookie-urile expirate"
+   },
+   "cleanIgnoringOpenTabsText": {
+      "description": "Clean, include open tabs. Found in the additional cleanup options in the popup.",
+      "message": "Curăță, inclusiv pentru filele deschise"
+   },
+   "cleanText": {
+      "description": "Clean",
+      "message": "Curăță"
+   },
+   "cleanupActionsBypass": {
+      "description": "Warning - Actions below ignore settings! Found in the additional cleanup options in the popup.",
+      "message": "Atenţie - Acţiuni de mai jos ignoră setările!"
+   },
+   "cleanupDomainChangeText": {
+      "description": "Enable Cleanup on Domain Change",
+      "message": "Activează ștergerea la schimbarea domeniului"
+   },
+   "cleanupLogText": {
+      "description": "Cleanup Log",
+      "message": "Jurnalul de curățare"
+   },
+   "clearLogsText": {
+      "description": "Clear Logs",
+      "message": "Șterge jurnalele"
+   },
+   "consoleDebugMode": {
+      "description": "Click on the Console Tab. Found after enabling debug mode.",
+      "message": "Faceți clic pe fila Console"
+   },
+   "containerSiteDataWarning": {
+      "description": "WARNING: Enabling Container Tabs with any of the additional browsing data cleanups above may cause unwanted side effects due to browser API limitations. Site data types, with the exception of cookies, will be cleared by hostname for ALL containers. Found in CAD Settings.",
+      "message": "AVERTISMENT: Activarea filelor de containere cu oricare dintre curățările suplimentare de date de navigare de mai sus poate provoca efecte secundare nedorite din cauza limitărilor browser-ului API. Tipurile de date ale site-ului, cu excepția cookie-urilor, vor fi șterse de hostname pentru TOATE containerele."
+   },
+   "contextMenusParentClean": {
+      "description": "Manual Cleaning Menu. Shown on right-clicks of Page/Browser Action.",
+      "message": "Meniu Manual de curățare"
+   },
+   "contextMenusParentExpression": {
+      "description": "Add Domain/Expression Menu. Shown on right-clicks of Page/Link/Selection.",
+      "message": "Adaugă Domeniu/Meniu Expresie"
+   },
+   "contextMenusSelectedDomainLink": {
+      "description": "For domain only of selected link. Shown in right-click menu.",
+      "message": "Numai pentru domeniul link-ului selectat"
+   },
+   "contextMenusSelectedDomainPage": {
+      "description": "For domain only of selected page. Shown in right-click menu.",
+      "message": "Numai pentru domeniul paginii selectate"
+   },
+   "contextMenusSelectedDomainText": {
+      "description": "For domain only of selected text: $selected$. Shown in right-click menu.",
+      "message": "Doar pentru domeniul textului selectat: $selected$",
+      "placeholders": {
+         "selected": {
+            "content": "$1",
+            "example": "github.com"
+         }
+      }
+   },
+   "contextMenusSelectedSubdomainLink": {
+      "description": "For all subdomains with domain of selected link. Shown in right-click menu.",
+      "message": "Pentru toate subdomeniile cu domeniul link-ului selectat"
+   },
+   "contextMenusSelectedSubdomainPage": {
+      "description": "For all subdomains with domain of selected page. Shown in right-click menu.",
+      "message": "Pentru toate subdomeniile cu domeniul paginii selectate"
+   },
+   "contextMenusSelectedSubdomainText": {
+      "description": "For all subdomains with domain of selected text: $selected$. Shown in right-click menu.",
+      "message": "Pentru toate subdomeniile cu domeniul textului selectat: $selected$",
+      "placeholders": {
+         "selected": {
+            "content": "$1",
+            "example": "github.com"
+         }
+      }
+   },
+   "contextualIdentitiesEnabledText": {
+      "description": "Enable Support for Container Tabs. Currently only in Firefox.",
+      "message": "Activează suportul pentru filele de container"
+   },
+   "contributeText": {
+      "description": "Contribute",
+      "message": "Contribuie"
+   },
+   "contributorsText": {
+      "description": "Contributors",
+      "message": "Colaboratori"
+   },
+   "cookieCleanUpOnStartText": {
+      "description": "Clean Cookies and other Site Data from Open Tabs on Startup",
+      "message": "Curăță Cookie-urile și alte date ale site-ului din file deschise la pornire"
+   },
+   "cookieCleanupIgnoreOpenTabsText": {
+      "description": "Run cleanup now, include cookies from open tabs. This is shown on mouseover from the available dropdown buttons.",
+      "message": "Rulează curățarea acum, include domenii din filele deschise"
+   },
+   "cookieCleanupText": {
+      "description": "Run cleanup now, exclude domains from open tabs. This is shown on mouseover on the button.",
+      "message": "Rulează curățarea acum, excluzând domeniile din filele deschise"
+   },
+   "cookiesText": {
+      "description": "Cookies. Primarily used in popup via alternate clean action dropdown.",
+      "message": "Cookie-uri"
+   },
+   "createDefaultExpressionOptionsText": {
+      "description": "Create Default Expression Options. Used in 'List of Expressions'",
+      "message": "Crează opțiuni de expresie implicite"
+   },
+   "currentContainerInfo": {
+      "description": "Current Container Selected: $ID$ ( $Name ). Found in List of Expressions only if Firefox containers enabled.",
+      "message": "Container curent selectat: $ID$ ( $Name$)",
+      "placeholders": {
+         "ID": {
+            "content": "$1",
+            "example": "firefox-container-1"
+         },
+         "Name": {
+            "content": "$2",
+            "example": "Personal (whatever the user has named the container) - or - translated version of 'Invalid Container'"
+         }
+      }
+   },
+   "debugMode": {
+      "description": "Enable Debug Mode (Additional Console Outputs). Found in CAD Settings.",
+      "message": "Activează Modul Depanare (Ieșiri Console Suplimentare)"
+   },
+   "defaultContainerText": {
+      "description": "No Container. This will be in brackets. Used in List of Expression in Firefox for Default / No Container",
+      "message": "Niciun container"
+   },
+   "defaultSettingsText": {
+      "description": "Restore Default Settings",
+      "message": "Restabilește configurările predefinite"
+   },
+   "defaultText": {
+      "description": "Default. Used in List of Expression in Firefox for Default / No Container.",
+      "message": "Implicit"
+   },
+   "disableAutoDeleteText": {
+      "description": "Toggle to disable automatic cleanup (manual mode)",
+      "message": "Schimbă pentru a dezactiva ștergerea automată (modul manual)"
+   },
+   "documentationText": {
+      "description": "Documentation",
+      "message": "Documentaţie"
+   },
+   "domainExpressionsText": {
+      "description": "Domain Expression",
+      "message": "Expresie pentru domeniu"
+   },
+   "dropdownAdditionalCleaningOptions": {
+      "description": "(Screen-readers only) - Toggle Additional Cleaning Actions Dropdown",
+      "message": "Comută meniul acțiunilor adiționale de curățare"
+   },
+   "editExpressionText": {
+      "description": "Edit expression",
+      "message": "Modifică expresia"
+   },
+   "enableAutoDeleteText": {
+      "description": "Toggle to enable automatic cleanup (automatic mode)",
+      "message": "Schimbă pentru a activa ștergerea automată (modul automat)"
+   },
+   "enableCleanupLogText": {
+      "description": "Enable Cleanup Log and Counter",
+      "message": "Activează jurnalul și contorul de ștergere"
+   },
+   "enableContextMenus": {
+      "description": "Enable Context Menus (Right-Click Menu). Shown in CAD Settings",
+      "message": "Activează Meniurile contextuale (Meniu-clic dreapta)"
+   },
+   "enableGreyListCleanup": {
+      "description": "Enable Greylist Cleanup on Browser Restart",
+      "message": "Activează curățarea Greylist pentru repornirea browser-ului"
+   },
+   "enableNewVersionPopup": {
+      "description": "Enable Popup when New Version is Released",
+      "message": "Activează Popup atunci când este lansată o nouă versiune"
+   },
+   "errorText": {
+      "description": "Error!",
+      "message": "Eroare!"
+   },
+   "exportSettingsText": {
+      "description": "Export Core Settings... Found in CAD Settings.",
+      "message": "Exportă setările nucleului..."
+   },
+   "exportTitleTimestamp": {
+      "description": "A timestamp will be appended to the filename on export.",
+      "message": "Un marcaj de timp va fi adăugat la numele fișierului la export."
+   },
+   "exportURLSText": {
+      "description": "Export Expressions... Found in List of Expressions.",
+      "message": "Exportă expresii..."
+   },
+   "expressionListText": {
+      "description": "List of Expressions",
+      "message": "Lista expresiilor"
+   },
+   "extensionDescription": {
+      "description": "Control your cookies! Automatically delete unwanted cookies from your closed tabs while keeping the ones you want.",
+      "message": "Controlează cookie-urile! Șterge automat cookie-urile nefolosite din filele închise și în același timp le păstrează pe cele dorite."
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "faqText": {
+      "description": "Frequently Asked Questions, Common issues and solutions",
+      "message": "Întrebări frecvente, probleme și soluții comune"
+   },
+   "filterDebugMode": {
+      "description": "To see only debug outputs by this extension, filter output by the following line. Found after enabling debug mode.",
+      "message": "Pentru a vedea doar ieșirile de depanare prin această extensie, filtrați ieșirea după linia următoare:"
+   },
+   "filterText": {
+      "description": "Filter",
+      "message": "Filtru"
+   },
+   "greyListWordText": {
+      "description": "Greylist",
+      "message": "Lista gri"
+   },
+   "groupExpressionDefaultNotice": {
+      "description": "Looking to set default expression options for new expressions?  It has been enhanced to be an expression option itself!  Visit $listExpression$ to get started!  Shown in Settings",
+      "message": "Doriți să setați opțiunile de expresie implicită pentru expresii noi? A fost consolidată pentru a fi o opțiune de expresie în sine! Vizitați $listExpression$ pentru a începe!",
+      "placeholders": {
+         "listExpression": {
+            "content": "$1",
+            "example": "List of Expressions \u003C- the translated version"
+         }
+      }
+   },
+   "importCoreSettingsFailed": {
+      "description": "Import Core Settings Failed - Found unknown setting",
+      "message": "Importul setărilor nucleului a eșuat - s-a găsit o setare necunoscută"
+   },
+   "importCoreSettingsText": {
+      "description": "Import Core Settings... Found in CAD Settings.",
+      "message": "Importă setările nucleului..."
+   },
+   "importFileTypeInvalid": {
+      "description": "File given is not a type we handle",
+      "message": "Fişierul dat nu este un tip de tip cu care ne ocupăm"
+   },
+   "importFileValidationFailed": {
+      "description": "File given failed validation",
+      "message": "Fișierul dat a eșuat validarea"
+   },
+   "importMissingKey": {
+      "description": "Missing identifier",
+      "message": "Identificator lipsă"
+   },
+   "importURLSText": {
+      "description": "Import Expressions... Found in List of Expressions.",
+      "message": "Importă expresii..."
+   },
+   "indexedDBCleanupText": {
+      "description": "Enable IndexedDB Cleanup (Firefox 77+, Chrome 74+). Found in CAD Settings.",
+      "message": "Activează curățarea IndexedDB (Firefox 77+, Chrome 74+)"
+   },
+   "indexedDBText": {
+      "description": "IndexedDB. Primarily used in notifications.",
+      "message": "IndexatDB"
+   },
+   "keepAllCookiesGreyText": {
+      "description": "Keep All Cookies until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Păstrați toate cookie-urile până la repornire"
+   },
+   "keepAllCookiesText": {
+      "description": "Keep All Cookies. Found in Expression Options. For Whitelist entries.",
+      "message": "Păstrează toate cookie-urile"
+   },
+   "keepCacheGreyText": {
+      "description": "Keep Cache until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Păstraţi Cache-ul până la repornire"
+   },
+   "keepCacheText": {
+      "description": "Keep Cache. Found in Expression Options. For Whitelist entries.",
+      "message": "Păstrează geocutia"
+   },
+   "keepDefaultIcon": {
+      "description": "Keep Default Icons on all list types. Disabled: keep blue icon, grey for automatic cleaning disabled. Enabled: red/yellow/blue depending on matching expressions in list.",
+      "message": "Păstrați pictogramele implicite pe toate tipurile de liste"
+   },
+   "keepIndexedDBGreyText": {
+      "description": "Keep IndexedDB until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Păstraţi IndexedDB până la repornire"
+   },
+   "keepIndexedDBText": {
+      "description": "Keep IndexedDB. Found in Expression Options. For Whitelist entries.",
+      "message": "Păstraţi IndexedDB"
+   },
+   "keepLocalstorageGreyText": {
+      "description": "Keep LocalStorage until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Păstraţi stocarea locală până la repornire"
+   },
+   "keepLocalstorageText": {
+      "description": "Keep LocalStorage. Found in Expression Options. For Whitelist entries.",
+      "message": "Păstrează Localstorage"
+   },
+   "keepPluginDataGreyText": {
+      "description": "Keep Plugin Data until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Păstrare date Plugin până la repornire"
+   },
+   "keepPluginDataText": {
+      "description": "Keep Plugin Data. Found in Expression Options. For Whitelist entries.",
+      "message": "Păstrare date plugin"
+   },
+   "keepServiceWorkersGreyText": {
+      "description": "Keep Service Workers until restart. Found in Expression Options. For Greylist entries.",
+      "message": "Păstrați lucrătorii de serviciu până la repornire"
+   },
+   "keepServiceWorkersText": {
+      "description": "Keep Service Workers. Found in Expression Options. For Whitelist entries.",
+      "message": "Păstrați lucrătorii de serviciu"
+   },
+   "keepText": {
+      "description": "Keep",
+      "message": "Păstrează"
+   },
+   "listTypeText": {
+      "description": "List Type",
+      "message": "Tipul de listă"
+   },
+   "localStorageCleanupText": {
+      "description": "Enable LocalStorage Cleanup (Firefox 58+, Chrome 74+). Found in CAD Settings.",
+      "message": "Activează curățarea depozitării locale (Firefox 58+, Chrome 74+)"
+   },
+   "localStorageText": {
+      "description": "LocalStorage. Primarily used in notifications.",
+      "message": "Stocare locală"
+   },
+   "manualActionNotification": {
+      "description": "Manual Action Notification - used as Notification Title.",
+      "message": "Notificare de acțiune manuală"
+   },
+   "manualCleanError": {
+      "description": "$siteData$ cannot be cleaned for tab:. Shown as notification if manual clean cookies cannot be done.",
+      "message": "$siteData$ nu poate fi curățat pentru filă:",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         }
+      }
+   },
+   "manualCleanNothing": {
+      "description": "No $siteData$ were found for cleaning on $url$. Used in notification after manual clean.",
+      "message": "Nu au fost găsite $siteData$ pentru curățare pe $url$.",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         },
+         "url": {
+            "content": "$2",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanRemoved": {
+      "description": "Removed $deleted$ of $total$. Used as part of success notification on manual clean.",
+      "message": "S-a eliminat $deleted$ din $total$.",
+      "placeholders": {
+         "deleted": {
+            "content": "$1",
+            "example": "5"
+         },
+         "total": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "manualCleanSiteDataAll": {
+      "description": "Clean All for this domain. Found in Popup clean dropdown menu.",
+      "message": "Curăță tot pentru acest domeniu"
+   },
+   "manualCleanSiteDataAllDomain": {
+      "description": "Clear all site data for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Șterge toate datele site-ului pentru $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataCache": {
+      "description": "Clean Cache for this domain. Found in Popup clean dropdown menu.",
+      "message": "Curăță Cache pentru acest domeniu"
+   },
+   "manualCleanSiteDataCacheDomain": {
+      "description": "Clear all Cache for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Golește tot Cache-ul pentru $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataCookies": {
+      "description": "Clean Cookies for this domain. Found in Popup clean dropdown menu.",
+      "message": "Curăță Cookie-urile pentru acest domeniu"
+   },
+   "manualCleanSiteDataCookiesDomain": {
+      "description": "Clear all Cookies for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Șterge toate cookie-urile pentru $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataIndexedDB": {
+      "description": "Clean IndexedDB for this domain. Found in Popup clean dropdown menu.",
+      "message": "Curăță IndexedDB pentru acest domeniu"
+   },
+   "manualCleanSiteDataIndexedDBDomain": {
+      "description": "Clear all IndexedDB for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Șterge toate IndexedDB pentru $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataLocalStorage": {
+      "description": "Clean LocalStorage for this domain. Found in Popup clean dropdown menu.",
+      "message": "Curăță stocarea locală pentru acest domeniu"
+   },
+   "manualCleanSiteDataLocalStorageDomain": {
+      "description": "Clear all LocalStorage for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Șterge tot spațiul de stocare pentru $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataPluginData": {
+      "description": "Clean Plugin Data for this domain. Found in Popup clean dropdown menu.",
+      "message": "Curăță Datele Plugin-ului pentru acest domeniu"
+   },
+   "manualCleanSiteDataPluginDataDomain": {
+      "description": "Clear all Plugin Data for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Șterge toate datele plugin-ului pentru $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSiteDataServiceWorkers": {
+      "description": "Clean Service Workers for this domain. Found in Popup clean dropdown menu.",
+      "message": "Lucrători de servicii curate pentru acest domeniu"
+   },
+   "manualCleanSiteDataServiceWorkersDomain": {
+      "description": "Clear all Service Workers for $domain$. Found in Popup clean dropdown menu as mouseover.",
+      "message": "Curăță toți lucrătorii de serviciu pentru $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualCleanSuccess": {
+      "description": "Cleanup for $siteData$ on $url$ result:  Shown as notification after successful manual cleaning.",
+      "message": "Curățare pentru $siteData$ la rezultatul $url$:",
+      "placeholders": {
+         "siteData": {
+            "content": "$1",
+            "example": "Cookies"
+         },
+         "url": {
+            "content": "$2",
+            "example": "example.com"
+         }
+      }
+   },
+   "manualNotificationsText": {
+      "description": "Show Notification from Manual Site Data Cleanups. Found in settings",
+      "message": "Arată notificare de la curățarea manuală a datelor site-ului"
+   },
+   "matchedDomainExpressionText": {
+      "description": "Matched Domain Expression",
+      "message": "Expresia corespondentă pentru domeniu"
+   },
+   "menuText": {
+      "description": "Menu. Only shown when the settings screen is small / when the hamburger icon shows / when the menu is collapsed.",
+      "message": "Meniu"
+   },
+   "minutesText": {
+      "description": "minute(s)",
+      "message": "Minut(e)"
+   },
+   "missingContainerText": {
+      "description": "INVALID CONTAINER. Shown when a CAD list exists but cannot link id to available containers (Firefox).",
+      "message": "RECIPIENT INVALID"
+   },
+   "noCleanupLogText": {
+      "description": "No Cleanup Logs Found",
+      "message": "Nu există jurnale de ștergere"
+   },
+   "noExpressionsText": {
+      "description": "No expressions defined.",
+      "message": "Nicio expresie definită."
+   },
+   "noPrivateLogging": {
+      "description": "Cleanup Logs will not be generated for tabs in Private Browsing / Incognito / InPrivate.",
+      "message": "Jurnalele de curățare nu vor fi generate pentru file în navigare privată/ Incognito / InPrivat."
+   },
+   "noRulesText": {
+      "description": "No rules matched this domain",
+      "message": "Nicio regulă nu se potrivește pentru acest domeniu."
+   },
+   "noneText": {
+      "description": "None",
+      "message": "Nimic"
+   },
+   "notificationContent": {
+      "description": "Some site data, including 123 Cookie(s), removed from 8 domain(s), including: google.com, facebook.com",
+      "message": "Unele date ale site-ului, inclusiv $Num$ cookie(uri), eliminate din $total$ domeniu(e), inclusiv: $Websites$",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "123"
+         },
+         "total": {
+            "content": "$2",
+            "example": "8"
+         },
+         "websites": {
+            "content": "$3",
+            "example": "google.com, facebook.com"
+         }
+      }
+   },
+   "notificationDisabledText": {
+      "description": "Notification disabled",
+      "message": "Notificare dezactivată"
+   },
+   "notificationEnabledText": {
+      "description": "Notification enabled",
+      "message": "Notificare activată"
+   },
+   "notificationTitle": {
+      "description": "Cookies were deleted!  Used in Notification Title.",
+      "message": "Cookie-urile au fost șterse!"
+   },
+   "notificationTitleSiteData": {
+      "description": "Site Data Removal Triggered!  Used in Notification Title.",
+      "message": "Ștergerea datelor site-ului a fost declanșată!"
+   },
+   "notifyCookieCleanUpText": {
+      "description": "Show Notification After Automatic Cleanup. Found in settings.",
+      "message": "Arată notificare după ștergerea automată"
+   },
+   "notifyCookieCleanupDelayText": {
+      "description": "Duration for Notifications",
+      "message": "Durata notificărilor"
+   },
+   "oldReleasesText": {
+      "description": "Older release notes can be viewed online at",
+      "message": "Note mai vechi de lansare pot fi vizualizate online la"
+   },
+   "openDebugMode": {
+      "description": "To view the debug outputs, open a new tab and visit",
+      "message": "Pentru a vedea ieșirile de depanare, deschideți o filă nouă și vizitați"
+   },
+   "optionsText": {
+      "description": "Options",
+      "message": "Opțiuni"
+   },
+   "pluginDataCleanupText": {
+      "description": "Enable Plugin Data Cleanup (Firefox 78+, Chrome 74+). Found in CAD Settings.",
+      "message": "Activează curățarea datelor plugin-urilor (Firefox 78+, Chrome 74+)"
+   },
+   "pluginDataText": {
+      "description": "Plugin Data. Primarily used in notifications.",
+      "message": "Date Plugin"
+   },
+   "popupCookieCountText": {
+      "description": "Cookies. Due to visual formatting, Cookie Count will always be located on the right side after the colon. Found in Popup near top-right.",
+      "message": "Cookie-uri"
+   },
+   "preferencesText": {
+      "description": "Settings",
+      "message": "Configurări"
+   },
+   "questionExpression": {
+      "description": "How do Expressions work?",
+      "message": "Cum funcționează expresiile?"
+   },
+   "reasonCADSiteDataCookie": {
+      "description": "Clean to trigger Site Data cleaning for $hostname$. Found in Activity Log Detailed Entries.",
+      "message": "Curăță pentru a declanșa curățarea datelor site-ului pentru $hostname$.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "placeholder": "example.com"
+         }
+      }
+   },
+   "reasonCleanCookieExpired": {
+      "description": "Partial clean because of expired cookies from $hostname$.",
+      "message": "Curățare parțială din cauza cookie-urilor expirate de la $hostname$.",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "placeholder": "sub.domain.com"
+         }
+      }
+   },
+   "reasonCleanCookieName": {
+      "description": "Partial clean because of matched $matchedExpression$ in the $listType$. Used in cleanup logs.",
+      "message": "Ștergere parțială deoarece $matchedExpression$ s-a potrivit în $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanGreyList": {
+      "description": "Clean because of startup cleanup and $matchedExpression$ is in the Greylist. Used in cleanup log.",
+      "message": "Curăță datorită ștergerii la pornire și $matchedExpression$ se regăsește în lista gri",
+      "placeholders": {
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanNoList": {
+      "description": "Clean because $hostname$ is not in the White or Grey lists",
+      "message": "Curăță pentru că $hostname$ nu este în lista albă sau gri",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonCleanStartupNoList": {
+      "description": "Clean because of startup cleanup and $hostname$ is not in the White or Grey lists",
+      "message": "Curăță din cauza curățării de pornire și $hostname$ nu este în lista albă sau gri",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonKeep": {
+      "description": "Keep because of matched $matchedExpression$ in the $listType$",
+      "message": "Păstrează deoarece $matchedExpression$ s-a potrivit în $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonKeepOpenTab": {
+      "description": "Keep because of open tabs of *.$mainDomain$",
+      "message": "Păstrată datorită filelor deschise pentru *.$mainDomain$",
+      "placeholders": {
+         "mainDomain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "reasonTabsWereIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] and also open tabs were ignored",
+      "message": "iar filele deschise au fost ignorate"
+   },
+   "reasonTabsWereNotIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] or in any open tabs",
+      "message": "sau în orice filă deschisă"
+   },
+   "releaseNotesText": {
+      "description": "Release Notes",
+      "message": "Note de lansare"
+   },
+   "removeActivityLogEntryText": {
+      "description": "Remove Log Entry. Shown in summary activity log for individual log removal.",
+      "message": "Elimină intrarea în jurnal"
+   },
+   "removeAllExpressions": {
+      "description": "Remove All Expressions",
+      "message": "Elimină toate expresiile"
+   },
+   "removeAllExpressionsConfirm": {
+      "description": "Are you sure you want to remove ALL ($expressionCount$) saved expression(s) from ($listCount$) list(s)?\n\nTHIS CANNOT BE UNDONE!\n\nType [ $expressionCount$ ] and click OK to delete. Popup prompt if Delete All Expression is clicked.",
+      "message": "Ești sigur că vrei să ștergi TOATE expresiile salvate ($expressionCount$) din ($listCount$) list(e)?\n\nACEASTĂ NU POATE FI ANULATĂ!\n\nTastează [ $expressionCount$ ] şi apasă OK pentru a şterge.",
+      "placeholders": {
+         "expressionCount": {
+            "content": "$1",
+            "example": "75"
+         },
+         "listCount": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "removeAllExpressionsNoneFound": {
+      "description": "No expressions to remove!",
+      "message": "Nicio expresie de eliminat!"
+   },
+   "removeExpressionText": {
+      "description": "Remove expression",
+      "message": "Șterge expresia"
+   },
+   "removeListText": {
+      "description": "Remove All Expressions from Selected List. Shown in List of Expressions, only on Firefox and if containers/contextual identities is enabled.",
+      "message": "Elimină toate expresiile din lista selectată"
+   },
+   "removeStorageCount": {
+      "description": "Removed $count$ item(s) from $storageType$. Used in manual localstorage clean notification.",
+      "message": "$count$ obiect(e) șters(e) din $storageType$.",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "1"
+         },
+         "storageType": {
+            "content": "$2",
+            "example": "LocalStorage"
+         }
+      }
+   },
+   "reportIssuesText": {
+      "description": "Report issues and suggest features",
+      "message": "Raportează probleme și sugerează caracteristici"
+   },
+   "resetCookieCounterText": {
+      "description": "Reset Cookie Counters. Button in Welcome Page.",
+      "message": "Resetează Contoare Cookie"
+   },
+   "resetExtensionDataText": {
+      "description": "Reset Extension Data",
+      "message": "Resetează datele extensiei"
+   },
+   "restoreText": {
+      "description": "Restore. Restores cookies that was cleaned up by this extension. Found in Activity Log entries.",
+      "message": "Restaurează"
+   },
+   "reviewLinkMessage": {
+      "description": "Thanks for trying out Cookie AutoDelete. If you liked it, then please give a review.",
+      "message": "Mulțumiri pentru că ai încercat $cadTitle$. Dacă ți-a plăcut, scrie te rog o recenzie.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         }
+      }
+   },
+   "saveExpressionText": {
+      "description": "Save expression",
+      "message": "Salvează expresia"
+   },
+   "secondsText": {
+      "description": "second(s)",
+      "message": "Secundă(e)"
+   },
+   "serviceWorkersCleanupText": {
+      "description": "Enable Service Workers Cleanup (Firefox 77+, Chrome 74+). Found in CAD Settings.",
+      "message": "Activează curățarea muncitorilor din servicii (Firefox 77+, Chrome 74+)"
+   },
+   "serviceWorkersText": {
+      "description": "Service Workers. Primarily used in notifications.",
+      "message": "Lucrători de serviciu"
+   },
+   "sessionStorageText": {
+      "description": "SessionStorage. Used in manual localstorage clean notification",
+      "message": "Stocare Sesiune"
+   },
+   "settingGroupAutoClean": {
+      "description": "Automatic Cleaning Options",
+      "message": "Opțiuni de curățare automată"
+   },
+   "settingGroupExpression": {
+      "description": "Expression Options",
+      "message": "Opțiuni de expresie"
+   },
+   "settingGroupExtension": {
+      "description": "Extension Options",
+      "message": "Opțiuni extensie"
+   },
+   "settingGroupOtherBrowsing": {
+      "description": "Other Browsing Data Cleanup Options",
+      "message": "Alte opțiuni de curățare a datelor de navigare"
+   },
+   "settingsText": {
+      "description": "$CAD$ Settings",
+      "message": "$CAD$ Setări",
+      "placeholders": {
+         "CAD": {
+            "content": "CAD",
+            "example": "CAD - Short form of Cookie AutoDelete"
+         }
+      }
+   },
+   "showNumberOfCookiesInIconText": {
+      "description": "Show Number of Cookies for that Domain over the Icon",
+      "message": "Arată numărul de cookie-uri pentru acest domeniu prin pictogramă"
+   },
+   "siteDataText": {
+      "description": "Site Data. Found in Activity Log Summary and Notifications.",
+      "message": "Date site"
+   },
+   "sizePopupText": {
+      "description": "Size of Popup (in px). This sets the font size in the Popup.",
+      "message": "Dimensiune pop-up (în px)"
+   },
+   "sizeSettingText": {
+      "description": "Size of Setting Pages (in px). This sets the font size in the Setting Pages.",
+      "message": "Dimensiunea paginilor de setare (în px)"
+   },
+   "stopEditingText": {
+      "description": "Stop editing",
+      "message": "Întrerupe modificarea"
+   },
+   "successText": {
+      "description": "Success!",
+      "message": "Succes!"
+   },
+   "toGreyListText": {
+      "description": "Add to Greylist (Clean on Browser Restart)",
+      "message": "Adaugă în lista gri (Șterge la repornirea browser-ului)"
+   },
+   "toWhiteListText": {
+      "description": "Add to Whitelist (Never Clean)",
+      "message": "Adaugă în lista albă (nu șterge niciodată)"
+   },
+   "toggleNotificationText": {
+      "description": "Toggle to enable or disable notifications",
+      "message": "Schimbă pentru a activa sau dezactiva notificările"
+   },
+   "toggleToGreyListWordText": {
+      "description": "Toggle to greylist",
+      "message": "Schimbă în lista gri"
+   },
+   "toggleToWhiteListWordText": {
+      "description": "Toggle to whitelist",
+      "message": "Schimbă în lista albă"
+   },
+   "versionNumberText": {
+      "description": "$CAD$ version 3.2.1. The actual number is formatted differently and will be right below this text.",
+      "message": "Versiunea $CAD$",
+      "placeholders": {
+         "CAD": {
+            "content": "$1",
+            "example": "CAD or Cookie AutoDelete"
+         }
+      }
+   },
+   "versionText": {
+      "description": "Firefox version",
+      "message": "Versiunea $browser$",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         }
+      }
+   },
+   "welcomeMessage": {
+      "description": "Hi there! During this session, Cookie AutoDelete has deleted 123 cookies and in total 456 cookies.",
+      "message": "Salut! În timpul acestei sesiuni $cadTitle$ a șters $sessionDeleted$ cookie-uri și în total $totalDeleted$ cookie-uri.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         },
+         "sessionDeleted": {
+            "content": "$2",
+            "example": "123"
+         },
+         "totalDeleted": {
+            "content": "$3",
+            "example": "456"
+         }
+      }
+   },
+   "welcomeText": {
+      "description": "Welcome",
+      "message": "Bun venit"
+   },
+   "whiteListWordText": {
+      "description": "Whitelist",
+      "message": "Lista albă"
+   }
+}

@@ -1,0 +1,9 @@
+2022/05/28-22:23:00.380 1042 Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/28-22:23:00.381 1042 Recovering log #7
+2022/05/28-22:23:00.386 1042 Reusing old log /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000007.log 
+2022/05/28-22:23:35.342 112d Compacting 1@1 + 1@2 files
+2022/05/28-22:23:35.352 112d Generated table #10@1: 48 keys, 18117 bytes
+2022/05/28-22:23:35.352 112d Compacted 1@1 + 1@2 files => 18117 bytes
+2022/05/28-22:23:35.354 112d compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/28-22:23:35.354 112d Delete type=2 #5
+2022/05/28-22:23:35.354 112d Delete type=2 #8

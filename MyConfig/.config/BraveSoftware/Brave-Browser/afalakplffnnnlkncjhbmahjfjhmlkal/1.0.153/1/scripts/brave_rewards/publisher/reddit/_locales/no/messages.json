@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Tips dette innlegget",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Tips",
+    "description": "Icon label for tip button"
+  }
+}

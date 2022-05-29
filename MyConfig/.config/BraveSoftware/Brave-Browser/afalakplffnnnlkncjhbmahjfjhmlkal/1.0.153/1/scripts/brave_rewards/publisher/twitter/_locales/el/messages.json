@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Δώστε φιλοδώρημα για αυτήν την ανάρτηση Twitter",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Φιλοδώρημα",
+    "description": "Icon label for tip button"
+  }
+}

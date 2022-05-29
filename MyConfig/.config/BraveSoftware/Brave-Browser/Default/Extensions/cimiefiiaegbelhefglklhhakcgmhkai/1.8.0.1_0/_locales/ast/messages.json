@@ -1,0 +1,185 @@
+{
+    "browseraction_mpris_enable_on": {
+        "message": "Activar los controles multimedia en:"
+    },
+    "browseraction_mpris_title": {
+        "message": "Controles multimedia"
+    },
+    "browseraction_title": {
+        "message": "Integración del restolador con Plasma"
+    },
+    "general_error_host_disconnected_title": {
+        "message": "L'agospiu nativu desconectóse inesperadamente."
+    },
+    "general_error_not_supported_os": {
+        "message": "Esta estensión namás se sofita en GNU/Linux y FreeBSD."
+    },
+    "general_error_not_supported_os_title": {
+        "message": "Nun se sofita esti sistema operativu."
+    },
+    "general_error_startup_failed": {
+        "message": "Asegúrate de que'l paquete «plasma-browser-integration» ta instaláu correutamente y tas executando Plasma 5.13 o mayor."
+    },
+    "general_error_startup_failed_title": {
+        "message": "Fallu al conectar col agospiu nativu."
+    },
+    "general_error_startup_failed_wiki_link": {
+        "message": "Visita la páxina wiki del proyeutu pa más información"
+    },
+    "general_error_unknown": {
+        "message": "Unknown Error"
+    },
+    "kdeconnect_call_device": {
+        "message": "Llamar per «$1»"
+    },
+    "kdeconnect_open_device": {
+        "message": "Abrir en «$1»"
+    },
+    "kdeconnect_open_via": {
+        "message": "Abrir per KDE Connect"
+    },
+    "options_about_bugs": {
+        "message": "Si atopes un fallu, comprueba la <a href=\"$1\">llista de fallos abiertos</a> y <a href=\"$2\">rellena un informe</a> darréu."
+    },
+    "options_about_changelog_link": {
+        "message": "Ver el rexistru de cambeos"
+    },
+    "options_about_copyright": {
+        "message": "© 2017-2020 Kai Uwe Broulik y David Edmundson"
+    },
+    "options_about_created_by_kde": {
+        "message": "Esta estensión creóla la <a href=\"$1\">comunidá de KDE</a> y pues atopar más información tocante a esti proyeutu na <a href=\"$2\">wiki de so</a>."
+    },
+    "options_about_donate": {
+        "message": "Si te presta lo que ves, considera <a href=\"$1\">donar a KDE</a> pa que podamos siguir faciendo'l meyor software llibre posible."
+    },
+    "options_about_extension_version": {
+        "message": "Versión de la estensión: $1"
+    },
+    "options_about_host_version": {
+        "message": "Versión del agospiu: $1"
+    },
+    "options_about_kde": {
+        "message": "KDE ye una comunidá global d'inxenieros de software, artistes, escritores, traductores, creadores que tán comprometíos col desendolcu de <a href=\"$1\">software llibre</a> y una empresa cooperativa (nenguna entidá controla la direición o productos de so). Somos los creadores del entornu d'escritoriu Plasma, cientos d'aplicaciones y munches biblioteques de software que les sofiten, amás preferimos trabayar xuntos p'algamar la meta común de facer el meyor software llibre del mundu. Dámos-yos l'acoyida a toles persones que quieran <a href=\"$2\">xunise y collaborar</a> en KDE incluyéndote a ti. Visita <a href=\"$3\">$3</a> pa más información tocante a la comunidá de KDE y el software que producimos."
+    },
+    "options_about_license": {
+        "message": "Llicencia: <a href=\"$1\">Llicencia pública y xeneral de GNU versión 3</a>"
+    },
+    "options_about_translated_by": {
+        "message": "Traducción fecha por $1"
+    },
+    "options_about_translators": {
+        "message": "Softastur"
+    },
+    "options_heading_krunner": {
+        "message": "Plasma Search"
+    },
+    "options_not_supported_os": {
+        "message": "Esta estensión nun ta sofitada nesti sistema operativu."
+    },
+    "options_plugin_breezeScrollBars_description": {
+        "message": "Esto pue interfirir col aspeutu de sitios web que yá aplicaren un estilu personalizáu a les sos barres de desplazamientu."
+    },
+    "options_plugin_breezeScrollBars_title": {
+        "message": "Barres de desplazamientu col estilu Breeze"
+    },
+    "options_plugin_downloads_addToRecentDocuments": {
+        "message": "Amestar los ficheros baxaos a los documentos d'apocayá"
+    },
+    "options_plugin_downloads_saveOriginUrl": {
+        "message": "Guardar la URL dende la que se baxen los ficheros nos sos atributos"
+    },
+    "options_plugin_downloads_saveOriginUrl_description": {
+        "message": "Nota: La URL pue contener información sensible que podría revelase cuando s'accedan a los ficheros o compartan con otros"
+    },
+    "options_plugin_downloads_title": {
+        "message": "Amosar les descargues nel área d'avisos"
+    },
+    "options_plugin_historyrunner_description": {
+        "message": "This feature might need <a id=\"$1\" href=\"$2\">additional permissions</a> to be used."
+    },
+    "options_plugin_historyrunner_title": {
+        "message": "Search through browser history"
+    },
+    "options_plugin_kdeconnect_description": {
+        "message": "Nos enllaces, amiesta una entrada nel menú contestual pa permitite unvialos a otros preseos empareyaos col usu de <a href=\" $1\">KDE Connect</a>."
+    },
+    "options_plugin_kdeconnect_title": {
+        "message": "Unviu per KDE Connect"
+    },
+    "options_plugin_mpris_description": {
+        "message": "Déxate controlar los reproductores de los sitios web col usu del plasmoide de Mandu multimedia."
+    },
+    "options_plugin_mpris_media_sessions_description": {
+        "message": "Estrái los metadatos y miniatures del conteníu que tea reproduciéndose."
+    },
+    "options_plugin_mpris_media_sessions_title": {
+        "message": "Controles multimedia ameyoraos"
+    },
+    "options_plugin_mpris_title": {
+        "message": "Controles multimedia"
+    },
+    "options_plugin_purpose_description": {
+        "message": "Amiesta la entrada «Compartir…» nel menú contestual y permite a los sitios web abrir un diálogu pa compartir conteníu co usu de l'API de Web Share"
+    },
+    "options_plugin_purpose_title": {
+        "message": "Compartición de conteníu"
+    },
+    "options_plugin_tabsrunner_description": {
+        "message": "Make sure the “Browser Tabs” module is enabled in <a id=\"$1\" href=\"$2\">Plasma Search settings</a>."
+    },
+    "options_plugin_tabsrunner_title": {
+        "message": "Find browser tabs in “Run Command” window"
+    },
+    "options_save_failed": {
+        "message": "Falló'l guardáu de los axustes"
+    },
+    "options_save_success": {
+        "message": "Los axustes guardáronse con ésitu"
+    },
+    "options_tab_about": {
+        "message": "Tocante a"
+    },
+    "options_tab_general": {
+        "message": "Xeneral"
+    },
+    "options_title": {
+        "message": "Axustes de la integración con Plasma"
+    },
+    "permission_request_already": {
+        "message": "You have already granted this permission."
+    },
+    "permission_request_button_request": {
+        "message": "Request Permission"
+    },
+    "permission_request_button_revoke": {
+        "message": "Revoke Permission"
+    },
+    "permission_request_historyrunner_1": {
+        "message": "In order to provide search results for your browser history, additional permissions are required."
+    },
+    "permission_request_historyrunner_2": {
+        "message": "You can disable this feature in <a id=\"$1\" href=\"$2\">Plasma search settings</a>."
+    },
+    "permission_request_title": {
+        "message": "Additional permissions required"
+    },
+    "purpose_share": {
+        "message": "Compartir…"
+    },
+    "purpose_share_failed_text": {
+        "message": "Nun pudo compartise esti conteníu: $1"
+    },
+    "purpose_share_failed_title": {
+        "message": "La compartición falló"
+    },
+    "purpose_share_finished_text": {
+        "message": "L'enllaz del conteníu compartíu ($1) copióse al cartafueyu."
+    },
+    "purpose_share_finished_title": {
+        "message": "Compartióse'l conteníu"
+    },
+    "store_description": {
+        "message": "Multixera eficiente controlando les funciones del restolador dende l'escritoriu magar que tea en segundu planu. Xestiona la reproducción d'audiu y videu, comprueba les descargues nel área d'avisos, unvia ficheros a otros preseos qu'usen KDE Connect y muncho más dientro de KDE Plasma.\\n\\nEl paquete plasma-browser-integration ha tar instaláu pa qu'esta estensión funcione. Debería tar disponible nel xestor de paquetes de la to distribución al executar Plasma 5.13 o mayor.\\n\\nNOTA: Esta estensión nun ta sofitada en Debian."
+    }
+}

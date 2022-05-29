@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "ಈ ಟ್ವಿಟ್‌ಗೆ ಸಲಹೆ ನೀಡಿ",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "ಸಲಹೆ",
+    "description": "Icon label for tip button"
+  }
+}

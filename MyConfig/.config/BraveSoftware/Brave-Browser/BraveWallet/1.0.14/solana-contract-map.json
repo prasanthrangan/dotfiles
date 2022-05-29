@@ -1,0 +1,6205 @@
+{
+  "So11111111111111111111111111111111111111112": {
+    "name": "Wrapped SOL",
+    "logo": "So11111111111111111111111111111111111111112.png",
+    "erc20": false,
+    "symbol": "SOL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "solana"
+  },
+  "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+    "name": "USD Coin",
+    "logo": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v.png",
+    "erc20": false,
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "usd-coin"
+  },
+  "2inRoG4DuMRRzZxAt913CCdNZCu2eGsDD9kZTrsj2DAZ": {
+    "name": "Tesla Inc.",
+    "logo": "2inRoG4DuMRRzZxAt913CCdNZCu2eGsDD9kZTrsj2DAZ.png",
+    "erc20": false,
+    "symbol": "TSLA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8bpRdBGPt354VfABL5xugP3pmYZ2tQjzRcqjg2kmwfbF": {
+    "name": "Apple Inc.",
+    "logo": "8bpRdBGPt354VfABL5xugP3pmYZ2tQjzRcqjg2kmwfbF.png",
+    "erc20": false,
+    "symbol": "AAPL",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "3vhcrQfEn8ashuBfE82F3MtEDFcBCEFfFw1ZgM3xj1s8": {
+    "name": "Microsoft Corporation",
+    "logo": "3vhcrQfEn8ashuBfE82F3MtEDFcBCEFfFw1ZgM3xj1s8.png",
+    "erc20": false,
+    "symbol": "MSFT",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "ASwYCbLedk85mRdPnkzrUXbbYbwe26m71af9rzrhC2Qz": {
+    "name": "MicroStrategy Incorporated.",
+    "logo": "ASwYCbLedk85mRdPnkzrUXbbYbwe26m71af9rzrhC2Qz.png",
+    "erc20": false,
+    "symbol": "MSTR",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "J25jdsEgTnAwB4nVq3dEQhwekbXCnVTGzFpVMPScXRgK": {
+    "name": "Coinbase Global Inc.",
+    "logo": "J25jdsEgTnAwB4nVq3dEQhwekbXCnVTGzFpVMPScXRgK.png",
+    "erc20": false,
+    "symbol": "COIN",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "G2Cg4XoXdEJT5sfrSy9N6YCC3uuVV3AoTQSvMeSqT8ZV": {
+    "name": "AmerisourceBergen Corp",
+    "logo": "G2Cg4XoXdEJT5sfrSy9N6YCC3uuVV3AoTQSvMeSqT8ZV.png",
+    "erc20": false,
+    "symbol": "ABC",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "FqqVanFZosh4M4zqxzWUmEnky6nVANjghiSLaGqUAYGi": {
+    "name": "Airbnb",
+    "logo": "FqqVanFZosh4M4zqxzWUmEnky6nVANjghiSLaGqUAYGi.png",
+    "erc20": false,
+    "symbol": "ABNB",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "FgcUo7Ymua8r5xxsn9puizkLGN5w4i3nnBmasXvkcWfJ": {
+    "name": "Aurora Cannabis Inc",
+    "logo": "FgcUo7Ymua8r5xxsn9puizkLGN5w4i3nnBmasXvkcWfJ.png",
+    "erc20": false,
+    "symbol": "ACB",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "FenmUGWjsW5AohtHRbgLoPUZyWSK36Cd5a31XJWjnRur": {
+    "name": "AMC Entertainment Holdings",
+    "logo": "FenmUGWjsW5AohtHRbgLoPUZyWSK36Cd5a31XJWjnRur.png",
+    "erc20": false,
+    "symbol": "AMC",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "7grgNP3tAJh7DRELmotHzC5Efth4e4SoBvgmFYTX9jPB": {
+    "name": "Advanced Micro Devices",
+    "logo": "7grgNP3tAJh7DRELmotHzC5Efth4e4SoBvgmFYTX9jPB.png",
+    "erc20": false,
+    "symbol": "AMD",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "3bjpzTTK49eP8m1bYxw6HYAFGtzyWjvEyGYcFS4gbRAx": {
+    "name": "Amazon",
+    "logo": "3bjpzTTK49eP8m1bYxw6HYAFGtzyWjvEyGYcFS4gbRAx.png",
+    "erc20": false,
+    "symbol": "AMZN",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "4cr7NH1BD2PMV38JQp58UaHUxzqhxeSiF7b6q1GCS7Ae": {
+    "name": "Aphria Inc",
+    "logo": "4cr7NH1BD2PMV38JQp58UaHUxzqhxeSiF7b6q1GCS7Ae.png",
+    "erc20": false,
+    "symbol": "APHA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "GPoBx2hycDs3t4Q8DeBme9RHb9nQpzH3a36iUoojHe16": {
+    "name": "ARK Innovation ETF",
+    "logo": "GPoBx2hycDs3t4Q8DeBme9RHb9nQpzH3a36iUoojHe16.png",
+    "erc20": false,
+    "symbol": "ARKK",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "GgDDCnzZGQRUDy8jWqSqDDcPwAVg2YsKZfLPaTYBWdWt": {
+    "name": "Alibaba",
+    "logo": "GgDDCnzZGQRUDy8jWqSqDDcPwAVg2YsKZfLPaTYBWdWt.png",
+    "erc20": false,
+    "symbol": "BABA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "6jSgnmu8yg7kaZRWp5MtQqNrWTUDk7KWXhZhJPmsQ65y": {
+    "name": "BlackBerry",
+    "logo": "6jSgnmu8yg7kaZRWp5MtQqNrWTUDk7KWXhZhJPmsQ65y.png",
+    "erc20": false,
+    "symbol": "BB",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "9Vovr1bqDbMQ8DyaizdC7n1YVvSia8r3PQ1RcPFqpQAs": {
+    "name": "Bilibili Inc",
+    "logo": "9Vovr1bqDbMQ8DyaizdC7n1YVvSia8r3PQ1RcPFqpQAs.png",
+    "erc20": false,
+    "symbol": "BILI",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "j35qY1SbQ3k7b2WAR5cNETDKzDESxGnYbArsLNRUzg2": {
+    "name": "Bitwise 10 Crypto Index Fund",
+    "logo": "j35qY1SbQ3k7b2WAR5cNETDKzDESxGnYbArsLNRUzg2.png",
+    "erc20": false,
+    "symbol": "BITW",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "AykRYHVEERRoKGzfg2AMTqEFGmCGk9LNnGv2k5FgjKVB": {
+    "name": "BioNTech",
+    "logo": "AykRYHVEERRoKGzfg2AMTqEFGmCGk9LNnGv2k5FgjKVB.png",
+    "erc20": false,
+    "symbol": "BNTX",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "Dj76V3vdFGGE8444NWFACR5qmtJrrSop5RCBAGbC88nr": {
+    "name": "Berkshire Hathaway Inc",
+    "logo": "Dj76V3vdFGGE8444NWFACR5qmtJrrSop5RCBAGbC88nr.png",
+    "erc20": false,
+    "symbol": "BRKA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8TUg3Kpa4pNfaMvgyFdvwyiPBSnyTx7kK5EDfb42N6VK": {
+    "name": "Beyond Meat Inc",
+    "logo": "8TUg3Kpa4pNfaMvgyFdvwyiPBSnyTx7kK5EDfb42N6VK.png",
+    "erc20": false,
+    "symbol": "BYND",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8FyEsMuDWAMMusMqVEstt2sDkMvcUKsTy1gF6oMfWZcG": {
+    "name": "Canopy Growth Corp",
+    "logo": "8FyEsMuDWAMMusMqVEstt2sDkMvcUKsTy1gF6oMfWZcG.png",
+    "erc20": false,
+    "symbol": "CGC",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "DUFVbhWf7FsUo3ouMnFbDjv4YYaRE1Sz9jvAmDsNTt1m": {
+    "name": "Chronos Group Inc",
+    "logo": "DUFVbhWf7FsUo3ouMnFbDjv4YYaRE1Sz9jvAmDsNTt1m.png",
+    "erc20": false,
+    "symbol": "CRON",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "J9GVpBChXZ8EK7JuPsLSDV17BF9KLJweBQet3L6ZWvTC": {
+    "name": "iShares MSCI Emerging Markets ETF",
+    "logo": "J9GVpBChXZ8EK7JuPsLSDV17BF9KLJweBQet3L6ZWvTC.png",
+    "erc20": false,
+    "symbol": "EEM",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "6Xj2NzAW437UUomaxFiVyJQPGvvup6YLeXFQpp4kqNaD": {
+    "name": "iShares MSCI EAFE ETF",
+    "logo": "6Xj2NzAW437UUomaxFiVyJQPGvvup6YLeXFQpp4kqNaD.png",
+    "erc20": false,
+    "symbol": "EFA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "5YMFoVuoQzdivpm6W97UGKkHxq6aEhipuNkA8imPDoa1": {
+    "name": "Grayscale Ethereum Trust",
+    "logo": "5YMFoVuoQzdivpm6W97UGKkHxq6aEhipuNkA8imPDoa1.png",
+    "erc20": false,
+    "symbol": "ETHE",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "C9vMZBz1UCmYSCmMcZFw6N9AsYhXDAWnuhxd8ygCA1Ah": {
+    "name": "iShares MSCI Australia ETF",
+    "logo": "C9vMZBz1UCmYSCmMcZFw6N9AsYhXDAWnuhxd8ygCA1Ah.png",
+    "erc20": false,
+    "symbol": "EWA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "AcXn3WXPARC7r5JwrkPHSUmBGWyWx1vRydNHXXvgc8V6": {
+    "name": "iShares MSCI Japan ETF",
+    "logo": "AcXn3WXPARC7r5JwrkPHSUmBGWyWx1vRydNHXXvgc8V6.png",
+    "erc20": false,
+    "symbol": "EWJ",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8ihxfcxBZ7dZyfnpXJiGrgEZfrKWbZUk6LjfosLrQfR": {
+    "name": "iShares MSCI South Korea ETF",
+    "logo": "8ihxfcxBZ7dZyfnpXJiGrgEZfrKWbZUk6LjfosLrQfR.png",
+    "erc20": false,
+    "symbol": "EWY",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "N5ykto2MU7CNcLX7sgWFe3M2Vpy7wq8gDt2sVNDe6aH": {
+    "name": "iShares MSCI Brazil ETF",
+    "logo": "N5ykto2MU7CNcLX7sgWFe3M2Vpy7wq8gDt2sVNDe6aH.png",
+    "erc20": false,
+    "symbol": "EWZ",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "3K9pfJzKiAm9upcyDWk5NBVdjxVtqXN8sVfQ4aR6qwb2": {
+    "name": "Facebook",
+    "logo": "3K9pfJzKiAm9upcyDWk5NBVdjxVtqXN8sVfQ4aR6qwb2.png",
+    "erc20": false,
+    "symbol": "FB",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "Ege7FzfrrBSusVQrRUuTiFVCSc8u2R9fRWh4qLjdNYfz": {
+    "name": "iShares China Large-Cap ETF",
+    "logo": "Ege7FzfrrBSusVQrRUuTiFVCSc8u2R9fRWh4qLjdNYfz.png",
+    "erc20": false,
+    "symbol": "FXI",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "FiV4TtDtnjaf8m8vw2a7uc9hRoFvvu9Ft7GzxiMujn3t": {
+    "name": "Grayscale Bitcoin Trust",
+    "logo": "FiV4TtDtnjaf8m8vw2a7uc9hRoFvvu9Ft7GzxiMujn3t.png",
+    "erc20": false,
+    "symbol": "GBTC",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "7FYk6a91TiFWigBvCf8KbuEMyyfpqET5QHFkRtiD2XxF": {
+    "name": "VanEck Vectors Gold Miners Etf",
+    "logo": "7FYk6a91TiFWigBvCf8KbuEMyyfpqET5QHFkRtiD2XxF.png",
+    "erc20": false,
+    "symbol": "GDX",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "EGhhk4sHgY1SBYsgkfgyGNhAKBXqn6QyKNx7W13evx9D": {
+    "name": "VanEck Vectors Junior Gold Miners Etf",
+    "logo": "EGhhk4sHgY1SBYsgkfgyGNhAKBXqn6QyKNx7W13evx9D.png",
+    "erc20": false,
+    "symbol": "GDXJ",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "9HyU5EEyPvkxeuekNUwsHzmMCJoiw8FZBGWaNih2oux1": {
+    "name": "SPDR Gold Shares",
+    "logo": "9HyU5EEyPvkxeuekNUwsHzmMCJoiw8FZBGWaNih2oux1.png",
+    "erc20": false,
+    "symbol": "GLD",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "EYLa7susWhzqDNKYe7qLhFHb3Y9kdNwThc6QSnc4TLWN": {
+    "name": "Galaxy Digital Holdings",
+    "logo": "EYLa7susWhzqDNKYe7qLhFHb3Y9kdNwThc6QSnc4TLWN.png",
+    "erc20": false,
+    "symbol": "GLXY",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "Ac2wmyujRxiGtb5msS7fKzGycaCF7K8NbVs5ortE6MFo": {
+    "name": "GameStop",
+    "logo": "Ac2wmyujRxiGtb5msS7fKzGycaCF7K8NbVs5ortE6MFo.png",
+    "erc20": false,
+    "symbol": "GME",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "7uzWUPC6XsWkgFAuDjpZgPVH9p3WqeKTvTJqLM1RXX6w": {
+    "name": "Google",
+    "logo": "7uzWUPC6XsWkgFAuDjpZgPVH9p3WqeKTvTJqLM1RXX6w.png",
+    "erc20": false,
+    "symbol": "GOOGL",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "6CuCUCYovcLxwaKuxWm8uTquVKGWaAydcFEU3NrtvxGZ": {
+    "name": "Intel Corp",
+    "logo": "6CuCUCYovcLxwaKuxWm8uTquVKGWaAydcFEU3NrtvxGZ.png",
+    "erc20": false,
+    "symbol": "INTC",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "6H26K637YNAjZycRosvBR3ENKFGMsbr4xmoV7ca83GWf": {
+    "name": "Just Group PLC",
+    "logo": "6H26K637YNAjZycRosvBR3ENKFGMsbr4xmoV7ca83GWf.png",
+    "erc20": false,
+    "symbol": "JUST",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "FFRtWiE8FT7HMf673r9cmpabHVQfa2QEf4rSRwNo4JM3": {
+    "name": "Moderna",
+    "logo": "FFRtWiE8FT7HMf673r9cmpabHVQfa2QEf4rSRwNo4JM3.png",
+    "erc20": false,
+    "symbol": "MRNA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "Hfbh3GU8AdYCw4stirFy2RPGtwQbbzToG2DgFozAymUb": {
+    "name": "Netflix",
+    "logo": "Hfbh3GU8AdYCw4stirFy2RPGtwQbbzToG2DgFozAymUb.png",
+    "erc20": false,
+    "symbol": "NFLX",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "56Zwe8Crm4pXvmByCxmGDjYrLPxkenTrckdRM7WG3zQv": {
+    "name": "Nio",
+    "logo": "56Zwe8Crm4pXvmByCxmGDjYrLPxkenTrckdRM7WG3zQv.png",
+    "erc20": false,
+    "symbol": "NIO",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "HP9WMRDV3KdUfJ7CNn5Wf8JzLczwxdnQYTHDAa9yCSnq": {
+    "name": "Nokia",
+    "logo": "HP9WMRDV3KdUfJ7CNn5Wf8JzLczwxdnQYTHDAa9yCSnq.png",
+    "erc20": false,
+    "symbol": "NOK",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "GpM58T33eTrGEdHmeFnSVksJjJT6JVdTvim59ipTgTNh": {
+    "name": "NVIDIA",
+    "logo": "GpM58T33eTrGEdHmeFnSVksJjJT6JVdTvim59ipTgTNh.png",
+    "erc20": false,
+    "symbol": "NVDA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "CRCop5kHBDLTYJyG7z3u6yiVQi4FQHbyHdtb18Qh2Ta9": {
+    "name": "Penn National Gaming",
+    "logo": "CRCop5kHBDLTYJyG7z3u6yiVQi4FQHbyHdtb18Qh2Ta9.png",
+    "erc20": false,
+    "symbol": "PENN",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "97v2oXMQ2MMAkgUnoQk3rNhrZCRThorYhvz1poAe9stk": {
+    "name": "Pfizer",
+    "logo": "97v2oXMQ2MMAkgUnoQk3rNhrZCRThorYhvz1poAe9stk.png",
+    "erc20": false,
+    "symbol": "PFE",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "AwutBmwmhehaMh18CxqFPPN311uCB1M2awp68A2bG41v": {
+    "name": "PayPal",
+    "logo": "AwutBmwmhehaMh18CxqFPPN311uCB1M2awp68A2bG41v.png",
+    "erc20": false,
+    "symbol": "PYPL",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8Sa7BjogSJnkHyhtRTKNDDTDtASnWMcAsD4ySVNSFu27": {
+    "name": "iShares Silver Trust",
+    "logo": "8Sa7BjogSJnkHyhtRTKNDDTDtASnWMcAsD4ySVNSFu27.png",
+    "erc20": false,
+    "symbol": "SLV",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "CS4tNS523VCLiTsGnYEAd6GqfrZNLtA14C98DC6gE47g": {
+    "name": "SPDR S&P 500 ETF",
+    "logo": "CS4tNS523VCLiTsGnYEAd6GqfrZNLtA14C98DC6gE47g.png",
+    "erc20": false,
+    "symbol": "SPY",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "BLyrWJuDyYnDaUMxqBMqkDYAeajnyode1ARh7TxtakEh": {
+    "name": "Square",
+    "logo": "BLyrWJuDyYnDaUMxqBMqkDYAeajnyode1ARh7TxtakEh.png",
+    "erc20": false,
+    "symbol": "SQ",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "HSDepE3xvbyRDx4M11LX7Hf9qgHSopfTXxAoeatCcwWF": {
+    "name": "Sunoco LP",
+    "logo": "HSDepE3xvbyRDx4M11LX7Hf9qgHSopfTXxAoeatCcwWF.png",
+    "erc20": false,
+    "symbol": "SUN",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "LZufgu7ekMcWBUypPMBYia2ipnFzpxpZgRBFLhYswgR": {
+    "name": "Tilray Inc",
+    "logo": "LZufgu7ekMcWBUypPMBYia2ipnFzpxpZgRBFLhYswgR.png",
+    "erc20": false,
+    "symbol": "TLRY",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "2iCUKaCQpGvnaBimLprKWT8bNGF92e6LxWq4gjsteWfx": {
+    "name": "Taiwan Semiconductor Mfg",
+    "logo": "2iCUKaCQpGvnaBimLprKWT8bNGF92e6LxWq4gjsteWfx.png",
+    "erc20": false,
+    "symbol": "TSM",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "BZMg4HyyHVUJkwh2yuv6duu4iQUaXRxT6sK1dT7FcaZf": {
+    "name": "iShares MSCI Turkey ETF",
+    "logo": "BZMg4HyyHVUJkwh2yuv6duu4iQUaXRxT6sK1dT7FcaZf.png",
+    "erc20": false,
+    "symbol": "TUR",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "C2tNm8bMU5tz6KdXjHY5zewsN1Wv1TEbxK9XGTCgUZMJ": {
+    "name": "Twitter",
+    "logo": "C2tNm8bMU5tz6KdXjHY5zewsN1Wv1TEbxK9XGTCgUZMJ.png",
+    "erc20": false,
+    "symbol": "TWTR",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "4kmVbBDCzYam3S4e9XqKQkLCEz16gu3dTTo65KbhShuv": {
+    "name": "Uber",
+    "logo": "4kmVbBDCzYam3S4e9XqKQkLCEz16gu3dTTo65KbhShuv.png",
+    "erc20": false,
+    "symbol": "UBER",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "J645gMdx9zSMM2VySLBrtv6Zv1HyEjPqQXVGRAPYqzvK": {
+    "name": "United States Oil Fund",
+    "logo": "J645gMdx9zSMM2VySLBrtv6Zv1HyEjPqQXVGRAPYqzvK.png",
+    "erc20": false,
+    "symbol": "USO",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "3LjkoC9FYEqRKNpy7xz3nxfnGVAt1SNS98rYwF2adQWB": {
+    "name": "iPath B S&P 500 VIX S/T Futs ETN",
+    "logo": "3LjkoC9FYEqRKNpy7xz3nxfnGVAt1SNS98rYwF2adQWB.png",
+    "erc20": false,
+    "symbol": "VXX",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "BcALTCjD4HJJxBDUXi3nHUgqsJmXAQdBbQrcmtLtqZaf": {
+    "name": "Zoom",
+    "logo": "BcALTCjD4HJJxBDUXi3nHUgqsJmXAQdBbQrcmtLtqZaf.png",
+    "erc20": false,
+    "symbol": "ZM",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E": {
+    "name": "Wrapped Bitcoin (Sollet)",
+    "logo": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E.png",
+    "erc20": false,
+    "symbol": "BTC",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "bitcoin"
+  },
+  "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk": {
+    "name": "Wrapped Ethereum (Sollet)",
+    "logo": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk.png",
+    "erc20": false,
+    "symbol": "ETH",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "ethereum"
+  },
+  "3JSf5tPeuscJGtaCp5giEiDhv51gQ4v3zWg8DGgyLfAB": {
+    "name": "Wrapped YFI (Sollet)",
+    "logo": "3JSf5tPeuscJGtaCp5giEiDhv51gQ4v3zWg8DGgyLfAB.png",
+    "erc20": false,
+    "symbol": "YFI",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "yearn-finance"
+  },
+  "CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG": {
+    "name": "Wrapped Chainlink (Sollet)",
+    "logo": "CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG.png",
+    "erc20": false,
+    "symbol": "LINK",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "chainlink"
+  },
+  "Ga2AXHpfAF6mv2ekZwcsJFqu7wB4NV331qNH7fW9Nst8": {
+    "name": "Wrapped XRP (Sollet)",
+    "logo": "Ga2AXHpfAF6mv2ekZwcsJFqu7wB4NV331qNH7fW9Nst8.png",
+    "erc20": false,
+    "symbol": "XRP",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "ripple"
+  },
+  "BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4": {
+    "name": "Wrapped USDT (Sollet)",
+    "logo": "BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4.png",
+    "erc20": false,
+    "symbol": "wUSDT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "tether"
+  },
+  "AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy": {
+    "name": "Wrapped SUSHI (Sollet)",
+    "logo": "AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy.png",
+    "erc20": false,
+    "symbol": "SUSHI",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "sushi"
+  },
+  "CsZ5LZkDS7h9TDKjrbL7VAwQZ9nsRu8vJLhRYfmGaN8K": {
+    "name": "Wrapped ALEPH (Sollet)",
+    "logo": "CsZ5LZkDS7h9TDKjrbL7VAwQZ9nsRu8vJLhRYfmGaN8K.png",
+    "erc20": false,
+    "symbol": "ALEPH",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "aleph"
+  },
+  "SF3oTvfWzEP3DTwGSvUXRrGTvr75pdZNnBLAH9bzMuX": {
+    "name": "Wrapped SXP (Sollet)",
+    "logo": "SF3oTvfWzEP3DTwGSvUXRrGTvr75pdZNnBLAH9bzMuX.png",
+    "erc20": false,
+    "symbol": "SXP",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "swipe"
+  },
+  "BtZQfWqDGbk9Wf2rXEiWyQBdBY1etnUUn6zEphvVS7yN": {
+    "name": "Wrapped Hedget (Sollet)",
+    "logo": "BtZQfWqDGbk9Wf2rXEiWyQBdBY1etnUUn6zEphvVS7yN.png",
+    "erc20": false,
+    "symbol": "HGET",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "hedget"
+  },
+  "5Fu5UUgbjpUvdBveb3a1JTNirL8rXtiYeSMWvKjtUNQv": {
+    "name": "Wrapped Cream Finance (Sollet)",
+    "logo": "5Fu5UUgbjpUvdBveb3a1JTNirL8rXtiYeSMWvKjtUNQv.png",
+    "erc20": false,
+    "symbol": "CREAM",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "cream-2"
+  },
+  "873KLxCbz7s9Kc4ZzgYRtNmhfkQrhfyWGZJBmyCbC3ei": {
+    "name": "Wrapped Upbots (Sollet)",
+    "logo": "873KLxCbz7s9Kc4ZzgYRtNmhfkQrhfyWGZJBmyCbC3ei.png",
+    "erc20": false,
+    "symbol": "UBXT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "upbots"
+  },
+  "HqB7uswoVg4suaQiDP3wjxob1G5WdZ144zhdStwMCq7e": {
+    "name": "Wrapped Helium (Sollet)",
+    "logo": "HqB7uswoVg4suaQiDP3wjxob1G5WdZ144zhdStwMCq7e.png",
+    "erc20": false,
+    "symbol": "HNT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "helium"
+  },
+  "9S4t2NEAiJVMvPdRYKVrfJpBafPBLtvbvyS3DecojQHw": {
+    "name": "Wrapped FRONT (Sollet)",
+    "logo": "9S4t2NEAiJVMvPdRYKVrfJpBafPBLtvbvyS3DecojQHw.png",
+    "erc20": false,
+    "symbol": "FRONT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "frontier-token"
+  },
+  "6WNVCuxCGJzNjmMZoKyhZJwvJ5tYpsLyAtagzYASqBoF": {
+    "name": "Wrapped AKRO (Sollet)",
+    "logo": "6WNVCuxCGJzNjmMZoKyhZJwvJ5tYpsLyAtagzYASqBoF.png",
+    "erc20": false,
+    "symbol": "AKRO",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "akropolis"
+  },
+  "DJafV9qemGp7mLMEn5wrfqaFwxsbLgUsGVS16zKRk9kc": {
+    "name": "Wrapped HXRO (Sollet)",
+    "logo": "DJafV9qemGp7mLMEn5wrfqaFwxsbLgUsGVS16zKRk9kc.png",
+    "erc20": false,
+    "symbol": "HXRO",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "hxro"
+  },
+  "DEhAasscXF4kEGxFgJ3bq4PpVGp5wyUxMRvn6TzGVHaw": {
+    "name": "Wrapped UNI (Sollet)",
+    "logo": "DEhAasscXF4kEGxFgJ3bq4PpVGp5wyUxMRvn6TzGVHaw.png",
+    "erc20": false,
+    "symbol": "UNI",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "uniswap"
+  },
+  "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt": {
+    "name": "Serum",
+    "logo": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt.png",
+    "erc20": false,
+    "symbol": "SRM",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "serum"
+  },
+  "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3": {
+    "name": "Wrapped FTT (Sollet)",
+    "logo": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3.png",
+    "erc20": false,
+    "symbol": "FTT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "ftx-token"
+  },
+  "MSRMcoVyrFxnSgo5uXwone5SKcGhT1KEJMFEkMEWf9L": {
+    "name": "MegaSerum",
+    "logo": "MSRMcoVyrFxnSgo5uXwone5SKcGhT1KEJMFEkMEWf9L.png",
+    "erc20": false,
+    "symbol": "MSRM",
+    "decimals": 0,
+    "chainId": "0x65",
+    "coingeckoId": "megaserum"
+  },
+  "BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW": {
+    "name": "Wrapped USDC (Sollet)",
+    "logo": "BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW.png",
+    "erc20": false,
+    "symbol": "WUSDC",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "usd-coin"
+  },
+  "GXMvfY2jpQctDqZ9RoU3oWPhufKiCcFEfchvYumtX7jd": {
+    "name": "Wrapped TOMO (Sollet)",
+    "logo": "GXMvfY2jpQctDqZ9RoU3oWPhufKiCcFEfchvYumtX7jd.png",
+    "erc20": false,
+    "symbol": "TOMO",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "tomochain"
+  },
+  "EcqExpGNFBve2i1cMJUTR4bPXj4ZoqmDD2rTkeCcaTFX": {
+    "name": "Wrapped KARMA (Sollet)",
+    "logo": "EcqExpGNFBve2i1cMJUTR4bPXj4ZoqmDD2rTkeCcaTFX.png",
+    "erc20": false,
+    "symbol": "KARMA",
+    "decimals": 4,
+    "chainId": "0x65",
+    "coingeckoId": "karma-dao"
+  },
+  "EqWCKXfs3x47uVosDpTRgFniThL9Y8iCztJaapxbEaVX": {
+    "name": "Wrapped LUA (Sollet)",
+    "logo": "EqWCKXfs3x47uVosDpTRgFniThL9Y8iCztJaapxbEaVX.png",
+    "erc20": false,
+    "symbol": "LUA",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "lua-token"
+  },
+  "GeDS162t9yGJuLEHPWXXGrb1zwkzinCgRwnT8vHYjKza": {
+    "name": "Wrapped MATH (Sollet)",
+    "logo": "GeDS162t9yGJuLEHPWXXGrb1zwkzinCgRwnT8vHYjKza.png",
+    "erc20": false,
+    "symbol": "MATH",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "math"
+  },
+  "GUohe4DJUA5FKPWo3joiPgsB7yzer7LpDmt1Vhzy3Zht": {
+    "name": "Wrapped KEEP (Sollet)",
+    "logo": "GUohe4DJUA5FKPWo3joiPgsB7yzer7LpDmt1Vhzy3Zht.png",
+    "erc20": false,
+    "symbol": "KEEP",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "keep-network"
+  },
+  "9F9fNTT6qwjsu4X4yWYKZpsbw5qT7o6yR2i57JF2jagy": {
+    "name": "Wrapped SWAG (Sollet)",
+    "logo": "9F9fNTT6qwjsu4X4yWYKZpsbw5qT7o6yR2i57JF2jagy.png",
+    "erc20": false,
+    "symbol": "SWAG",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "swag-finance"
+  },
+  "DgHK9mfhMtUwwv54GChRrU54T2Em5cuszq2uMuen1ZVE": {
+    "name": "Wrapped Celsius (Sollet)",
+    "logo": "DgHK9mfhMtUwwv54GChRrU54T2Em5cuszq2uMuen1ZVE.png",
+    "erc20": false,
+    "symbol": "CEL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "celsius-degree-token"
+  },
+  "7ncCLJpP3MNww17LW8bRvx8odQQnubNtfNZBL5BgAEHW": {
+    "name": "Wrapped Reserve Rights (Sollet)",
+    "logo": "7ncCLJpP3MNww17LW8bRvx8odQQnubNtfNZBL5BgAEHW.png",
+    "erc20": false,
+    "symbol": "RSR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "reserve-rights-token"
+  },
+  "5wihEYGca7X4gSe97C5mVcqNsfxBzhdTwpv72HKs25US": {
+    "name": "Wrapped 1INCH (Sollet)",
+    "logo": "5wihEYGca7X4gSe97C5mVcqNsfxBzhdTwpv72HKs25US.png",
+    "erc20": false,
+    "symbol": "1INCH",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "1inch"
+  },
+  "38i2NQxjp5rt5B3KogqrxmBxgrAwaB3W1f1GmiKqh9MS": {
+    "name": "Wrapped GRT  (Sollet)",
+    "logo": "38i2NQxjp5rt5B3KogqrxmBxgrAwaB3W1f1GmiKqh9MS.png",
+    "erc20": false,
+    "symbol": "GRT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "the-graph"
+  },
+  "Avz2fmevhhu87WYtWQCFj9UjKRjF9Z9QWwN2ih9yF95G": {
+    "name": "Wrapped Compound (Sollet)",
+    "logo": "Avz2fmevhhu87WYtWQCFj9UjKRjF9Z9QWwN2ih9yF95G.png",
+    "erc20": false,
+    "symbol": "COMP",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "compound-coin"
+  },
+  "9wRD14AhdZ3qV8et3eBQVsrb3UoBZDUbJGyFckpTg8sj": {
+    "name": "Wrapped Paxos Gold (Sollet)",
+    "logo": "9wRD14AhdZ3qV8et3eBQVsrb3UoBZDUbJGyFckpTg8sj.png",
+    "erc20": false,
+    "symbol": "PAXG",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "pax-gold"
+  },
+  "AByXcTZwJHMtrKrvVsh9eFNB1pJaLDjCUR2ayvxBAAM2": {
+    "name": "Wrapped Strong (Sollet)",
+    "logo": "AByXcTZwJHMtrKrvVsh9eFNB1pJaLDjCUR2ayvxBAAM2.png",
+    "erc20": false,
+    "symbol": "STRONG",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "strong"
+  },
+  "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp": {
+    "name": "Bonfida",
+    "logo": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp.png",
+    "erc20": false,
+    "symbol": "FIDA",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "bonfida"
+  },
+  "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6": {
+    "name": "KIN",
+    "logo": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6.png",
+    "erc20": false,
+    "symbol": "KIN",
+    "decimals": 5,
+    "chainId": "0x65",
+    "coingeckoId": "kin"
+  },
+  "MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb": {
+    "name": "MAPS",
+    "logo": "MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb.png",
+    "erc20": false,
+    "symbol": "MAPS",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "maps"
+  },
+  "z3dn17yLaGMKffVogeFHQ9zWVcXgqgf3PQnDsNs2g6M": {
+    "name": "Oxygen Protocol",
+    "logo": "z3dn17yLaGMKffVogeFHQ9zWVcXgqgf3PQnDsNs2g6M.png",
+    "erc20": false,
+    "symbol": "OXY",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "oxygen"
+  },
+  "FtgGSFADXBtroxq8VCausXRr2of47QBf5AS1NtZCu4GD": {
+    "name": "BRZ",
+    "logo": "FtgGSFADXBtroxq8VCausXRr2of47QBf5AS1NtZCu4GD.png",
+    "erc20": false,
+    "symbol": "BRZ",
+    "decimals": 4,
+    "chainId": "0x65",
+    "coingeckoId": "brz"
+  },
+  "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+    "name": "USDT",
+    "logo": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB.png",
+    "erc20": false,
+    "symbol": "USDT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "tether"
+  },
+  "2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH": {
+    "name": "Standard",
+    "logo": "2oDxYGgTBmST4rc3yn1YtcSEck7ReDZ8wHWLqZAuNWXH.png",
+    "erc20": false,
+    "symbol": "xMARK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "xmark"
+  },
+  "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R": {
+    "name": "Raydium",
+    "logo": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R.png",
+    "erc20": false,
+    "symbol": "RAY",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "raydium"
+  },
+  "CzPDyvotTcxNqtPne32yUiEVQ6jk42HZi1Y3hUu7qf7f": {
+    "name": "Raydium Legacy LP Token V2 (RAY-WUSDT)",
+    "logo": "CzPDyvotTcxNqtPne32yUiEVQ6jk42HZi1Y3hUu7qf7f.png",
+    "erc20": false,
+    "symbol": "RAY-WUSDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "134Cct3CSdRCbYgq5SkwmHgfwjJ7EM5cG9PzqffWqECx": {
+    "name": "Raydium Legacy LP Token V2 (RAY-SOL)",
+    "logo": "134Cct3CSdRCbYgq5SkwmHgfwjJ7EM5cG9PzqffWqECx.png",
+    "erc20": false,
+    "symbol": "RAY-SOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "EVDmwajM5U73PD34bYPugwiA4Eqqbrej4mLXXv15Z5qR": {
+    "name": "Raydium Legacy LP Token V2 (LINK-WUSDT)",
+    "logo": "EVDmwajM5U73PD34bYPugwiA4Eqqbrej4mLXXv15Z5qR.png",
+    "erc20": false,
+    "symbol": "LINK-WUSDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "KY4XvwHy7JPzbWYAbk23jQvEb4qWJ8aCqYWREmk1Q7K": {
+    "name": "Raydium Legacy LP Token V2 (ETH-WUSDT)",
+    "logo": "KY4XvwHy7JPzbWYAbk23jQvEb4qWJ8aCqYWREmk1Q7K.png",
+    "erc20": false,
+    "symbol": "ETH-WUSDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FgmBnsF5Qrnv8X9bomQfEtQTQjNNiBCWRKGpzPnE5BDg": {
+    "name": "Raydium Legacy LP Token V2 (RAY-USDC)",
+    "logo": "FgmBnsF5Qrnv8X9bomQfEtQTQjNNiBCWRKGpzPnE5BDg.png",
+    "erc20": false,
+    "symbol": "RAY-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "5QXBMXuCL7zfAk39jEVVEvcrz1AvBGgT9wAhLLHLyyUJ": {
+    "name": "Raydium Legacy LP Token V2 (RAY-SRM)",
+    "logo": "5QXBMXuCL7zfAk39jEVVEvcrz1AvBGgT9wAhLLHLyyUJ.png",
+    "erc20": false,
+    "symbol": "RAY-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FdhKXYjCou2jQfgKWcNY7jb8F2DPLU1teTTTRfLBD2v1": {
+    "name": "Raydium Legacy LP Token V3 (RAY-WUSDT)",
+    "logo": "FdhKXYjCou2jQfgKWcNY7jb8F2DPLU1teTTTRfLBD2v1.png",
+    "erc20": false,
+    "symbol": "RAY-WUSDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "BZFGfXMrjG2sS7QT2eiCDEevPFnkYYF7kzJpWfYxPbcx": {
+    "name": "Raydium Legacy LP Token V3 (RAY-USDC)",
+    "logo": "BZFGfXMrjG2sS7QT2eiCDEevPFnkYYF7kzJpWfYxPbcx.png",
+    "erc20": false,
+    "symbol": "RAY-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "DSX5E21RE9FB9hM8Nh8xcXQfPK6SzRaJiywemHBSsfup": {
+    "name": "Raydium Legacy LP Token V3 (RAY-SRM)",
+    "logo": "DSX5E21RE9FB9hM8Nh8xcXQfPK6SzRaJiywemHBSsfup.png",
+    "erc20": false,
+    "symbol": "RAY-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "F5PPQHGcznZ2FxD9JaxJMXaf7XkaFFJ6zzTBcW8osQjw": {
+    "name": "Raydium Legacy LP Token V3 (RAY-SOL)",
+    "logo": "F5PPQHGcznZ2FxD9JaxJMXaf7XkaFFJ6zzTBcW8osQjw.png",
+    "erc20": false,
+    "symbol": "RAY-SOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "8Q6MKy5Yxb9vG1mWzppMtMb2nrhNuCRNUkJTeiE3fuwD": {
+    "name": "Raydium Legacy LP Token V3 (RAY-ETH)",
+    "logo": "8Q6MKy5Yxb9vG1mWzppMtMb2nrhNuCRNUkJTeiE3fuwD.png",
+    "erc20": false,
+    "symbol": "RAY-ETH",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "DsBuznXRTmzvEdb36Dx3aVLVo1XmH7r1PRZUFugLPTFv": {
+    "name": "Raydium LP Token V4 (FIDA-RAY)",
+    "logo": "DsBuznXRTmzvEdb36Dx3aVLVo1XmH7r1PRZUFugLPTFv.png",
+    "erc20": false,
+    "symbol": "FIDA-RAY",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FwaX9W7iThTZH5MFeasxdLpxTVxRcM7ZHieTCnYog8Yb": {
+    "name": "Raydium LP Token V4 (OXY-RAY)",
+    "logo": "FwaX9W7iThTZH5MFeasxdLpxTVxRcM7ZHieTCnYog8Yb.png",
+    "erc20": false,
+    "symbol": "OXY-RAY",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "CcKK8srfVdTSsFGV3VLBb2YDbzF4T4NM2C3UEjC39RLP": {
+    "name": "Raydium LP Token V4 (MAPS-RAY)",
+    "logo": "CcKK8srfVdTSsFGV3VLBb2YDbzF4T4NM2C3UEjC39RLP.png",
+    "erc20": false,
+    "symbol": "MAPS-RAY",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "CHT8sft3h3gpLYbCcZ9o27mT5s3Z6VifBVbUiDvprHPW": {
+    "name": "Raydium LP Token V4 (KIN-RAY)",
+    "logo": "CHT8sft3h3gpLYbCcZ9o27mT5s3Z6VifBVbUiDvprHPW.png",
+    "erc20": false,
+    "symbol": "KIN-RAY",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "C3sT1R3nsw4AVdepvLTLKr5Gvszr7jufyBWUCvy4TUvT": {
+    "name": "Raydium LP Token V4 (RAY-USDT)",
+    "logo": "C3sT1R3nsw4AVdepvLTLKr5Gvszr7jufyBWUCvy4TUvT.png",
+    "erc20": false,
+    "symbol": "RAY-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "8HoQnePLqPj4M7PUDzfw8e3Ymdwgc7NLGnaTUapubyvu": {
+    "name": "Raydium LP Token V4 (SOL-USDC)",
+    "logo": "8HoQnePLqPj4M7PUDzfw8e3Ymdwgc7NLGnaTUapubyvu.png",
+    "erc20": false,
+    "symbol": "SOL-USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "865j7iMmRRycSYUXzJ33ZcvLiX9JHvaLidasCyUyKaRE": {
+    "name": "Raydium LP Token V4 (YFI-USDC)",
+    "logo": "865j7iMmRRycSYUXzJ33ZcvLiX9JHvaLidasCyUyKaRE.png",
+    "erc20": false,
+    "symbol": "YFI-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "9XnZd82j34KxNLgQfz29jGbYdxsYznTWRpvZE3SRE7JG": {
+    "name": "Raydium LP Token V4 (SRM-USDC)",
+    "logo": "9XnZd82j34KxNLgQfz29jGbYdxsYznTWRpvZE3SRE7JG.png",
+    "erc20": false,
+    "symbol": "SRM-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "75dCoKfUHLUuZ4qEh46ovsxfgWhB4icc3SintzWRedT9": {
+    "name": "Raydium LP Token V4 (FTT-USDC)",
+    "logo": "75dCoKfUHLUuZ4qEh46ovsxfgWhB4icc3SintzWRedT9.png",
+    "erc20": false,
+    "symbol": "FTT-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "2hMdRdVWZqetQsaHG8kQjdZinEMBz75vsoWTCob1ijXu": {
+    "name": "Raydium LP Token V4 (BTC-USDC)",
+    "logo": "2hMdRdVWZqetQsaHG8kQjdZinEMBz75vsoWTCob1ijXu.png",
+    "erc20": false,
+    "symbol": "BTC-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "2QVjeR9d2PbSf8em8NE8zWd8RYHjFtucDUdDgdbDD2h2": {
+    "name": "Raydium LP Token V4 (SUSHI-USDC)",
+    "logo": "2QVjeR9d2PbSf8em8NE8zWd8RYHjFtucDUdDgdbDD2h2.png",
+    "erc20": false,
+    "symbol": "SUSHI-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "CHyUpQFeW456zcr5XEh4RZiibH8Dzocs6Wbgz9aWpXnQ": {
+    "name": "Raydium LP Token V4 (TOMO-USDC)",
+    "logo": "CHyUpQFeW456zcr5XEh4RZiibH8Dzocs6Wbgz9aWpXnQ.png",
+    "erc20": false,
+    "symbol": "TOMO-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "BqjoYjqKrXtfBKXeaWeAT5sYCy7wsAYf3XjgDWsHSBRs": {
+    "name": "Raydium LP Token V4 (LINK-USDC)",
+    "logo": "BqjoYjqKrXtfBKXeaWeAT5sYCy7wsAYf3XjgDWsHSBRs.png",
+    "erc20": false,
+    "symbol": "LINK-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "13PoKid6cZop4sj2GfoBeujnGfthUbTERdE5tpLCDLEY": {
+    "name": "Raydium LP Token V4 (ETH-USDC)",
+    "logo": "13PoKid6cZop4sj2GfoBeujnGfthUbTERdE5tpLCDLEY.png",
+    "erc20": false,
+    "symbol": "ETH-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "2Vyyeuyd15Gp8aH6uKE72c4hxc8TVSLibxDP9vzspQWG": {
+    "name": "Raydium LP Token V4 (COPE-USDC)",
+    "logo": "2Vyyeuyd15Gp8aH6uKE72c4hxc8TVSLibxDP9vzspQWG.png",
+    "erc20": false,
+    "symbol": "COPE-USDC",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "Epm4KfTj4DMrvqn6Bwg2Tr2N8vhQuNbuK8bESFp4k33K": {
+    "name": "Raydium LP Token V4 (SOL-USDT)",
+    "logo": "Epm4KfTj4DMrvqn6Bwg2Tr2N8vhQuNbuK8bESFp4k33K.png",
+    "erc20": false,
+    "symbol": "SOL-USDT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "FA1i7fej1pAbQbnY8NbyYUsTrWcasTyipKreDgy1Mgku": {
+    "name": "Raydium LP Token V4 (YFI-USDT)",
+    "logo": "FA1i7fej1pAbQbnY8NbyYUsTrWcasTyipKreDgy1Mgku.png",
+    "erc20": false,
+    "symbol": "YFI-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "HYSAu42BFejBS77jZAZdNAWa3iVcbSRJSzp3wtqCbWwv": {
+    "name": "Raydium LP Token V4 (SRM-USDT)",
+    "logo": "HYSAu42BFejBS77jZAZdNAWa3iVcbSRJSzp3wtqCbWwv.png",
+    "erc20": false,
+    "symbol": "SRM-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "2cTCiUnect5Lap2sk19xLby7aajNDYseFhC9Pigou11z": {
+    "name": "Raydium LP Token V4 (FTT-USDT)",
+    "logo": "2cTCiUnect5Lap2sk19xLby7aajNDYseFhC9Pigou11z.png",
+    "erc20": false,
+    "symbol": "FTT-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "DgGuvR9GSHimopo3Gc7gfkbKamLKrdyzWkq5yqA6LqYS": {
+    "name": "Raydium LP Token V4 (BTC-USDT)",
+    "logo": "DgGuvR9GSHimopo3Gc7gfkbKamLKrdyzWkq5yqA6LqYS.png",
+    "erc20": false,
+    "symbol": "BTC-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "Ba26poEYDy6P2o95AJUsewXgZ8DM9BCsmnU9hmC9i4Ki": {
+    "name": "Raydium LP Token V4 (SUSHI-USDT)",
+    "logo": "Ba26poEYDy6P2o95AJUsewXgZ8DM9BCsmnU9hmC9i4Ki.png",
+    "erc20": false,
+    "symbol": "SUSHI-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "D3iGro1vn6PWJXo9QAPj3dfta6dKkHHnmiiym2EfsAmi": {
+    "name": "Raydium LP Token V4 (TOMO-USDT)",
+    "logo": "D3iGro1vn6PWJXo9QAPj3dfta6dKkHHnmiiym2EfsAmi.png",
+    "erc20": false,
+    "symbol": "TOMO-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "Dr12Sgt9gkY8WU5tRkgZf1TkVWJbvjYuPAhR3aDCwiiX": {
+    "name": "Raydium LP Token V4 (LINK-USDT)",
+    "logo": "Dr12Sgt9gkY8WU5tRkgZf1TkVWJbvjYuPAhR3aDCwiiX.png",
+    "erc20": false,
+    "symbol": "LINK-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "nPrB78ETY8661fUgohpuVusNCZnedYCgghzRJzxWnVb": {
+    "name": "Raydium LP Token V4 (ETH-USDT)",
+    "logo": "nPrB78ETY8661fUgohpuVusNCZnedYCgghzRJzxWnVb.png",
+    "erc20": false,
+    "symbol": "ETH-USDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "EGJht91R7dKpCj8wzALkjmNdUUUcQgodqWCYweyKcRcV": {
+    "name": "Raydium LP Token V4 (YFI-SRM)",
+    "logo": "EGJht91R7dKpCj8wzALkjmNdUUUcQgodqWCYweyKcRcV.png",
+    "erc20": false,
+    "symbol": "YFI-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "AsDuPg9MgPtt3jfoyctUCUgsvwqAN6RZPftqoeiPDefM": {
+    "name": "Raydium LP Token V4 (FTT-SRM)",
+    "logo": "AsDuPg9MgPtt3jfoyctUCUgsvwqAN6RZPftqoeiPDefM.png",
+    "erc20": false,
+    "symbol": "FTT-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "AGHQxXb3GSzeiLTcLtXMS2D5GGDZxsB2fZYZxSB5weqB": {
+    "name": "Raydium LP Token V4 (BTC-SRM)",
+    "logo": "AGHQxXb3GSzeiLTcLtXMS2D5GGDZxsB2fZYZxSB5weqB.png",
+    "erc20": false,
+    "symbol": "BTC-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "3HYhUnUdV67j1vn8fu7ExuVGy5dJozHEyWvqEstDbWwE": {
+    "name": "Raydium LP Token V4 (SUSHI-SRM)",
+    "logo": "3HYhUnUdV67j1vn8fu7ExuVGy5dJozHEyWvqEstDbWwE.png",
+    "erc20": false,
+    "symbol": "SUSHI-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "GgH9RnKrQpaMQeqmdbMvs5oo1A24hERQ9wuY2pSkeG7x": {
+    "name": "Raydium LP Token V4 (TOMO-SRM)",
+    "logo": "GgH9RnKrQpaMQeqmdbMvs5oo1A24hERQ9wuY2pSkeG7x.png",
+    "erc20": false,
+    "symbol": "TOMO-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "GXN6yJv12o18skTmJXaeFXZVY1iqR18CHsmCT8VVCmDD": {
+    "name": "Raydium LP Token V4 (LINK-SRM)",
+    "logo": "GXN6yJv12o18skTmJXaeFXZVY1iqR18CHsmCT8VVCmDD.png",
+    "erc20": false,
+    "symbol": "LINK-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "9VoY3VERETuc2FoadMSYYizF26mJinY514ZpEzkHMtwG": {
+    "name": "Raydium LP Token V4 (ETH-SRM)",
+    "logo": "9VoY3VERETuc2FoadMSYYizF26mJinY514ZpEzkHMtwG.png",
+    "erc20": false,
+    "symbol": "ETH-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "AKJHspCwDhABucCxNLXUSfEzb7Ny62RqFtC9uNjJi4fq": {
+    "name": "Raydium LP Token V4 (SRM-SOL)",
+    "logo": "AKJHspCwDhABucCxNLXUSfEzb7Ny62RqFtC9uNjJi4fq.png",
+    "erc20": false,
+    "symbol": "SRM-SOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "2doeZGLJyACtaG9DCUyqMLtswesfje1hjNA11hMdj6YU": {
+    "name": "Raydium LP Token V4 (TULIP-USDC)",
+    "logo": "2doeZGLJyACtaG9DCUyqMLtswesfje1hjNA11hMdj6YU.png",
+    "erc20": false,
+    "symbol": "TULIP-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "AcstFzGGawvvdVhYV9bftr7fmBHbePUjhv53YK1W3dZo": {
+    "name": "LSD",
+    "logo": "AcstFzGGawvvdVhYV9bftr7fmBHbePUjhv53YK1W3dZo.png",
+    "erc20": false,
+    "symbol": "LSD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "91fSFQsPzMLat9DHwLdQacW3i3EGnWds5tA5mt7yLiT9": {
+    "name": "Unlimited Energy",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Unlimited Energy",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "29PEpZeuqWf9tS2gwCjpeXNdXLkaZSMR2s1ibkvGsfnP": {
+    "name": "Need for Speed",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Need for Speed",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "HsY8PNar8VExU335ZRYzg89fX7qa4upYu6vPMPFyCDdK": {
+    "name": "ADOR OPENS",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ADOR OPENS",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "EDP8TpLJ77M3KiDgFkZW4v4mhmKJHZi9gehYXenfFZuL": {
+    "name": "CMS - Rare",
+    "logo": "",
+    "erc20": false,
+    "symbol": "CMS - Rare",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "BrUKFwAABkExb1xzYU4NkRWzjBihVQdZ3PBz4m5S8if3": {
+    "name": "Tesla",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Tesla",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "9CmQwpvVXRyixjiE3LrbSyyopPZohNDN1RZiTk8rnXsQ": {
+    "name": "DeceFi",
+    "logo": "",
+    "erc20": false,
+    "symbol": "DeceFi",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "F6ST1wWkx2PeH45sKmRxo1boyuzzWCfpnvyKL4BGeLxF": {
+    "name": "Power User",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Power User",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "dZytJ7iPDcCu9mKe3srL7bpUeaR3zzkcVqbtqsmxtXZ": {
+    "name": "VIP Member",
+    "logo": "",
+    "erc20": false,
+    "symbol": "VIP Member",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "8T4vXgwZUWwsbCDiptHFHjdfexvLG9UP8oy1psJWEQdS": {
+    "name": "Uni Christmas",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Uni Christmas",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "EjFGGJSyp9UDS8aqafET5LX49nsG326MeNezYzpiwgpQ": {
+    "name": "BNB",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BNB",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "FkmkTr4en8CXkfo9jAwEMov6PVNLpYMzWr3Udqf9so8Z": {
+    "name": "Seldom",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Seldom",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "2gn1PJdMAU92SU5inLSp4Xp16ZC5iLF6ScEi7UBvp8ZD": {
+    "name": "Satoshi Closeup",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi Closeup",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7mhZHtPL4GFkquQR4Y6h34Q8hNkQvGc1FaNtyE43NvUR": {
+    "name": "Satoshi GB",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi GB",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8RoKfLx5RCscbtVh8kYb81TF7ngFJ38RPomXtUREKsT2": {
+    "name": "Satoshi OG",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi OG",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9rw5hyDngBQ3yDsCRHqgzGHERpU2zaLh1BXBUjree48J": {
+    "name": "Satoshi BTC",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi BTC",
+    "decimals": 10,
+    "chainId": "0x65"
+  },
+  "AiD7J6D5Hny5DJB1MrYBc2ePQqy2Yh4NoxWwYfR7PzxH": {
+    "name": "Satoshi GB",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi GB",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "4qzEcYvT6TuJME2EMZ5vjaLvQja6R4hKjarA73WQUwt6": {
+    "name": "APESZN_HOODIE",
+    "logo": "",
+    "erc20": false,
+    "symbol": "APESZN_HOODIE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "APhyVWtzjdTVYhyta9ngSiCDk2pLi8eEZKsHGSbsmwv6": {
+    "name": "APESZN_TEE_SHIRT",
+    "logo": "",
+    "erc20": false,
+    "symbol": "APESZN_TEE_SHIRT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "bxiA13fpU1utDmYuUvxvyMT8odew5FEm96MRv7ij3eb": {
+    "name": "Satoshi",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GoC24kpj6TkvjzspXrjSJC2CVb5zMWhLyRcHJh9yKjRF": {
+    "name": "Satoshi Closeup",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi Closeup",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "oCUduD44ETuZ65bpWdPzPDSnAdreg1sJrugfwyFZVHV": {
+    "name": "Satoshi BTC",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi BTC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9Vvre2DxBB9onibwYDHeMsY1cj6BDKtEDccBPWRN215E": {
+    "name": "Satoshi Nakamoto",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Satoshi Nakamoto",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7RpFk44cMTAUt9CcjEMWnZMypE9bYQsjBiSNLn5qBvhP": {
+    "name": "Charles Hoskinson",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Charles Hoskinson",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GyRkPAxpd9XrMHcBF6fYHVRSZQvQBwAGKAGQeBPSKzMq": {
+    "name": "SBF",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SBF",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "AgdBQN2Sy2abiZ2KToWeUsQ9PHdCv95wt6kVWRf5zDkx": {
+    "name": "Bitcoin Tram",
+    "logo": "",
+    "erc20": false,
+    "symbol": "Bitcoin Tram",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "7TRzvCqXN8KSXggbSyeEG2Z9YBBhEFmbtmv6FLbd4mmd": {
+    "name": "SRM tee-shirt",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SRM tee-shirt",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "gksYzxitEf2HyE7Bb81vvHXNH5f3wa43jvXf4TcUZwb": {
+    "name": "PERK",
+    "logo": "gksYzxitEf2HyE7Bb81vvHXNH5f3wa43jvXf4TcUZwb.png",
+    "erc20": false,
+    "symbol": "PERK",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "BDxWSxkMLW1nJ3VggamUKkEKrtCaVqzFxoDApM8HdBks": {
+    "name": "BitSong",
+    "logo": "BDxWSxkMLW1nJ3VggamUKkEKrtCaVqzFxoDApM8HdBks.png",
+    "erc20": false,
+    "symbol": "BTSG",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "bitsong"
+  },
+  "5ddiFxh3J2tcZHfn8uhGRYqu16P3FUvBfh8WoZPUHKW5": {
+    "name": "EOSBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "EOSBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-eos-token"
+  },
+  "qxxF6S62hmZF5bo46mS7C2qbBa87qRossAM78VzsDqi": {
+    "name": "EOSBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "EOSBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-eos-token"
+  },
+  "2CDLbxeuqkLTLY3em6FFQgfBQV5LRnEsJJgcFCvWKNcS": {
+    "name": "BNBBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BNBBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-bnb-token"
+  },
+  "AfjHjdLibuXyvmz7PyTSc5KEcGBh43Kcu8Sr2tyDaJyt": {
+    "name": "BNBBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BNBBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-bnb-token"
+  },
+  "8kA1WJKoLTxtACNPkvW6UNufsrpxUY57tXZ9KmG9123t": {
+    "name": "BSVBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BSVBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-bitcoin-sv-token"
+  },
+  "2FGW8BVMu1EHsz2ZS9rZummDaq6o2DVrZZPw4KaAvDWh": {
+    "name": "BSVBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BSVBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-bitcoin-sv-token"
+  },
+  "8L9XGTMzcqS9p61zsR35t7qipwAXMYkD6disWoDFZiFT": {
+    "name": "LTCBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "LTCBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-litecoin-token"
+  },
+  "863ZRjf1J8AaVuCqypAdm5ktVyGYDiBTvD1MNHKrwyjp": {
+    "name": "LTCBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "LTCBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-litecoin-token"
+  },
+  "GkSPaHdY2raetuYzsJYacHtrAtQUfWt64bpd1VzxJgSD": {
+    "name": "BULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-bitcoin-token"
+  },
+  "45vwTZSDFBiqCMRdtK4xiLCHEov8LJRW8GwnofG8HYyH": {
+    "name": "BEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-bitcoin-token"
+  },
+  "2VTAVf1YCwamD3ALMdYHRMV5vPUCXdnatJH5f1khbmx6": {
+    "name": "BCHBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BCHBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-bitcoin-cash-token"
+  },
+  "22xoSp66BDt4x4Q5xqxjaSnirdEyharoBziSFChkLFLy": {
+    "name": "BCHBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BCHBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-bitcoin-cash-token"
+  },
+  "CwChm6p9Q3yFrjzVeiLTTbsoJkooscof5SJYZc2CrNqG": {
+    "name": "ETHBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ETHBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-ethereum-token"
+  },
+  "Bvv9xLodFrvDFSno9Ud8SEh5zVtBDQQjnBty2SgMcJ2s": {
+    "name": "ETHBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ETHBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-ethereum-token"
+  },
+  "HRhaNssoyv5tKFRcbPg69ULEbcD8DPv99GdXLcdkgc1A": {
+    "name": "ALTBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ALTBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-altcoin-index-token"
+  },
+  "9Mu1KmjBKTUWgpDoeTJ5oD7XFQmEiZxzspEd3TZGkavx": {
+    "name": "ALTBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ALTBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-altcoin-index-token"
+  },
+  "AYL1adismZ1U9pTuN33ahG4aYc5XTZQL4vKFx9ofsGWD": {
+    "name": "BULLSHIT",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BULLSHIT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-shitcoin-index-token"
+  },
+  "5jqymuoXXVcUuJKrf1MWiHSqHyg2osMaJGVy69NsJWyP": {
+    "name": "BEARSHIT",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BEARSHIT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-shitcoin-index-token"
+  },
+  "EL1aDTnLKjf4SaGpqtxJPyK94imSBr8fWDbcXjXQrsmj": {
+    "name": "MIDBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "MIDBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-midcap-index-token"
+  },
+  "2EPvVjHusU3ozoucmdhhnqv3HQtBsQmjTnSa87K91HkC": {
+    "name": "MIDBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "MIDBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-midcap-index-token"
+  },
+  "8TCfJTyeqNBZqyDMY4VwDY7kdCCY7pcbJJ58CnKHkMu2": {
+    "name": "LINKBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "LINKBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-chainlink-token"
+  },
+  "EsUoZMbACNMppdqdmuLCFLet8VXxt2h47N9jHCKwyaPz": {
+    "name": "LINKBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "LINKBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-chainlink-token"
+  },
+  "262cQHT3soHwzuo2oVSy5kAfHcFZ1Jjn8C1GRLcQNKA3": {
+    "name": "XRPBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "XRPBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-xrp-token"
+  },
+  "8sxtSswmQ7Lcd2GjK6am37Z61wJZjA2SzE7Luf7yaKBB": {
+    "name": "XRPBEAR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "XRPBEAR",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-short-xrp-token"
+  },
+  "91z91RukFM16hyEUCXuwMQwp2BW3vanNG5Jh5yj6auiJ": {
+    "name": "BVOL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BVOL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "1x-long-btc-implied-volatility-token"
+  },
+  "5TY71D29Cyuk9UrsSxLXw2quJBpS7xDDFuFu2K9W7Wf9": {
+    "name": "IBlive",
+    "logo": "",
+    "erc20": false,
+    "symbol": "IBVOL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "1x-short-btc-implied-volatility"
+  },
+  "dK83wTVypEpa1pqiBbHY3MNuUnT3ADUZM4wk9VZXZEc": {
+    "name": "Wrapped Aave",
+    "logo": "dK83wTVypEpa1pqiBbHY3MNuUnT3ADUZM4wk9VZXZEc.png",
+    "erc20": false,
+    "symbol": "AAVE",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "aave"
+  },
+  "A6aY2ceogBz1VaXBxm1j2eJuNZMRqrWUAnKecrMH85zj": {
+    "name": "LQID",
+    "logo": "A6aY2ceogBz1VaXBxm1j2eJuNZMRqrWUAnKecrMH85zj.png",
+    "erc20": false,
+    "symbol": "LQID",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "7CnFGR9mZWyAtWxPcVuTewpyC3A3MDW4nLsu5NY6PDbd": {
+    "name": "SECO",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SECO",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "serum-ecosystem-token"
+  },
+  "3GECTP7H4Tww3w8jEPJCJtXUtXxiZty31S9szs84CcwQ": {
+    "name": "HOLY",
+    "logo": "",
+    "erc20": false,
+    "symbol": "HOLY",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "holy-trinity"
+  },
+  "6ry4WBDvAwAnrYJVv6MCog4J8zx6S3cPgSqnTsDZ73AR": {
+    "name": "TRYB",
+    "logo": "",
+    "erc20": false,
+    "symbol": "TRYB",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "bilira"
+  },
+  "ASboaJPFtJeCS5eG4gL3Lg95xrTz2UZSLE9sdJtY93kE": {
+    "name": "DOGEBULL",
+    "logo": "",
+    "erc20": false,
+    "symbol": "DOGEBULL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "3x-long-dogecoin-token"
+  },
+  "Gnhy3boBT4MA8TTjGip5ND2uNsceh1Wgeaw1rYJo51ZY": {
+    "name": "Bonfida Maps Pool",
+    "logo": "Gnhy3boBT4MA8TTjGip5ND2uNsceh1Wgeaw1rYJo51ZY.png",
+    "erc20": false,
+    "symbol": "MAPSPOOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "9iDWyYZ5VHBCxxmWZogoY3Z6FSbKsX4WFe37c728krdT": {
+    "name": "Bonfida Oxy Pool",
+    "logo": "9iDWyYZ5VHBCxxmWZogoY3Z6FSbKsX4WFe37c728krdT.png",
+    "erc20": false,
+    "symbol": "OXYPOOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "D68NB5JkzvyNCZAvi6EGtEcGvSoRNPanU9heYTAUFFRa": {
+    "name": "PERP",
+    "logo": "D68NB5JkzvyNCZAvi6EGtEcGvSoRNPanU9heYTAUFFRa.png",
+    "erc20": false,
+    "symbol": "PERP",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "perpetual-protocol"
+  },
+  "93a1L7xaEV7vZGzNXCcb9ztZedbpKgUiTHYxmFKJwKvc": {
+    "name": "Bonfida Ray Pool",
+    "logo": "93a1L7xaEV7vZGzNXCcb9ztZedbpKgUiTHYxmFKJwKvc.png",
+    "erc20": false,
+    "symbol": "RAYPOOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf": {
+    "name": "Wrapped Ether (Wormhole)",
+    "logo": "FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf.png",
+    "erc20": false,
+    "symbol": "wWETH",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "weth"
+  },
+  "GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi": {
+    "name": "Wrapped FTT (Wormhole)",
+    "logo": "GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi.png",
+    "erc20": false,
+    "symbol": "wFTT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "ftx-token"
+  },
+  "AbLwQCyU9S8ycJgu8wn6woRCHSYJmjMpJFcAHQ6vjq2P": {
+    "name": "TrueUSD (Wormhole)",
+    "logo": "AbLwQCyU9S8ycJgu8wn6woRCHSYJmjMpJFcAHQ6vjq2P.png",
+    "erc20": false,
+    "symbol": "wTUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "true-usd"
+  },
+  "3JfuyCg5891hCX1ZTbvt3pkiaww3XwgyqQH6E9eHtqKD": {
+    "name": "Tokenlon (Wormhole)",
+    "logo": "3JfuyCg5891hCX1ZTbvt3pkiaww3XwgyqQH6E9eHtqKD.png",
+    "erc20": false,
+    "symbol": "wLON",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "tokenlon"
+  },
+  "6k7mrqiAqEWnABVN8FhfuNUrmrnaMh44nNWydNXctbpV": {
+    "name": "AllianceBlock Token (Wormhole)",
+    "logo": "6k7mrqiAqEWnABVN8FhfuNUrmrnaMh44nNWydNXctbpV.png",
+    "erc20": false,
+    "symbol": "wALBT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "allianceblock"
+  },
+  "4b166BQEQunjg8oNTDcLeWU3nidQnVTL1Vni8ANU7Mvt": {
+    "name": "SKALE (Wormhole)",
+    "logo": "4b166BQEQunjg8oNTDcLeWU3nidQnVTL1Vni8ANU7Mvt.png",
+    "erc20": false,
+    "symbol": "wSKL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "skale"
+  },
+  "CcHhpEx9VcWx7UBJC8DJaR5h3wNdexsQtB1nEfekjSHn": {
+    "name": "UniLend Finance Token (Wormhole)",
+    "logo": "CcHhpEx9VcWx7UBJC8DJaR5h3wNdexsQtB1nEfekjSHn.png",
+    "erc20": false,
+    "symbol": "wUFT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "unlend-finance"
+  },
+  "VPjCJkR1uZGT9k9q7PsLArS5sEQtWgij8eZC8tysCy7": {
+    "name": "Orion Protocol (Wormhole)",
+    "logo": "VPjCJkR1uZGT9k9q7PsLArS5sEQtWgij8eZC8tysCy7.png",
+    "erc20": false,
+    "symbol": "wORN",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "orion-protocol"
+  },
+  "CxzHZtzrm6bAz6iFCAGgCYCd3iQb5guUD7oQXKxdgk5c": {
+    "name": "SparkPoint (Wormhole)",
+    "logo": "CxzHZtzrm6bAz6iFCAGgCYCd3iQb5guUD7oQXKxdgk5c.png",
+    "erc20": false,
+    "symbol": "wSRK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "sparkpoint"
+  },
+  "FqMZWvmii4NNzhLBKGzkvGj3e3XTxNVDNSKDJnt9fVQV": {
+    "name": "UMA Voting Token v1 (Wormhole)",
+    "logo": "FqMZWvmii4NNzhLBKGzkvGj3e3XTxNVDNSKDJnt9fVQV.png",
+    "erc20": false,
+    "symbol": "wUMA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "uma"
+  },
+  "6GGNzF99kCG1ozQbP7M7EYW9zPbQGPMwTCCi2Dqx3qhU": {
+    "name": "SmartKey (Wormhole)",
+    "logo": "6GGNzF99kCG1ozQbP7M7EYW9zPbQGPMwTCCi2Dqx3qhU.png",
+    "erc20": false,
+    "symbol": "wSkey",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "smartkey"
+  },
+  "Gc9rR2dUHfuYCJ8rU1Ye9fr8JoZZt9ZrfmXitQRLsxRW": {
+    "name": "Wrapped MIR Token (Wormhole)",
+    "logo": "Gc9rR2dUHfuYCJ8rU1Ye9fr8JoZZt9ZrfmXitQRLsxRW.png",
+    "erc20": false,
+    "symbol": "wMIR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "mirror-protocol"
+  },
+  "B8xDqdrHpYLNHQKQ4ARDKurxhkhn2gfZa8WRosCEzXnF": {
+    "name": "Growth (Wormhole)",
+    "logo": "B8xDqdrHpYLNHQKQ4ARDKurxhkhn2gfZa8WRosCEzXnF.png",
+    "erc20": false,
+    "symbol": "wGRO",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "growth-defi"
+  },
+  "GE1X8ef7fcsJ93THx4CvV7BQsdEyEAyk61s2L5YfSXiL": {
+    "name": "xDai (Wormhole)",
+    "logo": "GE1X8ef7fcsJ93THx4CvV7BQsdEyEAyk61s2L5YfSXiL.png",
+    "erc20": false,
+    "symbol": "wSTAKE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "xdai-stake"
+  },
+  "7TK6QeyTsnTT6KsnK2tHHfh62mbjNuFWoyUc8vo3CmmU": {
+    "name": "yearn.finance (Wormhole)",
+    "logo": "7TK6QeyTsnTT6KsnK2tHHfh62mbjNuFWoyUc8vo3CmmU.png",
+    "erc20": false,
+    "symbol": "wYFI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "yearn-finance"
+  },
+  "CTtKth9uW7froBA6xCd2MP7BXjGFESdT1SyxUmbHovSw": {
+    "name": "Basic Attention Token (Wormhole)",
+    "logo": "CTtKth9uW7froBA6xCd2MP7BXjGFESdT1SyxUmbHovSw.png",
+    "erc20": false,
+    "symbol": "wBAT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "basic-attention-token"
+  },
+  "DrL2D4qCRCeNkQz3AJikLjBc3cS6fqqcQ3W7T9vbshCu": {
+    "name": "Decentraland MANA (Wormhole)",
+    "logo": "DrL2D4qCRCeNkQz3AJikLjBc3cS6fqqcQ3W7T9vbshCu.png",
+    "erc20": false,
+    "symbol": "wMANA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "decentraland"
+  },
+  "3cJKTW69FQDDCud7AhKHXZg126b3t73a2qVcVBS1BWjL": {
+    "name": "XIO Network (Wormhole)",
+    "logo": "3cJKTW69FQDDCud7AhKHXZg126b3t73a2qVcVBS1BWjL.png",
+    "erc20": false,
+    "symbol": "wXIO",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "xio"
+  },
+  "CQivbzuRQLvZbqefKc5gLzhSzZzAaySAdMmTG7pFn41w": {
+    "name": "Unilayer (Wormhole)",
+    "logo": "CQivbzuRQLvZbqefKc5gLzhSzZzAaySAdMmTG7pFn41w.png",
+    "erc20": false,
+    "symbol": "wLAYER",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "unilayer"
+  },
+  "C1LpKYrkVvWF5imsQ7JqJSZHj9NXNmJ5tEHkGTtLVH2L": {
+    "name": "https://unimex.network/ (Wormhole)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "wUMX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "unimex-network"
+  },
+  "8F3kZd9XEpFgNZ4fZnEAC5CJZLewnkNE8QCjdvorGWuW": {
+    "name": "1INCH Token (Wormhole)",
+    "logo": "8F3kZd9XEpFgNZ4fZnEAC5CJZLewnkNE8QCjdvorGWuW.png",
+    "erc20": false,
+    "symbol": "w1INCH",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "1inch"
+  },
+  "H3UMboX4tnjba1Xw1a2VhUtkdgnrbmPvmDm6jaouQDN9": {
+    "name": "Armor (Wormhole)",
+    "logo": "H3UMboX4tnjba1Xw1a2VhUtkdgnrbmPvmDm6jaouQDN9.png",
+    "erc20": false,
+    "symbol": "wARMOR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "armor"
+  },
+  "Cw26Yz3rAN42mM5WpKriuGvbXnvRYmFA9sbBWH49KyqL": {
+    "name": "Armor NXM (Wormhole)",
+    "logo": "Cw26Yz3rAN42mM5WpKriuGvbXnvRYmFA9sbBWH49KyqL.png",
+    "erc20": false,
+    "symbol": "warNXM",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "armor-nxm"
+  },
+  "3GVAecXsFP8xLFuAMMpg5NU4g5JK6h2NZWsQJ45wiw6b": {
+    "name": "DefiPulse Index (Wormhole)",
+    "logo": "3GVAecXsFP8xLFuAMMpg5NU4g5JK6h2NZWsQJ45wiw6b.png",
+    "erc20": false,
+    "symbol": "wDPI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "defipulse-index"
+  },
+  "AC4BK5yoEKn5hw6WpH3iWu56pEwigQdR48CiiqJ3R1pd": {
+    "name": "DeltaHub Community (Wormhole)",
+    "logo": "AC4BK5yoEKn5hw6WpH3iWu56pEwigQdR48CiiqJ3R1pd.png",
+    "erc20": false,
+    "symbol": "wDHC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "deltahub-community"
+  },
+  "7bXgNP7SEwrqbnfLBPgKDRKSGjVe7cjbuioRP23upF5H": {
+    "name": "KIRA Network (Wormhole)",
+    "logo": "7bXgNP7SEwrqbnfLBPgKDRKSGjVe7cjbuioRP23upF5H.png",
+    "erc20": false,
+    "symbol": "wKEX",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "kira-network"
+  },
+  "5uC8Gj96sK6UG44AYLpbX3DUjKtBUxBrhHcM8JDtyYum": {
+    "name": "Energy Web Token Bridged (Wormhole)",
+    "logo": "5uC8Gj96sK6UG44AYLpbX3DUjKtBUxBrhHcM8JDtyYum.png",
+    "erc20": false,
+    "symbol": "wEWTB",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "energy-web-token"
+  },
+  "EzeRaHuh1Xu1nDUypv1VWXcGsNJ71ncCJ8HeWuyg8atJ": {
+    "name": "Cryptocurrency Top 10 Tokens Index (Wormhole)",
+    "logo": "EzeRaHuh1Xu1nDUypv1VWXcGsNJ71ncCJ8HeWuyg8atJ.png",
+    "erc20": false,
+    "symbol": "wCC10",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "cryptocurrency-top-10-tokens-index"
+  },
+  "CYzPVv1zB9RH6hRWRKprFoepdD8Y7Q5HefCqrybvetja": {
+    "name": "Audius (Wormhole)",
+    "logo": "CYzPVv1zB9RH6hRWRKprFoepdD8Y7Q5HefCqrybvetja.png",
+    "erc20": false,
+    "symbol": "wAUDIO",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "audius"
+  },
+  "9yPmJNUp1qFV6LafdYdegZ8sCgC4oy6Rgt9WsDJqv3EX": {
+    "name": "Reputation (Wormhole)",
+    "logo": "9yPmJNUp1qFV6LafdYdegZ8sCgC4oy6Rgt9WsDJqv3EX.png",
+    "erc20": false,
+    "symbol": "wREP",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "CZxP1KtsfvMXZTGKR1fNwNChv8hGAfQrgVoENabN8zKU": {
+    "name": "VesperToken (Wormhole)",
+    "logo": "CZxP1KtsfvMXZTGKR1fNwNChv8hGAfQrgVoENabN8zKU.png",
+    "erc20": false,
+    "symbol": "wVSP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "vesper-finance"
+  },
+  "8cGPyDGT1mgG1iWzNjPmCDKSK9veJhoBAguq7rp7CjTe": {
+    "name": "Keep3rV1 (Wormhole)",
+    "logo": "8cGPyDGT1mgG1iWzNjPmCDKSK9veJhoBAguq7rp7CjTe.png",
+    "erc20": false,
+    "symbol": "wKP3R",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "keep3rv1"
+  },
+  "DGghbWvncPL41U8TmUtXcGMgLeQqkaA2yM7UfcabftR8": {
+    "name": "Lead Token (Wormhole)",
+    "logo": "DGghbWvncPL41U8TmUtXcGMgLeQqkaA2yM7UfcabftR8.png",
+    "erc20": false,
+    "symbol": "wLEAD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "lead-token"
+  },
+  "3MVa4e32PaKmPxYUQ6n8vFkWtCma68Ld7e7fTktWDueQ": {
+    "name": "Uniswap (Wormhole)",
+    "logo": "3MVa4e32PaKmPxYUQ6n8vFkWtCma68Ld7e7fTktWDueQ.png",
+    "erc20": false,
+    "symbol": "wUNI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "uniswap"
+  },
+  "qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL": {
+    "name": "Wrapped BTC (Wormhole)",
+    "logo": "qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL.png",
+    "erc20": false,
+    "symbol": "wWBTC",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "wrapped-bitcoin"
+  },
+  "8My83RG8Xa1EhXdDKHWq8BWZN1zF3XUrWL3TXCLjVPFh": {
+    "name": "UNION Protocol Governance Token (Wormhole)",
+    "logo": "8My83RG8Xa1EhXdDKHWq8BWZN1zF3XUrWL3TXCLjVPFh.png",
+    "erc20": false,
+    "symbol": "wUNN",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "union-protocol-governance-token"
+  },
+  "6jVuhLJ2mzyZ8DyUcrDj8Qr6Q9bqbJnq4fAnMeEduDM9": {
+    "name": "Unisocks Edition 0 (Wormhole)",
+    "logo": "6jVuhLJ2mzyZ8DyUcrDj8Qr6Q9bqbJnq4fAnMeEduDM9.png",
+    "erc20": false,
+    "symbol": "wSOCKS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "unisocks"
+  },
+  "Az8PAQ7s6s5ZFgBiKKEizHt3SzDxXKZayDCtRZoC3452": {
+    "name": "DEXTools (Wormhole)",
+    "logo": "Az8PAQ7s6s5ZFgBiKKEizHt3SzDxXKZayDCtRZoC3452.png",
+    "erc20": false,
+    "symbol": "wDEXT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "idextools"
+  },
+  "ELSnGFd5XnSdYFFSgYQp7n89FEbDqxN4npuRLW4PPPLv": {
+    "name": "HEX (Wormhole)",
+    "logo": "ELSnGFd5XnSdYFFSgYQp7n89FEbDqxN4npuRLW4PPPLv.png",
+    "erc20": false,
+    "symbol": "wHEX",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "hex"
+  },
+  "9iwfHhE7BJKNo4Eb1wX3p4uyJjEN9RoGLt4BvMdzZoiN": {
+    "name": "Cream (Wormhole)",
+    "logo": "9iwfHhE7BJKNo4Eb1wX3p4uyJjEN9RoGLt4BvMdzZoiN.png",
+    "erc20": false,
+    "symbol": "wCREAM",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "cream-2"
+  },
+  "DdiXkfDGhLiKyw889QC4nmcxSwMqarLBtrDofPJyx7bt": {
+    "name": "yfi.mobi (Wormhole)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "wYFIM",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "yfimobi"
+  },
+  "6wdcYNvUyHCerSiGbChkvGBF6Qzju1YP5qpXRQ4tqdZ3": {
+    "name": "ZeroSwapToken (Wormhole)",
+    "logo": "6wdcYNvUyHCerSiGbChkvGBF6Qzju1YP5qpXRQ4tqdZ3.png",
+    "erc20": false,
+    "symbol": "wZEE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "zeroswap"
+  },
+  "4xh8iC54UgaNpY4h34rxfZBSc9L2fBB8gWcYtDGHjxhN": {
+    "name": "Wrapped ANATHA (Wormhole)",
+    "logo": "4xh8iC54UgaNpY4h34rxfZBSc9L2fBB8gWcYtDGHjxhN.png",
+    "erc20": false,
+    "symbol": "wwANATHA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "wrapped-anatha"
+  },
+  "5Jq6S9HYqfG6TUMjjsKpnfis7utUAB69JiEGkkypdmgP": {
+    "name": "RAMP DEFI (Wormhole)",
+    "logo": "5Jq6S9HYqfG6TUMjjsKpnfis7utUAB69JiEGkkypdmgP.png",
+    "erc20": false,
+    "symbol": "wRAMP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "ramp"
+  },
+  "6uMUH5ztnj6AKYvL71EZgcyyRxjyBC5LVkscA5LrBc3c": {
+    "name": "Parsiq Token (Wormhole)",
+    "logo": "6uMUH5ztnj6AKYvL71EZgcyyRxjyBC5LVkscA5LrBc3c.png",
+    "erc20": false,
+    "symbol": "wPRQ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "parsiq"
+  },
+  "42gecM46tdSiYZN2CK1ek5raCxnzQf1xfhoKAf3F7Y5k": {
+    "name": "Small Love Potion (Wormhole)",
+    "logo": "42gecM46tdSiYZN2CK1ek5raCxnzQf1xfhoKAf3F7Y5k.png",
+    "erc20": false,
+    "symbol": "wSLP",
+    "decimals": 0,
+    "chainId": "0x65",
+    "coingeckoId": "smooth-love-potion"
+  },
+  "F6M9DW1cWw7EtFK9m2ukvT9WEvtEbdZfTzZTtDeBcnAf": {
+    "name": "SAND (Wormhole)",
+    "logo": "F6M9DW1cWw7EtFK9m2ukvT9WEvtEbdZfTzZTtDeBcnAf.png",
+    "erc20": false,
+    "symbol": "wSAND",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "the-sandbox"
+  },
+  "G27M8w6G4hwatMNFi46DPAUR1YkxSmRNFKus7SgYLoDy": {
+    "name": "Concentrated Voting Power (Wormhole)",
+    "logo": "G27M8w6G4hwatMNFi46DPAUR1YkxSmRNFKus7SgYLoDy.png",
+    "erc20": false,
+    "symbol": "wCVP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "concentrated-voting-power"
+  },
+  "FjucGZpcdVXaWJH21pbrGQaKNszsGsJqbAXu4sJywKJa": {
+    "name": "Republic Token (Wormhole)",
+    "logo": "FjucGZpcdVXaWJH21pbrGQaKNszsGsJqbAXu4sJywKJa.png",
+    "erc20": false,
+    "symbol": "wREN",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "republic-protocol"
+  },
+  "5kvugu18snfGRu1PykMfRzYfUxJYs3smk1PWQcGo6Z8a": {
+    "name": "Sora (Wormhole)",
+    "logo": "5kvugu18snfGRu1PykMfRzYfUxJYs3smk1PWQcGo6Z8a.png",
+    "erc20": false,
+    "symbol": "wXOR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "sora"
+  },
+  "3EKQDmiXj8yLBFpZca4coxBpP8XJCzmjVgUdVydSmaaT": {
+    "name": "FunFair (Wormhole)",
+    "logo": "3EKQDmiXj8yLBFpZca4coxBpP8XJCzmjVgUdVydSmaaT.png",
+    "erc20": false,
+    "symbol": "wFUN",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "funfair"
+  },
+  "6J9soByB65WUamsEG8KSPdphBV1oCoGvr5QpaUaY3r19": {
+    "name": "PickleToken (Wormhole)",
+    "logo": "6J9soByB65WUamsEG8KSPdphBV1oCoGvr5QpaUaY3r19.png",
+    "erc20": false,
+    "symbol": "wPICKLE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "pickle-finance"
+  },
+  "HEsqFznmAERPUmMWHtDWYAZRoFbNHZpuNuFrPio68Zp1": {
+    "name": "Paxos Gold (Wormhole)",
+    "logo": "HEsqFznmAERPUmMWHtDWYAZRoFbNHZpuNuFrPio68Zp1.png",
+    "erc20": false,
+    "symbol": "wPAXG",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "pax-gold"
+  },
+  "BrtLvpVCwVDH5Jpqjtiuhh8wKYA5b3NZCnsSftr61viv": {
+    "name": "Quant (Wormhole)",
+    "logo": "BrtLvpVCwVDH5Jpqjtiuhh8wKYA5b3NZCnsSftr61viv.png",
+    "erc20": false,
+    "symbol": "wQNT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "quant-network"
+  },
+  "8DRgurhcQPJeCqQEpbeYGUmwAz2tETbyWUYLUU4Q7goM": {
+    "name": "Oraichain Token (Wormhole)",
+    "logo": "8DRgurhcQPJeCqQEpbeYGUmwAz2tETbyWUYLUU4Q7goM.png",
+    "erc20": false,
+    "symbol": "wORAI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "oraichain-token"
+  },
+  "4e5cqAsZ7wQqwLi7AApS9CgN8Yaho5TvkhvcLaGyiuzL": {
+    "name": "TrustToken (Wormhole)",
+    "logo": "4e5cqAsZ7wQqwLi7AApS9CgN8Yaho5TvkhvcLaGyiuzL.png",
+    "erc20": false,
+    "symbol": "wTRU",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "truefi"
+  },
+  "HkhBUKSct2V93Z35apDmXthkRvH4yvMovLyv8s8idDgP": {
+    "name": "MCDEX Token (Wormhole)",
+    "logo": "HkhBUKSct2V93Z35apDmXthkRvH4yvMovLyv8s8idDgP.png",
+    "erc20": false,
+    "symbol": "wMCB",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "mcdex"
+  },
+  "Eof7wbYsHZKaoyUGwM7Nfkoo6zQW4U7uWXqz2hoQzSkK": {
+    "name": "NuCypher (Wormhole)",
+    "logo": "Eof7wbYsHZKaoyUGwM7Nfkoo6zQW4U7uWXqz2hoQzSkK.png",
+    "erc20": false,
+    "symbol": "wNU",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "nucypher"
+  },
+  "5CmA1HTVZt5NRtwiUrqWrcnT5JRW5zHe6uQXfP7SDUNz": {
+    "name": "RAZOR (Wormhole)",
+    "logo": "5CmA1HTVZt5NRtwiUrqWrcnT5JRW5zHe6uQXfP7SDUNz.png",
+    "erc20": false,
+    "symbol": "wRAZOR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "razor-network"
+  },
+  "6msNYXzSVtjinqapq2xcvBb5NRq4YTPAi7wc5Jx8M8TS": {
+    "name": "ChainLink Token (Wormhole)",
+    "logo": "6msNYXzSVtjinqapq2xcvBb5NRq4YTPAi7wc5Jx8M8TS.png",
+    "erc20": false,
+    "symbol": "wLINK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "chainlink"
+  },
+  "BX2gcRRS12iqFzKCpvTt4krBBYNymR9JBDZBxzfFLnbF": {
+    "name": "UnFederalReserveToken (Wormhole)",
+    "logo": "BX2gcRRS12iqFzKCpvTt4krBBYNymR9JBDZBxzfFLnbF.png",
+    "erc20": false,
+    "symbol": "weRSDL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "unfederalreserve"
+  },
+  "CCGLdsokcybeF8NrCcu1RSQK8isNBjBA58kVEMTHTKjx": {
+    "name": "Synth sUSD (Wormhole)",
+    "logo": "CCGLdsokcybeF8NrCcu1RSQK8isNBjBA58kVEMTHTKjx.png",
+    "erc20": false,
+    "symbol": "wsUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "nusd"
+  },
+  "FP9ogG7hTdfcTJwn4prF9AVEcfcjLq1GtkqYM4oRn7eY": {
+    "name": "Hegic (Wormhole)",
+    "logo": "FP9ogG7hTdfcTJwn4prF9AVEcfcjLq1GtkqYM4oRn7eY.png",
+    "erc20": false,
+    "symbol": "wHEGIC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "hegic"
+  },
+  "DboP5vvYUVjmKSHKJ1YFHwmv41KtUscnYgzjmPgHwQVn": {
+    "name": "Xfinance (Wormhole)",
+    "logo": "DboP5vvYUVjmKSHKJ1YFHwmv41KtUscnYgzjmPgHwQVn.png",
+    "erc20": false,
+    "symbol": "wXFI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "xfinance"
+  },
+  "6c4U9yxGzVjejSJJXrdX8wtt532Et6MrBUZc2oK5j6w5": {
+    "name": "DEXTF Token (Wormhole)",
+    "logo": "6c4U9yxGzVjejSJJXrdX8wtt532Et6MrBUZc2oK5j6w5.png",
+    "erc20": false,
+    "symbol": "wDEXTF",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "dextf"
+  },
+  "JuXkRYNw54rujC7SPWcAM4ArLgA5x8nDQbS8xHAr6MA": {
+    "name": "iExec RLC (Wormhole)",
+    "logo": "JuXkRYNw54rujC7SPWcAM4ArLgA5x8nDQbS8xHAr6MA.png",
+    "erc20": false,
+    "symbol": "wRLC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "iexec-rlc"
+  },
+  "7NfgSkv6kZ6ZWP6SJPtMuaUYGVEngVK8UFnaFTPk3QsM": {
+    "name": "cVault.finance (Wormhole)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "wCORE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "cvault-finance"
+  },
+  "AqLKDJiGL4wXKPAfzNom3xEdQwgj2LTCE4k34gzvZsE6": {
+    "name": "CyberFi Token (Wormhole)",
+    "logo": "AqLKDJiGL4wXKPAfzNom3xEdQwgj2LTCE4k34gzvZsE6.png",
+    "erc20": false,
+    "symbol": "wCFi",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "cyberfi"
+  },
+  "FLrjpCRrd4GffHu8MVYGvuLxYLuBGVaXsnCecw3Effci": {
+    "name": "Wise Token (Wormhole)",
+    "logo": "FLrjpCRrd4GffHu8MVYGvuLxYLuBGVaXsnCecw3Effci.png",
+    "erc20": false,
+    "symbol": "wWISE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "wise-token11"
+  },
+  "GaMPhVyp1xd9xJuPskDEzQzp8mKfEjAmhny8NX7y7YKc": {
+    "name": "Gnosis Token (Wormhole)",
+    "logo": "GaMPhVyp1xd9xJuPskDEzQzp8mKfEjAmhny8NX7y7YKc.png",
+    "erc20": false,
+    "symbol": "wGNO",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "gnosis"
+  },
+  "CCAQZHBVWKDukT68PZ3LenDs7apibeSYeJ3jHE8NzBC5": {
+    "name": "$Poolz Finance (Wormhole)",
+    "logo": "CCAQZHBVWKDukT68PZ3LenDs7apibeSYeJ3jHE8NzBC5.png",
+    "erc20": false,
+    "symbol": "wPOOLZ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "poolz-finance"
+  },
+  "FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1": {
+    "name": "Dai Stablecoin (Wormhole)",
+    "logo": "FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1.png",
+    "erc20": false,
+    "symbol": "wDAI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "dai"
+  },
+  "HbMGwfGjGPchtaPwyrtJFy8APZN5w1hi63xnzmj1f23v": {
+    "name": "SushiSwap (Wormhole)",
+    "logo": "HbMGwfGjGPchtaPwyrtJFy8APZN5w1hi63xnzmj1f23v.png",
+    "erc20": false,
+    "symbol": "wSUSHI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "sushi"
+  },
+  "6Tmi8TZasqdxWB59uE5Zw9VLKecuCbsLSsPEqoMpmozA": {
+    "name": "Fyooz (Wormhole)",
+    "logo": "6Tmi8TZasqdxWB59uE5Zw9VLKecuCbsLSsPEqoMpmozA.png",
+    "erc20": false,
+    "symbol": "wFYZ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "fyooz"
+  },
+  "3sHinPxEPqhEGip2Wy45TFmgAA1Atg2mctMjY5RKJUjk": {
+    "name": "QuiverX (Wormhole)",
+    "logo": "3sHinPxEPqhEGip2Wy45TFmgAA1Atg2mctMjY5RKJUjk.png",
+    "erc20": false,
+    "symbol": "wQRX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "quiverx"
+  },
+  "4ighgEijHcCoLu9AsvwVz2TnGFqAgzQtQMr6ch88Jrfe": {
+    "name": "UniTrade (Wormhole)",
+    "logo": "4ighgEijHcCoLu9AsvwVz2TnGFqAgzQtQMr6ch88Jrfe.png",
+    "erc20": false,
+    "symbol": "wTRADE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "unitrade"
+  },
+  "FTPnEQ3NfRRZ9tvmpDW6JFrvweBE5sanxnXSpJL1dvbB": {
+    "name": "Bird.Money (Wormhole)",
+    "logo": "FTPnEQ3NfRRZ9tvmpDW6JFrvweBE5sanxnXSpJL1dvbB.png",
+    "erc20": false,
+    "symbol": "wBIRD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "bird-money"
+  },
+  "QVDE6rhcGPSB3ex5T7vWBzvoSRUXULjuSGpVuKwu5XH": {
+    "name": "Axion (Wormhole)",
+    "logo": "QVDE6rhcGPSB3ex5T7vWBzvoSRUXULjuSGpVuKwu5XH.png",
+    "erc20": false,
+    "symbol": "wAXN",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "axion"
+  },
+  "J6AbGG62yo9UJ2T9r9GM7pnoRNui5DsZDnPbiNAPqbVd": {
+    "name": "Bridge Mutual (Wormhole)",
+    "logo": "J6AbGG62yo9UJ2T9r9GM7pnoRNui5DsZDnPbiNAPqbVd.png",
+    "erc20": false,
+    "symbol": "wBMI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "bridge-mutual"
+  },
+  "4wvHoaxxZxFeNrMTP8bLVRh1ziSBV7crN665WX4rRMqe": {
+    "name": "DoYourTip (Wormhole)",
+    "logo": "4wvHoaxxZxFeNrMTP8bLVRh1ziSBV7crN665WX4rRMqe.png",
+    "erc20": false,
+    "symbol": "wDYT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "dynamite"
+  },
+  "Fe5fWjCLDMJoi4sTmfR2VW4BT1LwsbR1n6QAjzJQvhhf": {
+    "name": "BitberryToken (Wormhole)",
+    "logo": "Fe5fWjCLDMJoi4sTmfR2VW4BT1LwsbR1n6QAjzJQvhhf.png",
+    "erc20": false,
+    "symbol": "wBBR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "bitberry-token"
+  },
+  "5J9yhFRnQZx3RiqHzfQpAffX5UQz3k8vQCZH2g9Z9sDg": {
+    "name": "WAX Economic Token (Wormhole)",
+    "logo": "5J9yhFRnQZx3RiqHzfQpAffX5UQz3k8vQCZH2g9Z9sDg.png",
+    "erc20": false,
+    "symbol": "wWAXE",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "waxe"
+  },
+  "4DHywS5EjUTF5AYisPZiJbWcCV4gfpH98oKxpgyKRnnQ": {
+    "name": "Matic Token (Wormhole)",
+    "logo": "4DHywS5EjUTF5AYisPZiJbWcCV4gfpH98oKxpgyKRnnQ.png",
+    "erc20": false,
+    "symbol": "wMATIC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "matic-network"
+  },
+  "Au9E8ygQdTJQZXmNKPdtLEP8rGjC4qsGRhkJgjFNPAr8": {
+    "name": "Robonomics (Wormhole)",
+    "logo": "Au9E8ygQdTJQZXmNKPdtLEP8rGjC4qsGRhkJgjFNPAr8.png",
+    "erc20": false,
+    "symbol": "wXRT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "robonomics-network"
+  },
+  "5DQZ14hLDxveMH7NyGmTmUTRGgVAVXADp3cP2UHeH6hM": {
+    "name": "Aave Token (Wormhole)",
+    "logo": "5DQZ14hLDxveMH7NyGmTmUTRGgVAVXADp3cP2UHeH6hM.png",
+    "erc20": false,
+    "symbol": "wAAVE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave"
+  },
+  "Arc2ZVKNCdDU4vB8Ubud5QayDtjo2oJF9xVrUPQ6TWxF": {
+    "name": "Lend (Wormhole)",
+    "logo": "Arc2ZVKNCdDU4vB8Ubud5QayDtjo2oJF9xVrUPQ6TWxF.png",
+    "erc20": false,
+    "symbol": "wLEND",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "ethlend"
+  },
+  "2ctKUDkGBnVykt31AhMPhHvAQWJvoNGbLh7aRidjtAqv": {
+    "name": "PolkastarterToken (Wormhole)",
+    "logo": "2ctKUDkGBnVykt31AhMPhHvAQWJvoNGbLh7aRidjtAqv.png",
+    "erc20": false,
+    "symbol": "wPOLS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "polkastarter"
+  },
+  "8FnkznYpHvKiaBkgatVoCrNiS5y5KW62JqgjnxVhDejC": {
+    "name": "Unibright (Wormhole)",
+    "logo": "8FnkznYpHvKiaBkgatVoCrNiS5y5KW62JqgjnxVhDejC.png",
+    "erc20": false,
+    "symbol": "wUBT",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "unibright"
+  },
+  "4LLAYXVmT3U8Sew6k3tk66zk3btT91QRzQzxcNX8XhzV": {
+    "name": "DIA (Wormhole)",
+    "logo": "4LLAYXVmT3U8Sew6k3tk66zk3btT91QRzQzxcNX8XhzV.png",
+    "erc20": false,
+    "symbol": "wDIA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "dia-data"
+  },
+  "8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU": {
+    "name": "Frax (Wormhole)",
+    "logo": "8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU.png",
+    "erc20": false,
+    "symbol": "wFRAX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "frax"
+  },
+  "H3oVL2zJpHJaDoRfQmSrftv3fkGzvsiQgugCZmcRBykG": {
+    "name": "KEEP Token (Wormhole)",
+    "logo": "H3oVL2zJpHJaDoRfQmSrftv3fkGzvsiQgugCZmcRBykG.png",
+    "erc20": false,
+    "symbol": "wKEEP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "keep-network"
+  },
+  "64oqP1dFqqD8NEL4RPCpMyrHmpo31rj3nYxULVXvayfW": {
+    "name": "Reserve Rights (Wormhole)",
+    "logo": "64oqP1dFqqD8NEL4RPCpMyrHmpo31rj3nYxULVXvayfW.png",
+    "erc20": false,
+    "symbol": "wRSR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "reserve-rights-token"
+  },
+  "5SU7veiCRA16ZxnS24kCC1dwQYVwi3whvTdM48iNE1Rm": {
+    "name": "88mph.app (Wormhole)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "wMPH",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "88mph"
+  },
+  "5fv26ojhPHWNaikXcMf2TBu4JENjLQ2PWgWYeitttVwv": {
+    "name": "PAID Network (Wormhole)",
+    "logo": "5fv26ojhPHWNaikXcMf2TBu4JENjLQ2PWgWYeitttVwv.png",
+    "erc20": false,
+    "symbol": "wPAID",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "paid-network"
+  },
+  "ACr98v3kv9qaGnR3p2BfsoSK9Q2ZmP6zUkm3qxv5ZJDd": {
+    "name": "Swipe (Wormhole)",
+    "logo": "ACr98v3kv9qaGnR3p2BfsoSK9Q2ZmP6zUkm3qxv5ZJDd.png",
+    "erc20": false,
+    "symbol": "wSXP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "swipe"
+  },
+  "7gBuzBcJ7V48m8TiKJ1XWNDUerK2XfAbjxuRiKMb6S8Z": {
+    "name": "Request Token (Wormhole)",
+    "logo": "7gBuzBcJ7V48m8TiKJ1XWNDUerK2XfAbjxuRiKMb6S8Z.png",
+    "erc20": false,
+    "symbol": "wREQ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "request-network"
+  },
+  "CtDjsryLtwZCLj8TeniV7tWHbkaREfjKDWpvyQvsTyek": {
+    "name": "WHALE (Wormhole)",
+    "logo": "CtDjsryLtwZCLj8TeniV7tWHbkaREfjKDWpvyQvsTyek.png",
+    "erc20": false,
+    "symbol": "wWHALE",
+    "decimals": 4,
+    "chainId": "0x65",
+    "coingeckoId": "whale"
+  },
+  "JDUgn6JUSwufqqthRdnZZKWv2vEdYvHxigF5Hk79yxRm": {
+    "name": "Pinakion (Wormhole)",
+    "logo": "JDUgn6JUSwufqqthRdnZZKWv2vEdYvHxigF5Hk79yxRm.png",
+    "erc20": false,
+    "symbol": "wPNK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "kleros"
+  },
+  "EJKqF4p7xVhXkcDNCrVQJE4osow76226bc6u3AtsGXaG": {
+    "name": "APY Governance Token (Wormhole)",
+    "logo": "EJKqF4p7xVhXkcDNCrVQJE4osow76226bc6u3AtsGXaG.png",
+    "erc20": false,
+    "symbol": "wAPY",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "apy-finance"
+  },
+  "AF7Dv5Vzi1dT2fLnz4ysiRQ6FxGN1M6mrmHwgNpx7FVH": {
+    "name": "Ocean Protocol (Wormhole)",
+    "logo": "AF7Dv5Vzi1dT2fLnz4ysiRQ6FxGN1M6mrmHwgNpx7FVH.png",
+    "erc20": false,
+    "symbol": "wOCEAN",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "ocean-protocol"
+  },
+  "AyNULvvLGW11fThvhncqNRjEgmDbMEHdDL4HqXD6SM8V": {
+    "name": "Shopping.io (Wormhole)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "wSPI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "shopping-io"
+  },
+  "3UeKTABxz9XexDtyKq646rSQvx8GVpKNwfMoKKfxsTsF": {
+    "name": "Binance Wrapped BTC (Wormhole)",
+    "logo": "3UeKTABxz9XexDtyKq646rSQvx8GVpKNwfMoKKfxsTsF.png",
+    "erc20": false,
+    "symbol": "wBBTC",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "binance-wrapped-btc"
+  },
+  "DsGbyCHbG4vSWBqAprR2eWuUAg8fXAgYkWL9psgvYZn5": {
+    "name": "Unistake (Wormhole)",
+    "logo": "DsGbyCHbG4vSWBqAprR2eWuUAg8fXAgYkWL9psgvYZn5.png",
+    "erc20": false,
+    "symbol": "wUNISTAKE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "unistake"
+  },
+  "GBvv3jn9u6pZqPd2GVnQ7BKJzLwQnEWe4ci9k359PN9Z": {
+    "name": "MakerDAO (Wormhole)",
+    "logo": "GBvv3jn9u6pZqPd2GVnQ7BKJzLwQnEWe4ci9k359PN9Z.png",
+    "erc20": false,
+    "symbol": "wMKR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "maker"
+  },
+  "53ETjuzUNHG8c7rZ2hxQLQfN5R6tEYtdYwNQsa68xFUk": {
+    "name": "FARM Reward Token (Wormhole)",
+    "logo": "53ETjuzUNHG8c7rZ2hxQLQfN5R6tEYtdYwNQsa68xFUk.png",
+    "erc20": false,
+    "symbol": "wFARM",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "harvest-finance"
+  },
+  "FVsXUnbhifqJ4LiXQEbpUtXVdB8T5ADLKqSs5t1oc54F": {
+    "name": "USD Coin (Wormhole)",
+    "logo": "FVsXUnbhifqJ4LiXQEbpUtXVdB8T5ADLKqSs5t1oc54F.png",
+    "erc20": false,
+    "symbol": "wUSDC",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "usd-coin"
+  },
+  "EjBpnWzWZeW1PKzfCszLdHgENZLZDoTNaEmz8BddpWJx": {
+    "name": "Aragon Network Token (Wormhole)",
+    "logo": "EjBpnWzWZeW1PKzfCszLdHgENZLZDoTNaEmz8BddpWJx.png",
+    "erc20": false,
+    "symbol": "wANT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aragon"
+  },
+  "Rs4LHZ4WogZCAkCzfsKJib5LLnYL6xcVAfTcLQiSjg2": {
+    "name": "Pundi X Token (Wormhole)",
+    "logo": "Rs4LHZ4WogZCAkCzfsKJib5LLnYL6xcVAfTcLQiSjg2.png",
+    "erc20": false,
+    "symbol": "wNPXS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "pundi-x"
+  },
+  "65ribugkb42AANKYrEeuruhhfXffyE4jY22FUxFbpW7C": {
+    "name": "RFOX (Wormhole)",
+    "logo": "65ribugkb42AANKYrEeuruhhfXffyE4jY22FUxFbpW7C.png",
+    "erc20": false,
+    "symbol": "wRFOX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "redfox-labs-2"
+  },
+  "T2mo6dnFiutu26KMuCMSjCLBB4ofWvQ3qBJGEMc3JSe": {
+    "name": "Meta (Wormhole)",
+    "logo": "T2mo6dnFiutu26KMuCMSjCLBB4ofWvQ3qBJGEMc3JSe.png",
+    "erc20": false,
+    "symbol": "wMTA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "meta"
+  },
+  "HC8SaUm9rhvVZE5ZwBWiUhFAnCuG8byd5FxKYdpFm5MR": {
+    "name": "Rubic (Wormhole)",
+    "logo": "HC8SaUm9rhvVZE5ZwBWiUhFAnCuG8byd5FxKYdpFm5MR.png",
+    "erc20": false,
+    "symbol": "wRBC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "rubic"
+  },
+  "9DdtKWoK8cBfLSLhHXHFZzzhxp4rdwHbFEAis8n5AsfQ": {
+    "name": "NOIA Token (Wormhole)",
+    "logo": "9DdtKWoK8cBfLSLhHXHFZzzhxp4rdwHbFEAis8n5AsfQ.png",
+    "erc20": false,
+    "symbol": "wNOIA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "noia-network"
+  },
+  "DTQStP2z4DRqbNHRxtwThAujr9aPFPsv4y2kkXTVLVvb": {
+    "name": "Celsius (Wormhole)",
+    "logo": "DTQStP2z4DRqbNHRxtwThAujr9aPFPsv4y2kkXTVLVvb.png",
+    "erc20": false,
+    "symbol": "wCEL",
+    "decimals": 4,
+    "chainId": "0x65",
+    "coingeckoId": "celsius-degree-token"
+  },
+  "59NPV18vAbTgwC9aeEGikrmX3EbZHMEMkZfvcsHBNFr9": {
+    "name": "Crowns (Wormhole)",
+    "logo": "59NPV18vAbTgwC9aeEGikrmX3EbZHMEMkZfvcsHBNFr9.png",
+    "erc20": false,
+    "symbol": "wCWS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "crowns"
+  },
+  "4811JP9i35zgAxSFZjGXQwew6xd1qSBE4xdMFik2J14Z": {
+    "name": "OptionRoom Token (Wormhole)",
+    "logo": "4811JP9i35zgAxSFZjGXQwew6xd1qSBE4xdMFik2J14Z.png",
+    "erc20": false,
+    "symbol": "wROOM",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "option-room"
+  },
+  "2VAdvHWMpzMnDYYn64MgqLNpGQ19iCiusCet8JLMtxU5": {
+    "name": "YOP (Wormhole)",
+    "logo": "2VAdvHWMpzMnDYYn64MgqLNpGQ19iCiusCet8JLMtxU5.png",
+    "erc20": false,
+    "symbol": "wYOP",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "yield-optimization-platform"
+  },
+  "AKiTcEWZarsnUbKkwQVRjJni5eqwiNeBQsJ3nrADacT4": {
+    "name": "LGCY Network (Wormhole)",
+    "logo": "AKiTcEWZarsnUbKkwQVRjJni5eqwiNeBQsJ3nrADacT4.png",
+    "erc20": false,
+    "symbol": "wLGCY",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "lgcy-network"
+  },
+  "4kPHTMfSD1k3SytAMKEVRWH5ip6WD5U52tC5q6TuXUNU": {
+    "name": "Rio Fuel Token (Wormhole)",
+    "logo": "4kPHTMfSD1k3SytAMKEVRWH5ip6WD5U52tC5q6TuXUNU.png",
+    "erc20": false,
+    "symbol": "wRFuel",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "rio-defi"
+  },
+  "E1w2uKRsVJeDf1Qqbk7DDKEDe7NCYwh8ySgqCaEZ4BTC": {
+    "name": "MahaDAO (Wormhole)",
+    "logo": "E1w2uKRsVJeDf1Qqbk7DDKEDe7NCYwh8ySgqCaEZ4BTC.png",
+    "erc20": false,
+    "symbol": "wMAHA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "mahadao"
+  },
+  "4psmnTirimNyPEPEZtkQkdEPJagTXS3a7wsu1XN9MYK3": {
+    "name": "Rocket Pool (Wormhole)",
+    "logo": "4psmnTirimNyPEPEZtkQkdEPJagTXS3a7wsu1XN9MYK3.png",
+    "erc20": false,
+    "symbol": "wRPL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "rocket-pool"
+  },
+  "FrhQauNRm7ecom9FRprNcyz58agDe5ujAbAtA9NG6jtU": {
+    "name": "Nexo (Wormhole)",
+    "logo": "FrhQauNRm7ecom9FRprNcyz58agDe5ujAbAtA9NG6jtU.png",
+    "erc20": false,
+    "symbol": "wNEXO",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "nexo"
+  },
+  "6G7X1B2f9F7KWcHxS66mn3ax6VPE2UMZud44RX3BzfVo": {
+    "name": "Behzat Token",
+    "logo": "6G7X1B2f9F7KWcHxS66mn3ax6VPE2UMZud44RX3BzfVo.png",
+    "erc20": false,
+    "symbol": "BEHZAT",
+    "decimals": 10,
+    "chainId": "0x65"
+  },
+  "AoU75vwpnWEVvfarxRALjzRc8vS9UdDhRMkwoDimt9ss": {
+    "name": "Spice (Wormhole)",
+    "logo": "AoU75vwpnWEVvfarxRALjzRc8vS9UdDhRMkwoDimt9ss.png",
+    "erc20": false,
+    "symbol": "wSFI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "saffron-finance"
+  },
+  "CRZuALvCYjPLB65WFLHh9JkmPWK5C81TXpy2aEEaCjr3": {
+    "name": "Stabilize Token (Wormhole)",
+    "logo": "CRZuALvCYjPLB65WFLHh9JkmPWK5C81TXpy2aEEaCjr3.png",
+    "erc20": false,
+    "symbol": "wSTBZ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "stabilize"
+  },
+  "HPYXGSdAwyK5GwmuivL8gDdUVRChtgXq6SRat44k4Pat": {
+    "name": "Balancer (Wormhole)",
+    "logo": "HPYXGSdAwyK5GwmuivL8gDdUVRChtgXq6SRat44k4Pat.png",
+    "erc20": false,
+    "symbol": "wBAL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "balancer"
+  },
+  "AV7NgJV2BsgEukzUTrcUMz3LD37xLcLtygFig5WJ3kQN": {
+    "name": "BandToken (Wormhole)",
+    "logo": "AV7NgJV2BsgEukzUTrcUMz3LD37xLcLtygFig5WJ3kQN.png",
+    "erc20": false,
+    "symbol": "wBAND",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "band-protocol"
+  },
+  "4obZok5FFUcQXQoV39hhcqk9xSmo4WnP9wnrNCk1g5BC": {
+    "name": "Swapfolio (Wormhole)",
+    "logo": "4obZok5FFUcQXQoV39hhcqk9xSmo4WnP9wnrNCk1g5BC.png",
+    "erc20": false,
+    "symbol": "wSWFL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "swapfolio"
+  },
+  "HCP8hGKS6fUGfTA1tQxBKzbXuQk7yktzz71pY8LXVJyR": {
+    "name": "LoopringCoin V2 (Wormhole)",
+    "logo": "HCP8hGKS6fUGfTA1tQxBKzbXuQk7yktzz71pY8LXVJyR.png",
+    "erc20": false,
+    "symbol": "wLRC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "loopring"
+  },
+  "9sNArcS6veh7DLEo7Y1ZSbBCYtkuPVE6S3HhVrcWR2Zw": {
+    "name": "Perpetual (Wormhole)",
+    "logo": "9sNArcS6veh7DLEo7Y1ZSbBCYtkuPVE6S3HhVrcWR2Zw.png",
+    "erc20": false,
+    "symbol": "wPERP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "perpetual-protocol"
+  },
+  "3XnhArdJydrpbr9Nbj8wNUaozPL9WAo9YDyNWakhTm9X": {
+    "name": "Compound (Wormhole)",
+    "logo": "3XnhArdJydrpbr9Nbj8wNUaozPL9WAo9YDyNWakhTm9X.png",
+    "erc20": false,
+    "symbol": "wCOMP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "compound-governance-token"
+  },
+  "CPLNm9UMKfiJKiySQathV99yeSgTVjPDZx4ucFrbp2MD": {
+    "name": "Synthetix Network Token (Wormhole)",
+    "logo": "CPLNm9UMKfiJKiySQathV99yeSgTVjPDZx4ucFrbp2MD.png",
+    "erc20": false,
+    "symbol": "wSNX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "havven"
+  },
+  "D6eVKSfLdioqo2zG8LbQYFU2gf66FrjKA7afCYNo1GHt": {
+    "name": "DLP Duck Token (Wormhole)",
+    "logo": "D6eVKSfLdioqo2zG8LbQYFU2gf66FrjKA7afCYNo1GHt.png",
+    "erc20": false,
+    "symbol": "wDUCK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "dlp-duck-token"
+  },
+  "9PwPi3DAf9Dy4Y6qJmUzF6fX9CjNwScBidsYqJmcApF8": {
+    "name": "Chain Games (Wormhole)",
+    "logo": "9PwPi3DAf9Dy4Y6qJmUzF6fX9CjNwScBidsYqJmcApF8.png",
+    "erc20": false,
+    "symbol": "wCHAIN",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "chain-games"
+  },
+  "BmxZ1pghpcoyT7aykj7D1o4AxWirTqvD7zD2tNngjirT": {
+    "name": "Graph Token (Wormhole)",
+    "logo": "BmxZ1pghpcoyT7aykj7D1o4AxWirTqvD7zD2tNngjirT.png",
+    "erc20": false,
+    "symbol": "wGRT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "the-graph"
+  },
+  "FMr15arp651N6fR2WEL36pCMBnFecHcN6wDxne2Vf3SK": {
+    "name": "RootKit (Wormhole)",
+    "logo": "FMr15arp651N6fR2WEL36pCMBnFecHcN6wDxne2Vf3SK.png",
+    "erc20": false,
+    "symbol": "wROOT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "rootkit"
+  },
+  "E9X7rKAGfSh1gsHC6qh5MVLkDzRcT64KQbjzvHnc5zEq": {
+    "name": "TrustSwap Token (Wormhole)",
+    "logo": "E9X7rKAGfSh1gsHC6qh5MVLkDzRcT64KQbjzvHnc5zEq.png",
+    "erc20": false,
+    "symbol": "wSWAP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "trustswap"
+  },
+  "5NEENV1mNvu7MfNNtKuGSDC8zoNStq1tuLkDXFtv6rZd": {
+    "name": "Terra Virtua Kolect (Wormhole)",
+    "logo": "5NEENV1mNvu7MfNNtKuGSDC8zoNStq1tuLkDXFtv6rZd.png",
+    "erc20": false,
+    "symbol": "wTVK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "terra-virtua-kolect"
+  },
+  "5ZXLGj7onpitgtREJNYb51DwDPddvqV1YLC8jn2sgz48": {
+    "name": "OMG Network (Wormhole)",
+    "logo": "5ZXLGj7onpitgtREJNYb51DwDPddvqV1YLC8jn2sgz48.png",
+    "erc20": false,
+    "symbol": "wOMG",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "omisego"
+  },
+  "2Xf2yAXJfg82sWwdLUo2x9mZXy6JCdszdMZkcF1Hf4KV": {
+    "name": "Wrapped LUNA Token (Wormhole)",
+    "logo": "2Xf2yAXJfg82sWwdLUo2x9mZXy6JCdszdMZkcF1Hf4KV.png",
+    "erc20": false,
+    "symbol": "wLUNA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "wrapped-terra"
+  },
+  "5Ro6JxJ4NjSTEppdX2iXUYgWkAEF1dcs9gqMX99E2vkL": {
+    "name": "Bondly Token (Wormhole)",
+    "logo": "5Ro6JxJ4NjSTEppdX2iXUYgWkAEF1dcs9gqMX99E2vkL.png",
+    "erc20": false,
+    "symbol": "wBONDLY",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "bondly"
+  },
+  "5jFzUEqWLnvGvKWb1Pji9nWVYy5vLG2saoXCyVNWEdEi": {
+    "name": "Dextrust (Wormhole)",
+    "logo": "5jFzUEqWLnvGvKWb1Pji9nWVYy5vLG2saoXCyVNWEdEi.png",
+    "erc20": false,
+    "symbol": "wDETS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "dextrust"
+  },
+  "BV5tm1uCRWQCQKNgQVFnkseqAjxpmbJkRCXvzFWBdgMp": {
+    "name": "Ampleforth (Wormhole)",
+    "logo": "BV5tm1uCRWQCQKNgQVFnkseqAjxpmbJkRCXvzFWBdgMp.png",
+    "erc20": false,
+    "symbol": "wAMPL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "ampleforth"
+  },
+  "2PSvGigDY4MVUmv51bBiARBMcHBtXcUBnx5V9BwWbbi2": {
+    "name": "Polkamarkets (Wormhole)",
+    "logo": "2PSvGigDY4MVUmv51bBiARBMcHBtXcUBnx5V9BwWbbi2.png",
+    "erc20": false,
+    "symbol": "wPOLK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "polkamarkets"
+  },
+  "ApmXkxXCASdxRf3Ln6Ni7oAZ7E6CX1CcJAD8A5qBdhSm": {
+    "name": "Curve DAO Token (Wormhole)",
+    "logo": "ApmXkxXCASdxRf3Ln6Ni7oAZ7E6CX1CcJAD8A5qBdhSm.png",
+    "erc20": false,
+    "symbol": "wCRV",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "curve-dao-token"
+  },
+  "DWECGzR56MruYJyo5g5QpoxZbFoydt3oWUkkDsVhxXzs": {
+    "name": "MEME (Wormhole)",
+    "logo": "DWECGzR56MruYJyo5g5QpoxZbFoydt3oWUkkDsVhxXzs.png",
+    "erc20": false,
+    "symbol": "wMEME",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "degenerator"
+  },
+  "3Y2wTtM4kCX8uUSLrKJ8wpajCu1C9LaWWAd7b7Nb2BDw": {
+    "name": "ExNetwork Community Token (Wormhole)",
+    "logo": "3Y2wTtM4kCX8uUSLrKJ8wpajCu1C9LaWWAd7b7Nb2BDw.png",
+    "erc20": false,
+    "symbol": "wEXNT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "exnetwork-token"
+  },
+  "9w97GdWUYYaamGwdKMKZgGzPduZJkiFizq4rz5CPXRv2": {
+    "name": "Tether USD (Wormhole)",
+    "logo": "9w97GdWUYYaamGwdKMKZgGzPduZJkiFizq4rz5CPXRv2.png",
+    "erc20": false,
+    "symbol": "wUSDT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "tether"
+  },
+  "CqWSJtkMMY16q9QLnQxktM1byzVHGRr8b6LCPuZnEeiL": {
+    "name": "Yield (Wormhole)",
+    "logo": "CqWSJtkMMY16q9QLnQxktM1byzVHGRr8b6LCPuZnEeiL.png",
+    "erc20": false,
+    "symbol": "wYLD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "yield"
+  },
+  "26ZzQVGZruwcZPs2sqb8n9ojKt2cviUjHcMjstFtK6ow": {
+    "name": "Kyber Network Crystal (Wormhole)",
+    "logo": "26ZzQVGZruwcZPs2sqb8n9ojKt2cviUjHcMjstFtK6ow.png",
+    "erc20": false,
+    "symbol": "wKNC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "kyber-network"
+  },
+  "HHoHTtntq2kiBPENyVM1DTP7pNrkBXX2Jye29PSyz3qf": {
+    "name": "COTI Token (Wormhole)",
+    "logo": "HHoHTtntq2kiBPENyVM1DTP7pNrkBXX2Jye29PSyz3qf.png",
+    "erc20": false,
+    "symbol": "wCOTI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "coti"
+  },
+  "4sEpUsJ6uJZYi6A2da8EGjKPacRSqYJaPJffPnTqoWVv": {
+    "name": "Injective Token (Wormhole)",
+    "logo": "4sEpUsJ6uJZYi6A2da8EGjKPacRSqYJaPJffPnTqoWVv.png",
+    "erc20": false,
+    "symbol": "wINJ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "injective-protocol"
+  },
+  "G2jrxYSoCSzmohxERa2JzSJMuRM4kiNvRA3DnCv7Lzcz": {
+    "name": "0x Protocol Token (Wormhole)",
+    "logo": "G2jrxYSoCSzmohxERa2JzSJMuRM4kiNvRA3DnCv7Lzcz.png",
+    "erc20": false,
+    "symbol": "wZRX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "0x"
+  },
+  "3bkBFHyof411hGBdcsiM1KSDdErw63Xoj3eLB8yNknB4": {
+    "name": "SuperFarm (Wormhole)",
+    "logo": "3bkBFHyof411hGBdcsiM1KSDdErw63Xoj3eLB8yNknB4.png",
+    "erc20": false,
+    "symbol": "wSUPER",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "superfarm"
+  },
+  "7kkkoa1MB93ELm3vjvyC8GJ65G7eEgLhfaHU58riJUCx": {
+    "name": "aEthereum (Wormhole)",
+    "logo": "7kkkoa1MB93ELm3vjvyC8GJ65G7eEgLhfaHU58riJUCx.png",
+    "erc20": false,
+    "symbol": "waEth",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "ankreth"
+  },
+  "F48zUwoQMzgCTf5wihwz8GPN23gdcoVMiT227APqA6hC": {
+    "name": "SURF.Finance (Wormhole)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "wSURF",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "surf-finance"
+  },
+  "EK6iyvvqvQtsWYcySrZVHkXjCLX494r9PhnDWJaX1CPu": {
+    "name": "renBTC (Wormhole)",
+    "logo": "EK6iyvvqvQtsWYcySrZVHkXjCLX494r9PhnDWJaX1CPu.png",
+    "erc20": false,
+    "symbol": "wrenBTC",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "renbtc"
+  },
+  "B2m4B527oLo5WFWLgy2MitP66azhEW2puaazUAuvNgqZ": {
+    "name": "DMM: Governance (Wormhole)",
+    "logo": "B2m4B527oLo5WFWLgy2MitP66azhEW2puaazUAuvNgqZ.png",
+    "erc20": false,
+    "symbol": "wDMG",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "dmm-governance"
+  },
+  "H3iuZNRwaqPsnGUGU5YkDwTU3hQMkzC32hxDko8EtzZw": {
+    "name": "Hermez Network Token (Wormhole)",
+    "logo": "H3iuZNRwaqPsnGUGU5YkDwTU3hQMkzC32hxDko8EtzZw.png",
+    "erc20": false,
+    "symbol": "wHEZ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "hermez-network-token"
+  },
+  "DL7873Hud4eMdGScQFD7vrbC6fzWAMQ2LMuoZSn4zUry": {
+    "name": "Rally (Wormhole)",
+    "logo": "DL7873Hud4eMdGScQFD7vrbC6fzWAMQ2LMuoZSn4zUry.png",
+    "erc20": false,
+    "symbol": "wRLY",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "rally-2"
+  },
+  "3N89w9KPUVYUK5MMGNY8yMXhrr89QQ1RQPJxVnQHgMdd": {
+    "name": "YfDAI.finance (Wormhole)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "wYf-DAI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "yfdai-finance"
+  },
+  "8ArKbnnDiq8eRR8hZ1eULMjd2iMAD8AqwyVJRAX7mHQo": {
+    "name": "Fractal Protocol Token (Wormhole)",
+    "logo": "8ArKbnnDiq8eRR8hZ1eULMjd2iMAD8AqwyVJRAX7mHQo.png",
+    "erc20": false,
+    "symbol": "wFCL",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "fractal"
+  },
+  "ZWGxcTgJCNGQqZn6vFdknwj4AFFsYRZ4SDJuhRn3J1T": {
+    "name": "Axie Infinity (Wormhole)",
+    "logo": "ZWGxcTgJCNGQqZn6vFdknwj4AFFsYRZ4SDJuhRn3J1T.png",
+    "erc20": false,
+    "symbol": "wAXS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "axie-infinity"
+  },
+  "PEjUEMHFRtfajio8YHKZdUruW1vTzGmz6F7NngjYuou": {
+    "name": "Enjin Coin (Wormhole)",
+    "logo": "PEjUEMHFRtfajio8YHKZdUruW1vTzGmz6F7NngjYuou.png",
+    "erc20": false,
+    "symbol": "wENJ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "enjincoin"
+  },
+  "2cW5deMKeR97C7csq1aMMWUa5RNWkpQFz8tumxk4ZV8w": {
+    "name": "Yield (Wormhole)",
+    "logo": "2cW5deMKeR97C7csq1aMMWUa5RNWkpQFz8tumxk4ZV8w.png",
+    "erc20": false,
+    "symbol": "wYLD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "yield-app"
+  },
+  "FR5qPX4gbKHPyKMK7Cey6dHZ7wtqmqRogYPJo6bpd5Uw": {
+    "name": "DuckDaoDime (Wormhole)",
+    "logo": "FR5qPX4gbKHPyKMK7Cey6dHZ7wtqmqRogYPJo6bpd5Uw.png",
+    "erc20": false,
+    "symbol": "wDDIM",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "duckdaodime"
+  },
+  "8HCWFQA2GsA6Nm2L5jidM3mus7NeeQ8wp1ri3XFF9WWH": {
+    "name": "Rarible (Wormhole)",
+    "logo": "8HCWFQA2GsA6Nm2L5jidM3mus7NeeQ8wp1ri3XFF9WWH.png",
+    "erc20": false,
+    "symbol": "wRARI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "rarible"
+  },
+  "Egrv6hURf5o68xJ1AGYeRv8RNj2nXJVuSoA5wwiSALcN": {
+    "name": "Amp (Wormhole)",
+    "logo": "Egrv6hURf5o68xJ1AGYeRv8RNj2nXJVuSoA5wwiSALcN.png",
+    "erc20": false,
+    "symbol": "wAMP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "amp-token"
+  },
+  "GXMaB6jm5cdoQgb65YpkEu61eDYtod3PuVwYYXdZZJ9r": {
+    "name": "FalconSwap Token (Wormhole)",
+    "logo": "GXMaB6jm5cdoQgb65YpkEu61eDYtod3PuVwYYXdZZJ9r.png",
+    "erc20": false,
+    "symbol": "wFSW",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "fsw-token"
+  },
+  "AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX": {
+    "name": "Binance USD (Wormhole)",
+    "logo": "AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX.png",
+    "erc20": false,
+    "symbol": "wBUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "binance-usd"
+  },
+  "2VmKuXMwdzouMndWcK7BK2951tBEtYVmGsdU4dXbjyaY": {
+    "name": "Aave Interest bearing DAI (Wormhole)",
+    "logo": "2VmKuXMwdzouMndWcK7BK2951tBEtYVmGsdU4dXbjyaY.png",
+    "erc20": false,
+    "symbol": "waDAI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-dai-v1"
+  },
+  "AXvWVviBmySSdghmuomYHqYB3AZn7NmAWrHYHKKPJxoL": {
+    "name": "Aave Interest bearing TUSD (Wormhole)",
+    "logo": "AXvWVviBmySSdghmuomYHqYB3AZn7NmAWrHYHKKPJxoL.png",
+    "erc20": false,
+    "symbol": "waTUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-tusd-v1"
+  },
+  "AkaisFPmasQYZUJsZLD9wPEo2KA7aCRqyRawX18ZRzGr": {
+    "name": "Aave Interest bearing USDC (Wormhole)",
+    "logo": "AkaisFPmasQYZUJsZLD9wPEo2KA7aCRqyRawX18ZRzGr.png",
+    "erc20": false,
+    "symbol": "waUSDC",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "aave-usdc-v1"
+  },
+  "FZfQtWMoTQ51Z4jxvHfmFcqj4862u9GzmugBnZUuWqR5": {
+    "name": "Aave Interest bearing USDT (Wormhole)",
+    "logo": "FZfQtWMoTQ51Z4jxvHfmFcqj4862u9GzmugBnZUuWqR5.png",
+    "erc20": false,
+    "symbol": "waUSDT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "aave-usdt-v1"
+  },
+  "BMrbF8DZ9U5KGdJ4F2MJbH5d6KPi5FQVp7EqmLrhDe1f": {
+    "name": "Aave Interest bearing SUSD (Wormhole)",
+    "logo": "BMrbF8DZ9U5KGdJ4F2MJbH5d6KPi5FQVp7EqmLrhDe1f.png",
+    "erc20": false,
+    "symbol": "waSUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-susd-v1"
+  },
+  "Fzx4N1xJPDZENAhrAaH79k2izT9CFbfnDEcpcWjiusdY": {
+    "name": "Aave Interest bearing LEND (Wormhole)",
+    "logo": "Fzx4N1xJPDZENAhrAaH79k2izT9CFbfnDEcpcWjiusdY.png",
+    "erc20": false,
+    "symbol": "waLEND",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GCdDiVgZnkWCAnGktUsjhoho2CHab9JfrRy3Q5W51zvC": {
+    "name": "Aave Interest bearing BAT (Wormhole)",
+    "logo": "GCdDiVgZnkWCAnGktUsjhoho2CHab9JfrRy3Q5W51zvC.png",
+    "erc20": false,
+    "symbol": "waBAT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-bat-v1"
+  },
+  "FBrfFh7fb7xKfyBMJA32KufMjEkgSgY4AuzLXFKdJFRj": {
+    "name": "Aave Interest bearing ETH (Wormhole)",
+    "logo": "FBrfFh7fb7xKfyBMJA32KufMjEkgSgY4AuzLXFKdJFRj.png",
+    "erc20": false,
+    "symbol": "waETH",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-eth-v1"
+  },
+  "Adp88WrQDgExPTu26DdBnbN2ffWMkXLxwqzjTdfRQiJi": {
+    "name": "Aave Interest bearing LINK (Wormhole)",
+    "logo": "Adp88WrQDgExPTu26DdBnbN2ffWMkXLxwqzjTdfRQiJi.png",
+    "erc20": false,
+    "symbol": "waLINK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-link-v1"
+  },
+  "3p67dqghWn6reQcVCqNBkufrpU1gtA1ZRAYja6GMXySG": {
+    "name": "Aave Interest bearing KNC (Wormhole)",
+    "logo": "3p67dqghWn6reQcVCqNBkufrpU1gtA1ZRAYja6GMXySG.png",
+    "erc20": false,
+    "symbol": "waKNC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-knc-v1"
+  },
+  "A4qYX1xuewaBL9SeZnwA3We6MhG8TYcTceHAJpk7Etdt": {
+    "name": "Aave Interest bearing REP (Wormhole)",
+    "logo": "A4qYX1xuewaBL9SeZnwA3We6MhG8TYcTceHAJpk7Etdt.png",
+    "erc20": false,
+    "symbol": "waREP",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3iTtcKUVa5ouzwNZFc3SasuAKkY2ZuMxLERRcWfxQVN3": {
+    "name": "Aave Interest bearing MKR (Wormhole)",
+    "logo": "3iTtcKUVa5ouzwNZFc3SasuAKkY2ZuMxLERRcWfxQVN3.png",
+    "erc20": false,
+    "symbol": "waMKR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-mkr-v1"
+  },
+  "EMS6TrCU8uBMumZukRSShGS1yzHGqYd3S8hW2sYULX3T": {
+    "name": "Aave Interest bearing MANA (Wormhole)",
+    "logo": "EMS6TrCU8uBMumZukRSShGS1yzHGqYd3S8hW2sYULX3T.png",
+    "erc20": false,
+    "symbol": "waMANA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-mana-v1"
+  },
+  "qhqzfH7AjeukUgqyPXncWHFXTBebFNu5QQUrzhJaLB4": {
+    "name": "Aave Interest bearing ZRX (Wormhole)",
+    "logo": "qhqzfH7AjeukUgqyPXncWHFXTBebFNu5QQUrzhJaLB4.png",
+    "erc20": false,
+    "symbol": "waZRX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-zrx-v1"
+  },
+  "FeU2J26AfMqh2mh7Cf4Lw1HRueAvAkZYxGr8njFNMeQ2": {
+    "name": "Aave Interest bearing SNX (Wormhole)",
+    "logo": "FeU2J26AfMqh2mh7Cf4Lw1HRueAvAkZYxGr8njFNMeQ2.png",
+    "erc20": false,
+    "symbol": "waSNX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-snx-v1"
+  },
+  "GveRVvWTUH1s26YxyjUnXh1J5mMdu5crC2K2uQy26KXi": {
+    "name": "Aave Interest bearing WBTC (Wormhole)",
+    "logo": "GveRVvWTUH1s26YxyjUnXh1J5mMdu5crC2K2uQy26KXi.png",
+    "erc20": false,
+    "symbol": "waWBTC",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "aave-wbtc-v1"
+  },
+  "F2WgoHLwV4pfxN4WrUs2q6KkmFCsNorGYQ82oaPNUFLP": {
+    "name": "Aave Interest bearing Binance USD (Wormhole)",
+    "logo": "F2WgoHLwV4pfxN4WrUs2q6KkmFCsNorGYQ82oaPNUFLP.png",
+    "erc20": false,
+    "symbol": "waBUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-busd-v1"
+  },
+  "3rNUQJgvfZ5eFsZvCkvdYcbd9ZzS6YmtwQsoUTFKmVd4": {
+    "name": "Aave Interest bearing ENJ (Wormhole)",
+    "logo": "3rNUQJgvfZ5eFsZvCkvdYcbd9ZzS6YmtwQsoUTFKmVd4.png",
+    "erc20": false,
+    "symbol": "waENJ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-enj-v1"
+  },
+  "BHh8nyDwdUG4uyyQYNqGXGLHPyb83R6Y2fqJrNVKtTsT": {
+    "name": "Aave Interest bearing REN (Wormhole)",
+    "logo": "BHh8nyDwdUG4uyyQYNqGXGLHPyb83R6Y2fqJrNVKtTsT.png",
+    "erc20": false,
+    "symbol": "waREN",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-ren-v1"
+  },
+  "EE58FVYG1UoY6Givy3K3GSRde9sHMj6X1BnocHBtd3sz": {
+    "name": "Aave Interest bearing YFI (Wormhole)",
+    "logo": "EE58FVYG1UoY6Givy3K3GSRde9sHMj6X1BnocHBtd3sz.png",
+    "erc20": false,
+    "symbol": "waYFI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "ayfi"
+  },
+  "8aYsiHR6oVTAcFUzdXDhaPkgRbn4QYRCkdk3ATmAmY4p": {
+    "name": "Aave Interest bearing Aave Token (Wormhole)",
+    "logo": "8aYsiHR6oVTAcFUzdXDhaPkgRbn4QYRCkdk3ATmAmY4p.png",
+    "erc20": false,
+    "symbol": "waAAVE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8kwCLkWbv4qTJPcbSV65tWdQmjURjBGRSv6VtC1JTiL8": {
+    "name": "Aave Interest bearing Uniswap (Wormhole)",
+    "logo": "8kwCLkWbv4qTJPcbSV65tWdQmjURjBGRSv6VtC1JTiL8.png",
+    "erc20": false,
+    "symbol": "waUNI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9NDu1wdjZ7GiY7foAXhia9h1wQU45oTUzyMZKJ31V7JA": {
+    "name": "Staked Aave (Wormhole)",
+    "logo": "9NDu1wdjZ7GiY7foAXhia9h1wQU45oTUzyMZKJ31V7JA.png",
+    "erc20": false,
+    "symbol": "wstkAAVE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GNQ1Goajm3Za8uC1Eptt2yfsrbnkZh2eMJoqxg54sj3o": {
+    "name": "Uniswap DAI LP (Wormhole)",
+    "logo": "GNQ1Goajm3Za8uC1Eptt2yfsrbnkZh2eMJoqxg54sj3o.png",
+    "erc20": false,
+    "symbol": "wUniDAIETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7NFin546WNvWkhtfftfY77z8C1TrxLbUcKmw5TpHGGtC": {
+    "name": "Uniswap USDC LP (Wormhole)",
+    "logo": "7NFin546WNvWkhtfftfY77z8C1TrxLbUcKmw5TpHGGtC.png",
+    "erc20": false,
+    "symbol": "wUniUSDCETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7gersKTtU65ERNBNTZKjYgKf7HypR7PDMprcuhQJChaq": {
+    "name": "Uniswap sETH LP (Wormhole)",
+    "logo": "7gersKTtU65ERNBNTZKjYgKf7HypR7PDMprcuhQJChaq.png",
+    "erc20": false,
+    "symbol": "wUnisETHETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "4aqNtSCr77eiEZJ9u9BhPErjEMju6FFdLeBKkE1pdxuK": {
+    "name": "Uniswap LEND LP (Wormhole)",
+    "logo": "4aqNtSCr77eiEZJ9u9BhPErjEMju6FFdLeBKkE1pdxuK.png",
+    "erc20": false,
+    "symbol": "wUniLENDETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "FDdoYCHwFghBSbnN6suvFR3VFw6kAzfhfGpkAQAGPLC3": {
+    "name": "Uniswap MKR LP (Wormhole)",
+    "logo": "FDdoYCHwFghBSbnN6suvFR3VFw6kAzfhfGpkAQAGPLC3.png",
+    "erc20": false,
+    "symbol": "wUniMKRETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "FSSTfbb1vh1TRe8Ja64hC65QTc7pPUhwHh5uTAWj5haH": {
+    "name": "Uniswap LINK LP (Wormhole)",
+    "logo": "FSSTfbb1vh1TRe8Ja64hC65QTc7pPUhwHh5uTAWj5haH.png",
+    "erc20": false,
+    "symbol": "wUniLINKETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Aci9xBGywrgBxQoFnL6LCoCYuX5k6AqaYhimgSZ1Fhrk": {
+    "name": "Aave Interest bearing UniETH (Wormhole)",
+    "logo": "Aci9xBGywrgBxQoFnL6LCoCYuX5k6AqaYhimgSZ1Fhrk.png",
+    "erc20": false,
+    "symbol": "waUniETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GqHK99sW4ym6zy6Kdoh8f7sb2c3qhtB3WRqeyPbAYfmy": {
+    "name": "Aave Interest bearing UniDAI (Wormhole)",
+    "logo": "GqHK99sW4ym6zy6Kdoh8f7sb2c3qhtB3WRqeyPbAYfmy.png",
+    "erc20": false,
+    "symbol": "waUniDAI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "4e4TpGVJMYiz5UBrAXuNmiVJ9yvc7ppJeAn8sXmbnmDi": {
+    "name": "Aave Interest bearing UniUSDC (Wormhole)",
+    "logo": "4e4TpGVJMYiz5UBrAXuNmiVJ9yvc7ppJeAn8sXmbnmDi.png",
+    "erc20": false,
+    "symbol": "waUniUSDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "49LoAnQQdo9171zfcWRUoQLYSScrxXobbuwt14xjvfVm": {
+    "name": "Aave Interest bearing UniUSDT (Wormhole)",
+    "logo": "49LoAnQQdo9171zfcWRUoQLYSScrxXobbuwt14xjvfVm.png",
+    "erc20": false,
+    "symbol": "waUniUSDT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "CvG3gtKYJtKRzEUgMeb42xnd8HDjESgLtyJqQ2kuLncp": {
+    "name": "Aave Interest bearing UniDAIETH (Wormhole)",
+    "logo": "CvG3gtKYJtKRzEUgMeb42xnd8HDjESgLtyJqQ2kuLncp.png",
+    "erc20": false,
+    "symbol": "waUniDAIETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GSv5ECZaMfaceZK4WKKzA4tKVDkqtfBASECcmYFWcy4G": {
+    "name": "Aave Interest bearing UniUSDCETH (Wormhole)",
+    "logo": "GSv5ECZaMfaceZK4WKKzA4tKVDkqtfBASECcmYFWcy4G.png",
+    "erc20": false,
+    "symbol": "waUniUSDCETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7LUdsedi7qpTJGnFpZo6mWqVtKKpccr9XrQGxJ2xUDPT": {
+    "name": "Aave Interest bearing UniSETHETH (Wormhole)",
+    "logo": "7LUdsedi7qpTJGnFpZo6mWqVtKKpccr9XrQGxJ2xUDPT.png",
+    "erc20": false,
+    "symbol": "waUniSETHETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Hc1zHQxg1k2JVwvuv3kqbCyZDEJYfDdNftBMab4EMUx9": {
+    "name": "Aave Interest bearing UniLENDETH (Wormhole)",
+    "logo": "Hc1zHQxg1k2JVwvuv3kqbCyZDEJYfDdNftBMab4EMUx9.png",
+    "erc20": false,
+    "symbol": "waUniLENDETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9PejEmx6NKDHgf6jpgAWwZsibURKifBakjzDQdtCtAXT": {
+    "name": "Aave Interest bearing UniMKRETH (Wormhole)",
+    "logo": "9PejEmx6NKDHgf6jpgAWwZsibURKifBakjzDQdtCtAXT.png",
+    "erc20": false,
+    "symbol": "waUniMKRETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "KcHygDp4o7ENsHjevYM4T3u6R7KHa5VyvkJ7kpmJcYo": {
+    "name": "Aave Interest bearing UniLINKETH (Wormhole)",
+    "logo": "KcHygDp4o7ENsHjevYM4T3u6R7KHa5VyvkJ7kpmJcYo.png",
+    "erc20": false,
+    "symbol": "waUniLINKETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GNPAF84ZEtKYyfuY2fg8tZVwse7LpTSeyYPSyEKFqa2Y": {
+    "name": "Aave interest bearing USDT (Wormhole)",
+    "logo": "GNPAF84ZEtKYyfuY2fg8tZVwse7LpTSeyYPSyEKFqa2Y.png",
+    "erc20": false,
+    "symbol": "waUSDT",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "aave-usdt"
+  },
+  "3QTknQ3i27rDKm5hvBaScFLQ34xX9N7J7XfEFwy27qbZ": {
+    "name": "Aave interest bearing WBTC (Wormhole)",
+    "logo": "3QTknQ3i27rDKm5hvBaScFLQ34xX9N7J7XfEFwy27qbZ.png",
+    "erc20": false,
+    "symbol": "waWBTC",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "aave-wbtc"
+  },
+  "EbpkofeWyiQouGyxQAgXxEyGtjgq13NSucX3CNvucNpb": {
+    "name": "Aave interest bearing WETH (Wormhole)",
+    "logo": "EbpkofeWyiQouGyxQAgXxEyGtjgq13NSucX3CNvucNpb.png",
+    "erc20": false,
+    "symbol": "waWETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "67uaa3Z7SX7GC6dqSTjpJLnySLXZpCAK9MHMi3232Bfb": {
+    "name": "Aave interest bearing YFI (Wormhole)",
+    "logo": "67uaa3Z7SX7GC6dqSTjpJLnySLXZpCAK9MHMi3232Bfb.png",
+    "erc20": false,
+    "symbol": "waYFI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9xS6et5uvQ64QsmaGMfzfXrwTsfYPjwEWuiPnBGFgfw": {
+    "name": "Aave interest bearing ZRX (Wormhole)",
+    "logo": "9xS6et5uvQ64QsmaGMfzfXrwTsfYPjwEWuiPnBGFgfw.png",
+    "erc20": false,
+    "symbol": "waZRX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-zrx"
+  },
+  "2TZ8s2FwtWqJrWpdFsSf2uM2Fvjw474n6HhTdTEWoLor": {
+    "name": "Aave interest bearing UNI (Wormhole)",
+    "logo": "2TZ8s2FwtWqJrWpdFsSf2uM2Fvjw474n6HhTdTEWoLor.png",
+    "erc20": false,
+    "symbol": "waUNI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "G1o2fHZXyPCeAEcY4o6as7SmVaUu65DRhcq1S4Cfap9T": {
+    "name": "Aave interest bearing AAVE (Wormhole)",
+    "logo": "G1o2fHZXyPCeAEcY4o6as7SmVaUu65DRhcq1S4Cfap9T.png",
+    "erc20": false,
+    "symbol": "waAAVE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8PeWkyvCDHpSgT5oiGFgZQtXSRBij7ZFLJTHAGBntRDH": {
+    "name": "Aave interest bearing BAT (Wormhole)",
+    "logo": "8PeWkyvCDHpSgT5oiGFgZQtXSRBij7ZFLJTHAGBntRDH.png",
+    "erc20": false,
+    "symbol": "waBAT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-bat"
+  },
+  "67opsuaXQ3JRSJ1mmF7aPLSq6JaZcwAmXwcMzUN5PSMv": {
+    "name": "Aave interest bearing BUSD (Wormhole)",
+    "logo": "67opsuaXQ3JRSJ1mmF7aPLSq6JaZcwAmXwcMzUN5PSMv.png",
+    "erc20": false,
+    "symbol": "waBUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-busd"
+  },
+  "4JrrHRS56i9GZkSmGaCY3ZsxMo3JEqQviU64ki7ZJPak": {
+    "name": "Aave interest bearing DAI (Wormhole)",
+    "logo": "4JrrHRS56i9GZkSmGaCY3ZsxMo3JEqQviU64ki7ZJPak.png",
+    "erc20": false,
+    "symbol": "waDAI",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-dai"
+  },
+  "3LmfKjsSU9hdxfZfcr873DMNR5nnrk8EvdueXg1dTSin": {
+    "name": "Aave interest bearing ENJ (Wormhole)",
+    "logo": "3LmfKjsSU9hdxfZfcr873DMNR5nnrk8EvdueXg1dTSin.png",
+    "erc20": false,
+    "symbol": "waENJ",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-enj"
+  },
+  "7VD2Gosm34hB7kughTqu1N3sW92hq3XwKLTi1N1tdKrj": {
+    "name": "Aave interest bearing KNC (Wormhole)",
+    "logo": "7VD2Gosm34hB7kughTqu1N3sW92hq3XwKLTi1N1tdKrj.png",
+    "erc20": false,
+    "symbol": "waKNC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-knc"
+  },
+  "4erbVWFvdvS5P8ews7kUjqfpCQbA8vurnWyvRLsnZJgv": {
+    "name": "Aave interest bearing LINK (Wormhole)",
+    "logo": "4erbVWFvdvS5P8ews7kUjqfpCQbA8vurnWyvRLsnZJgv.png",
+    "erc20": false,
+    "symbol": "waLINK",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-link"
+  },
+  "AXJWqG4SpAEwkMjKYkarKwv6Qfz5rLU3cwt5KtrDAAYe": {
+    "name": "Aave interest bearing MANA (Wormhole)",
+    "logo": "AXJWqG4SpAEwkMjKYkarKwv6Qfz5rLU3cwt5KtrDAAYe.png",
+    "erc20": false,
+    "symbol": "waMANA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-mana"
+  },
+  "4kJmfagJzQFuwto5RX6f1xScWYbEVBzEpdjmiqTCnzjJ": {
+    "name": "Aave interest bearing MKR (Wormhole)",
+    "logo": "4kJmfagJzQFuwto5RX6f1xScWYbEVBzEpdjmiqTCnzjJ.png",
+    "erc20": false,
+    "symbol": "waMKR",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-mkr"
+  },
+  "DN8jPo8YZTXhLMyDMKcnwFuKqY8wfn2UrpX8ct4rc8Bc": {
+    "name": "Aave interest bearing REN (Wormhole)",
+    "logo": "DN8jPo8YZTXhLMyDMKcnwFuKqY8wfn2UrpX8ct4rc8Bc.png",
+    "erc20": false,
+    "symbol": "waREN",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-ren"
+  },
+  "HWbJZXJ7s1D1zi5P7yVgRUmZPXvYSFv6vsYU765Ti422": {
+    "name": "Aave interest bearing SNX (Wormhole)",
+    "logo": "HWbJZXJ7s1D1zi5P7yVgRUmZPXvYSFv6vsYU765Ti422.png",
+    "erc20": false,
+    "symbol": "waSNX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-snx"
+  },
+  "2LForywWWpHzmR5NjSEyF1kcw9ffyLuJX7V7hne2fHfY": {
+    "name": "Aave interest bearing SUSD (Wormhole)",
+    "logo": "2LForywWWpHzmR5NjSEyF1kcw9ffyLuJX7V7hne2fHfY.png",
+    "erc20": false,
+    "symbol": "waSUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-susd"
+  },
+  "Badj3S29a2u1auxmijwg5vGjhPLb1K6WLPoigtWjKPXp": {
+    "name": "Aave interest bearing TUSD (Wormhole)",
+    "logo": "Badj3S29a2u1auxmijwg5vGjhPLb1K6WLPoigtWjKPXp.png",
+    "erc20": false,
+    "symbol": "waTUSD",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-tusd"
+  },
+  "BZCPpva12M9SqJgcpf8jtP9Si6rMANFoUR3i7nchha7M": {
+    "name": "Aave interest bearing USDC (Wormhole)",
+    "logo": "BZCPpva12M9SqJgcpf8jtP9Si6rMANFoUR3i7nchha7M.png",
+    "erc20": false,
+    "symbol": "waUSDC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "aave-usdc"
+  },
+  "D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD": {
+    "name": "Stake DAO Token (Wormhole)",
+    "logo": "D3ajQoyBGJz3JCXCPsxHZJbLQKGt9UgxLavgurieGNcD.png",
+    "erc20": false,
+    "symbol": "wSDT",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "stake-dao"
+  },
+  "4pk3pf9nJDN1im1kNwWJN1ThjE8pCYCTexXYGyFjqKVf": {
+    "name": "Dominican Pesos",
+    "logo": "4pk3pf9nJDN1im1kNwWJN1ThjE8pCYCTexXYGyFjqKVf.png",
+    "erc20": false,
+    "symbol": "oDOP",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "5kjfp2qfRbqCXTQeUYgHNnTLf13eHoKjC5hHynW9DvQE": {
+    "name": "AAPE",
+    "logo": "5kjfp2qfRbqCXTQeUYgHNnTLf13eHoKjC5hHynW9DvQE.png",
+    "erc20": false,
+    "symbol": "AAPE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE": {
+    "name": "XCOPE",
+    "logo": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE.png",
+    "erc20": false,
+    "symbol": "XCOPE",
+    "decimals": 0,
+    "chainId": "0x65",
+    "coingeckoId": "cope"
+  },
+  "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh": {
+    "name": "COPE",
+    "logo": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh.png",
+    "erc20": false,
+    "symbol": "COPE",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "cope"
+  },
+  "2prC8tcVsXwVJAinhxd2zeMeWMWaVyzPoQeLKyDZRFKd": {
+    "name": "Mango Market Caps",
+    "logo": "2prC8tcVsXwVJAinhxd2zeMeWMWaVyzPoQeLKyDZRFKd.png",
+    "erc20": false,
+    "symbol": "MCAPS",
+    "decimals": 0,
+    "chainId": "0x65",
+    "coingeckoId": "mango-market-caps"
+  },
+  "2reKm5Y9rmAWfaw5jraYz1BXwGLHMofGMs3iNoBLt4VC": {
+    "name": "Doce Finance",
+    "logo": "2reKm5Y9rmAWfaw5jraYz1BXwGLHMofGMs3iNoBLt4VC.png",
+    "erc20": false,
+    "symbol": "DOCE",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "E1PvPRPQvZNivZbXRL61AEGr71npZQ5JGxh4aWX7q9QA": {
+    "name": "iNo Token",
+    "logo": "E1PvPRPQvZNivZbXRL61AEGr71npZQ5JGxh4aWX7q9QA.png",
+    "erc20": false,
+    "symbol": "INO",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8PMHT4swUMtBzgHnh5U564N5sjPSiUz2cjEQzFnnP1Fo": {
+    "name": "Rope Token",
+    "logo": "8PMHT4swUMtBzgHnh5U564N5sjPSiUz2cjEQzFnnP1Fo.png",
+    "erc20": false,
+    "symbol": "ROPE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "rope-token"
+  },
+  "5dhkWqrq37F92jBmEyhQP1vbMkbVRz59V7288HH2wBC7": {
+    "name": "SOLLock",
+    "logo": "5dhkWqrq37F92jBmEyhQP1vbMkbVRz59V7288HH2wBC7.png",
+    "erc20": false,
+    "symbol": "SLOCK",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "ETAtLmCmsoiEEKfNrHKJ2kYy3MoABhU6NQvpSfij5tDs": {
+    "name": "Media Network",
+    "logo": "ETAtLmCmsoiEEKfNrHKJ2kYy3MoABhU6NQvpSfij5tDs.png",
+    "erc20": false,
+    "symbol": "MEDIA",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "media-network"
+  },
+  "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT": {
+    "name": "Step",
+    "logo": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT.png",
+    "erc20": false,
+    "symbol": "STEP",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "step-finance"
+  },
+  "7Geyz6iiRe8buvunsU6TXndxnpLt9mg6iPxqhn6cr3c6": {
+    "name": "AffinityLabs",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ANFT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s": {
+    "name": "Kreechures",
+    "logo": "3cXftQWJJEeoysZrhAEjpfCHe9tSKyhYG63xpbue8m3s.png",
+    "erc20": false,
+    "symbol": "Kreechures",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "4DrV8khCoPS3sWRj6t1bb2DzT9jD4mZp6nc7Jisuuv1b": {
+    "name": "Solpad",
+    "logo": "4DrV8khCoPS3sWRj6t1bb2DzT9jD4mZp6nc7Jisuuv1b.png",
+    "erc20": false,
+    "symbol": "SPD",
+    "decimals": 10,
+    "chainId": "0x65"
+  },
+  "7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH": {
+    "name": "Kreechures",
+    "logo": "7p7AMM6QoA8wPRKeqF87Pt51CRWmWvXPH5TBNMyDWhbH.png",
+    "erc20": false,
+    "symbol": "Kreechures",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "6ybxMQpMgQhtsTLhvHZqk8uqao7kvoexY6e8JmCTqAB1": {
+    "name": "QUEST",
+    "logo": "6ybxMQpMgQhtsTLhvHZqk8uqao7kvoexY6e8JmCTqAB1.png",
+    "erc20": false,
+    "symbol": "QUEST",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "97qAF7ZKEdPdQaUkhASGA59Jpa2Wi7QqVmnFdEuPqEDc": {
+    "name": "LOVE",
+    "logo": "97qAF7ZKEdPdQaUkhASGA59Jpa2Wi7QqVmnFdEuPqEDc.png",
+    "erc20": false,
+    "symbol": "DIAMOND",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW": {
+    "name": "Solanium",
+    "logo": "xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW.png",
+    "erc20": false,
+    "symbol": "SLIM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "8GPUjUHFxfNhaSS8kUkix8txRRXszeUAsHTjUmHuygZT": {
+    "name": "NINJA NFT1",
+    "logo": "",
+    "erc20": false,
+    "symbol": "NINJA NFT1",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "HcJCPYck2UsTMgiPfjn6CS1wrC5iBXtuqPSjt8Qy8Sou": {
+    "name": "Gangs of Solana",
+    "logo": "HcJCPYck2UsTMgiPfjn6CS1wrC5iBXtuqPSjt8Qy8Sou.png",
+    "erc20": false,
+    "symbol": "GANGS",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "2rEiLkpQ3mh4DGxv1zcSdW5r5HK2nehif5sCaF5Ss9E1": {
+    "name": "Reboot ECO",
+    "logo": "2rEiLkpQ3mh4DGxv1zcSdW5r5HK2nehif5sCaF5Ss9E1.png",
+    "erc20": false,
+    "symbol": "RECO",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "BXhAKUxkGvFbAarA3K1SUYnqXRhEBC1bhUaCaxvzgyJ1": {
+    "name": "Interstellar",
+    "logo": "BXhAKUxkGvFbAarA3K1SUYnqXRhEBC1bhUaCaxvzgyJ1.png",
+    "erc20": false,
+    "symbol": "ISA",
+    "decimals": 3,
+    "chainId": "0x65"
+  },
+  "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU": {
+    "name": "Samoyed Coin",
+    "logo": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU.png",
+    "erc20": false,
+    "symbol": "SAMO",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "samoyedcoin"
+  },
+  "HAWy8kV3bD4gaN6yy6iK2619x2dyzLUBj1PfJiihTisE": {
+    "name": "Discovery of Iris",
+    "logo": "HAWy8kV3bD4gaN6yy6iK2619x2dyzLUBj1PfJiihTisE.png",
+    "erc20": false,
+    "symbol": "DOI",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "ATSPo9f9TJ3Atx8SuoTYdzSMh4ctQBzYzDiNukQDmoF7": {
+    "name": "The Heart of Star Atlas",
+    "logo": "ATSPo9f9TJ3Atx8SuoTYdzSMh4ctQBzYzDiNukQDmoF7.png",
+    "erc20": false,
+    "symbol": "HOSA",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "36s6AFRXzE9KVdUyoJQ5y6mwxXw21LawYqqwNiQUMD8s": {
+    "name": "The Convergence War",
+    "logo": "36s6AFRXzE9KVdUyoJQ5y6mwxXw21LawYqqwNiQUMD8s.png",
+    "erc20": false,
+    "symbol": "TCW",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "BgiTVxW9uLuHHoafTd2qjYB5xjCc5Y1EnUuYNfmTwhvp": {
+    "name": "Short Story of a Lost Astronaut",
+    "logo": "BgiTVxW9uLuHHoafTd2qjYB5xjCc5Y1EnUuYNfmTwhvp.png",
+    "erc20": false,
+    "symbol": "LOST",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "4G85c5aUsRTrRPqE5VjY7ebD9b2ktTF6NEVGiCddRBDX": {
+    "name": "B ❤ P",
+    "logo": "4G85c5aUsRTrRPqE5VjY7ebD9b2ktTF6NEVGiCddRBDX.png",
+    "erc20": false,
+    "symbol": "LOVE",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "7dr7jVyXf1KUnYq5FTpV2vCZjKRR4MV94jzerb8Fi16Q": {
+    "name": "The Assassination of Paizul",
+    "logo": "7dr7jVyXf1KUnYq5FTpV2vCZjKRR4MV94jzerb8Fi16Q.png",
+    "erc20": false,
+    "symbol": "MRDR",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "G1bE9ge8Yoq43hv7QLcumxTFhHqFMdcL4y2d6ZdzMG4b": {
+    "name": "Paizul Funeral Procession",
+    "logo": "G1bE9ge8Yoq43hv7QLcumxTFhHqFMdcL4y2d6ZdzMG4b.png",
+    "erc20": false,
+    "symbol": "PFP",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "6bD8mr8DyuVqN5dXd1jnqmCL66b5KUV14jYY1HSmnxTE": {
+    "name": "Ahr Visits Earth",
+    "logo": "6bD8mr8DyuVqN5dXd1jnqmCL66b5KUV14jYY1HSmnxTE.png",
+    "erc20": false,
+    "symbol": "AVE",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "9vi6PTKBFHR2hXgyjoTZx6h7WXNkFAA5dCsZRSi4higK": {
+    "name": "Armstrong Forever",
+    "logo": "9vi6PTKBFHR2hXgyjoTZx6h7WXNkFAA5dCsZRSi4higK.png",
+    "erc20": false,
+    "symbol": "ASF",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "Hfjgcs9ix17EwgXVVbKjo6NfMm2CXfr34cwty3xWARUm": {
+    "name": "The Last Stand",
+    "logo": "Hfjgcs9ix17EwgXVVbKjo6NfMm2CXfr34cwty3xWARUm.png",
+    "erc20": false,
+    "symbol": "TLS",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "8EXX5kG7qWTjgpNSGX7PnB6hJZ8xhXUcCafVJaBEJo32": {
+    "name": "The Signing of the Peace Treaty",
+    "logo": "8EXX5kG7qWTjgpNSGX7PnB6hJZ8xhXUcCafVJaBEJo32.png",
+    "erc20": false,
+    "symbol": "SPT",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "CAjoJeGCCRae9oDwHYXzkeUDonp3dZLWV5GKHysLwjnx": {
+    "name": "The Peacebringers Archive",
+    "logo": "CAjoJeGCCRae9oDwHYXzkeUDonp3dZLWV5GKHysLwjnx.png",
+    "erc20": false,
+    "symbol": "PBA",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "FPnwwNiL1tXqd4ZbGjFYsCw5qsQw91VN79SNcU4Bc732": {
+    "name": "Ustur Wod.bod",
+    "logo": "FPnwwNiL1tXqd4ZbGjFYsCw5qsQw91VN79SNcU4Bc732.png",
+    "erc20": false,
+    "symbol": "UWB",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "DB76aiNQeLzHPwvFhzgwfpe6HGHCDTQ6snW6UD7AnHid": {
+    "name": "Om Photoli",
+    "logo": "DB76aiNQeLzHPwvFhzgwfpe6HGHCDTQ6snW6UD7AnHid.png",
+    "erc20": false,
+    "symbol": "OMPH",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "BrzwWsG845VttbTsacZMLKhyc2jAZU12MaPkTYrJHoqm": {
+    "name": "Star Atlas - The Movie",
+    "logo": "BrzwWsG845VttbTsacZMLKhyc2jAZU12MaPkTYrJHoqm.png",
+    "erc20": false,
+    "symbol": "SATM",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "8ymi88q5DtmdNTn2sPRNFkvMkszMHuLJ1e3RVdWjPa3s": {
+    "name": "SolDoge",
+    "logo": "8ymi88q5DtmdNTn2sPRNFkvMkszMHuLJ1e3RVdWjPa3s.png",
+    "erc20": false,
+    "symbol": "SDOGE",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "DQRNdQWz5NzbYgknGsZqSSXbdhQWvXSe8S56mrtNAs1b": {
+    "name": "ENTROPPP (Entropy for security)",
+    "logo": "DQRNdQWz5NzbYgknGsZqSSXbdhQWvXSe8S56mrtNAs1b.png",
+    "erc20": false,
+    "symbol": "ENTROPPP",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "8RYSc3rrS4X4bvBCtSJnhcpPpMaAJkXnVKZPzANxQHgz": {
+    "name": "SolYard Finance",
+    "logo": "8RYSc3rrS4X4bvBCtSJnhcpPpMaAJkXnVKZPzANxQHgz.png",
+    "erc20": false,
+    "symbol": "YARD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "nope9HWCJcXVFkG49CDk7oYFtgGsUzsRvHdcJeL2aCL": {
+    "name": "NOPE FINANCE",
+    "logo": "nope9HWCJcXVFkG49CDk7oYFtgGsUzsRvHdcJeL2aCL.png",
+    "erc20": false,
+    "symbol": "NOPE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We": {
+    "name": "Stonks",
+    "logo": "43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We.png",
+    "erc20": false,
+    "symbol": "STNK",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "4368jNGeNq7Tt4Vzr98UWxL647PYu969VjzAsWGVaVH2": {
+    "name": "HUNGRY",
+    "logo": "4368jNGeNq7Tt4Vzr98UWxL647PYu969VjzAsWGVaVH2.png",
+    "erc20": false,
+    "symbol": "MEAL",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8GQsW3f7mdwfjqJon2myADcBsSsRjpXmxHYDG8q1pvV6": {
+    "name": "Holdana",
+    "logo": "8GQsW3f7mdwfjqJon2myADcBsSsRjpXmxHYDG8q1pvV6.png",
+    "erc20": false,
+    "symbol": "HOLD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "64SqEfHtu4bZ6jr1mAxaWrLFdMngbKbru9AyaG2Dyk5T": {
+    "name": "wen-token",
+    "logo": "64SqEfHtu4bZ6jr1mAxaWrLFdMngbKbru9AyaG2Dyk5T.png",
+    "erc20": false,
+    "symbol": "wen-token",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "9axWWN2FY8njSSQReepkiSE56U2yAvPFGuaXRQNdkZaS": {
+    "name": "wen-token-2",
+    "logo": "9axWWN2FY8njSSQReepkiSE56U2yAvPFGuaXRQNdkZaS.png",
+    "erc20": false,
+    "symbol": "wen-token-2",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "4dmKkXNHdgYsXqBHCuMikNQWwVomZURhYvkkX5c4pQ7y": {
+    "name": "Synthetify",
+    "logo": "4dmKkXNHdgYsXqBHCuMikNQWwVomZURhYvkkX5c4pQ7y.png",
+    "erc20": false,
+    "symbol": "SNY",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "syntheify-token"
+  },
+  "4wTMJsh3q66PmAkmwEW47qVDevMZMVVWU3n1Yhqztwi6": {
+    "name": "Arcade Token (Wormhole)",
+    "logo": "4wTMJsh3q66PmAkmwEW47qVDevMZMVVWU3n1Yhqztwi6.png",
+    "erc20": false,
+    "symbol": "ARCD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Amt5wUJREJQC5pX7Z48YSK812xmu4j3sQVupNhtsEuY8": {
+    "name": "FROG",
+    "logo": "Amt5wUJREJQC5pX7Z48YSK812xmu4j3sQVupNhtsEuY8.png",
+    "erc20": false,
+    "symbol": "FROG",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "DEAdry5qhNoSkF3mbFrTa6udGbMwUoLnQhvchCu26Ak1": {
+    "name": "Juel Token",
+    "logo": "DEAdry5qhNoSkF3mbFrTa6udGbMwUoLnQhvchCu26Ak1.png",
+    "erc20": false,
+    "symbol": "JUEL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "9Y8NT5HT9z2EsmCbYMgKXPRq3h3aa6tycEqfFiXjfZM7": {
+    "name": "CARROT",
+    "logo": "9Y8NT5HT9z2EsmCbYMgKXPRq3h3aa6tycEqfFiXjfZM7.png",
+    "erc20": false,
+    "symbol": "CRT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "AMdnw9H5DFtQwZowVFr4kUgSXJzLokKSinvgGiUoLSps": {
+    "name": "MOONLANA",
+    "logo": "AMdnw9H5DFtQwZowVFr4kUgSXJzLokKSinvgGiUoLSps.png",
+    "erc20": false,
+    "symbol": "MOLA",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "moonlana"
+  },
+  "3x7UeXDF4imKSKnizK9mYyx1M5bTNzpeALfPeB8S6XT9": {
+    "name": "SKEM",
+    "logo": "3x7UeXDF4imKSKnizK9mYyx1M5bTNzpeALfPeB8S6XT9.png",
+    "erc20": false,
+    "symbol": "SKEM",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN": {
+    "name": "SolAPE Token",
+    "logo": "GHvFFSZ9BctWsEc5nujR1MTmmJWY7tgQz2AXE6WVFtGN.png",
+    "erc20": false,
+    "symbol": "SOLAPE",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "solape-token"
+  },
+  "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE": {
+    "name": "WOOFENOMICS",
+    "logo": "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE.png",
+    "erc20": false,
+    "symbol": "WOOF",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K": {
+    "name": "Mercurial",
+    "logo": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K.png",
+    "erc20": false,
+    "symbol": "MER",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "mercurial"
+  },
+  "9MhNoxy1PbmEazjPo9kiZPCcG7BiFbhi3bWZXZgacfpp": {
+    "name": "ACUMEN",
+    "logo": "9MhNoxy1PbmEazjPo9kiZPCcG7BiFbhi3bWZXZgacfpp.png",
+    "erc20": false,
+    "symbol": "ACMN",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "HRhCiCe8WLC4Jsy43Jkhq3poEWpjgXKD1U26XACReimt": {
+    "name": "zSOL (ACUMEN)",
+    "logo": "HRhCiCe8WLC4Jsy43Jkhq3poEWpjgXKD1U26XACReimt.png",
+    "erc20": false,
+    "symbol": "zSOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "2LBYxD4Jzipk1bEREW6vQk163cj27mUSxmHzW2ujXFNy": {
+    "name": "zUSDC (ACUMEN)",
+    "logo": "2LBYxD4Jzipk1bEREW6vQk163cj27mUSxmHzW2ujXFNy.png",
+    "erc20": false,
+    "symbol": "zUSDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "DFTZmEopSWrj6YcsmQAAxypN7cHM3mnruEisJPQFJbs7": {
+    "name": "zBTC (ACUMEN)",
+    "logo": "DFTZmEopSWrj6YcsmQAAxypN7cHM3mnruEisJPQFJbs7.png",
+    "erc20": false,
+    "symbol": "zBTC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW": {
+    "name": "zETH (ACUMEN)",
+    "logo": "A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW.png",
+    "erc20": false,
+    "symbol": "zETH",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "9hZt5mP139TvzDBZHtruXxAyjYHiovKXfxW6XNYiofae": {
+    "name": "zSRM (ACUMEN)",
+    "logo": "9hZt5mP139TvzDBZHtruXxAyjYHiovKXfxW6XNYiofae.png",
+    "erc20": false,
+    "symbol": "zSRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "BR31LZKtry5tyjVtZ49PFZoZjtE5SeS4rjVMuL9Xiyer": {
+    "name": "zSTEP (ACUMEN)",
+    "logo": "BR31LZKtry5tyjVtZ49PFZoZjtE5SeS4rjVMuL9Xiyer.png",
+    "erc20": false,
+    "symbol": "zSTEP",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7wZsSyzD4Ba8ZkPhRh62KshQc8TQYiB5KtdNknywE3k4": {
+    "name": "zRAY (ACUMEN)",
+    "logo": "7wZsSyzD4Ba8ZkPhRh62KshQc8TQYiB5KtdNknywE3k4.png",
+    "erc20": false,
+    "symbol": "zRAY",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "EfLvzNsqmkoSneiML5t7uHCPEVRaWCpG4N2WsS39nWCU": {
+    "name": "MUDLEY",
+    "logo": "EfLvzNsqmkoSneiML5t7uHCPEVRaWCpG4N2WsS39nWCU.png",
+    "erc20": false,
+    "symbol": "MUDLEY",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GpYMp8eP3HADY8x1jLVfFVBVYqxFNxT5mFhZAZt9Poco": {
+    "name": "Crazy Ape Coin",
+    "logo": "GpYMp8eP3HADY8x1jLVfFVBVYqxFNxT5mFhZAZt9Poco.png",
+    "erc20": false,
+    "symbol": "CAPE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7ApYvMWwHJSgWz9BvMuNzqzUAqYbxByjzZu31t8FkYDy": {
+    "name": "Fairy Finance",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SFairy",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7Csho7qjseDjgX3hhBxfwP1W3LYARK3QH3PM2x55we14": {
+    "name": "Lotto",
+    "logo": "7Csho7qjseDjgX3hhBxfwP1W3LYARK3QH3PM2x55we14.png",
+    "erc20": false,
+    "symbol": "LOTTO",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "lotto"
+  },
+  "7uv3ZvZcQLd95bUp5WMioxG7tyAZVXFfr8JYkwhMYrnt": {
+    "name": "Bole Token",
+    "logo": "7uv3ZvZcQLd95bUp5WMioxG7tyAZVXFfr8JYkwhMYrnt.png",
+    "erc20": false,
+    "symbol": "BOLE",
+    "decimals": 4,
+    "chainId": "0x65",
+    "coingeckoId": "bole-token"
+  },
+  "Bxp46xCB6CLjiqE99QaTcJAaY1hYF1o63DUUrXAS7QFu": {
+    "name": "SolMiner Bronze",
+    "logo": "Bxp46xCB6CLjiqE99QaTcJAaY1hYF1o63DUUrXAS7QFu.png",
+    "erc20": false,
+    "symbol": "mBRZ",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GZNrMEdrt6Vg428JzvJYRGGPpVxgjUPsg6WLqKBvmNLw": {
+    "name": "SolMiner Platinum",
+    "logo": "GZNrMEdrt6Vg428JzvJYRGGPpVxgjUPsg6WLqKBvmNLw.png",
+    "erc20": false,
+    "symbol": "mPLAT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Er7a3ugS6kkAqj6sp3UmXEFAFrDdLMRQEkV9QH2fwRYA": {
+    "name": "SolMiner Diamond",
+    "logo": "Er7a3ugS6kkAqj6sp3UmXEFAFrDdLMRQEkV9QH2fwRYA.png",
+    "erc20": false,
+    "symbol": "mDIAM",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "5JnZ667P3VcjDinkJFysWh2K2KtViy63FZ3oL5YghEhW": {
+    "name": "APYSwap",
+    "logo": "5JnZ667P3VcjDinkJFysWh2K2KtViy63FZ3oL5YghEhW.png",
+    "erc20": false,
+    "symbol": "APYS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "apyswap"
+  },
+  "ss1gxEUiufJyumsXfGbEwFe6maraPmc53fqbnjbum15": {
+    "name": "Naked Shorts",
+    "logo": "ss1gxEUiufJyumsXfGbEwFe6maraPmc53fqbnjbum15.png",
+    "erc20": false,
+    "symbol": "SS1",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "GfJ3Vq2eSTYf1hJP6kKLE9RT6u7jF9gNszJhZwo5VPZp": {
+    "name": "Solpad Finance",
+    "logo": "GfJ3Vq2eSTYf1hJP6kKLE9RT6u7jF9gNszJhZwo5VPZp.png",
+    "erc20": false,
+    "symbol": "SOLPAD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "ERPueLaiBW48uBhqX1CvCYBv2ApHN6ZFuME1MeQGTdAi": {
+    "name": "Muskimum Impact Token",
+    "logo": "ERPueLaiBW48uBhqX1CvCYBv2ApHN6ZFuME1MeQGTdAi.png",
+    "erc20": false,
+    "symbol": "MIT",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "BsDrXiQaFd147Fxq1fQYbJQ77P6tmPkRJQJzkKvspDKo": {
+    "name": "SolaPAD Token (deprecated)",
+    "logo": "BsDrXiQaFd147Fxq1fQYbJQ77P6tmPkRJQJzkKvspDKo.png",
+    "erc20": false,
+    "symbol": "SOLA",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "7fCzz6ZDHm4UWC9Se1RPLmiyeuQ6kStxpcAP696EuE1E": {
+    "name": "Shoebill Coin",
+    "logo": "7fCzz6ZDHm4UWC9Se1RPLmiyeuQ6kStxpcAP696EuE1E.png",
+    "erc20": false,
+    "symbol": "SHBL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GnaFnTihwQFjrLeJNeVdBfEZATMdaUwZZ1RPxLwjbVwb": {
+    "name": "Raydium Permissionless LP Token (SHBL-USDC)",
+    "logo": "GnaFnTihwQFjrLeJNeVdBfEZATMdaUwZZ1RPxLwjbVwb.png",
+    "erc20": false,
+    "symbol": "SHBL-USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc": {
+    "name": "Ausshole",
+    "logo": "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc.png",
+    "erc20": false,
+    "symbol": "AUSS",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs": {
+    "name": "Tulip",
+    "logo": "TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs.png",
+    "erc20": false,
+    "symbol": "TULIP",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "solfarm"
+  },
+  "5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s": {
+    "name": "JPY Coin",
+    "logo": "5trVBqv1LvHxiSPMsHtEZuf8iN82wbpDcR5Zaw7sWC3s.png",
+    "erc20": false,
+    "symbol": "JPYC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "3QuAYThYKFXSmrTcSHsdd7sAxaFBobaCkLy2DBYJLMDs": {
+    "name": "wTYNA",
+    "logo": "3QuAYThYKFXSmrTcSHsdd7sAxaFBobaCkLy2DBYJLMDs.png",
+    "erc20": false,
+    "symbol": "TYNA",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "7zsKqN7Fg2s9VsqAq6XBoiShCVohpGshSUvoWBc6jKYh": {
+    "name": "Wrapped ArdCoin (Sollet)",
+    "logo": "7zsKqN7Fg2s9VsqAq6XBoiShCVohpGshSUvoWBc6jKYh.png",
+    "erc20": false,
+    "symbol": "ARDX",
+    "decimals": 2,
+    "chainId": "0x65",
+    "coingeckoId": "ardcoin"
+  },
+  "7zphtJVjKyECvQkdfxJNPx83MNpPT6ZJyujQL8jyvKcC": {
+    "name": "SolShib",
+    "logo": "7zphtJVjKyECvQkdfxJNPx83MNpPT6ZJyujQL8jyvKcC.png",
+    "erc20": false,
+    "symbol": "SSHIB",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "HoSWnZ6MZzqFruS1uoU69bU7megzHUv6MFPQ5nqC6Pj2": {
+    "name": "SolGift",
+    "logo": "HoSWnZ6MZzqFruS1uoU69bU7megzHUv6MFPQ5nqC6Pj2.png",
+    "erc20": false,
+    "symbol": "SGI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GpS9AavHtSUspaBnL1Tu26FWbUAdW8tm3MbacsNvwtGu": {
+    "name": "Soltriever",
+    "logo": "GpS9AavHtSUspaBnL1Tu26FWbUAdW8tm3MbacsNvwtGu.png",
+    "erc20": false,
+    "symbol": "SOLT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "2QK9vxydd7WoDwvVFT5JSU8cwE9xmbJSzeqbRESiPGMG": {
+    "name": "kekwcoin",
+    "logo": "2QK9vxydd7WoDwvVFT5JSU8cwE9xmbJSzeqbRESiPGMG.png",
+    "erc20": false,
+    "symbol": "KEKW",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "qs9Scx8YwNXS6zHYPCnDnyHQcRHg3QwXxpyCXs5tdM8": {
+    "name": "POWER COIN",
+    "logo": "qs9Scx8YwNXS6zHYPCnDnyHQcRHg3QwXxpyCXs5tdM8.png",
+    "erc20": false,
+    "symbol": "POCO",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "FxCvbCVAtNUEKSiKoF6xt2pWPfpXuYFWYbuQySaRnV5R": {
+    "name": "LC Andy Social Token",
+    "logo": "FxCvbCVAtNUEKSiKoF6xt2pWPfpXuYFWYbuQySaRnV5R.png",
+    "erc20": false,
+    "symbol": "LOOP",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "3iXydLpqi38CeGDuLFF1WRbPrrkNbUsgVf98cNSg6NaA": {
+    "name": "Sproken Token",
+    "logo": "3iXydLpqi38CeGDuLFF1WRbPrrkNbUsgVf98cNSg6NaA.png",
+    "erc20": false,
+    "symbol": "Spro",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "H5gczCNbrtso6BqGKihF97RaWaxpUEZnFuFUKK4YX3s2": {
+    "name": "Big Defi Energy",
+    "logo": "H5gczCNbrtso6BqGKihF97RaWaxpUEZnFuFUKK4YX3s2.png",
+    "erc20": false,
+    "symbol": "BDE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "cREsCN7KAyXcBG2xZc8qrfNHMRgC3MhTb4n3jBnNysv": {
+    "name": "DARK WEB TOKEN",
+    "logo": "cREsCN7KAyXcBG2xZc8qrfNHMRgC3MhTb4n3jBnNysv.png",
+    "erc20": false,
+    "symbol": "DWT",
+    "decimals": 2,
+    "chainId": "0x65"
+  },
+  "EdGAZ8JyFTFbmVedVTbaAEQRb6bxrvi3AW3kz8gABz2E": {
+    "name": "Dogana",
+    "logo": "EdGAZ8JyFTFbmVedVTbaAEQRb6bxrvi3AW3kz8gABz2E.png",
+    "erc20": false,
+    "symbol": "DOGA",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc": {
+    "name": "Cheems",
+    "logo": "3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc.png",
+    "erc20": false,
+    "symbol": "CHEEMS",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "AWW5UQfMBnPsTaaxCK7cSEmkj1kbX2zUrqvgKXStjBKx": {
+    "name": "SBF Coin",
+    "logo": "AWW5UQfMBnPsTaaxCK7cSEmkj1kbX2zUrqvgKXStjBKx.png",
+    "erc20": false,
+    "symbol": "SBFC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FRbqQnbuLoMbUG4gtQMeULgCDHyY6YWF9NRUuLa98qmq": {
+    "name": "EcoPoo",
+    "logo": "FRbqQnbuLoMbUG4gtQMeULgCDHyY6YWF9NRUuLa98qmq.png",
+    "erc20": false,
+    "symbol": "ECOP",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "5p2zjqCd1WJzAVgcEnjhb9zWDU7b9XVhFhx4usiyN7jB": {
+    "name": "CATO",
+    "logo": "5p2zjqCd1WJzAVgcEnjhb9zWDU7b9XVhFhx4usiyN7jB.png",
+    "erc20": false,
+    "symbol": "CATO",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "J81fW7aza8wVUG1jjzhExsNMs3MrzwT5WrofgFqMjnSA": {
+    "name": "Tombili",
+    "logo": "J81fW7aza8wVUG1jjzhExsNMs3MrzwT5WrofgFqMjnSA.png",
+    "erc20": false,
+    "symbol": "TOM",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GunpHq4fn9gSSyGbPMYXTzs9nBS8RY88CX1so4V8kCiF": {
+    "name": "Fable",
+    "logo": "GunpHq4fn9gSSyGbPMYXTzs9nBS8RY88CX1so4V8kCiF.png",
+    "erc20": false,
+    "symbol": "FABLE",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "6L5DzH3p1t1PrCrVkudasuUnWbK7Jq9tYwcwWQiV6yd7": {
+    "name": "Lizard",
+    "logo": "6L5DzH3p1t1PrCrVkudasuUnWbK7Jq9tYwcwWQiV6yd7.png",
+    "erc20": false,
+    "symbol": "LZD",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "EZqcdU8RLu9EChZgrY2BNVg8eovfdGyTiY2bd69EsPgQ": {
+    "name": "FuckElon",
+    "logo": "EZqcdU8RLu9EChZgrY2BNVg8eovfdGyTiY2bd69EsPgQ.png",
+    "erc20": false,
+    "symbol": "FELON",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "HBHMiauecxer5FCzPeXgE2A8ZCf7fQgxxwo4vfkFtC7s": {
+    "name": "Solanadon",
+    "logo": "HBHMiauecxer5FCzPeXgE2A8ZCf7fQgxxwo4vfkFtC7s.png",
+    "erc20": false,
+    "symbol": "SLNDN",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GReBHpMgCadZRij4B111c94cqU9TktvJ45rWZRQ5b1A5": {
+    "name": "Penguincoin",
+    "logo": "GReBHpMgCadZRij4B111c94cqU9TktvJ45rWZRQ5b1A5.png",
+    "erc20": false,
+    "symbol": "PINGU",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "5WUab7TCvth43Au5vk6wKjchTzWFeyPEUSJE1MPJtTZE": {
+    "name": "KEKW In Solana Tripping",
+    "logo": "5WUab7TCvth43Au5vk6wKjchTzWFeyPEUSJE1MPJtTZE.png",
+    "erc20": false,
+    "symbol": "KEKN1",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "9KEe6o1jRTqFDFBo2AezsskcxBNwuq1rVeVat1Td8zbV": {
+    "name": "MercuryPAD Token",
+    "logo": "9KEe6o1jRTqFDFBo2AezsskcxBNwuq1rVeVat1Td8zbV.png",
+    "erc20": false,
+    "symbol": "MPAD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "4KAFf8ZpNCn1SWLZFo5tbeZsKpVemsobbVZdERWxRvd2": {
+    "name": "Sangga Token",
+    "logo": "4KAFf8ZpNCn1SWLZFo5tbeZsKpVemsobbVZdERWxRvd2.png",
+    "erc20": false,
+    "symbol": "SGT",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P": {
+    "name": "OLDNINJA",
+    "logo": "Ae1aeYK9WrB2kP29jJU4aUUK7Y1vzsGNZFKoe4BG2h6P.png",
+    "erc20": false,
+    "symbol": "OLDNINJA",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ": {
+    "name": "NINJA",
+    "logo": "FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ.png",
+    "erc20": false,
+    "symbol": "NINJA",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "E6UBhrtvP4gYHAEgoBi8kDU6DrPPmQxTAJvASo4ptNev": {
+    "name": "SOLDOG",
+    "logo": "E6UBhrtvP4gYHAEgoBi8kDU6DrPPmQxTAJvASo4ptNev.png",
+    "erc20": false,
+    "symbol": "SOLDOG",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "9nusLQeFKiocswDt6NQsiErm1M43H2b8x6v5onhivqKv": {
+    "name": "SOLLAMA",
+    "logo": "9nusLQeFKiocswDt6NQsiErm1M43H2b8x6v5onhivqKv.png",
+    "erc20": false,
+    "symbol": "LLAMA",
+    "decimals": 1,
+    "chainId": "0x65"
+  },
+  "BLwTnYKqf7u4qjgZrrsKeNs2EzWkMLqVCu6j8iHyrNA3": {
+    "name": "Boring Protocol",
+    "logo": "BLwTnYKqf7u4qjgZrrsKeNs2EzWkMLqVCu6j8iHyrNA3.png",
+    "erc20": false,
+    "symbol": "BOP",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "ER8Xa8YxJLC3CFJgdAxJs46Rdhb7B3MjgbPZsVg1aAFV": {
+    "name": "MOLAMON",
+    "logo": "ER8Xa8YxJLC3CFJgdAxJs46Rdhb7B3MjgbPZsVg1aAFV.png",
+    "erc20": false,
+    "symbol": "MOLAMON",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "4ezHExHThrwnnoqKcMNbUwcVYXzdkDerHFGfegnTqA2E": {
+    "name": "SolanaToolsUtilityDapp",
+    "logo": "4ezHExHThrwnnoqKcMNbUwcVYXzdkDerHFGfegnTqA2E.png",
+    "erc20": false,
+    "symbol": "STUD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "AZtNYaEAHDBeK5AvdzquZWjc4y8cj5sKWH1keUJGMuPV": {
+    "name": "RESPECT",
+    "logo": "AZtNYaEAHDBeK5AvdzquZWjc4y8cj5sKWH1keUJGMuPV.png",
+    "erc20": false,
+    "symbol": "RESP",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "5j6BmiZTfHssaWPT23EQYQci3w57VTw7QypKArQZbSZ9": {
+    "name": "ChadTrader Token",
+    "logo": "5j6BmiZTfHssaWPT23EQYQci3w57VTw7QypKArQZbSZ9.png",
+    "erc20": false,
+    "symbol": "CHAD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GsNzxJfFn6zQdJGeYsupJWzUAm57Ba7335mfhWvFiE9Z": {
+    "name": "Dexlab",
+    "logo": "GsNzxJfFn6zQdJGeYsupJWzUAm57Ba7335mfhWvFiE9Z.png",
+    "erc20": false,
+    "symbol": "DXL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "APvgd1J98PGW77H1fDa7W7Y4fcbFwWfs71RNyJKuYs1Y": {
+    "name": "Fuzzy.One",
+    "logo": "",
+    "erc20": false,
+    "symbol": "FUZ",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "6TCbtxs6eYfMKVF9ppTNvbUemW2YnpFig6z1jSqgM16e": {
+    "name": "STRANGE",
+    "logo": "6TCbtxs6eYfMKVF9ppTNvbUemW2YnpFig6z1jSqgM16e.png",
+    "erc20": false,
+    "symbol": "STRANGE",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "BYNHheaKFX2WRGQTpMZNsM6vAyJXvkeMoMcixKfVKxY9": {
+    "name": "Plutonium",
+    "logo": "BYNHheaKFX2WRGQTpMZNsM6vAyJXvkeMoMcixKfVKxY9.png",
+    "erc20": false,
+    "symbol": "PLUTES",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "8upjSpvjcdpuzhfR1zriwg5NXkwDruejqNE9WNbPRtyA": {
+    "name": "Grape",
+    "logo": "8upjSpvjcdpuzhfR1zriwg5NXkwDruejqNE9WNbPRtyA.png",
+    "erc20": false,
+    "symbol": "GRAPE",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "7xzovRepzLvXbbpVZLYKzEBhCNgStEv1xpDqf1rMFFKX": {
+    "name": "Kermit",
+    "logo": "7xzovRepzLvXbbpVZLYKzEBhCNgStEv1xpDqf1rMFFKX.png",
+    "erc20": false,
+    "symbol": "KERMIT",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "3VhB8EAL8dZ457SiksLPpMUR1pyACpbNh5rTjQUEVCcH": {
+    "name": "TurtleTraders",
+    "logo": "3VhB8EAL8dZ457SiksLPpMUR1pyACpbNh5rTjQUEVCcH.png",
+    "erc20": false,
+    "symbol": "TUTL",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8tbAqS4dFNEeC6YGWpNnusc3JcxoFLMiiLPyHctgGYFe": {
+    "name": "Pipana",
+    "logo": "8tbAqS4dFNEeC6YGWpNnusc3JcxoFLMiiLPyHctgGYFe.png",
+    "erc20": false,
+    "symbol": "PIPANA",
+    "decimals": 10,
+    "chainId": "0x65"
+  },
+  "8s9FCz99Wcr3dHpiauFRi6bLXzshXfcGTfgQE7UEopVx": {
+    "name": "ChikinCoin",
+    "logo": "8s9FCz99Wcr3dHpiauFRi6bLXzshXfcGTfgQE7UEopVx.png",
+    "erc20": false,
+    "symbol": "CKC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "ATxXyewb1cXThrQFmwHUy4dtPTErfsuqkg7JcUXgLgqo": {
+    "name": "SpiderSwap",
+    "logo": "ATxXyewb1cXThrQFmwHUy4dtPTErfsuqkg7JcUXgLgqo.png",
+    "erc20": false,
+    "symbol": "SPW",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "BrwgXmUtNd32dTKdP5teie68EmBnjGq8Wp3MukHehUBY": {
+    "name": "Gamestonks",
+    "logo": "BrwgXmUtNd32dTKdP5teie68EmBnjGq8Wp3MukHehUBY.png",
+    "erc20": false,
+    "symbol": "GSTONKS",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "HAgX1HSfok8DohiNCS54FnC2UJkDSrRVnT38W3iWFwc8": {
+    "name": "SOL-CATS",
+    "logo": "HAgX1HSfok8DohiNCS54FnC2UJkDSrRVnT38W3iWFwc8.png",
+    "erc20": false,
+    "symbol": "MEOW",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Gro98oTmXxCVX8HKr3q2tMnP5ztoC77q6KehFDnAB983": {
+    "name": "SolMoon",
+    "logo": "Gro98oTmXxCVX8HKr3q2tMnP5ztoC77q6KehFDnAB983.png",
+    "erc20": false,
+    "symbol": "SOLMO",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "2wBXHm4oxmed7ZoDkPL4DU8BuRfMYkubVu8T4N38vXdb": {
+    "name": "MasterCoin",
+    "logo": "2wBXHm4oxmed7ZoDkPL4DU8BuRfMYkubVu8T4N38vXdb.png",
+    "erc20": false,
+    "symbol": "MSC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8b9mQo6ZU2rwZQgSFqGNQvXzrUSHDTRpKSKi9XXdGmqN": {
+    "name": "CHANGPENGUIN",
+    "logo": "8b9mQo6ZU2rwZQgSFqGNQvXzrUSHDTRpKSKi9XXdGmqN.png",
+    "erc20": false,
+    "symbol": "CHANGPENGUIN",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "3KnVxWhoYdc9UwDr5WMVkZp2LpF7gnojg7We7MUd6ixQ": {
+    "name": "Wolfecoin",
+    "logo": "3KnVxWhoYdc9UwDr5WMVkZp2LpF7gnojg7We7MUd6ixQ.png",
+    "erc20": false,
+    "symbol": "WOLFE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "BxHJqGtC629c55swCqWXFGA2rRF1igbbTmh22H8ePUWG": {
+    "name": "PigeonSol Token",
+    "logo": "BxHJqGtC629c55swCqWXFGA2rRF1igbbTmh22H8ePUWG.png",
+    "erc20": false,
+    "symbol": "PGNT",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "51tMb3zBKDiQhNwGqpgwbavaGH54mk8fXFzxTc1xnasg": {
+    "name": "APEX",
+    "logo": "51tMb3zBKDiQhNwGqpgwbavaGH54mk8fXFzxTc1xnasg.png",
+    "erc20": false,
+    "symbol": "APEX",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "apexit-finance"
+  },
+  "4NPzwMK2gfgQ6rTv8x4EE1ZvKW6MYyYTSrAZCx7zxyaX": {
+    "name": "Black Label",
+    "logo": "4NPzwMK2gfgQ6rTv8x4EE1ZvKW6MYyYTSrAZCx7zxyaX.png",
+    "erc20": false,
+    "symbol": "KLB",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "5v6tZ1SiAi7G8Qg4rBF1ZdAn4cn6aeQtefewMr1NLy61": {
+    "name": "Solanax",
+    "logo": "5v6tZ1SiAi7G8Qg4rBF1ZdAn4cn6aeQtefewMr1NLy61.png",
+    "erc20": false,
+    "symbol": "SOLD",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3RSafdgu7P2smSGHJvSGQ6kZVkcErZXfZTtynJYboyAu": {
+    "name": "SINE",
+    "logo": "3RSafdgu7P2smSGHJvSGQ6kZVkcErZXfZTtynJYboyAu.png",
+    "erc20": false,
+    "symbol": "SINE",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "guppyrZyEX9iTPSu92pi8T71Zka7xd6PrsTJrXRW6u1": {
+    "name": "Orca Guppy Collectible",
+    "logo": "guppyrZyEX9iTPSu92pi8T71Zka7xd6PrsTJrXRW6u1.png",
+    "erc20": false,
+    "symbol": "GUPPY",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "whaLeHav12EhGK19u6kKbLRwC9E1EATGnm6MWbBCcUW": {
+    "name": "Orca Whale Collectible",
+    "logo": "whaLeHav12EhGK19u6kKbLRwC9E1EATGnm6MWbBCcUW.png",
+    "erc20": false,
+    "symbol": "WHALE",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "kLwhLkZRt6CadPHRBsgfhRCKXX426WMBnhoGozTduvk": {
+    "name": "Orca Killer Whale Collectible",
+    "logo": "kLwhLkZRt6CadPHRBsgfhRCKXX426WMBnhoGozTduvk.png",
+    "erc20": false,
+    "symbol": "KILLER-WHALE",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "star2pH7rVWscs743JGdCAL8Lc9nyJeqx7YQXkGUnWf": {
+    "name": "Orca Starfish Collectible",
+    "logo": "star2pH7rVWscs743JGdCAL8Lc9nyJeqx7YQXkGUnWf.png",
+    "erc20": false,
+    "symbol": "STARFISH",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "cLownTTaiiQMoyMmFjfmSGowi8HyNhCtTLFcrNKnqX6": {
+    "name": "Orca Clownfish Collectible",
+    "logo": "cLownTTaiiQMoyMmFjfmSGowi8HyNhCtTLFcrNKnqX6.png",
+    "erc20": false,
+    "symbol": "CLOWNFISH",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "ECFcUGwHHMaZynAQpqRHkYeTBnS5GnPWZywM8aggcs3A": {
+    "name": "Orca SOL/USDC LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SOL/USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3H5XKkE9uVvxsdrFeN4BLLGCmohiQN6aZJVVcJiXQ4WC": {
+    "name": "Orca USDC/USDT LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "USDC/USDT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8qNqTaKKbdZuzQPWWXy5wNVkJh54ex8zvvnEnTFkrKMP": {
+    "name": "Orca USDC/USDT-SRM LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "USDC/USDT-SRM",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7TYb32qkwYosUQfUspU45cou7Bb3nefJocVMFX2mEGTT": {
+    "name": "Orca ETH/USDC LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ETH/USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "EhBAmhkgEsMa8McFB5bpqZaRpZvGBBJ4jN59T5xToPdG": {
+    "name": "Orca ETH/USDT-SRM LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ETH/USDT-SRM",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8pFwdcuXM7pvHdEGHLZbUR8nNsjj133iUXWG6CgdRHk2": {
+    "name": "Orca BTC/ETH LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BTC/ETH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7bb88DAnQY7LSoWEuqezCcbk4vutQbuRqgJMqpX8h6dL": {
+    "name": "Orca ETH/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ETH/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GWEmABT4rD3sGhyghv9rKbfdiaFe5uMHeJqr6hhu3XvA": {
+    "name": "Orca RAY/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "RAY/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "BmZNYGt7aApGTUUxAQUYsW64cMbb6P7uniokCWaptj4D": {
+    "name": "Orca SOL/USDT LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SOL/USDT",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "E4cthfUFaDd4x5t1vbeBNBHm7isqhM8kapthPzPJz1M2": {
+    "name": "Orca SOL/USDT-SRM LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SOL/USDT-SRM",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "6ojPekCSQimAjDjaMApLvh3jF6wnZeNEVRVVoGNzEXvV": {
+    "name": "Orca SOL/SRM LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SOL/SRM",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "YJRknE9oPhUMtq1VvhjVzG5WnRsjQtLsWg3nbaAwCQ5": {
+    "name": "Orca FTT/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "FTT/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "C9PKvetJPrrPD53PR2aR8NYtVZzucCRkHYzcFXbZXEqu": {
+    "name": "Orca KIN/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "KIN/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "6SfhBAmuaGf9p3WAxeHJYCWMABnYUMrdzNdK5Stvvj4k": {
+    "name": "Orca ROPE/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ROPE/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9r1n79TmerAgQJboUT8QvrChX3buZBfuSrBTtYM1cW4h": {
+    "name": "Orca SOL/STEP LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SOL/STEP",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "ELLELFtgvWBgLkdY9EFx4Vb3SLNj4DJEhzZLWy1wCh4Y": {
+    "name": "Orca OXY/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "OXY/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "BXM9ph4AuhCUzf94HQu5FnfeVThKj5oyrnb1krY1zax5": {
+    "name": "Orca MER/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "MER/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "FJ9Q9ojA7vdf5rFbcTc6dd7D3nLpwSxdtFSE8cwfuvqt": {
+    "name": "Orca FIDA/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "FIDA/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "EHkfnhKLLTUqo1xMZLxhM9EusEgpN6RXPpZsGpUsewaa": {
+    "name": "Orca MAPS/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "MAPS/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9rguDaKqTrVjaDXafq6E7rKGn7NPHomkdb8RKpjKCDm2": {
+    "name": "Orca SAMO/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SAMO/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "2697FyJ4vD9zwAVPr33fdVPDv54pyZZiBv9S2AoKMyQf": {
+    "name": "Orca COPE/SOL LP Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "COPE/SOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "HEhMLvpSdPviukafKwVN8BnBUTamirptsQ6Wxo5Cyv8s": {
+    "name": "Future",
+    "logo": "HEhMLvpSdPviukafKwVN8BnBUTamirptsQ6Wxo5Cyv8s.png",
+    "erc20": false,
+    "symbol": "FTR",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "6oJ8Mp1VnKxN5MvGf9LfpeaRvTv8N1xFbvtdEbLLWUDT": {
+    "name": "ESCoin",
+    "logo": "6oJ8Mp1VnKxN5MvGf9LfpeaRvTv8N1xFbvtdEbLLWUDT.png",
+    "erc20": false,
+    "symbol": "ESC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Da1jboBKU3rqXUqPL3L3BxJ8e67ogVgVKcqy4rWsS7LC": {
+    "name": "UBE Token",
+    "logo": "Da1jboBKU3rqXUqPL3L3BxJ8e67ogVgVKcqy4rWsS7LC.png",
+    "erc20": false,
+    "symbol": "UBE",
+    "decimals": 10,
+    "chainId": "0x65"
+  },
+  "CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5": {
+    "name": "renBTC",
+    "logo": "CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5.png",
+    "erc20": false,
+    "symbol": "renBTC",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "renbtc"
+  },
+  "G1a6jxYz3m8DVyMqYnuV7s86wD4fvuXYneWSpLJkmsXj": {
+    "name": "renBCH",
+    "logo": "G1a6jxYz3m8DVyMqYnuV7s86wD4fvuXYneWSpLJkmsXj.png",
+    "erc20": false,
+    "symbol": "renBCH",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "renbch"
+  },
+  "FKJvvVJ242tX7zFtzTmzqoA631LqHh4CdgcN8dcfFSju": {
+    "name": "renDGB",
+    "logo": "FKJvvVJ242tX7zFtzTmzqoA631LqHh4CdgcN8dcfFSju.png",
+    "erc20": false,
+    "symbol": "renDGB",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "ArUkYE2XDKzqy77PRRGjo4wREWwqk6RXTfM9NeqzPvjU": {
+    "name": "renDOGE",
+    "logo": "ArUkYE2XDKzqy77PRRGjo4wREWwqk6RXTfM9NeqzPvjU.png",
+    "erc20": false,
+    "symbol": "renDOGE",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "rendoge"
+  },
+  "8wv2KAykQstNAj2oW6AHANGBiFKVFhvMiyyzzjhkmGvE": {
+    "name": "renLUNA",
+    "logo": "8wv2KAykQstNAj2oW6AHANGBiFKVFhvMiyyzzjhkmGvE.png",
+    "erc20": false,
+    "symbol": "renLUNA",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "E99CQ2gFMmbiyK2bwiaFNWUUmwz4r8k2CVEFxwuvQ7ue": {
+    "name": "renZEC",
+    "logo": "E99CQ2gFMmbiyK2bwiaFNWUUmwz4r8k2CVEFxwuvQ7ue.png",
+    "erc20": false,
+    "symbol": "renZEC",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "renzec"
+  },
+  "GkXP719hnhLtizWHcQyGVYajuJqVsJJ6fyeUob9BPCFC": {
+    "name": "Mike Krow's Official Best Friend Super Kawaii Kasu Token",
+    "logo": "GkXP719hnhLtizWHcQyGVYajuJqVsJJ6fyeUob9BPCFC.png",
+    "erc20": false,
+    "symbol": "KROWZ",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "6kwTqmdQkJd8qRr9RjSnUX9XJ24RmJRSrU1rsragP97Y": {
+    "name": "SAIL",
+    "logo": "6kwTqmdQkJd8qRr9RjSnUX9XJ24RmJRSrU1rsragP97Y.png",
+    "erc20": false,
+    "symbol": "SAIL",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "sail"
+  },
+  "E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp": {
+    "name": "Cryptocurrencies.Ai",
+    "logo": "E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp.png",
+    "erc20": false,
+    "symbol": "CCAI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7LmGzEgnQZTxxeCThgxsv3xe4JQmiy9hxEGBPCF66KgH": {
+    "name": "Snek Coin",
+    "logo": "7LmGzEgnQZTxxeCThgxsv3xe4JQmiy9hxEGBPCF66KgH.png",
+    "erc20": false,
+    "symbol": "SNEK",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "AhRozpV8CDLJ5z9k8CJWF4P12MVvxdnnU2y2qUhUuNS5": {
+    "name": "Sol.Ark",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ARK",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "ss26ybWnrhSYbGBjDT9bEwRiyAVUgiKCbgAfFkksj4R": {
+    "name": "POH",
+    "logo": "ss26ybWnrhSYbGBjDT9bEwRiyAVUgiKCbgAfFkksj4R.png",
+    "erc20": false,
+    "symbol": "SS2",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "6dGR9kAt499jzsojDHCvDArKxpTarNbhdSkiS7jeMAib": {
+    "name": "AKIHIGE Token",
+    "logo": "6dGR9kAt499jzsojDHCvDArKxpTarNbhdSkiS7jeMAib.png",
+    "erc20": false,
+    "symbol": "AKI",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "SCYfrGCw8aDiqdgcpdGjV6jp4UVVQLuphxTDLNWu36f": {
+    "name": "Synchrony",
+    "logo": "SCYfrGCw8aDiqdgcpdGjV6jp4UVVQLuphxTDLNWu36f.png",
+    "erc20": false,
+    "symbol": "SCY",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "BKMWPkPS8jXw59ezYwK2ueNTZRF4m8MYHDjh9HwUmkQ7": {
+    "name": "SandDollarClassic",
+    "logo": "BKMWPkPS8jXw59ezYwK2ueNTZRF4m8MYHDjh9HwUmkQ7.png",
+    "erc20": false,
+    "symbol": "SDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Bx4ykEMurwPQBAFNvthGj73fMBVTvHa8e9cbAyaK4ZSh": {
+    "name": "trollbox",
+    "logo": "Bx4ykEMurwPQBAFNvthGj73fMBVTvHa8e9cbAyaK4ZSh.png",
+    "erc20": false,
+    "symbol": "TOX",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3aEb4KJTWxaqKBXADw5qkAjG9K1AoLhR4CrDH6HCpGCo": {
+    "name": "Solana Monkey Business",
+    "logo": "3aEb4KJTWxaqKBXADw5qkAjG9K1AoLhR4CrDH6HCpGCo.png",
+    "erc20": false,
+    "symbol": "SMB",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "E7WqtfRHcY8YW8z65u9WmD7CfMmvtrm2qPVicSzDxLaT": {
+    "name": "PizzaPugCoin",
+    "logo": "E7WqtfRHcY8YW8z65u9WmD7CfMmvtrm2qPVicSzDxLaT.png",
+    "erc20": false,
+    "symbol": "PPUG",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "FZgL5motNWEDEa24xgfSdBDfXkB9Ru9KxfEsey9S58bb": {
+    "name": "VentureCapital",
+    "logo": "FZgL5motNWEDEa24xgfSdBDfXkB9Ru9KxfEsey9S58bb.png",
+    "erc20": false,
+    "symbol": "VCC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "4TGxgCSJQx2GQk9oHZ8dC5m3JNXTYZHjXumKAW3vLnNx": {
+    "name": "Oxbull Sol",
+    "logo": "4TGxgCSJQx2GQk9oHZ8dC5m3JNXTYZHjXumKAW3vLnNx.png",
+    "erc20": false,
+    "symbol": "OXS",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "oxbull-tech"
+  },
+  "EdAhkbj5nF9sRM7XN7ewuW8C9XEUMs8P7cnoQ57SYE96": {
+    "name": "FABRIC",
+    "logo": "EdAhkbj5nF9sRM7XN7ewuW8C9XEUMs8P7cnoQ57SYE96.png",
+    "erc20": false,
+    "symbol": "FAB",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GEYrotdkRitGUK5UMv3aMttEhVAZLhRJMcG82zKYsaWB": {
+    "name": "POTATO",
+    "logo": "GEYrotdkRitGUK5UMv3aMttEhVAZLhRJMcG82zKYsaWB.png",
+    "erc20": false,
+    "symbol": "POTATO",
+    "decimals": 3,
+    "chainId": "0x65"
+  },
+  "FmJ1fo7wK5FF6rDvQxow5Gj7A2ctLmR5orCKLZ45Q3Cq": {
+    "name": "Degen Banana",
+    "logo": "FmJ1fo7wK5FF6rDvQxow5Gj7A2ctLmR5orCKLZ45Q3Cq.png",
+    "erc20": false,
+    "symbol": "DGEN",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FciGvHj9FjgSGgCBF1b9HY814FM9D28NijDd5SJrKvPo": {
+    "name": "Twirl Governance Token",
+    "logo": "FciGvHj9FjgSGgCBF1b9HY814FM9D28NijDd5SJrKvPo.png",
+    "erc20": false,
+    "symbol": "TGT",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "A9EEvcRcT7Q9XAa6NfqrqJChoc4XGDhd2mtc4xfniQkS": {
+    "name": "Bilby Finance",
+    "logo": "A9EEvcRcT7Q9XAa6NfqrqJChoc4XGDhd2mtc4xfniQkS.png",
+    "erc20": false,
+    "symbol": "BILBY",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8NGgmXzBzhsXz46pTC3ioSBxeE3w2EXpc741N3EQ8E6r": {
+    "name": "JOKESMEMES",
+    "logo": "8NGgmXzBzhsXz46pTC3ioSBxeE3w2EXpc741N3EQ8E6r.png",
+    "erc20": false,
+    "symbol": "JOKE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Fp4gjLpTsPqBN6xDGpDHwtnuEofjyiZKxxZxzvJnjxV6": {
+    "name": "Naxar",
+    "logo": "Fp4gjLpTsPqBN6xDGpDHwtnuEofjyiZKxxZxzvJnjxV6.png",
+    "erc20": false,
+    "symbol": "NAXAR",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "5jqTNKonR9ZZvbmX9JHwcPSEg6deTyNKR7PxQ9ZPdd2w": {
+    "name": "Jebus",
+    "logo": "5jqTNKonR9ZZvbmX9JHwcPSEg6deTyNKR7PxQ9ZPdd2w.png",
+    "erc20": false,
+    "symbol": "JBUS",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "29UWGmi1MxJRi3izeritN8VvhZbUiX37KUVnGv46mzev": {
+    "name": "Black Label X",
+    "logo": "29UWGmi1MxJRi3izeritN8VvhZbUiX37KUVnGv46mzev.png",
+    "erc20": false,
+    "symbol": "KLBx",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "GACHAfpmbpk4FLfZcGkT2NUmaEqMygssAknhqnn8DVHP": {
+    "name": "Gachapon",
+    "logo": "GACHAfpmbpk4FLfZcGkT2NUmaEqMygssAknhqnn8DVHP.png",
+    "erc20": false,
+    "symbol": "GACHA",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9zoqdwEBKWEi9G5Ze8BSkdmppxGgVv1Kw4LuigDiNr9m": {
+    "name": "Solster",
+    "logo": "9zoqdwEBKWEi9G5Ze8BSkdmppxGgVv1Kw4LuigDiNr9m.png",
+    "erc20": false,
+    "symbol": "STR",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "A2T2jDe2bxyEHkKtS8AtrTRmJ9VZRwyY8Kr7oQ8xNyfb": {
+    "name": "Space Hamster",
+    "logo": "A2T2jDe2bxyEHkKtS8AtrTRmJ9VZRwyY8Kr7oQ8xNyfb.png",
+    "erc20": false,
+    "symbol": "HAMS",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "EGN2774kzKyUnJs2Gv5poK6ymiMVkdyCQD2gGnJ84sDk": {
+    "name": "Neftea Labs Coin",
+    "logo": "EGN2774kzKyUnJs2Gv5poK6ymiMVkdyCQD2gGnJ84sDk.png",
+    "erc20": false,
+    "symbol": "NEFT",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "DK64rmGSZupv1dLYn57e3pUVgs9jL9EKLXDVZZPsMDz8": {
+    "name": "ArtBomb",
+    "logo": "DK64rmGSZupv1dLYn57e3pUVgs9jL9EKLXDVZZPsMDz8.png",
+    "erc20": false,
+    "symbol": "ABOMB",
+    "decimals": 5,
+    "chainId": "0x65"
+  },
+  "AnyCsr1VCBZcwVAxbKPuHhKDP5DQQSnRxGAo4ycgRMi2": {
+    "name": "Dalmatiancoin",
+    "logo": "AnyCsr1VCBZcwVAxbKPuHhKDP5DQQSnRxGAo4ycgRMi2.png",
+    "erc20": false,
+    "symbol": "DAL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "HiL1j5VMR9XtRnCA4mxaVoXr6PMHpbh8wUgfPsAP4CNF": {
+    "name": "SolNHD",
+    "logo": "HiL1j5VMR9XtRnCA4mxaVoXr6PMHpbh8wUgfPsAP4CNF.png",
+    "erc20": false,
+    "symbol": "SolNHD",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "qXu8Tj65H5XR8KHuaKKoyLCWj592KbTG3YWJwsuFrPS": {
+    "name": "SOLtiva",
+    "logo": "qXu8Tj65H5XR8KHuaKKoyLCWj592KbTG3YWJwsuFrPS.png",
+    "erc20": false,
+    "symbol": "STVA",
+    "decimals": 3,
+    "chainId": "0x65"
+  },
+  "D3gHoiYT4RY5VSndne1fEnpM3kCNAyBhkp5xjNUqqPj9": {
+    "name": "ProExis Prova de Existência Blockchain",
+    "logo": "D3gHoiYT4RY5VSndne1fEnpM3kCNAyBhkp5xjNUqqPj9.png",
+    "erc20": false,
+    "symbol": "PROEXIS",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "5DWFxYBxjETuqFX3P2Z1uq8UbcCT1F4sABGiBZMnWKvR": {
+    "name": "PLEIDO",
+    "logo": "5DWFxYBxjETuqFX3P2Z1uq8UbcCT1F4sABGiBZMnWKvR.png",
+    "erc20": false,
+    "symbol": "PLDO",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "6uB5eEC8SzMbUdsPpe3eiNvHyvxdqUWnDEtpFQxkhNTP": {
+    "name": "MOLANIUM",
+    "logo": "6uB5eEC8SzMbUdsPpe3eiNvHyvxdqUWnDEtpFQxkhNTP.png",
+    "erc20": false,
+    "symbol": "MOLANIUM",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "5KV2W2XPdSo97wQWcuAVi6G4PaCoieg4Lhhi61PAMaMJ": {
+    "name": "GÜ",
+    "logo": "5KV2W2XPdSo97wQWcuAVi6G4PaCoieg4Lhhi61PAMaMJ.png",
+    "erc20": false,
+    "symbol": "GÜ",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "72fFy4SNGcHoEC1TTFTUkxNHriJqg3hBPsa2jSr2cZgb": {
+    "name": "BlizeX",
+    "logo": "72fFy4SNGcHoEC1TTFTUkxNHriJqg3hBPsa2jSr2cZgb.png",
+    "erc20": false,
+    "symbol": "BZX",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "5fEo6ZbvpV6zdyzowtAwgMcWHZe1yJy9NxQM6gC19QW5": {
+    "name": "Green DEX",
+    "logo": "5fEo6ZbvpV6zdyzowtAwgMcWHZe1yJy9NxQM6gC19QW5.png",
+    "erc20": false,
+    "symbol": "GREEN",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Bx1fDtvTN6NvE4kjdPHQXtmGSg582bZx9fGy4DQNMmAT": {
+    "name": "Solcubator",
+    "logo": "Bx1fDtvTN6NvE4kjdPHQXtmGSg582bZx9fGy4DQNMmAT.png",
+    "erc20": false,
+    "symbol": "SOLC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "ABxCiDz4jjKt1t7Syu5Tb37o8Wew9ADpwngZh6kpLbLX": {
+    "name": "XSOL Token",
+    "logo": "ABxCiDz4jjKt1t7Syu5Tb37o8Wew9ADpwngZh6kpLbLX.png",
+    "erc20": false,
+    "symbol": "XSOL",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "DrcPRJPBiakQcWqon3gZms7sviAqdQS5zS5wvaG5v6wu": {
+    "name": "BladesToken",
+    "logo": "DrcPRJPBiakQcWqon3gZms7sviAqdQS5zS5wvaG5v6wu.png",
+    "erc20": false,
+    "symbol": "BLD",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "6D7E4mstMboABmfoaPrtVDgewjUCbGdvcYVaHa9SDiTg": {
+    "name": "QwikPay.io Token",
+    "logo": "",
+    "erc20": false,
+    "symbol": "QWK",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "BTyJg5zMbaN2KMfn7LsKhpUsV675aCUSUMrgB1YGxBBP": {
+    "name": "Gooseberry",
+    "logo": "BTyJg5zMbaN2KMfn7LsKhpUsV675aCUSUMrgB1YGxBBP.png",
+    "erc20": false,
+    "symbol": "GOOSEBERRY",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "5GG1LbgY4EEvPR51YQPNr65QKcZemrHWPooTqC5gRPBA": {
+    "name": "DefiXBet Token",
+    "logo": "5GG1LbgY4EEvPR51YQPNr65QKcZemrHWPooTqC5gRPBA.png",
+    "erc20": false,
+    "symbol": "DXB",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "7a4cXVvVT7kF6hS5q5LDqtzWfHfys4a9PoK6pf87RKwf": {
+    "name": "Luna Yield",
+    "logo": "7a4cXVvVT7kF6hS5q5LDqtzWfHfys4a9PoK6pf87RKwf.png",
+    "erc20": false,
+    "symbol": "LUNY",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "AP58G14hoy4GGgZS4L8TzZgqXnk3hBvciFKW2Cb1RQ2J": {
+    "name": "SolYard Finance Beta",
+    "logo": "AP58G14hoy4GGgZS4L8TzZgqXnk3hBvciFKW2Cb1RQ2J.png",
+    "erc20": false,
+    "symbol": "YARDv1",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "6Y7LbYB3tfGBG6CSkyssoxdtHb77AEMTRVXe8JUJRwZ7": {
+    "name": "DINO",
+    "logo": "6Y7LbYB3tfGBG6CSkyssoxdtHb77AEMTRVXe8JUJRwZ7.png",
+    "erc20": false,
+    "symbol": "DINO",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj": {
+    "name": "LIQ Protocol",
+    "logo": "4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj.png",
+    "erc20": false,
+    "symbol": "LIQ",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "liq-protocol"
+  },
+  "DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz": {
+    "name": "CropperFinance",
+    "logo": "DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz.png",
+    "erc20": false,
+    "symbol": "CRP",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "B3Ggjjj3QargPkFTAJiR6BaD8CWKFUaWRXGcDQ1nyeeD": {
+    "name": "PARTI",
+    "logo": "B3Ggjjj3QargPkFTAJiR6BaD8CWKFUaWRXGcDQ1nyeeD.png",
+    "erc20": false,
+    "symbol": "PARTI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "5igDhdTnXif5E5djBpRt4wUKo5gtf7VicHi8r5ada4Hj": {
+    "name": "NIALABS",
+    "logo": "5igDhdTnXif5E5djBpRt4wUKo5gtf7VicHi8r5ada4Hj.png",
+    "erc20": false,
+    "symbol": "NIA",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "GQnN5M1M6oTjsziAwcRYd1P7pRBBQKURj5QeAjN1npnE": {
+    "name": "Project Corvus",
+    "logo": "GQnN5M1M6oTjsziAwcRYd1P7pRBBQKURj5QeAjN1npnE.png",
+    "erc20": false,
+    "symbol": "CORV",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3FRQnT5djQMATCg6TNXBhi2bBkbTyGdywsLmLa8BbEKz": {
+    "name": "HLTH",
+    "logo": "3FRQnT5djQMATCg6TNXBhi2bBkbTyGdywsLmLa8BbEKz.png",
+    "erc20": false,
+    "symbol": "HLTH",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS": {
+    "name": "PAI (Parrot)",
+    "logo": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS.png",
+    "erc20": false,
+    "symbol": "PAI",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "SLRSSpSLUTP7okbCUBYStWCo1vUgyt775faPqz8HUMr": {
+    "name": "Solrise Finance",
+    "logo": "SLRSSpSLUTP7okbCUBYStWCo1vUgyt775faPqz8HUMr.png",
+    "erc20": false,
+    "symbol": "SLRS",
+    "decimals": 6,
+    "chainId": "0x65",
+    "coingeckoId": "solrise-finance"
+  },
+  "Hejznrp39zCfcmq4WpihfAeyhzhqeFtj4PURHFqMaHSS": {
+    "name": "Snake Eyes",
+    "logo": "Hejznrp39zCfcmq4WpihfAeyhzhqeFtj4PURHFqMaHSS.png",
+    "erc20": false,
+    "symbol": "SE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Fx14roJm9m27zngJQwmt81npHvPc5pmF772nxDhNnsh5": {
+    "name": "Raydium LP Token (LIQ-USDC)",
+    "logo": "Fx14roJm9m27zngJQwmt81npHvPc5pmF772nxDhNnsh5.png",
+    "erc20": false,
+    "symbol": "LIQ-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "D7U3BPHr5JBbFmPTaVNpmEKGBPFdQS3udijyte1QtuLk": {
+    "name": "SolStar",
+    "logo": "D7U3BPHr5JBbFmPTaVNpmEKGBPFdQS3udijyte1QtuLk.png",
+    "erc20": false,
+    "symbol": "STAR",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GtQ48z7NNjs7sVyp3M7iuiDcTRjeWPd1fkdiWQNy1UR6": {
+    "name": "Raydium LP Token (LIQ-SOL)",
+    "logo": "GtQ48z7NNjs7sVyp3M7iuiDcTRjeWPd1fkdiWQNy1UR6.png",
+    "erc20": false,
+    "symbol": "LIQ-SOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "DHojuFwy5Pb8HTUhyRGQ285s5KYgk8tGAjAcmjkEAGbY": {
+    "name": "Refrak",
+    "logo": "DHojuFwy5Pb8HTUhyRGQ285s5KYgk8tGAjAcmjkEAGbY.png",
+    "erc20": false,
+    "symbol": "RFK",
+    "decimals": 2,
+    "chainId": "0x65"
+  },
+  "7Jimij6hkEjjgmf3HamW44d2Cf5kj2gHnfCDDPGxWut": {
+    "name": "GIGQO",
+    "logo": "7Jimij6hkEjjgmf3HamW44d2Cf5kj2gHnfCDDPGxWut.png",
+    "erc20": false,
+    "symbol": "GQO",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "E5rk3nmgLUuKUiS94gg4bpWwWwyjCMtddsAXkTFLtHEy": {
+    "name": "Wootrade Network",
+    "logo": "E5rk3nmgLUuKUiS94gg4bpWwWwyjCMtddsAXkTFLtHEy.png",
+    "erc20": false,
+    "symbol": "WOO",
+    "decimals": 18,
+    "chainId": "0x65"
+  },
+  "9s6dXtMgV5E6v3rHqBF2LejHcA2GWoZb7xNUkgXgsBqt": {
+    "name": "Mercurial LP Token (USDC-USDT-PAI)",
+    "logo": "9s6dXtMgV5E6v3rHqBF2LejHcA2GWoZb7xNUkgXgsBqt.png",
+    "erc20": false,
+    "symbol": "USDC-USDT-PAI",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "8kRacWW5qZ34anyH8s9gu2gC4FpXtncqBDPpd2a6DnZE": {
+    "name": "Coinmeca",
+    "logo": "8kRacWW5qZ34anyH8s9gu2gC4FpXtncqBDPpd2a6DnZE.png",
+    "erc20": false,
+    "symbol": "MECA",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "6h6uy8yAfaAb5sPE2bvXQEB93LnUMEdcCRU2kfiErTct": {
+    "name": "ZMIRROR",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ZMR",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "sodaNXUbtjMvHe9c5Uw7o7VAcVpXPHAvtaRaiPVJQuE": {
+    "name": "cheesesoda token",
+    "logo": "sodaNXUbtjMvHe9c5Uw7o7VAcVpXPHAvtaRaiPVJQuE.png",
+    "erc20": false,
+    "symbol": "SODA",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "sodaoT6Wh1nxHaarw4kDh7AkK4oZnERK1QgDUtHPR3H": {
+    "name": "cheesesodaDAO",
+    "logo": "sodaoT6Wh1nxHaarw4kDh7AkK4oZnERK1QgDUtHPR3H.png",
+    "erc20": false,
+    "symbol": "SODAO",
+    "decimals": 4,
+    "chainId": "0x65"
+  },
+  "49YUsDrThJosHSagCn1F59Uc9NRxbr9thVrZikUnQDXy": {
+    "name": "Raydium LP Token (LIQ-RAY)",
+    "logo": "49YUsDrThJosHSagCn1F59Uc9NRxbr9thVrZikUnQDXy.png",
+    "erc20": false,
+    "symbol": "LIQ-RAY",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FGmeGqUqKzVX2ajkXaFSQxNcBRWnJg1vi5fugRJrDJ3k": {
+    "name": "FCS",
+    "logo": "FGmeGqUqKzVX2ajkXaFSQxNcBRWnJg1vi5fugRJrDJ3k.png",
+    "erc20": false,
+    "symbol": "FCS",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "CjpDCj8zLSM37669qng5znYP25JuoDPCvLSLLd7pxAsr": {
+    "name": "NET",
+    "logo": "CjpDCj8zLSM37669qng5znYP25JuoDPCvLSLLd7pxAsr.png",
+    "erc20": false,
+    "symbol": "Nordic Energy Token",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9eaAUFp7S38DKXxbjwzEG8oq1H1AipPkUuieUkVJ9krt": {
+    "name": "KDC (KURZ Digital Currency)",
+    "logo": "9eaAUFp7S38DKXxbjwzEG8oq1H1AipPkUuieUkVJ9krt.png",
+    "erc20": false,
+    "symbol": "KDC",
+    "decimals": 2,
+    "chainId": "0x65"
+  },
+  "A1C9Shy732BThWvHAN936f33N7Wm1HbFvxb2zDSoBx8F": {
+    "name": "Pokerrrr 2",
+    "logo": "A1C9Shy732BThWvHAN936f33N7Wm1HbFvxb2zDSoBx8F.png",
+    "erc20": false,
+    "symbol": "PKR2",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "35KgRun5UMT2Kjtjw4cNG1tXHcgBxuxji6Yp6ciz7yX7": {
+    "name": "VPOWER",
+    "logo": "35KgRun5UMT2Kjtjw4cNG1tXHcgBxuxji6Yp6ciz7yX7.png",
+    "erc20": false,
+    "symbol": "VPE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg": {
+    "name": "gSAIL",
+    "logo": "GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg.png",
+    "erc20": false,
+    "symbol": "gSAIL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "ELyNEh5HC33sQLhGiQ5dimmwqiJCiqVJp3eQxpX3pKhQ": {
+    "name": "Jogys Crypto School Token",
+    "logo": "ELyNEh5HC33sQLhGiQ5dimmwqiJCiqVJp3eQxpX3pKhQ.png",
+    "erc20": false,
+    "symbol": "JCS",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3bRTivrVsitbmCTGtqwp7hxXPsybkjn4XLNtPsHqa3zR": {
+    "name": "Only1 (LIKE)",
+    "logo": "3bRTivrVsitbmCTGtqwp7hxXPsybkjn4XLNtPsHqa3zR.png",
+    "erc20": false,
+    "symbol": "LIKE",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm": {
+    "name": "Wrapped UST (Wormhole)",
+    "logo": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm.png",
+    "erc20": false,
+    "symbol": "wUST",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "terrausd"
+  },
+  "A7SXXA9wveT2quqqzh5m6Zf3ueCb9kBezQdpnYxHwzLt": {
+    "name": "Zia Inti",
+    "logo": "A7SXXA9wveT2quqqzh5m6Zf3ueCb9kBezQdpnYxHwzLt.png",
+    "erc20": false,
+    "symbol": "ZINTI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3Ztt53vwGhQGoEp3n1RjSu4CFnGRfqzwo6L8KN8gmXfd": {
+    "name": "METASEER",
+    "logo": "3Ztt53vwGhQGoEp3n1RjSu4CFnGRfqzwo6L8KN8gmXfd.png",
+    "erc20": false,
+    "symbol": "METAS",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "EssczqGURZtsSuzEoH471KCRNDWfS4aQpEJVXWL3DvdK": {
+    "name": "Viva coin",
+    "logo": "EssczqGURZtsSuzEoH471KCRNDWfS4aQpEJVXWL3DvdK.png",
+    "erc20": false,
+    "symbol": "VIVA",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "EWS2ATMt5fQk89NWLJYNRmGaNoji8MhFZkUB4DiWCCcz": {
+    "name": "SOLBERRY",
+    "logo": "EWS2ATMt5fQk89NWLJYNRmGaNoji8MhFZkUB4DiWCCcz.png",
+    "erc20": false,
+    "symbol": "SOLBERRY",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FJJT7yUJM9X9SHpkVr4wLgyfJ3vtVLoReUqTsCPWzof2": {
+    "name": "Raydium LP Token (KEKW-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "KEKW-USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "5Z6jnA9fDUDVjQyaTbYWwCTE47wMAuyvAQjg5angY12C": {
+    "name": "Dinarius Token",
+    "logo": "5Z6jnA9fDUDVjQyaTbYWwCTE47wMAuyvAQjg5angY12C.png",
+    "erc20": false,
+    "symbol": "DNDZ",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "EqbY2zaTsJesaVviL5unHKjDsjoQZJhQAQz3iWQxAu1X": {
+    "name": "RADONTOKEN",
+    "logo": "EqbY2zaTsJesaVviL5unHKjDsjoQZJhQAQz3iWQxAu1X.png",
+    "erc20": false,
+    "symbol": "RnV",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "5pXLmRJyfrTDYMCp1xyiqRDcbb7vYjYiMYzhBza2ht62": {
+    "name": "Crayon",
+    "logo": "5pXLmRJyfrTDYMCp1xyiqRDcbb7vYjYiMYzhBza2ht62.png",
+    "erc20": false,
+    "symbol": "CRYN",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "z9WZXekbCtwoxyfAwEJn1euXybvqLzPVv3NDzJzkq7C": {
+    "name": "Care Coin Token",
+    "logo": "z9WZXekbCtwoxyfAwEJn1euXybvqLzPVv3NDzJzkq7C.png",
+    "erc20": false,
+    "symbol": "CRC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9aPjLUGR9e6w6xU2NEQNtP3jg3mq2mJjSUZoQS4RKz35": {
+    "name": "Soulana",
+    "logo": "9aPjLUGR9e6w6xU2NEQNtP3jg3mq2mJjSUZoQS4RKz35.png",
+    "erc20": false,
+    "symbol": "SOUL",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "26W4xxHbWJfrswaMNh14ag2s4PZTQuu2ypHGj6YEVXkT": {
+    "name": "Diabolo Token",
+    "logo": "26W4xxHbWJfrswaMNh14ag2s4PZTQuu2ypHGj6YEVXkT.png",
+    "erc20": false,
+    "symbol": "DCASH",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "8CWgMvZe7ntNLbky4T3JhSgtCYzeorgRiUY8xfXZztXx": {
+    "name": "IoTcoin",
+    "logo": "8CWgMvZe7ntNLbky4T3JhSgtCYzeorgRiUY8xfXZztXx.png",
+    "erc20": false,
+    "symbol": "IOTC",
+    "decimals": 3,
+    "chainId": "0x65"
+  },
+  "FqJE1neoCJrRwxfC9mRL6FduuZ1gCX2FUbya5hi8EQgA": {
+    "name": "Viloid Coin",
+    "logo": "FqJE1neoCJrRwxfC9mRL6FduuZ1gCX2FUbya5hi8EQgA.png",
+    "erc20": false,
+    "symbol": "VLDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "C98A4nkJXhpVZNAZdHUA95RpTF3T4whtQubL3YobiUX9": {
+    "name": "Coin98",
+    "logo": "C98A4nkJXhpVZNAZdHUA95RpTF3T4whtQubL3YobiUX9.png",
+    "erc20": false,
+    "symbol": "C98",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1": {
+    "name": "Saber Protocol Token",
+    "logo": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1.png",
+    "erc20": false,
+    "symbol": "SBR",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "FMJotGUW16AzexRD3vXJQ94AL71cwrhtFaCTGtK1QHXm": {
+    "name": "Lumos Rewards",
+    "logo": "",
+    "erc20": false,
+    "symbol": "LRA",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "AWTE7toEwKdSRd7zh3q45SjKhmYVFp3zk4quWHsM92bj": {
+    "name": "Zaucoin",
+    "logo": "AWTE7toEwKdSRd7zh3q45SjKhmYVFp3zk4quWHsM92bj.png",
+    "erc20": false,
+    "symbol": "ZAU",
+    "decimals": 7,
+    "chainId": "0x65"
+  },
+  "5ToouaoWhGCiaicANcewnaNKJssdZTxPATDhqJXARiJG": {
+    "name": "Nur Coin",
+    "logo": "5ToouaoWhGCiaicANcewnaNKJssdZTxPATDhqJXARiJG.png",
+    "erc20": false,
+    "symbol": "NUR",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "9ysRLs872GMvmAjjFZEFccnJBF3tYEVT1x7dFE1WPqTY": {
+    "name": "Variant",
+    "logo": "9ysRLs872GMvmAjjFZEFccnJBF3tYEVT1x7dFE1WPqTY.png",
+    "erc20": false,
+    "symbol": "VRNT",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref": {
+    "name": "HBTC (Wormhole)",
+    "logo": "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref.png",
+    "erc20": false,
+    "symbol": "wHBTC",
+    "decimals": 9,
+    "chainId": "0x65",
+    "coingeckoId": "huobi-btc"
+  },
+  "BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX": {
+    "name": "HUSD Stablecoin (Wormhole)",
+    "logo": "BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX.png",
+    "erc20": false,
+    "symbol": "wHUSD",
+    "decimals": 8,
+    "chainId": "0x65",
+    "coingeckoId": "husd"
+  },
+  "6VNKqgz9hk7zRShTFdg5AnkfKwZUcojzwAkzxSH3bnUm": {
+    "name": "Wrapped HAPI",
+    "logo": "6VNKqgz9hk7zRShTFdg5AnkfKwZUcojzwAkzxSH3bnUm.png",
+    "erc20": false,
+    "symbol": "wHAPI",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC": {
+    "name": "Larix",
+    "logo": "Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC.png",
+    "erc20": false,
+    "symbol": "LARIX",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "BYvGwtPx6Nw4YUVVwqx7qh657EcdxBSfE8JcaPmWWa6E": {
+    "name": "Tosti Coin",
+    "logo": "BYvGwtPx6Nw4YUVVwqx7qh657EcdxBSfE8JcaPmWWa6E.png",
+    "erc20": false,
+    "symbol": "TOSTI",
+    "decimals": 0,
+    "chainId": "0x65"
+  },
+  "57h4LEnBooHrKbacYWGCFghmrTzYPVn8PwZkzTzRLvHa": {
+    "name": "Mercurial LP Token (USDC-USDT-UST)",
+    "logo": "57h4LEnBooHrKbacYWGCFghmrTzYPVn8PwZkzTzRLvHa.png",
+    "erc20": false,
+    "symbol": "USDC-USDT-UST",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So": {
+    "name": "Marinade staked SOL (mSOL)",
+    "logo": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So.png",
+    "erc20": false,
+    "symbol": "mSOL",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "LPmSozJJ8Jh69ut2WP3XmVohTjL4ipR18yiCzxrUmVj": {
+    "name": "Marinade LP token",
+    "logo": "LPmSozJJ8Jh69ut2WP3XmVohTjL4ipR18yiCzxrUmVj.png",
+    "erc20": false,
+    "symbol": "mSOL-SOL-LP",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3k8BDobgihmk72jVmXYLE168bxxQUhqqyESW4dQVktqC": {
+    "name": "Raydium LP Token V4 (STEP-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "STEP-USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "A5zanvgtioZGiJMdEyaKN4XQmJsp1p7uVxaq2696REvQ": {
+    "name": "Raydium LP Token V4 (MEDIA-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "MEDIA-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "Cq4HyW5xia37tKejPF2XfZeXQoPYW6KfbPvxvw5eRoUE": {
+    "name": "Raydium LP Token V4 (ROPE-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ROPE-USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "3H9NxvaZoxMZZDZcbBDdWMKbrfNj7PCF5sbRwDr7SdDW": {
+    "name": "Raydium LP Token V4 (MER-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "MER-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "Cz1kUvHw98imKkrqqu95GQB9h1frY8RikxPojMwWKGXf": {
+    "name": "Raydium LP Token V4 (COPE-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "COPE-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "iUDasAP2nXm5wvTukAHEKSdSXn8vQkRtaiShs9ceGB7": {
+    "name": "Raydium LP Token V4 (ALEPH-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "ALEPH-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "7cu42ao8Jgrd5A3y3bNQsCxq5poyGZNmTydkGfJYQfzh": {
+    "name": "Raydium LP Token V4 (WOO-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "WOO-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "G8qcfeFqxwbCqpxv5LpLWxUCd1PyMB5nWb5e5YyxLMKg": {
+    "name": "Raydium LP Token V4 (SNY-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SNY-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "9nQPYJvysyfnXhQ6nkK5V7sZG26hmDgusfdNQijRk5LD": {
+    "name": "Raydium LP Token V4 (BOP-RAY)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "BOP-RAY",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "2Xxbm1hdv5wPeen5ponDSMT3VqhGMTQ7mH9stNXm9shU": {
+    "name": "Raydium LP Token V4 (SLRS-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SLRS-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "HwzkXyX8B45LsaHXwY8su92NoRBS5GQC32HzjQRDqPnr": {
+    "name": "Raydium LP Token V4 (SAMO-RAY)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "SAMO-RAY",
+    "decimals": 9,
+    "chainId": "0x65"
+  },
+  "CTEpsih91ZLo5gunvryLpJ3pzMjmt5jbS6AnSQrzYw7V": {
+    "name": "Raydium LP Token V4 (renBTC-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "renBTC-USDC",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "Hb8KnZNKvRxu7pgMRWJgoMSMcepfvNiBFFDDrdf9o3wA": {
+    "name": "Raydium LP Token V4 (renDOGE-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "renDOGE-USDC",
+    "decimals": 8,
+    "chainId": "0x65"
+  },
+  "FbC6K13MzHvN42bXrtGaWsvZY9fxrackRSZcBGfjPc7m": {
+    "name": "Raydium LP Token V4 (RAY-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "RAY-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "7P5Thr9Egi2rvMmEuQkLn8x8e8Qro7u2U7yLD2tU2Hbe": {
+    "name": "Raydium LP Token V4 (RAY-SRM)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "RAY-SRM",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "mjQH33MqZv5aKAbKHi8dG3g3qXeRQqq1GFcXceZkNSr": {
+    "name": "Raydium LP Token V4 (RAY-ETH)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "RAY-ETH",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "89ZKE4aoyfLBe2RuV6jM3JGNhaV18Nxh8eNtjRcndBip": {
+    "name": "Raydium LP Token V4 (RAY-SOL)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "RAY-SOL",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "4HFaSvfgskipvrzT1exoVKsUZ174JyExEsA8bDfsAdY5": {
+    "name": "Raydium LP Token V4 (DXL-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "DXL-USDC",
+    "decimals": 6,
+    "chainId": "0x65"
+  },
+  "cjZmbt8sJgaoyWYUttomAu5LJYU44ZrcKTbzTSEPDVw": {
+    "name": "Raydium LP Token V4 (LIKE-USDC)",
+    "logo": "",
+    "erc20": false,
+    "symbol": "LIKE-USDC",
+    "decimals": 9,
+    "chainId": "0x65"
+  }
+}

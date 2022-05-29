@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "ให้ทิปโพสต์นี้",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "ทิป",
+    "description": "Icon label for tip button"
+  }
+}

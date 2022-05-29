@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Заплатити цій публікації",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Відрахування",
+    "description": "Icon label for tip button"
+  }
+}

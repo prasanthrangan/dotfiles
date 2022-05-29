@@ -1,0 +1,130 @@
+/**
+ * Copyright (c) 2022 CAD Team (https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/graphs/contributors)
+ * Licensed under MIT (https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/blob/3.X.X-Branch/LICENSE)
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  border-bottom: 1px solid #808080;
+  padding-bottom: 4px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+label:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border-collapse: collapse;
+  margin: 5px;
+  max-height: 10px;
+}
+
+.alertPreWrap {
+  white-space: pre-wrap;
+}
+
+.content {
+  padding-left: 12em;
+  width: 40em;
+}
+
+/* Bootstrap overrides */
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.menu {
+  background-color: #26292e;
+  height: 100%;
+  position: fixed;
+}
+
+.pure-menu {
+  padding-top: 0.5em;
+}
+
+.pure-menu-item {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.pure-menu-item:hover {
+  background-color: #808080;
+  cursor: pointer;
+  transition: background-color;
+  transition-duration: 0.15s;
+}
+
+.pure-menu-item span {
+  color: #c1c1b4;
+}
+
+.pure-menu-selected {
+  background: #808080 !important;
+  background-color: #808080;
+  border-left-color: #0288d1;
+  border-style: none none none solid;
+}
+
+.selectOptions {
+  display: inline;
+  margin-right: 5px;
+}
+
+.tooltipCustom {
+  color: #777;
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.tooltipCustom:hover {
+  cursor: pointer;
+}
+
+.addHover:hover {
+  cursor: pointer;
+}
+
+.expressionTable tr .showOnRowHover {
+  visibility: hidden;
+}
+
+.expressionTable tr:hover .showOnRowHover {
+  visibility: visible;
+}
+
+@media (max-width: 755px) {
+  .btn-group > .btn {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-top: 1em;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Faire un don pour cette publication",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Don",
+    "description": "Icon label for tip button"
+  }
+}

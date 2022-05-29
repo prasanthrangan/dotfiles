@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "給這篇文章小費",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "小費",
+    "description": "Icon label for tip button"
+  }
+}

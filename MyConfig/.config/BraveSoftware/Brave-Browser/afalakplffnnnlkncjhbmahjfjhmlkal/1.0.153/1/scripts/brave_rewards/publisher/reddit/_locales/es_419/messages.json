@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Dejar una propina a esta publicación",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Propina",
+    "description": "Icon label for tip button"
+  }
+}

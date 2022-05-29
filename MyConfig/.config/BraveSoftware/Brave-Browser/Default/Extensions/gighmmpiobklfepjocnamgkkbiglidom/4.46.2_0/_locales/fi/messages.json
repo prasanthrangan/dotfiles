@@ -1,0 +1,3738 @@
+{
+   "a_theme_preview": {
+      "description": "Text in the alt attribute of the image previewing a theme on an extension page.",
+      "message": "Teeman $theme_name$ esikatselu kohteelle $extension_page$",
+      "placeholders": {
+         "extension_page": {
+            "content": "$2",
+            "example": "pop-up menu"
+         },
+         "theme_name": {
+            "content": "$1",
+            "example": "Dark"
+         }
+      }
+   },
+   "aalinkadreport": {
+      "description": "Acceptable Ads link message on ad report page",
+      "message": "Lisätietoja Hyväksyttävät mainokset -ohjelmasta."
+   },
+   "aamessageadreport": {
+      "description": "Acceptable Ads message on ad report page",
+      "message": "Mikäli et ole halukas näkemään tämänkään kaltaisia mainoksia, voit jättää Hyväksyttävät mainokset -suodatinlistan pois käytöstä."
+   },
+   "ab_filters_subscription_lastDownload_checksumMismatch": {
+      "description": "Filter lists tab of the Options page: Corrupted filter list file.",
+      "message": "Epäonnistui, tarkistussumma ei täsmää"
+   },
+   "ab_filters_subscription_lastDownload_connectionError": {
+      "description": "Filter lists tab of the Options page: Generic filter list download error message.",
+      "message": "Epäonnistui, latausvirhe"
+   },
+   "ab_filters_subscription_lastDownload_invalidData": {
+      "description": "Filter lists tab of the Options page: Invalid filter list file.",
+      "message": "Epäonnistui, ei kelvollinen suodatinlista"
+   },
+   "ab_filters_subscription_lastDownload_invalidURL": {
+      "description": "Filter lists tab of the Options page: Message when you subscribe to a non-list URL.",
+      "message": "Epäonnistui, ei kelvollinen osoite"
+   },
+   "aboutadblock": {
+      "description": "Subtitle on the Support tab",
+      "message": "Tietoja AdBlockista"
+   },
+   "acceptable_ads_content_blocking_disbled_message": {
+      "description": "Warning shown when Safari Content Blocking is enabled while the Acceptable Ads filter list was already enabled.",
+      "message": "Lopetimme Hyväksyttävät mainokset -tilauksesi, koska otit Safarin sisällöneston käyttöön. Voit käyttää vain toista. ([[Miksi?]])"
+   },
+   "acceptable_ads_privacy": {
+      "description": "The text of an Acceptable Ads sub-option in the General tab",
+      "message": "Salli ainoastaan mainokset, jotka eivät sisällä kolmansien osapuolten seurantaa"
+   },
+   "acceptableadsdisable_done": {
+      "description": "Message shown to users after disabling Acceptable Ads via the Options page.",
+      "message": "Et enää tilaa Hyväksyttävät mainokset -suodatinlistaa."
+   },
+   "acceptableadsdisable_how_to_reenable": {
+      "description": "Message shown to users after disabling Acceptable Ads via the Options page.",
+      "message": "Voit kytkeä tämän takaisin käyttöön ja tukea sivustoja, joista pidät valitsemalla alta \"Salli osa ei-häiritsevästä mainonnasta\"."
+   },
+   "acceptableadsoption": {
+      "description": "Checkbox on the 'General' tab of the Options page to enable the Acceptable Ads filter list",
+      "message": "Salli osa ei-häiritsevästä mainonnasta"
+   },
+   "access_without_disabling": {
+      "description": "GFC messaging on the popup menu",
+      "message": "Pääse käyttämään suosikkisisältöäsi helposti ilman AdBlockin pysäytystarvetta!"
+   },
+   "ad_everywhere_malware": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Jos näet mainoksen joka paikassa, saatat kärsiä haittaohjelmista."
+   },
+   "adalreadyblocked": {
+      "description": "On the ad report page, telling the user there is nothing to do as the ad they were seeing is now blocked.",
+      "message": "Upeaa! Olet valmis."
+   },
+   "adblock_click_for_details": {
+      "description": "Tooltip on the AdBlock button, to help users understand that they can click the button to access more options.",
+      "message": "AdBlock - klikkaa saadaksesi tietoja"
+   },
+   "adblock_facebook": {
+      "description": "Title for link to AdBlock's Facebook account",
+      "message": "AdBlockin Facebook"
+   },
+   "adblock_home": {
+      "description": "Text in the alt attribute of an AdBlock logo / icon that links to getadblock.com.",
+      "message": "AdBlock-koti"
+   },
+   "adblock_logo": {
+      "description": "Text in the alt attribute of an AdBlock logo image.",
+      "message": "AdBlock-logo"
+   },
+   "adblock_looked_like_this": {
+      "description": "Part 1 of a call-to-action on the Popup menu",
+      "message": "Mitäpä, jos AdBlock näyttäisi tältä?"
+   },
+   "adblock_newsletter": {
+      "description": "Text of a Options page lower menu button",
+      "message": "AdBlockin uutiskirje"
+   },
+   "adblock_premium": {
+      "description": "Full name of the AdBlock upgrade.",
+      "message": "AdBlock Premium"
+   },
+   "adblock_twitter": {
+      "description": "Title for link to AdBlock's Twitter account",
+      "message": "AdBlockin Twitter"
+   },
+   "adblock_vpn": {
+      "description": "Text of a Options page lower menu button",
+      "message": "AdBlock VPN"
+   },
+   "adblock_website": {
+      "description": "Title for link to AdBlock's website",
+      "message": "AdBlockin verkkosivusto"
+   },
+   "adblock_will_block_ads_again": {
+      "description": "Second sentence in the aria-label of the pop-up menu action to resume blocking ads.",
+      "message": "Painamalla tästä AdBlock estää taas mainokset."
+   },
+   "adblock_will_pause_on_all_sites": {
+      "description": "Second sentence in the aria-label of the pop-up menu action to pause blocking ads on all sites.",
+      "message": "Painamalla tästä AdBlock pysäyttää mainoseston kaikilla sivustoilla."
+   },
+   "adblock_will_pause_on_this_site": {
+      "description": "Second sentence in the aria-label of the pop-up menu action to pause blocking ads on this site.",
+      "message": "Painamalla tästä AdBlock pysäyttää mainoseston tällä sivustolla."
+   },
+   "adblock_wont_run_on_pages_matching": {
+      "description": "Message displayed when the allowlist wizard will allowlist part of an entire website, for example '*.google.com/reader/*'.  The URL will appear on the next line.",
+      "message": "AdBlockia ei käytetä näihin ehtoihin täsmäävillä sivuilla:"
+   },
+   "adblockinglist": {
+      "description": "Subtitle on the Filter lists tab: List of filter lists to block ads.",
+      "message": "Mainoseston suodatinlistat"
+   },
+   "adblockreportinganad": {
+      "description": "Title of the ad report page",
+      "message": "AdBlock - Ilmoita mainoksesta"
+   },
+   "adblocksupport": {
+      "description": "Title of the Support tab of the Options page",
+      "message": "AdBlock-tuki"
+   },
+   "adblockupdates": {
+      "description": "Subtitle on the Support tab",
+      "message": "AdBlock-päivitykset"
+   },
+   "add": {
+      "description": "Button on Sync tab that adds an entered name for this extension to the list of synced extensions",
+      "message": "Lisää"
+   },
+   "add_info": {
+      "description": "section title on hidding wizard, shown when advance user option enabled",
+      "message": "Lisätietoja"
+   },
+   "add_this_extension": {
+      "description": "Button on Sync tab that adds this extension to the Sync process",
+      "message": "Lisää tämä laajennus"
+   },
+   "added_mailing_list": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Sinut on lisätty AdBlockin postituslistalle."
+   },
+   "additional_help": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Tarvitsetko lisää apua?"
+   },
+   "additional_troubleshooting": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Tässä on joitain [[vaihtoehtoisia vianselvitysvaiheita]], jotka voit tehdä ongelman selvittämiseksi."
+   },
+   "adreport_all_debug_info": {
+      "description": "Shows the user the debug information that will be sent along with their report.",
+      "message": "Myös seuraavat tiedot sisältyvät mainosilmoitukseen."
+   },
+   "adreport_email": {
+      "description": "Label for a textbox where the user enters their email address to submit a bug or ad report.",
+      "message": "Mikä on sähköpostiosoitteesi?"
+   },
+   "adreport_email_privacy": {
+      "description": "Let the user know that their email address won't be used for reasons other than contacting them about their bug or ad report.",
+      "message": "Käytämme tätä vain, jos tarvitsemme sinulta lisätietoja."
+   },
+   "adreport_filter": {
+      "description": "Optional question on the ad report page when the ad needs to be reported to AdBlock.",
+      "message": "Jos olet luonut toimivan suodattimen \"Estä mainos\" -toiminnon avulla, liitä se alla olevaan kenttään:"
+   },
+   "adreport_laststep": {
+      "description": "Subtitle on the ad report page. Shown when the ad needs to be reported to AdBlock, and not filter list maintainers.",
+      "message": "Viimeinen vaihe: kerro meille ongelmasta."
+   },
+   "adreport_location": {
+      "description": "Question on the ad report page asking the user to describe the ad and its location on a webpage.",
+      "message": "Missä päin mainos tarkalleen ottaen sivulla on? Miltä se näyttää?"
+   },
+   "adreport_missing_info": {
+      "description": "Error message shown when the user doesn't enter anything in some of the text fields.",
+      "message": "Vaadittuja tietoja puuttuu tai ne ovat virheellisiä. Tarkista kysymykset, jotka on reunustettu punaisella."
+   },
+   "adreport_missing_screenshot": {
+      "description": "Error message shown when the user doesn't attach a screenshot to an ad report.",
+      "message": "Unohdit liittää ruutukaappauksen! Emme voi auttaa sinua, jollemme näe mainoksia, joita olet ilmoittamassa."
+   },
+   "adreport_name": {
+      "description": "Label for a textbox where the user enters their name (or nickname) to submit a bug or ad report.",
+      "message": "Mikä on nimesi?"
+   },
+   "adreport_response_file_name": {
+      "description": "Error message shown when the file name of an attachement the user is trying to submit in a report is longer than 255 characters.",
+      "message": "Tiedoston nimi on liian pitkä. Anna tiedostolle lyhyempi nimi."
+   },
+   "adreport_response_invalid_file": {
+      "description": "Error message shown when the user uploads an invalid file type.",
+      "message": "Tämä ei ole kuvatiedosto. Lataa .png-, .gif- tai .jpg-tiedosto."
+   },
+   "adreport_response_large_file": {
+      "description": "Error message shown when the user tries to upload a large image file.",
+      "message": "Tiedosto on liian suuri. Varmista, että tiedosto on alle 10 Mt."
+   },
+   "adreport_response_save_error": {
+      "description": "Error message shown when the server could not save an attached file.",
+      "message": "Virhe tallennettaessa ladattua tiedostoa."
+   },
+   "adreport_response_success": {
+      "description": "Shown when a ticket has been sumbitted to AdBlock's support site successfully.",
+      "message": "Kaikki valmista! Olemme yhteydessä mahdollisimman pian. Odotellessasi avaa AdBlockilta saapunut sähköposti, josta löydät linkin tapaukseesi tukisivustollamme sekä muutamia vinkkejä, jollemme voi olla sinuun heti yhteydessä."
+   },
+   "adreport_screen_cap_upload": {
+      "description": "Label next to a file upload button.",
+      "message": "Liitä ruutukaappaus:"
+   },
+   "adreport_server_response_error__manual_msg_step1": {
+      "description": "Error message shown when the server has an unrecoverable error during the submission of an ad or bug report.",
+      "message": "Siirry [[tukisivustollemme]]."
+   },
+   "adreport_server_response_error__manual_msg_step2": {
+      "description": "Error message shown when the server has an unrecoverable error during the submission of an ad or bug report.",
+      "message": "Luo tukipyyntö manuaalisesti, kopioi ja liitä alla olevat tiedot \"Fill in any details you think will help us understand your issue\" -osioon."
+   },
+   "adreport_server_response_error_msg": {
+      "description": "Error message shown when an new ticket is sumbitted for an ad or bug report, and the server had an issue while processing the data.",
+      "message": "Virhe käsiteltäessä pyyntöä."
+   },
+   "adreportintro": {
+      "description": "Introduction of the ad reporting page",
+      "message": "Löysitkö verkkosivulta mainoksen? Autamme sinua ilmoittamaan siitä!"
+   },
+   "adreportthanks": {
+      "description": "Message to the user thanking them for sharing the URL with us.",
+      "message": "Kiitos!"
+   },
+   "adreportvoluntary": {
+      "description": "Introduction of the ad reporting page",
+      "message": "Mainosilmoitukset ovat vapaaehtoisia. Ilmoittamalla niistä autat suodatinlistojen ylläpidossa ja mainos piilotetaan jatkossa myös muilta. Jollet halua ilmoittaa nyt, ei haittaa. Sulje tämä sivu ja [[estä mainos]] vain itseltäsi."
+   },
+   "adstillappear": {
+      "description": "Question on ad report page",
+      "message": "Näkyykö mainos edelleen?"
+   },
+   "advanced_options2": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Olen edistynyt käyttäjä, näytä edistyneet asetukset"
+   },
+   "all_set": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Kaikki on valmista!"
+   },
+   "allow_notification_requests": {
+      "description": "Checbox label text for help flow in popup menu.",
+      "message": "“Salli ilmoitukset” -pyynnöt"
+   },
+   "allow_whitelisting_youtube_channels2": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Salli tiettyjen YouTube-kanavien mainokset"
+   },
+   "allowlist_channel": {
+      "description": "Entry in the AdBlock menu, only displayed when a user is browsing YouTube or Twitch and has enabled the YouTube or Twitch channel allow listing option",
+      "message": "Salli mainokset tällä kanavalla"
+   },
+   "allowlisted_channel": {
+      "description": "Message shown in toolbar button on web pages that have been allowlisted",
+      "message": "Olet määrittänyt AdBlockin pysäytetyksi tällä kanavalla aina sitä käytettäessä."
+   },
+   "allowlisting_twitch_channels": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Salli tiettyjen Twitch-kanavien mainokset"
+   },
+   "always": {
+      "description": "The button text on the popup menu",
+      "message": "Aina"
+   },
+   "annoyance_free_browsing": {
+      "description": "Description of Distraction Control on the main Premium options page",
+      "message": "Koe ärsykevapaa selaus"
+   },
+   "apply_theme": {
+      "description": "Text of clickable element that applies the theme of a theme box in the Themes tab of the Options page",
+      "message": "Käytä teemaa"
+   },
+   "autoplay_videos": {
+      "description": "Checbox label text for help flow in popup menu.",
+      "message": "Kelluvat videot"
+   },
+   "awesome_problem_solved": {
+      "description": "message text on the help flow in popup menu.",
+      "message": "Mahtavaa, ongelma on ratkaistu."
+   },
+   "back": {
+      "description": "Back to previous page button",
+      "message": "Takaisin"
+   },
+   "back_help_flow": {
+      "description": "Aria label for back button in help flow (in popup menu)",
+      "message": "Ota ohjevirrassa askel takaisin."
+   },
+   "backup_sync_settings": {
+      "description": "Description of Sync on Sync tab",
+      "message": "Varmuuskopioi ja synkronoi AdBlock-asetuksesi useiden laitteiden välillä."
+   },
+   "betalabel": {
+      "description": "Label for experimental features in AdBlock Options",
+      "message": "Beta"
+   },
+   "birdchannelswitchlabel": {
+      "description": "The label text for the Birds switch on the MyAdBlock Options page",
+      "message": "Linnut"
+   },
+   "blacklistclickmessage": {
+      "description": "'Hide a section of a webpage' part on the Customize tab of the Options page.",
+      "message": "Paina sivulla olevaa mainosta hiiren kakkospainikkeella -- tai estä se tästä itse."
+   },
+   "blacklisterattrwillbe": {
+      "description": "Checkbox label for attributes in 'Block an ad' wizard.",
+      "message": "$attribute$ tulee olemaan $value$",
+      "placeholders": {
+         "attribute": {
+            "content": "$1",
+            "example": "class"
+         },
+         "value": {
+            "content": "$2",
+            "example": "AdBanner"
+         }
+      }
+   },
+   "blacklisterblockedelement": {
+      "description": "Tells the user what the blocked element is on the 'Block an ad' wizard.",
+      "message": "Estetty elementti:"
+   },
+   "blacklisterblocksalloftype": {
+      "description": "Warns the user that all elements of type X will be blocked.",
+      "message": "Varoitus: suodatin estää kaikki tyypin $elementtype$ kohteet tällä sivulla!",
+      "placeholders": {
+         "elementtype": {
+            "content": "$1",
+            "example": "DIV"
+         }
+      }
+   },
+   "blacklistereditfilter": {
+      "description": "Text if the user wants to manually edit a filter. 'OK' is the standard JavaScript popup button text.",
+      "message": "Kirjoita alle oikea suodatin ja paina OK"
+   },
+   "blacklistereditinvalid1": {
+      "description": "Alert if the manually edited filter is invalid. Error messages are not translated.",
+      "message": "Suodatin on virheellinen: $exception$",
+      "placeholders": {
+         "exception": {
+            "content": "$1",
+            "example": "This filter is not supported"
+         }
+      }
+   },
+   "blacklistermatches": {
+      "description": "Tells the user multiple matches were found",
+      "message": "Täsmää $matchcount$ kohteeseen tällä sivulla.",
+      "placeholders": {
+         "matchcount": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "blacklisternofilter": {
+      "description": "Warning if the user hasn't specified a filter",
+      "message": "Suodatinta ei määritetty!"
+   },
+   "blacklisternotsure_part_I": {
+      "description": "'Block an ad' wizard attribute choice page",
+      "message": "Asetuksiisi lisätään sääntö, joka jatkossa piilottaa kohteen tällä sivustolla aina."
+   },
+   "blacklisternotsure_part_II": {
+      "description": "'Block an ad' wizard attribute choice page",
+      "message": "Voit perua tämän milloin tahansa valitsemalla AdBlock-valikosta \"Kumoa kohteiden piilotukset tältä sivulta\"."
+   },
+   "blacklisteroptions1": {
+      "description": "'Block an ad' wizard attribute choice page",
+      "message": "Pidetäänkö kohde piilotettuna?"
+   },
+   "blacklistersinglematch": {
+      "description": "Tells the user only one match was found",
+      "message": "Täsmää 1 kohteeseen tällä sivulla."
+   },
+   "blacklistertype": {
+      "description": "node name is called 'Type' (HTML tag)",
+      "message": "Tyyppi"
+   },
+   "blacklisterwarningnofilter": {
+      "description": "Warns the user that nothing will be blocked.",
+      "message": "Varoitus: suodatinta ei määritetty!"
+   },
+   "block_ads_on_youtube": {
+      "description": "Label for checkbox letting user choose whether to block ads on youtube.com",
+      "message": "Poista mainokset YouTubesta"
+   },
+   "block_an_ad_on_this_page": {
+      "description": "Toolbar button menu entry and context menu entry",
+      "message": "Piilota tältä sivulta jotain"
+   },
+   "block_and_replace": {
+      "description": "Description of Image Swap on the main Premium options page",
+      "message": "Mainokset estetään jatkossa myös Kuvakorvausta käytettäessä, mutta osa niistä korvataan suosikkikategorioidesi kuvilla."
+   },
+   "block_annonyances_on_youtube": {
+      "description": "Checkbox letting user choose whether to block annoyances on youtube.com (such as comments, suggested videos, annotations, and recommended channels)",
+      "message": "Poista ärsykkeet YouTubesta"
+   },
+   "block_floating_videos": {
+      "description": "Part 1 of a call-to-action on the Popup menu",
+      "message": "Estä kelluvat videot"
+   },
+   "block_newsletter_popups": {
+      "description": "Description of 'hide newsletter pop-ups' on the distraction control options page",
+      "message": "Estä ärsyttävät ponnahdukset, jotka kutsuvat sinut liittymään verkkosivuston postituslistalle."
+   },
+   "block_privacy_on_youtube": {
+      "description": "Checkbox letting user choose whether to block privacy-related requests on youtube.com",
+      "message": "Suojaa yksityisyyteni YouTubessa"
+   },
+   "block_site_notifications": {
+      "description": "Sub-header on the distraction control options page",
+      "message": "Estä sivuston ilmoitukset"
+   },
+   "block_this_ad": {
+      "description": "Toolbar button menu entry and context menu entry",
+      "message": "Estä tämä mainos"
+   },
+   "blockanadtitle": {
+      "description": "Title of the first two dialogs of the 'Block an ad' wizard",
+      "message": "AdBlockin opastettu piilotus"
+   },
+   "blockdomain": {
+      "description": "Message of the URL and CSS blocking sections",
+      "message": "Sivun verkkotunnus, jolla käytetään"
+   },
+   "blocked_ads": {
+      "description": "Title for toolbar icon menu section showing number of ads blocked",
+      "message": "Estettyjä mainoksia:"
+   },
+   "blocked_n_in_total": {
+      "description": "Shown below the 'Blocked ads:' message. Shows the number of ads blocked since AdBlock was installed. $count$ will be a number between 1 and 999,999,999.",
+      "message": "$count$ yhteensä",
+      "placeholders": {
+         "count": {
+            "content": "[[123,456]]",
+            "example": "123,456"
+         }
+      }
+   },
+   "blocked_n_on_this_page": {
+      "description": "Shown below the 'Blocked ads:' message. Shows the number of ads blocked on this page. $count$ will be a number between 1 and 999.",
+      "message": "$count$ tältä sivulta",
+      "placeholders": {
+         "count": {
+            "content": "[[123]]",
+            "example": "123"
+         }
+      }
+   },
+   "blocked_something": {
+      "description": "Part 1 of a call-to-action on the blocklist wizard",
+      "message": "Estit juuri jotain tältä sivustolta!"
+   },
+   "blockedresource": {
+      "description": "Resource list page: resource status",
+      "message": "Estetty resurssi"
+   },
+   "blockmoreads": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Estä enemmän mainoksia:"
+   },
+   "blockmoreads2": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Estä enemmän mainoksia"
+   },
+   "blockurlwithtext": {
+      "description": "Message of the URL-blocking section (Block an ad by its URL) on the Customize tab",
+      "message": "Estä URL-osoitteet, jotka sisältävät tämän tekstin"
+   },
+   "browserestartrequired": {
+      "description": "Displayed after disabling Safari Content Blocking, which requres a browser relaunch.",
+      "message": "Käynnistä Safari uudelleen poistaaksesi sisällöeston käytöstä."
+   },
+   "bugreport": {
+      "description": "Link to send a bug report on the Support tab",
+      "message": "Lähetä meille [[virheilmoitus]]"
+   },
+   "buttonblockit": {
+      "description": "Block button",
+      "message": "Estä!"
+   },
+   "buttoncancel": {
+      "description": "Cancel button",
+      "message": "Peruuta"
+   },
+   "buttonconfirm": {
+      "description": "Button for confirming a new rule in the hiding wizard",
+      "message": "Vahvista"
+   },
+   "buttonedit": {
+      "description": "Edit filter(s) manually button",
+      "message": "Muokkaa"
+   },
+   "buttonexclude": {
+      "description": "Button for excluding a domain in the allowlist wizard",
+      "message": "Sulje pois"
+   },
+   "buttonkeep": {
+      "description": "text on the remove / delete image modal on the image swap tab",
+      "message": "Säilytä"
+   },
+   "buttonlooksgood": {
+      "description": "Confirmation button after user chose what to block on the page",
+      "message": "Näyttää hyvältä"
+   },
+   "buttonok": {
+      "description": "OK button",
+      "message": "OK!"
+   },
+   "buttonremove": {
+      "description": "text on the remove / delete image modal on the image swap tab",
+      "message": "Poista"
+   },
+   "buttonsubmit": {
+      "description": "Button to send a form.",
+      "message": "Lähetä"
+   },
+   "bypass_mode": {
+      "description": "Header on the main Premium options page",
+      "message": "Ohitustila"
+   },
+   "callout_new_feature": {
+      "description": "Text to callout a new feature",
+      "message": "UUSI!"
+   },
+   "cannot_be_undone": {
+      "description": "Warning/confirmation message shown when the user clicks on the delete icon for a device",
+      "message": "Toiminto on pysyvä."
+   },
+   "cantblockflash": {
+      "description": "Result of the final ad report question",
+      "message": "Mainosesto Flash- ja muiden lisäosien sisällä ei vielä ole mahdollista. Odotamme tukea selaimelta ja WebKit-moottorilta."
+   },
+   "cantblockflashwarning": {
+      "description": "Text of the final ad report question",
+      "message": "Näkyykö mainos ennen videota tai jotain muuta laajennusta, kuten Flash-peliä?"
+   },
+   "catchannelswitchlabel": {
+      "description": "The label text for the cat switch on the MyAdBlock Options page",
+      "message": "Kissat"
+   },
+   "change_behavior_settings": {
+      "description": "Part of a message on the allowlist and blocklist wizards",
+      "message": "Voit muuttaa tätä [[asetuksista]]."
+   },
+   "changes_to_adblock": {
+      "description": "Link to Options page with more information about the changes.",
+      "message": "Olemme tehneet AdBlockiin muutoksia!"
+   },
+   "check_out_dc": {
+      "description": "Part 2 of a call-to-action on the Popup menu",
+      "message": "Estä enemmän Häiriöhallinnalla"
+   },
+   "check_out_premium": {
+      "description": "Part 2 of message shown when user opts out of call-to-action",
+      "message": "Jos haluat tietää lisää, tutustu [[Premiumiin]]."
+   },
+   "check_out_themes": {
+      "description": "Part 2 of a call-to-action on the Popup menu",
+      "message": "Tutustu teemoihin!"
+   },
+   "check_sync_status": {
+      "description": "Button on Sync tab that checks the status of the Sync feature",
+      "message": "Tarkista synkronoinnin tila"
+   },
+   "check_whitelist": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Tarkistetaanpa sallittujen listan asetukset, josko ongelman syy olisi niissä."
+   },
+   "checked_basics": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Perusasiat on tarkistettu ja suodatinlistat päivitetty."
+   },
+   "checkinfirefox_1": {
+      "description": "instruction for how to check Firefox for a reported ad",
+      "message": "Asenna Firefox, jollei sinulla ole sitä."
+   },
+   "checkinfirefox_2": {
+      "description": "Instruction for how to check Firefox for a reported ad. Don't translate the name 'Adblock Plus'.",
+      "message": "Asenna AdBlock Plus Firefoxiin, jollei sinulla ole sitä."
+   },
+   "checkinfirefox_3": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Tilaa siinä selaimessa samat suodatinlistat, joita käytät tässä."
+   },
+   "checkinfirefox_4": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Lataa sivu, jolla mainos on, sillä selaimella."
+   },
+   "checkinfirefox_5": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Näkyykö mainos myös siinä selaimessa?"
+   },
+   "checkinfirefoxorchrome_1": {
+      "description": "instruction for how to check Firefox or Chrome for a reported ad",
+      "message": "Asenna Firefox tai Chrome, jollei sinulla ole niitä."
+   },
+   "checkinfirefoxorchrome_2": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad. Don't translate the name 'Adblock Plus'.",
+      "message": "Asenna Adblock Plus Firefoxiiin tai AdBlock Chromeen, jollei sinulla ole sitä."
+   },
+   "checkinfirefoxorchrometitle": {
+      "description": "Tell a user to see if a reported ad also appears in Firefox/Chrome",
+      "message": "Kokeile Firefoxilla tai Chromella"
+   },
+   "checkinfirefoxtitle": {
+      "description": "Tell a user to see if a reported ad also appears in Firefox",
+      "message": "Kokeile Firefoxilla"
+   },
+   "chromebutton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Hide Button' should match the text that Chrome displays when you right click a toolbar button.",
+      "message": "Piilottaaksesi painikkeen, paina sitä hiiren kakkospainikkeella ja valitse \"Irrota\". Voit palauttaa sen painamalla Chromen työkalupalkissa olevaa \"Laajennukset\" -painiketta hiiren kakkospainikkeella ja sitten laajennuksen kohdalta \"Kiinnitä\"."
+   },
+   "cleanuplist2": {
+      "description": "Label at the bottom of the 'Customize' tab of the Options page",
+      "message": "Siivoa lista"
+   },
+   "clickdisableaa": {
+      "description": "Instruction on ad report page",
+      "message": "Paina tästä: [[lopeta Hyväksyttävät mainokset -tilaus]]"
+   },
+   "clickdisableotherextensions": {
+      "description": "On the ad report page, an alternative way to disable other extensions",
+      "message": "TAI, paina tätä painiketta, niin kaikki tapahtuu puolestasi: [[Poista kaikki muut laajennukset käytöstä]]"
+   },
+   "clickthead": {
+      "description": "User has to click the ad they want to block.",
+      "message": "Paina mitä tahansa sivun kohdetta, jonka haluat piilottaa."
+   },
+   "clickupdatefilters": {
+      "description": "Instruction on ad report page",
+      "message": "Paina tästä: [[Päivitä suodattimeni!]]"
+   },
+   "close": {
+      "description": "Generic message for buttons that close a view or window",
+      "message": "Sulje"
+   },
+   "close_help_flow": {
+      "description": "Aria label for close button in help flow (in popup menu)",
+      "message": "Sulje ohjevirta ja palaa ponnahdusvalikkoon."
+   },
+   "confirm_delete_extension": {
+      "description": "Warning/confirmation message shown when the user clicks on the delete icon for a device",
+      "message": "Haluatko varmasti poistaa laajennuksen?"
+   },
+   "confirm_msg": {
+      "description": "text on hidding wizard, shown when advance user option enabled",
+      "message": "Vahvista, että elementin ominaisuudet ovat oikein:"
+   },
+   "confirm_undo_custom_filters": {
+      "description": "Confirmation message when user wants to undo their custom blocks for a domain. $count$ will be a number between 1 and 999,999,999, $host$ will be the domain where the custom blocks will be reset.",
+      "message": "Haluatko varmasti poistaa $count$ verkkotunnukselle $host$ luomaasi estoa?",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "12"
+         },
+         "host": {
+            "content": "$2",
+            "example": "stackoverflow.com"
+         }
+      }
+   },
+   "contact_support": {
+      "description": "Message for help flow in popup menu.",
+      "message": "[[Ota yhteyttä tukeemme!]]"
+   },
+   "contact_the_site": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Suosittelemme ottamaan yhteyttä sivuston ylläpitoon."
+   },
+   "content_blocking_acceptable_ads_disbled_message": {
+      "description": "Warning shown when the Acceptable Ads filter list is enabled while Safari Content Blocking was already enabled.",
+      "message": "Safarin sisällöneston poistettiin käytöstä, koska sallit ei-häiritsevät mainokset. Voit käyttää vain toista. ([[Miksi?]])"
+   },
+   "contributors": {
+      "description": "Link to the contributors page on the Support tab",
+      "message": "Lue lisää [[tiimistämme]]"
+   },
+   "copieddebugdata": {
+      "description": "Button text on the Support tab of the options.",
+      "message": "Kopioitu!"
+   },
+   "copydebugdata": {
+      "description": "Button text on the Support tab of the options.",
+      "message": "Kopioi virheenjäljitystiedot"
+   },
+   "correctfilters": {
+      "description": "On the ad report page, label describing having the right filter lists enabled",
+      "message": "Varmista, että käytät oikean kielen suodattimia:"
+   },
+   "csstomatch": {
+      "description": "Message of the CSS-hiding section (Hide a section of a webpage) on the Customize tab",
+      "message": "CSS, jonka tulee täsmätä"
+   },
+   "custom_filters_migration_error_message_part1": {
+      "description": "Part one of a message shown to users on the Customize tab of the Options page after invalid custom filters have been migrated",
+      "message": "Omien suodattimien virhemäärä: "
+   },
+   "custom_filters_migration_error_message_part2": {
+      "description": "Part two of a message shown to users on the Customize tab of the Options page after invalid custom filters have been migrated",
+      "message": "Seuraavat viesti(t) luotiin siirrettäessä omia suodattimia (älä huomioi rivinumeroita): "
+   },
+   "custom_filters_migration_error_message_part3": {
+      "description": "Part three of a message shown to users on the Customize tab of the Options page after invalid custom filters have been migrated",
+      "message": "Alkuperäinen syöte: "
+   },
+   "custom_image_description": {
+      "description": "text on the image swap tab",
+      "message": "Valitse enintään 9 kuvaa, joilla haluat AdBlockin korvaavan mainoksia"
+   },
+   "custom_image_error": {
+      "description": "header / title text on the error message on the image swap tab",
+      "message": "Hups! Joku meni pieleen"
+   },
+   "custom_image_error_msg_partI": {
+      "description": "error message text error message on the image swap tab",
+      "message": "Kuvaasi ei voitu lisätä."
+   },
+   "custom_image_error_msg_partII": {
+      "description": "error message text error message on the image swap tab",
+      "message": "Odota hetki ja yritä uudelleen."
+   },
+   "custom_image_error_msg_partIII": {
+      "description": "error message text error message on the image swap tab",
+      "message": "Voit myös jakaa [[nimettömät virheenjäljitystiedot]] meille auttaaksesi meitä ongelman selvityksessä."
+   },
+   "custom_image_supported_file_types": {
+      "description": "supported file types, shown on the error message dialog box when a user selects a unsupported file type",
+      "message": "*.bmp, *.gif, *.jpeg, *.png, *.svg, *.tiff, *.webp"
+   },
+   "custom_image_unsupported_msg_partI": {
+      "description": "First sentence, on the error message dialog box when a user selects a unsupported file type",
+      "message": "Hups! Näyttää siltä, että yrität lisätä kuvaa, jota oma kuvanvaihto ei tue."
+   },
+   "custom_image_unsupported_msg_partII": {
+      "description": "second sentence, on the error message dialog box when a user selects a unsupported file type",
+      "message": "Valitse joku seuraavista kuvatyypeistä:"
+   },
+   "custom_image_unsupported_title": {
+      "description": "header / title on error message dialog box when a user selects a unsupported file type",
+      "message": "Kuvan muotoa ei tueta"
+   },
+   "custom_images": {
+      "description": "text on the image swap tab",
+      "message": "Omat kuvat"
+   },
+   "customchannelswitchlabel": {
+      "description": "The label text for the Custom Image switch on the MyAdBlock Options page",
+      "message": "Omat"
+   },
+   "customfilters": {
+      "description": "Subtitle on the Filter lists tab: Section for adding your own filter lists.",
+      "message": "Omat suodatinlistat"
+   },
+   "customfilterserrormessage": {
+      "description": "Error message when there is an issue with a custom filter on the 'Customize' tab of the Options page",
+      "message": "Suodatin:\n$filter$\nsisältää virheen:\n$message$",
+      "placeholders": {
+         "filter": {
+            "content": "$1",
+            "example": "@@.ad"
+         },
+         "message": {
+            "content": "$2",
+            "example": "invalid filter"
+         }
+      }
+   },
+   "customize_your_adblock": {
+      "description": "Sub-header describing Themes on the main Premium options page",
+      "message": "Mukauta AdBlockia"
+   },
+   "dark_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Tumma"
+   },
+   "datacollectionoption": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Salli AdBlockin kerätä nimettömiä tietoja suodatinlistojen käytöstä sekä niillä estetystä sisällöstä"
+   },
+   "dc_more_information": {
+      "description": "Description of the distraction control option",
+      "message": "Lisätietoja löytyy [[täältä]]."
+   },
+   "debuginfo": {
+      "description": "Users can click this link to provide debug information to AdBlock staff",
+      "message": "Onko tiimimme pyytänyt joitakin virheenjäljitystietoja?"
+   },
+   "debuginlogoption": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Näytä virheenjäljitystiedot valvontalokissa (hidastaa laajennuksen toimintaa)"
+   },
+   "debuginlogoption2": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Näytä virheenjäljitystiedot valvontalokissa"
+   },
+   "decline_allow_notifications": {
+      "description": "Description of 'block site notifications' on the distraction control options page",
+      "message": "Kieltäydy käyttämiesi verkkosivustojen 'salli ilmoitukset' -pyynnöistä automaattisesti."
+   },
+   "default_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Oletus"
+   },
+   "delete": {
+      "description": "Text on a delete button",
+      "message": "Poista"
+   },
+   "delete_all_stats_data": {
+      "description": "text related to the delete all data checkbox on the statistics page of the Options page",
+      "message": "Poista nykyiset tallennetut estotilastot"
+   },
+   "delete_detail_msg_part_I": {
+      "description": "text on the delete overlay on the statistics page of the Options page",
+      "message": "Tästä voit poistaa paikallisesti tallennetut estotilastosi."
+   },
+   "delete_detail_msg_part_II": {
+      "description": "text on the delete overlay on the statistics page of the Options page",
+      "message": "Tämä poistaa kaikki tilastosivullasi tällä hetkellä näkyvät tiedot, mukaan lukien estetyimmät sivustot."
+   },
+   "delete_detail_msg_part_III": {
+      "description": "text on the delete overlay on the statistics page of the Options page",
+      "message": "Tilastosi tallentuvat ainoastaan paikallisesti laitteellesi ja poistamasi tilastot EIVÄT ole palautettavissa."
+   },
+   "delete_detail_page_2_msg_part_I": {
+      "description": "text on page 2 of the delete modal box on the statistics page of the Options page",
+      "message": "Oletko varma?"
+   },
+   "delete_migration_error_messages": {
+      "description": "Button to delete error messages when adding custom filters manually",
+      "message": "Poista viestit"
+   },
+   "delete_panel_title": {
+      "description": "title text on the delete overlay on the statistics page of the Options page",
+      "message": "Poista estotilastot"
+   },
+   "description": {
+      "description": "Extension description in manifest. Should not exceed 132 characters.",
+      "message": "Estä mainokset ja ponnahdukset YouTubessa, Facebookissa, Twitchissä ja suosikkisivustoillasi."
+   },
+   "description2": {
+      "description": "Extension description in manifest. Should not exceed 132 characters.",
+      "message": "Suosituin Chrome laajennus yli 60 miljoonalla käyttäjällä! Estää mainokset kaikkialla verkossa."
+   },
+   "description_edge": {
+      "description": "Description for the AdBlock for Edge extension. Should not exceed 132 characters.",
+      "message": "AdBlock. #1 Mainosten estäjä yli 200 miljoonalla latauksella. Estää mainokset kaikkialla netissä."
+   },
+   "description_yt": {
+      "description": "Description for the AdBlock on YouTube extension. Should not exceed 132 characters.",
+      "message": "Ainoa YouTube-mainosesto on AdBlockin rakentama ja suosituin Chrome-laajennus 60 miljoonalla käyttäjällä ympäri maailmaa"
+   },
+   "devtools_action_block": {
+      "description": "Button text on the dev tools panel.",
+      "message": "Estä kohde"
+   },
+   "devtools_action_remove": {
+      "description": "Button text on the dev tools panel.",
+      "message": "Poista sääntö"
+   },
+   "devtools_action_unblock": {
+      "description": "Button text on the dev tools panel.",
+      "message": "Lisää poikkeus"
+   },
+   "devtools_filter_origin_custom": {
+      "description": "sub-title text of the rule showing the source of the rule as custom rules",
+      "message": "käyttäjän määrittämä"
+   },
+   "devtools_filter_origin_none": {
+      "description": "sub-title text of the rule showing the source of the rule as a unamed filter list",
+      "message": "nimetön tilaus"
+   },
+   "devtools_filter_subtitle": {
+      "description": "sub-title text of the rule showing the source of the rule a named filter list",
+      "message": "Alkuperä"
+   },
+   "devtools_filter_title": {
+      "description": "Text of the filter that was applied to the list item.",
+      "message": "Suodatin"
+   },
+   "devtools_footer": {
+      "description": "message on the bottom of the panel",
+      "message": "\u003Ca0>Päivitä\u003C/a0> sivu nähdäksesi suodatinmuutosten vaikutuksen"
+   },
+   "devtools_header": {
+      "description": "Text on the top of the dev tools panel to show all items of any type; slot0 and slot1 are two seperate drop down lists",
+      "message": "Näytä tyypin \u003Cslot1>\u003C/slot1> \u003Cslot0>\u003C/slot0> kohteet"
+   },
+   "devtools_header_state_all": {
+      "description": "one of the items in the drop down list in the header of the dev tools panel",
+      "message": "kaikki"
+   },
+   "devtools_header_state_blocked": {
+      "description": "one of the items in the drop down list in the header of the dev tools panel",
+      "message": "estetyt"
+   },
+   "devtools_header_state_whitelisted": {
+      "description": "one of the items in the drop down list in the header of the dev tools panel",
+      "message": "sallitut"
+   },
+   "devtools_header_type_any": {
+      "description": "one of the items in the drop down list in the header of the dev tools panel",
+      "message": "kaikki"
+   },
+   "devtools_request_subtitle": {
+      "description": "sub title text for the request-column header of the dev tools panel",
+      "message": "Dokumentin verkkotunnus"
+   },
+   "devtools_request_title": {
+      "description": "title text for the request-column header of the dev tools panel",
+      "message": "Pyyntö"
+   },
+   "devtools_request_url": {
+      "description": "A request URL in the AdBlock DevTools panel",
+      "message": "\u003Ca0>$original$\u003C/a0> korvattu osoitteella \u003Ca1>$rewritten$\u003C/a1>",
+      "placeholders": {
+         "original": {
+            "content": "$1",
+            "example": "http://example.com/foo"
+         },
+         "rewritten": {
+            "content": "$2",
+            "example": "http://example.com/bar"
+         }
+      }
+   },
+   "devtools_type_title": {
+      "description": "Type column header text",
+      "message": "Tyyppi"
+   },
+   "disableaa": {
+      "description": "Section header on the ad report page",
+      "message": "Tarkasta Hyväksyttävät mainokset -suodattimet:"
+   },
+   "disableallextensions": {
+      "description": "Instruction on ad report page",
+      "message": "Poista kaikki laajennukset käytöstä AdBlockia lukuun ottamatta:"
+   },
+   "disabled": {
+      "description": "Title shown in menu when AdBlock is paused on all sites",
+      "message": "AdBlock on pysäytetty"
+   },
+   "disabled_by_filter_lists": {
+      "description": "Message shown when a user tries to un-allowlist a web page that has been allowlisted by a rule in a subscribed filter list.",
+      "message": "Valitettavasti AdBlock on poistettu tällä sivulla käytöstä yhden suodatinlistasi perusteella."
+   },
+   "disabled_by_filter_lists_yt": {
+      "description": "Message shown when a user tries to un-allowlist a web page that has been allowlisted by a rule in a subscribed filter list. Specific to the 'AdBlock on YouTube' extension.",
+      "message": "Valitettavasti AdBlock on poistettu käytöstä YouTubessa jonkin asetuksesi perusteella."
+   },
+   "disabled_on_all_sites": {
+      "description": "Message shown in menu when AdBlock is paused on all sites",
+      "message": "Olet määrittänyt AdBlockin pysäytetyksi kaikilla sivustoilla."
+   },
+   "disabled_on_this_channel": {
+      "description": "Message shown in the toolbar button menu on YouTube channel pages and videos that have been allowlisted.",
+      "message": "Olet sallinut mainokset tällä kanavalla."
+   },
+   "disabled_on_this_page": {
+      "description": "Message shown in toolbar button on web pages that have been allowlisted",
+      "message": "AdBlock ei ole tällä sivulla käytössä."
+   },
+   "disabled_site_title": {
+      "description": "header title on the menu when a user is on tab that extensions are disabled on (Chrome settings, etc)",
+      "message": "Täällä ei ole mitään estettävää!"
+   },
+   "disableforchromeandsafaristeptwo": {
+      "description": "Step 2 for disabling Chrome and Safari extensions",
+      "message": "Poista kaikki laajennukset käytöstä niiden vieressä olevasta valintakytkimestä. Jätä kuitenkin AdBlock käyttöön."
+   },
+   "disableforchromestepone": {
+      "description": "Step 1 for disabling Chrome extensions",
+      "message": "Avaa [[Laajennukset-sivu]]."
+   },
+   "disableforedgestepone": {
+      "description": "Step 1 for disabling Edge extensions",
+      "message": "Paina kolmen pisteen Lisää-valikkoa ja valitse Laajennukset."
+   },
+   "disableforedgesteptwo": {
+      "description": "Step 2 for disabling Edge extensions",
+      "message": "Paina AdBlockia lukuunottamatta jokaisen laajennuksen rataskuvaketta ja sitten kytkinpainiketta poistaaksesi ne käytöstä."
+   },
+   "disableforsafaristepone": {
+      "description": "Step 1 for disabling Safari extensions",
+      "message": "Avaa valikosta Safari > Safari-laajennukset."
+   },
+   "disableotherextensionscomplete": {
+      "description": "On the ad report page, alert notifying users that we've disabled all other extensions",
+      "message": "Kaikki muut laajennukset on nyt poistettu käytöstä. Sivu, jolla mainos on, päivitetään. Pieni hetki."
+   },
+   "dismiss_invitations": {
+      "description": "Description of 'ignore survey requests' on the distraction control options page",
+      "message": "Hylää verkkosivustojen tutkimuskutsut välittömästi."
+   },
+   "display_language_selector": {
+      "description": "Text shown before language selector drop-down.",
+      "message": "Näytä AdBlock kielellä"
+   },
+   "distraction_control": {
+      "description": "Name of a Premium option",
+      "message": "Häiriöhallinta"
+   },
+   "distraction_control_example": {
+      "description": "Text in the alt attribute of an image in the Options page mab that visualizes the Distraction Control feature.",
+      "message": "Esimerkki Häiriöhallinnasta"
+   },
+   "distraction_control_new": {
+      "description": "Description of the distraction control option",
+      "message": "Häiriöhallinta on uusi ominaisuus, jota hiotaan edelleen."
+   },
+   "distractions_control_details": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Lisätietoja AdBlock Premiumin estämistä häiriöistä löytyy [[täältä]]."
+   },
+   "distractions_control_help": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Ottaaksesi yhteyttä tukeemme, vieraile [[tukikeskuksessamme]]."
+   },
+   "distractions_control_options": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Jos haluat muuttaa Häiriöhallinnan asetuksia, voit tehdä niin [[täällä]]."
+   },
+   "do_not_swap_ads": {
+      "description": "Text of a clickable option to stop swapping ads with images in the Options page Image Swap tab.",
+      "message": "Älä korvaa mainoksia"
+   },
+   "dogchannelswitchlabel": {
+      "description": "The label text for the dog switch on the MyAdBlock Options page",
+      "message": "Koirat"
+   },
+   "domain_pause_adblock": {
+      "description": "Menu entry to pause AdBlock on this domain (stop blocking ads)",
+      "message": "Pysäytä tällä sivustolla"
+   },
+   "domain_unpause_adblock": {
+      "description": "Link text to start blocking ads again, displayed immediately after 'AdBlock is paused on this site'",
+      "message": "Käytä AdBlockia tällä sivustolla"
+   },
+   "donate_to_adblock": {
+      "description": "Text of a donate link in the toolbar button menu",
+      "message": "Pidätkö AdBlockerista? Harkitse lahjoitusta!"
+   },
+   "donate_to_youtube_adblock": {
+      "description": "Text of a donate link in the toolbar button menu. 'This' refers to the 'AdBlock on YouTube' extension.",
+      "message": "Pidätkö tästä? Harkitse lahjoitusta!"
+   },
+   "done": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Valmis"
+   },
+   "done_reload_page": {
+      "description": "text on panel in the help flow",
+      "message": "Pävitä sivu tämän valmistuttua."
+   },
+   "dont_know_help_me": {
+      "description": "Message for help flow in popup menu.",
+      "message": "En tiedä. Auttakaa!"
+   },
+   "dont_run_on_pages_on_domain": {
+      "description": "Menu entry to open the allowlist wizard",
+      "message": "Älä käytä tämän verkkotunnuksen sivuilla"
+   },
+   "dont_run_on_this_page": {
+      "description": "Menu entry to allowlist the current page",
+      "message": "Älä käytä tällä sivulla"
+   },
+   "dont_show_me_again": {
+      "description": "opt out option on all-to-action on the blocklist / hiding wizard",
+      "message": "Älä näytä tätä viestiä uudestaan"
+   },
+   "dont_show_reminder": {
+      "description": "GFC messaging on the popup menu",
+      "message": "Älä näytä tätä muistutusta uudestaan"
+   },
+   "dontsend": {
+      "description": "button text on the error message on the image swap tab",
+      "message": "Älä lähetä"
+   },
+   "download_mac_app": {
+      "description": "Link to download our Mac App. [[ and ]] will be replaced with HTML to link to the Mac App Store",
+      "message": "Saadaksesi parhaan AdBlock-kokemuksen Macillasi, lataa [[AdBlock Safarille -sovellus!]]"
+   },
+   "easylist_disable_done": {
+      "description": "Message shown to users after disabling EasyList via the Filter lists tab on the Options page.",
+      "message": "AdBlock käyttää EasyList -suodatinlistaa mainosten estoon valtaosalla sivustoista."
+   },
+   "easylist_disable_how_to_reenable": {
+      "description": "Message shown to users after disabling EasyList via the Filter lists tab on the Options page.",
+      "message": "Suosittelemme pitämään sen käytössä. Jos poistit tilauksen vahingossa, valitse nyt \"EasyList\" estääksesi enemmän mainoksia."
+   },
+   "easylist_lite_disable_done": {
+      "description": "Message shown to users after disabling both EasyList Lite and EasyList via the Filter lists tab on the Options page.",
+      "message": "AdBlock käyttää EasyList- tai EasyList Lite -suodatinlistoja mainosten estoon valtaosalla sivustoista."
+   },
+   "easylist_lite_disable_how_to_reenable": {
+      "description": "Message shown to users after disabling both EasyList Lite and EasyList via the Filter lists tab on the Options page.",
+      "message": "Suosittelemme pitämään sen käytössä. Jos poistit tilauksen vahingossa, valitse nyt \"EasyList\" tai \"EasyList Lite\" estääksesi enemmän mainoksia."
+   },
+   "easylist_lite_or_easylist": {
+      "description": "Message shown to users after disabling both EasyList Lite and EasyList via the Filter lists tab on the Options page.",
+      "message": "Suosittelemme tilaamaan joko \"EasyList Lite\" tai \"EasyList\" -listan, muttei molempia."
+   },
+   "edit_filter_lists": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Sinun on ehkä [[muokattava suodatinlistojasi]]."
+   },
+   "edit_image": {
+      "description": "header text in the on custom image swap modal dialog",
+      "message": "Muokkaa kuvaa"
+   },
+   "edit_image_msg_partI": {
+      "description": "Text in the on custom image swap modal dialog",
+      "message": "Alla on 3 yleisintä mainoskokoa."
+   },
+   "edit_image_msg_partII": {
+      "description": "Text in the on custom image swap modal dialog",
+      "message": "Valitse kuvaasi lähinnä oleva koko, säädä liukusäätimellä ja paina Tallenna kun olet valmis."
+   },
+   "email_address_placeholder": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Syötä sähköpostiosoitteesi"
+   },
+   "enable_adblock": {
+      "description": "Link text to un-allowlist a page, displayed immediately after 'AdBlock is disabled on this page'",
+      "message": "Salli AdBlock tällä sivulla"
+   },
+   "enable_adblock_on_this_channel": {
+      "description": "Menu entry to un-allowlist a YouTube channel, displayed under 'You allowed ads on this channel.'",
+      "message": "Estä mainokset tällä kanavalla"
+   },
+   "enable_do_not_track_advice": {
+      "description": "The text advicing to enable DNT if Acceptable Ads is enabled in the General tab",
+      "message": "Jotta ominaisuus toimii oikein, ota \"Do Not Track\" (DNT) käyttöön selaimesi asetuksista."
+   },
+   "enable_on_this_site": {
+      "description": "GFC messaging on the popup menu",
+      "message": "Käytä AdBlockia tällä sivustolla"
+   },
+   "enableotherextensionscomplete": {
+      "description": "On the ad report page, alert notifying users that we've re-enabled extensions that were previously disabled",
+      "message": "Laajennukset, jotka oli aiemmin poistettu käytöstä, on nyt palautettu käyttöön."
+   },
+   "english_site": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Oletko englanninkielisellä verkkosivustolla?"
+   },
+   "englishonly": {
+      "description": "Lets the user know that a link/page is only available in English.",
+      "message": "Vain englanniksi"
+   },
+   "enjoying_adblock": {
+      "description": "Text of a footer in the popup menu help flow asking users to leave us a review.",
+      "message": "Nautitko AdBlockista?"
+   },
+   "enter_url": {
+      "description": "Placeholder text in the Custom Filter list URL bar",
+      "message": "syötä URL-osoite"
+   },
+   "error": {
+      "description": "Text in the aria-label attribute of an icon indicating an error occurred.",
+      "message": "Virhe"
+   },
+   "error_msg_header": {
+      "description": "DO NOT TRANSLATE The text on the popup menu when an error has occurred",
+      "message": "Hups!"
+   },
+   "error_msg_help_partI": {
+      "description": "DO NOT TRANSLATE",
+      "message": "If that doesn't work, "
+   },
+   "error_msg_help_partII": {
+      "description": "DO NOT TRANSLATE",
+      "message": "check here for more help."
+   },
+   "error_msg_help_us_partI": {
+      "description": "DO NOT TRANSLATE",
+      "message": "Help us resolve this problem "
+   },
+   "error_msg_help_us_partII": {
+      "description": "DO NOT TRANSLATE",
+      "message": " by sending us some debug data."
+   },
+   "error_msg_partI": {
+      "description": "DO NOT TRANSLATE The text on the popup menu when an error has occurred",
+      "message": "We're sorry, the AdBlock menu had trouble loading."
+   },
+   "error_msg_reload_partI": {
+      "description": "DO NOT TRANSLATE",
+      "message": "Next, try reloading the extension by "
+   },
+   "error_msg_reload_partII": {
+      "description": "DO NOT TRANSLATE",
+      "message": "clicking here."
+   },
+   "error_msg_thank_you": {
+      "description": "The text on the popup menu when an error has occurred",
+      "message": "Kiitos"
+   },
+   "example_themes": {
+      "description": "Text in the alt attribute of an image in the Options page mab that visualizes the themes feature.",
+      "message": "Esimerkkiteemoja"
+   },
+   "excludedomainorurl": {
+      "description": "Message of the exclude section (Show ads on a webpage or domain) on the Customize tab",
+      "message": "Osoite tai verkkotunnus, jolla AdBlockin ei tule estää mitään"
+   },
+   "failedtofetchfilter": {
+      "description": "Error alert when subscribing to a filter list",
+      "message": "Suodattimen nouto epäonnistui!"
+   },
+   "feature_disabled": {
+      "description": "Title text on panel in the help flow",
+      "message": "Ominaisuus ei ole käytössä"
+   },
+   "feature_disabled_text": {
+      "description": "text on panel in the help flow",
+      "message": "Näyttää siltä, ettei ominaisuus ole käytössä. Kokeillaan, jos käyttöönotto korjaa ongelman."
+   },
+   "feedback_info": {
+      "description": "Text describing the MyAdBlock feedback call to action.",
+      "message": "Onko sinulla meille kommenteja tai kehitysehdotuksia? Kuulisimme ne mielellämme!"
+   },
+   "feedback_title": {
+      "description": "Title for feedback call to action.",
+      "message": "Palaute"
+   },
+   "fetchinglabel": {
+      "description": "Status label when selecting a new filter list",
+      "message": "Noudetaan... odota hetki."
+   },
+   "ff_button_how_to_hide": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Remove from Toolbar' should match the text that Firefox displays when you right click a toolbar button, and 'Customize' should match the text that shows when you click the button on the Firefox toolbar with three lines.",
+      "message": "Piilottaaksesi painikkeen, paina sitä hiiren kakkospainikkeella ja valitse \"Poista työkaluriviltä\". Voit palauttaa sen painamalla Firefoxin työkalupalkkia hiiren kakkospainikkeella ja valitsemalla valikosta \"Muokkaa työkalupalkkia\"."
+   },
+   "ff_checkinchrome_1": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Asenna Firefox, jollei sinulla ole sitä."
+   },
+   "ff_checkinchrome_2": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Asenna AdBlock Chromeen, jollei sinulla ole sitä."
+   },
+   "ff_checkinchrome_3": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Tilaa Chromessa samat suodatinlistat, joita käytät tässä."
+   },
+   "ff_checkinchrome_4": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Lataa sivu, jolla mainos on, Chromessa."
+   },
+   "ff_checkinchrome_5": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Näkyykö mainos myös Chromessa?"
+   },
+   "ff_checkinchrometitle": {
+      "description": "Tell a user to see if a reported ad also appears in Chrome",
+      "message": "Kokeile Chromella"
+   },
+   "filter_annoyances_explained": {
+      "description": "A filter list explanation",
+      "message": "estää ponnahdukset, sosiaalisen median ja siihen liittyvät vimpaimet sekä muut ärsykkeet"
+   },
+   "filter_antisocial_explained": {
+      "description": "A filter list explaination",
+      "message": "poistaa sosiaalisen median painikkeet"
+   },
+   "filter_chinese": {
+      "description": "A filter list combined with EasyList",
+      "message": "Kiina + EasyList"
+   },
+   "filter_czech": {
+      "description": "A filter list combined with EasyList",
+      "message": "Tsekki ja slovakia + EasyList"
+   },
+   "filter_dutch": {
+      "description": "A filter list combined with EasyList",
+      "message": "Hollanti + EasyList"
+   },
+   "filter_easylist_plus_arabic_plus_french": {
+      "description": "A filter list combined with EasyList",
+      "message": "Arabia + Ranska + EasyList"
+   },
+   "filter_easylist_plus_bulgarian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Bulgaria + EasyList"
+   },
+   "filter_easylist_plus_french": {
+      "description": "A filter list combined with EasyList",
+      "message": "Ranska + EasyList"
+   },
+   "filter_easylist_plus_german": {
+      "description": "A filter list combined with EasyList",
+      "message": "Saksa + EasyList"
+   },
+   "filter_easylist_plus_indonesian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Indonesia + EasyList"
+   },
+   "filter_easylist_plus_lithuania": {
+      "description": "A filter list combined with EasyList",
+      "message": "Liettua + EasyList"
+   },
+   "filter_easylist_plus_romanian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Romania + EasyList"
+   },
+   "filter_easylist_plus_vietnamese": {
+      "description": "A filter list combined with EasyList",
+      "message": "Vietnam + EasyList"
+   },
+   "filter_elemhideemulation_nodomain": {
+      "message": "Laajennetulle elementin piilotussuodattimelle ei ole määritetty aktiivista verkkotunnusta"
+   },
+   "filter_idcac_explained": {
+      "description": "A filter list explanation",
+      "message": "estää evästeilmoitukset, mikä tarkoittaa sitä, että luovut oikeudestasi saada ilmoituksia evästeiden käytöstä käyttämilläsi sivustoilla"
+   },
+   "filter_invalid": {
+      "description": "Generic error shown when the user tries to add an invalid filter rule to their custom filters",
+      "message": "Virheellinen suodatin"
+   },
+   "filter_invalid_csp": {
+      "message": "Virheellinen sisällön suojauskäytäntö"
+   },
+   "filter_invalid_domain": {
+      "message": "Virheellinen (tai tyhjä) verkkotunnus"
+   },
+   "filter_invalid_regexp": {
+      "message": "Virheellinen säännöllinen lauseke"
+   },
+   "filter_israeli": {
+      "description": "A filter list combined with EasyList",
+      "message": "Heprea + EasyList"
+   },
+   "filter_italian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Italia + EasyList"
+   },
+   "filter_latvian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Latvia + EasyList"
+   },
+   "filter_russian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Venäjä ja ukraina + EasyList"
+   },
+   "filter_snippet_nodomain": {
+      "message": "Snippet-suodattimelle ei ole määritetty aktiivista verkkotunnusta"
+   },
+   "filter_unknown_option": {
+      "message": "Tuntematon suodatinvalinta"
+   },
+   "filter_warning_removal_explained": {
+      "description": "A filter list explanation",
+      "message": "poistaa varoitukset mainoseston käytöstä"
+   },
+   "filteracceptable_ads": {
+      "description": "A filter list",
+      "message": "Hyväksyttävät mainokset"
+   },
+   "filteracceptable_ads_privacy": {
+      "description": "A filter list",
+      "message": "Hyväksyttävät mainokset -tietosuoja"
+   },
+   "filteradblock_custom": {
+      "description": "A filter list",
+      "message": "AdBlockin mukautetut suodattimet"
+   },
+   "filterannoyances": {
+      "description": "A filter list",
+      "message": "Fanboy's Annoyances (estää ponnahdukset, sosiaalisen median ja siihen liittyvät vimpaimet sekä muut ärsykkeet)"
+   },
+   "filterannoyances2": {
+      "description": "A filter list",
+      "message": "Fanboy's Annoyances"
+   },
+   "filteranticircumvent": {
+      "description": "A filter list",
+      "message": "Mainoseston kiertoa vastustavat suodattimet"
+   },
+   "filterantisocial": {
+      "description": "A filter list",
+      "message": "Antisocial filter list (poistaa sosiaalisen median painikkeet)"
+   },
+   "filterantisocial2": {
+      "description": "A filter list",
+      "message": "Antisocial filter list"
+   },
+   "filterbitcoin_mining_protection": {
+      "description": "A filter list",
+      "message": "Kryptovaluutan (Bitcoin) louhinnalta suojaava lista"
+   },
+   "filterbrazilian_portuguese": {
+      "description": "A filter list",
+      "message": "Portugali (Brasilia)"
+   },
+   "filterchinese": {
+      "description": "A filter list",
+      "message": "kiina"
+   },
+   "filterczech": {
+      "description": "A filter list",
+      "message": "Tshekki ja slovakia"
+   },
+   "filterdanish": {
+      "description": "A filter list",
+      "message": "tanska"
+   },
+   "filterdutch": {
+      "description": "A filter list",
+      "message": "hollanti"
+   },
+   "filtereasylist": {
+      "description": "A filter list",
+      "message": "EasyList"
+   },
+   "filtereasylist_lite": {
+      "description": "A filter list",
+      "message": "EasyList Lite"
+   },
+   "filtereasylist_plun_korean": {
+      "description": "A filter list",
+      "message": "korea"
+   },
+   "filtereasylist_plus_arabic": {
+      "description": "A filter list",
+      "message": "arabia"
+   },
+   "filtereasylist_plus_bulgarian": {
+      "description": "A filter list",
+      "message": "Bulgaria"
+   },
+   "filtereasylist_plus_estonian": {
+      "description": "A filter list",
+      "message": "viro"
+   },
+   "filtereasylist_plus_finnish": {
+      "description": "A filter list",
+      "message": "suomi"
+   },
+   "filtereasylist_plus_french": {
+      "description": "A filter list",
+      "message": "ranska"
+   },
+   "filtereasylist_plus_german": {
+      "description": "A filter list",
+      "message": "saksa"
+   },
+   "filtereasylist_plus_greek": {
+      "description": "A filter list",
+      "message": "kreikka"
+   },
+   "filtereasylist_plus_indian": {
+      "description": "A filter list",
+      "message": "IndianList + EasyList"
+   },
+   "filtereasylist_plus_indonesian": {
+      "description": "A filter list",
+      "message": "Indonesia"
+   },
+   "filtereasylist_plus_lithuania": {
+      "description": "A filter list",
+      "message": "liettua"
+   },
+   "filtereasylist_plus_polish": {
+      "description": "A filter list",
+      "message": "puola"
+   },
+   "filtereasylist_plus_portuguese": {
+      "description": "A filter list",
+      "message": "Portugali + EasyList"
+   },
+   "filtereasylist_plus_romanian": {
+      "description": "A filter list",
+      "message": "romania"
+   },
+   "filtereasylist_plus_spanish": {
+      "description": "A filter list",
+      "message": "espanja"
+   },
+   "filtereasylist_plus_vietnamese": {
+      "description": "A filter list combined with EasyList",
+      "message": "Vietnam"
+   },
+   "filtereasyprivacy": {
+      "description": "A filter list",
+      "message": "EasyPrivacy (tietosuoja)"
+   },
+   "filterfb_notifications": {
+      "description": "A filter list",
+      "message": "Fanboy's Notifications (estää sivun sisäiset ponnahdukset, sosiaalisen median ja siihen liittyvät vimpaimet ja muut ärsykkeet)"
+   },
+   "filterhungarian": {
+      "description": "A filter list",
+      "message": "unkari"
+   },
+   "filtericelandic": {
+      "description": "A filter list",
+      "message": "islanti"
+   },
+   "filteridcac": {
+      "description": "A filter list",
+      "message": "I Don't Care About Cookies"
+   },
+   "filterisraeli": {
+      "description": "A filter list",
+      "message": "Heprea"
+   },
+   "filteritalian": {
+      "description": "A filter list",
+      "message": "italia"
+   },
+   "filterjapanese": {
+      "description": "A filter list",
+      "message": "japani"
+   },
+   "filterlatvian": {
+      "description": "A filter list",
+      "message": "Latvia"
+   },
+   "filterlistlink": {
+      "description": "Filter lists tab explanation and link to filter list credits.",
+      "message": "Älä tilaa enempää suodattimia, kuin tarvitset -- jokainen niistä hidastaa vähän lisää! Tekijöiden tiedot ja lisää listoja löytyy [[täältä]]."
+   },
+   "filterlistsrock": {
+      "description": "Header text on the Customize tab",
+      "message": "Suodatinlistat estävät valtaosan verkon mainoksista. Voit myös:"
+   },
+   "filterlistsrock2": {
+      "description": "Header text on the Customize tab",
+      "message": "Suodatinlistat estävät valtaosan verkon mainoksista. Voit myös..."
+   },
+   "filternordic": {
+      "description": "A filter list combined with EasyList",
+      "message": "Pohjoismaiset suodattimet + EasyList"
+   },
+   "filternorwegian": {
+      "description": "A filter lsit",
+      "message": "Norja"
+   },
+   "filterorigin": {
+      "description": "Resource list page: tooltip of matching filter, telling which filter list contains the filter",
+      "message": "Suodattimen alkuperä:\n$list$",
+      "placeholders": {
+         "list": {
+            "content": "$1",
+            "example": "A filter list name OR AdBlock OR the translation of 'tabcustomize'"
+         }
+      }
+   },
+   "filterrussian": {
+      "description": "Language names for a filter list",
+      "message": "Venäjä ja ukraina"
+   },
+   "filtersavewarning_part1": {
+      "description": "Warning when manually editing filters -- first part not clickable.",
+      "message": "Ole varovainen: jos teet tässä virheen, saattavat monet muut suodattimet rikkoutua, viralliset suodattimet mukaan lukien!"
+   },
+   "filtersavewarning_part2": {
+      "description": "Warning when manually editing filters -- second part clickable.",
+      "message": "Lue [[suodattimien syntaksiopas]] saadaksesi lisätietoja edistyneen estolistan ja sallittujen listan käytöstä."
+   },
+   "filterstabtitle": {
+      "description": "Title of the Filter lists tab of the Options page",
+      "message": "Tilaa suodatinlistoja"
+   },
+   "filterswedish": {
+      "description": "A filter list",
+      "message": "Ruotsi"
+   },
+   "filterturkish": {
+      "description": "A filter list",
+      "message": "Turkki"
+   },
+   "filterviewsource": {
+      "description": "Title for links to view filter lists on website",
+      "message": "Näytä suodatinlista"
+   },
+   "filterwarning_removal": {
+      "description": "A filter list. \"Adblock\" is written with a lowercase B in this string as it refers to ad blocking extensions in general, not just AdBlock specifically.",
+      "message": "Adblock Warning Removal list (poistaa varoitukset mainoseston käytöstä)"
+   },
+   "filterwarning_removal2": {
+      "description": "A filter list. \"Adblock\" is written with a lowercase B in this string as it refers to ad blocking extensions in general, not just AdBlock specifically.",
+      "message": "Adblock Warning Removal list"
+   },
+   "find_out_more": {
+      "description": "Text in the button on the Premium CTA on the hiding wizard.",
+      "message": "Lue lisää"
+   },
+   "findingads": {
+      "description": "'Block an ad' wizard loading message",
+      "message": "Etsitään mainoksia...\n\nTämä kestää hetken."
+   },
+   "firefox_explanation": {
+      "description": "Explanation of the 'Check in Firefox or Chrome' step on the ad report page",
+      "message": "Tämän kysymyksen tarkoitus on määrittää kuka ilmoituksesi vastaanottaa. Jos vastaat kysymykseen väärin, raportti lähetetään väärille henkilöille, eikä sitä välttämättä huomioida."
+   },
+   "first_time_seeing_ad": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Näen mainoksen ensimmäistä kertaa"
+   },
+   "fixityourself": {
+      "description": "Telling users who won't report an ad to us how to handle it for themselves",
+      "message": "OK, voit silti estää mainoksen vain itseltäsi Asetukset-sivulla. Kiitos!"
+   },
+   "flashads": {
+      "description": "Title of the final ad report question if the ad didn't appear in Firefox",
+      "message": "Videot ja Flash"
+   },
+   "foodchannelswitchlabel": {
+      "description": "The label text for the Food switch on the MyAdBlock Options page",
+      "message": "Ruoka"
+   },
+   "format": {
+      "description": "Example showing users how to input a list of sites on the Customize tab. You can translate the 'news' and 'siteN' but leave the '|'s and '~'s in place.",
+      "message": "Muoto:"
+   },
+   "framedomain": {
+      "description": "Resource list page: domain name of the frame",
+      "message": "Kehyksen verkkotunnus: "
+   },
+   "frametype": {
+      "description": "Resource list page: followed by frame type (top frame, subframe)",
+      "message": "Kehystyyppi: "
+   },
+   "frameurl": {
+      "description": "Resource list page: full URL of the frame",
+      "message": "Kehyksen URL-osoite: "
+   },
+   "fun_way_customize": {
+      "description": "Description of Themes on the main Premium options page",
+      "message": "Teemat ovat hauska tapa mukauttaa AdBlockia selaimessasi."
+   },
+   "future_show_ads": {
+      "description": "Part of a message on the allowlist wizard",
+      "message": "Näillä sivuilla näytetään jatkossakin mainoksia."
+   },
+   "generaloptions": {
+      "description": "Title of the first Options page tab",
+      "message": "Yleiset asetukset"
+   },
+   "generaloptions2": {
+      "description": "Title of one of the Options page tabs",
+      "message": "Yleiset asetukset"
+   },
+   "get_around_popups": {
+      "description": "Description of Bypass Mode on the main Premium options page",
+      "message": "Ohitustilalla voit kiertää joitakin näistä ponnahduksista poistamatta AdBlockia käytöstä."
+   },
+   "get_distractioncontrol": {
+      "description": "Part 2 of a call-to-action on the Popup menu",
+      "message": "Hanki Häiriöhallinta"
+   },
+   "get_it_now": {
+      "description": "The text in a button visible to locked users in the MyAdBlock Options page",
+      "message": "Hanki se nyt"
+   },
+   "get_sync": {
+      "description": "Link to pay for Sync (part of AdBlock Premium)",
+      "message": "Hanki synkronointi"
+   },
+   "goatchannelswitchlabel": {
+      "description": "The label text for the Goats switch on the MyAdBlock Options page",
+      "message": "Vuohet"
+   },
+   "goodbye_distractions": {
+      "description": "Description of the distraction control option",
+      "message": "Häiriöhallinnan avulla jätät hyvästit uutiskirjeponnahduksille, kelluville viedeoille ja muille ärsyttäville häiriötekijöille."
+   },
+   "got_it": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Selvä."
+   },
+   "got_it_no_period": {
+      "description": "Button text on the DC options page.",
+      "message": "Selvä"
+   },
+   "header": {
+      "description": "Text in theme box of the Themes tab of the Options page (no more than 10 characters)",
+      "message": "Otsikko"
+   },
+   "headerfilter": {
+      "description": "Resource list page: title of a column",
+      "message": "Täsmätty suodatin"
+   },
+   "headerresource": {
+      "description": "Resource list page: title of a column",
+      "message": "Resurssi"
+   },
+   "headertype": {
+      "description": "Resource list page: title of a column",
+      "message": "Tyyppi"
+   },
+   "help": {
+      "description": "Text in the aria-label attribute of the support icon on the pop-up menu.",
+      "message": "Tuki"
+   },
+   "help_and_feedback": {
+      "description": "Text of a help link in the toolbar button menu",
+      "message": "Tuki ja palaute"
+   },
+   "helpcenter": {
+      "description": "Link to AdBlock's help site. This is found on the Support tab of the options.",
+      "message": "Vieraile [[tukikeskuksessamme]]"
+   },
+   "hiddenelement": {
+      "description": "Resource list page: resource status",
+      "message": "Piilotettu elementti"
+   },
+   "hiddenelementmessagecount": {
+      "description": "The total number of ads or 'things' hidden on a page by the new rule.",
+      "message": "$count$ muuta sivun kohdetta on myös tilapäisesti piilotettu",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "hide_details": {
+      "description": "Toggle that hides the details section",
+      "message": "Piilota tiedot"
+   },
+   "hide_newsletter_popups": {
+      "description": "Sub-header on the distraction control options page",
+      "message": "Piilota uutiskirjeponnahdukset"
+   },
+   "hide_this_button": {
+      "description": "Toolbar button menu entry to hide the AdBlock button",
+      "message": "Piilota tämä painike"
+   },
+   "how": {
+      "description": "Text of a link pointing to instructions on how to do something",
+      "message": "Miten?"
+   },
+   "how_can_we_help": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Miten voimme auttaa?"
+   },
+   "ignore_survey_requests": {
+      "description": "Sub-header on the distraction control options page",
+      "message": "Ohita kyselypyynnöt"
+   },
+   "image_of_channel": {
+      "description": "Text in the alt attribute of an image injected into a page as part of the Image Swap feature.",
+      "message": "Kuva kategoriasta $image_category$",
+      "placeholders": {
+         "image_category": {
+            "content": "$1",
+            "example": "Dogs"
+         }
+      }
+   },
+   "image_swap": {
+      "description": "Title of the Image Swap sub-tab of the Options page",
+      "message": "Kuvavaihto"
+   },
+   "image_swap_example": {
+      "description": "Text in the alt attribute of an image in the Options page mab that visualizes the Image Swap feature.",
+      "message": "Esimerkki Kuvavaihdosta"
+   },
+   "images_coming_soon": {
+      "description": "The text telling MyAdBlock active users that there will be more photos for MyAdBlock.",
+      "message": "Lisää kuvia on tulossa pian!"
+   },
+   "invalidListUrl": {
+      "description": "Message when you subscribe to a non-list URL",
+      "message": "Listan URL-osoite on virheellinen, joten se poistetaan."
+   },
+   "isithidden": {
+      "description": "'Block an ad' wizard usage explanation",
+      "message": "Onko kohde piilotettu?"
+   },
+   "issue_unrelated_adblock": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Sivustolla näyttää olevan ongelma, joka ei liity AdBlockiin."
+   },
+   "join_mailing_list": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Liity postituslistallemme"
+   },
+   "join_vpn_waitlist": {
+      "description": "Text of a menu item in the popup menu asking users to leave us a review.",
+      "message": "Liity beta-listalle varhaista käyttöä varten!"
+   },
+   "keep_touch": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Pidä yhteyttä!"
+   },
+   "landscapechannelswitchlabel": {
+      "description": "The label text for the Landscape switch on the MyAdBlock Options page",
+      "message": "Maisemat"
+   },
+   "lang_arabic": {
+      "description": "Language name",
+      "message": "Arabia"
+   },
+   "lang_bulgarian": {
+      "description": "Language name",
+      "message": "Bulgaria"
+   },
+   "lang_catalan": {
+      "description": "Language name",
+      "message": "Katalaani"
+   },
+   "lang_chinese": {
+      "description": "Language name",
+      "message": "Kiina"
+   },
+   "lang_chinese_simplified": {
+      "description": "Language name",
+      "message": "Kiina (yksinkertaistettu)"
+   },
+   "lang_chinese_traditional": {
+      "description": "Language name",
+      "message": "Kiina (perinteinen)"
+   },
+   "lang_croatian": {
+      "description": "Language name",
+      "message": "Kroatia"
+   },
+   "lang_czech": {
+      "description": "Language name",
+      "message": "Tšekki"
+   },
+   "lang_danish": {
+      "description": "Language name",
+      "message": "Tanska"
+   },
+   "lang_dutch": {
+      "description": "Language name",
+      "message": "Hollanti"
+   },
+   "lang_english": {
+      "description": "Language name",
+      "message": "Englanti"
+   },
+   "lang_estonian": {
+      "description": "Language name",
+      "message": "Viro"
+   },
+   "lang_finnish": {
+      "description": "Language name",
+      "message": "Suomi"
+   },
+   "lang_french": {
+      "description": "Language name",
+      "message": "Ranska"
+   },
+   "lang_german": {
+      "description": "Language name",
+      "message": "Saksa"
+   },
+   "lang_greek": {
+      "description": "Language name",
+      "message": "Kreikka"
+   },
+   "lang_hungarian": {
+      "description": "Language name",
+      "message": "Unkari"
+   },
+   "lang_icelandic": {
+      "description": "Language name",
+      "message": "Islanti"
+   },
+   "lang_indonesian": {
+      "description": "Language name",
+      "message": "Indonesia"
+   },
+   "lang_israeli": {
+      "description": "Language name",
+      "message": "Heprea"
+   },
+   "lang_italian": {
+      "description": "Language name",
+      "message": "Italia"
+   },
+   "lang_japanese": {
+      "description": "Language name",
+      "message": "Japani"
+   },
+   "lang_korean": {
+      "description": "Language name",
+      "message": "Korea"
+   },
+   "lang_latvian": {
+      "description": "Language name",
+      "message": "Latvia"
+   },
+   "lang_lithuania": {
+      "description": "Language name",
+      "message": "Liettua"
+   },
+   "lang_norwegian": {
+      "description": "Language name",
+      "message": "Norja"
+   },
+   "lang_polish": {
+      "description": "Language name",
+      "message": "Puola"
+   },
+   "lang_portuguese_brazil": {
+      "description": "Language name",
+      "message": "Portugali (Brasilia)"
+   },
+   "lang_portuguese_portugal": {
+      "description": "Language name",
+      "message": "Portugali (Portugali)"
+   },
+   "lang_romanian": {
+      "description": "Language name",
+      "message": "Romania"
+   },
+   "lang_russian": {
+      "description": "Language name",
+      "message": "Venäjä"
+   },
+   "lang_serbian": {
+      "description": "Language name",
+      "message": "Serbia"
+   },
+   "lang_slovak": {
+      "description": "Language name",
+      "message": "Slovakki"
+   },
+   "lang_slovenian": {
+      "description": "Language name",
+      "message": "Slovenia"
+   },
+   "lang_spanish": {
+      "description": "Language name",
+      "message": "Espanja"
+   },
+   "lang_swedish": {
+      "description": "Language name",
+      "message": "Ruotsi"
+   },
+   "lang_turkish": {
+      "description": "Language name",
+      "message": "Turkki"
+   },
+   "lang_ukranian": {
+      "description": "Language name",
+      "message": "Ukraina"
+   },
+   "lang_vietnamese": {
+      "description": "Language name",
+      "message": "Vietnam"
+   },
+   "languagedropdowndescription": {
+      "description": "Dropdown list for language-specific filter lists",
+      "message": "Lisää suodattimia toiselle kielelle: "
+   },
+   "learn_more": {
+      "description": "Link to Knowledge Base article with more information about the settings change",
+      "message": "Lue lisää."
+   },
+   "learn_more_filter_lists": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Saatat olla myös halukas [[oppimaan lisää suodatinlistoista]]."
+   },
+   "learn_more_lower": {
+      "description": "GFC messaging on the popup menu",
+      "message": "Lue lisää"
+   },
+   "learn_more_to_resolve": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Voit [[lukea lisää täältä]] ongelman ratkaisemiseksi."
+   },
+   "learn_more_without_period": {
+      "description": "Text in the aria-label attribute of an icon linking to extra information about an option.",
+      "message": "Lue lisää"
+   },
+   "leave_a_review": {
+      "description": "Text of a menu item in the popup menu asking users to leave us a review.",
+      "message": "Arvostele meidät!"
+   },
+   "legend": {
+      "description": "Resource list page: followed by color codes for various resource statuses (blocked, allowlisted, hidden)",
+      "message": "Selite: "
+   },
+   "linkblockadbyurl": {
+      "description": "Link label on the 'Customize' tab",
+      "message": "Estä mainos sen osoitteen perusteella"
+   },
+   "linkhidesection": {
+      "description": "Link label on the 'Customize' tab",
+      "message": "Piilota osa verkkosivusta"
+   },
+   "linkunblock": {
+      "description": "Link label on the 'Customize' tab",
+      "message": "Näytä mainokset verkkosivulla tai -tunnuksella"
+   },
+   "loading": {
+      "description": "Generic message displayed during processes that take some time",
+      "message": "Ladataan..."
+   },
+   "loading_in_progress": {
+      "description": "Text in the aria-label attribute of an icon indicating that page is currently loading",
+      "message": "lataus on käynnissä"
+   },
+   "local_cdn_option": {
+      "description": "Option to let the user enable Local CDN feature.",
+      "message": "Käytä paikallista puskurointia suosituille verkkosivustojen käyttämille kirjastoille"
+   },
+   "locked": {
+      "description": "Text in the aria-label attribute of an icon showing a feature/option is locked.",
+      "message": "Lukittu"
+   },
+   "love_adblock": {
+      "description": "Text in a button that asks users to rate us.",
+      "message": "Pidätkö AdBlockista?"
+   },
+   "mac_app_message_menu_part_one": {
+      "description": "part one of the message to safari users on the popup menu",
+      "message": "Uusi!"
+   },
+   "mac_app_message_menu_part_two": {
+      "description": "part two of the message to safari users on the popup menu",
+      "message": "Kokeile AdBlockin Mac-sovellusta"
+   },
+   "mac_app_message_options": {
+      "description": "Message to users on the Options page",
+      "message": "AdBlock Safarille on nyt saatavilla Mac sovelluksena!"
+   },
+   "make_adblock_yours_description": {
+      "description": "The main text of a feature box in the MyAdBlock Options page",
+      "message": "Hallitset AdBlockin ulkonäköä, tunnelmaa ja fonttikokoa helppokäyttöisillä valinnoilla."
+   },
+   "make_adblock_yours_title": {
+      "description": "The title of a feature box in the MyAdBlock Options page",
+      "message": "Tee AdBlockista omasi"
+   },
+   "manage_subscribed_channel": {
+      "description": "Entry in the AdBlock menu, only displayed when a user is browsing YouTube and has enabled the YouTube channel allow listing option",
+      "message": "Hallinnoi tilattujen kanavien  mainoksia"
+   },
+   "manage_subscription": {
+      "description": "Text of link to manage the user's Premium subscription on the Premium tab of the Options page",
+      "message": "Hallinnoi tilaustasi"
+   },
+   "manualexcludefilteredit": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Muokkaa käytöstä poistettuja suodattimia:"
+   },
+   "manualexcludefilteredit2": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Muokkaa käytöstä poistettuja suodattimia"
+   },
+   "manualfilteredit": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Muokkaa suodattimiasi itse:"
+   },
+   "manualfilteredit2": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Muokkaa suodattimiasi itse"
+   },
+   "manualfilteredit_yt": {
+      "description": "Subtitle on the 'General' tab of AdBlock on YouTube",
+      "message": "Muokkaa suodattimiasi itse:"
+   },
+   "manuallyenableotherextensions": {
+      "description": "On the ad report page, alert notifying users that they will need to manually reenable the extensions",
+      "message": "Avaa Laajennukset-sivu palauttaaksesi aiemmin käytöstä poistetut laajennukset käyttöön."
+   },
+   "migration_error_message": {
+      "description": "Error when adding custom filters manually",
+      "message": "Joistakin omista suodattimistasi löytyi virheitä. Katso viestit alta."
+   },
+   "modifydomain": {
+      "description": "Caption for the allowlist wizard slider that modifies the domain part of a URL",
+      "message": "Sivusto:"
+   },
+   "modifypath": {
+      "description": "Caption for the allowlist wizard slider that modifies the path part of a URL",
+      "message": "Sivu:"
+   },
+   "more_themes_coming_soon": {
+      "description": "Text in theme box of the Themes tab of the Options page (no more than 60 characters)",
+      "message": "Vilkaise pian uudelleen, lisää teemoja on tulossa!"
+   },
+   "more_themes_on_the_way": {
+      "description": "Text in theme box of the Themes tab of the Options page (no more than 60 characters)",
+      "message": "Lisää teemoja on tulossa!"
+   },
+   "myadblock_benefits_explained": {
+      "description": "Main text of the teaser MyAdBlock feature in the MyAdBlock tab of the Options page",
+      "message": "Vastineeksi tukemisestamme MyAdBlockin käyttöönotolla saat käyttöösi viimeisimmät työkalut ja ominaisuudet heti niiden julkaisuhetkellä."
+   },
+   "myadblock_feedback_button": {
+      "description": "Text on the MyAdBlock feedback button",
+      "message": "Lähetä palautetta"
+   },
+   "myadblock_feedback_info": {
+      "description": "Text describing the MyAdBlock feedback call to action.",
+      "message": "Jos sinulla on meille palautetta tai kehitysehdotuksia, käytä palautesivuamme."
+   },
+   "myadblock_feedback_title": {
+      "description": "Title for MyAdBlock feedback call to action.",
+      "message": "Haluaisimme kuulla palautettasi!"
+   },
+   "myadblock_more_coming_soon": {
+      "description": "Title of the teaser MyAdBlock feature box in the MyAdBlock tab of the Options page",
+      "message": "Lisää ominaisuuksia on tulossa pian!"
+   },
+   "myadblock_options_page_header": {
+      "description": "The text of the header the MyAdBlock Options page",
+      "message": "MyAdBlock"
+   },
+   "myadblock_page_title": {
+      "description": "The text of the header the MyAdBlock Options page",
+      "message": "MyAdBlock: parempi tapa selata Internetiä."
+   },
+   "myadblock_payment_not_available_callout": {
+      "description": "The text notifying something is wrong in the payment iframe in the Options page.",
+      "message": "Voi ei!"
+   },
+   "myadblock_payment_not_available_subtitle": {
+      "description": "The sub-title of an error message box in payment iframe in the Options page.",
+      "message": "Palvelimiimme ei saatu yhteyttä"
+   },
+   "myadblock_payment_not_available_text": {
+      "description": "The text of an error message box in the MyAdBlock tab in option page when we cannot load iframe.",
+      "message": "Olemme todella iloisia siitä, että olet kiinnostunut MyAdBlockista! Valitettavasti emme voi käsitellä maksuja tällä hetkellä. Yritäthän myöhemmin uudelleen, kiitos."
+   },
+   "myadblock_payment_not_available_title": {
+      "description": "The title of an error message box in the MyAdBlock tab in option page when we cannot load iframe.",
+      "message": "VOI EI! Palvelimiimme ei saatu yhteyttä."
+   },
+   "myadblock_pic_replacemenet_description": {
+      "description": "The text briefly describing what the feature does in the MyAdBlock tab in the option page.",
+      "message": "Korvaa mainokset suosikkikuvillasi"
+   },
+   "myadblock_picreplacement_exlained": {
+      "description": "The label text for the switch on the MyAdBlock Options page",
+      "message": "Valitse alla olevista kategorioista, niin AdBlock korvaa mainoksia ajoittain korkealaatuisilla kuvilla piristäen päivääsi."
+   },
+   "myadblock_short_description": {
+      "description": "Text substitle of myAdBlock page in the options page",
+      "message": "Tehostettu AdBlock hauskoilla uusilla ominaisuuksilla yksinomaan lahjoittajille"
+   },
+   "myadblock_short_description_to_pay": {
+      "description": "The text next to the 'Get It Now' button on top of the MyAdBlock Options page",
+      "message": "Sinusta tulee mainoseston ammattiosaaja näillä helppokäyttöisillä laajennuksilla."
+   },
+   "myadblock_subscribe_invite": {
+      "description": "Text on hover of a locked MyAdBlock feature in the MyAdBlock tab of the Options page",
+      "message": "Tilaa MyAdBlock avataksesi"
+   },
+   "myadblock_themes_description": {
+      "description": "Text briefly describing what themes do on the MyAdBlock tab of the Options page",
+      "message": "Muuta AdBlockin ulkonäköä, kuten fonttikokoa ja väriteemaa"
+   },
+   "myadblockenrollment": {
+      "description": "The text of the menu item in the popup menu that takes you to the MyAdBlock Enrollment page",
+      "message": "Ota MyAdBlock käyttöön"
+   },
+   "myadblockoptions": {
+      "description": "The text of the menu item in the popup menu that takes you to the MyAdBlock Options page",
+      "message": "MyAdBlock"
+   },
+   "myadblockoptionscategoryheader": {
+      "description": "The text of the header the MyAdBlock Options page",
+      "message": "Kategoriat"
+   },
+   "myadblockoptionspageheader": {
+      "description": "The text of the header the MyAdBlock Options page",
+      "message": "MyAdBlock-asetukset"
+   },
+   "myadblockpicreplacementswitchlabel": {
+      "description": "The label text for the switch on the MyAdBlock Options page",
+      "message": "Korvaa joitakin estettyjä mainoksia korkealaatuisilla kuvilla alla olevista kategorioista"
+   },
+   "name": {
+      "description": "Extension name to be shown for release / published builds.  The extension name 'AdBlock' should NOT be translated, but the text after the dash should be translated",
+      "message": "AdBlock – paras mainosesto."
+   },
+   "name_adblock_on_youtube": {
+      "description": "Name of version of the AdBlock extension that only blocks ads on YouTube. Other strings that refer to the 'AdBlock on YouTube' extension should use this name.",
+      "message": "AdBlock YouTubelle"
+   },
+   "name_devbuild": {
+      "description": "Extension name to be shown for development builds. Note: this cannot be longer than 45 characters. Should not be translated",
+      "message": "AdBlockin kehitysversio"
+   },
+   "name_releasebuild": {
+      "description": "Extension name to be shown for release / published builds.  The extension name 'AdBlock' should NOT be translated, but the text after the dash should be translated",
+      "message": "AdBlock – paras mainosesto."
+   },
+   "needhelp": {
+      "description": "Subtitle on the Support tab",
+      "message": "Tarvitsetko apua?"
+   },
+   "never_lose_settings": {
+      "description": "Part 2 of a call-to-action on the allowlist and blocklist wizards",
+      "message": "Käytä tätä asetusta kaikilla laitteillasi, niin varmistat varmuuskopioinnin ja synkronoinnin avulla, ettet koskaan menetä AdBlock-asetuksiasi."
+   },
+   "never_share_email": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Emme koskaan jaa sähköpostiosoitettasi kenellekään."
+   },
+   "new_badge": {
+      "description": "Max 4 characters. If it's not possible to translate in four characters or less, please don't translate. Text in the badge of our extension toolbar icon.",
+      "message": "Uusi"
+   },
+   "new_cta_default_text": {
+      "description": "Text of a temporary call-to-action item in the popup menu.",
+      "message": "Päivitä AdBlockisi"
+   },
+   "new_cta_hovered_text": {
+      "description": "Text of a temporary call-to-action hovered item in the popup menu.",
+      "message": "Nauti paremmasta selauksesta"
+   },
+   "new_myadblock_feature_available": {
+      "description": "The text in the popup menu item saying there is a new MyAdBlock feature and takes you to the MyAdBlock tab in the option page.",
+      "message": "Paina tästä avataksesi uusia ominaisuuksia!"
+   },
+   "new_premium_feature": {
+      "description": "Part 1 of a call-to-action on the Popup menu",
+      "message": "Uusi Premium-ominaisuus on saatavilla!"
+   },
+   "new_resourcelist_explanation_osx": {
+      "description": "Message explaining how to access the resource list page on AdBlock 3.0+ (Mac)",
+      "message": "Näyttääksesi kaikki pyynnöt, paina sivulla hiiren kakkospainiketta, valitse 'Tarkista' (Option+Cmd+I), ja valitse 'AdBlock' -välilehti."
+   },
+   "new_resourcelist_explanation_win": {
+      "description": "Message explaining how to access the resource list page on AdBlock 3.0+ (Windows)",
+      "message": "Näyttääksesi kaikki pyynnöt, paina sivulla hiiren kakkospainiketta ja valitse 'Tarkastele' (Ctrl+Shift+I) ja sitten 'AdBlock' -välilehti."
+   },
+   "newmyadblockenrollment": {
+      "description": "The text of the 'Enable MyAdBlock' menu item in the popup menu that takes you to the MyAdBlock Enrollment page",
+      "message": "UUSI"
+   },
+   "newsletter_popups": {
+      "description": "Checbox label text for help flow in popup menu.",
+      "message": "Uutiskirjeponnahdukset"
+   },
+   "next": {
+      "description": "Button label text for help flow in popup menu.",
+      "message": "Seuraava"
+   },
+   "no": {
+      "description": "A negative response to a question",
+      "message": "Ei"
+   },
+   "no_changes_see_ad": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Mitään ei muuteta, joten näet mainoksia edelleen."
+   },
+   "no_data_msg_part_I": {
+      "description": "text on warning message when there's no user data to show on the statistics page of the Options page",
+      "message": "Näytettäviä estotilastoja ei tällä hetkellä ole."
+   },
+   "no_data_msg_part_II": {
+      "description": "text on warning message when there's no user data to show on the statistics page of the Options page",
+      "message": "Päivitä tämä sivu selattuasi verkkoa nähdäksesi ensimmäiset estotilastosi."
+   },
+   "no_data_title": {
+      "description": "title text on warning message when there's no user data to show on the statistics page of the Options page",
+      "message": "Ei tilastoja"
+   },
+   "no_thanks": {
+      "description": "button text in the help flow",
+      "message": "Ei kiitos"
+   },
+   "nodefaultfilter1": {
+      "description": "Instructions on ad report page pointing users to EasyList subscriptions list.",
+      "message": "Meillä ei ole oletussuodatinlistaa tälle kielelle.\n[[Yritä löytää kielelle sopiva lista]] tai estä mainos manuaalisesti AdBlockin valikosta."
+   },
+   "noresourcessend2": {
+      "description": "Resource list page: error message",
+      "message": "Joku meni pieleen. Resursseja ei ole lähetetty. Tämä sivu suljetaan nyt. Yritä päivittää verkkosivu."
+   },
+   "note": {
+      "description": "Indicates that the user should take note of the message that follows.",
+      "message": "HUOMIOI:"
+   },
+   "notification_antiadblock_message": {
+      "message": "Tämän sivuston tiedetään näyttäneen kohdennettuja mainoksia AdBlockin käyttäjille. Haluatko, että AdBlock piilottaa kohdennetut viestit?"
+   },
+   "notification_antiadblock_title": {
+      "message": "Piilotetaanko kohdistetut viestit?"
+   },
+   "ocean_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Valtameri"
+   },
+   "oceanchannelswitchlabel": {
+      "description": "The label text for the Ocean switch on the MyAdBlock Options page",
+      "message": "Valtameri"
+   },
+   "ok": {
+      "description": "Message for help flow in popup menu.",
+      "message": "OK"
+   },
+   "once": {
+      "description": "The button text on the popup menu",
+      "message": "Kerran"
+   },
+   "only_block_ads_on_these_sites": {
+      "description": "Label for textbox where user enters a list of sites on Customize tab",
+      "message": "Estä mainokset vain näillä sivustoilla:"
+   },
+   "onpage_messages": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Salli AdBlockin näyttää minulle asiaankuluvia viestejä verkkosivuilla"
+   },
+   "open_allowlist_wizard": {
+      "description": "Menu entry to open the allowlist wizard",
+      "message": "Lisää pysäytysvalintoja"
+   },
+   "operabutton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Hide Button' should match the text that Opera displays on the Extensions page.",
+      "message": "Piilottaaksesi painikkeen, avaa Laajennusivu valikosta tai osoiteella 'opera://extensions' ja valitse \"Piilota työkalupalkista\". Voit palauttaa painikkeen poistamalla valinnan."
+   },
+   "opt_out_stats_data": {
+      "description": "text related to the opt out data collection checkbox on the statistics page of the Options page",
+      "message": "Älä enää jatkossa kerää estotilastoja"
+   },
+   "options": {
+      "description": "The text of the link on chrome://chrome/extensions that takes you to the Options page",
+      "message": "Asetukset"
+   },
+   "options_page": {
+      "description": "General text used to define the extension options page.",
+      "message": "asetussivu"
+   },
+   "options_page_theme": {
+      "description": "Section title of the Themes tab of the Options page",
+      "message": "Asetussivun teema"
+   },
+   "optionstitle": {
+      "description": "Title for the Options page",
+      "message": "AdBlockin asetukset"
+   },
+   "optionstitle_yt": {
+      "description": "Title for the Options page for the 'AdBlock on YouTube' extension.",
+      "message": "AdBlock YouTubelle -asetukset"
+   },
+   "optionsversion": {
+      "description": "Version number",
+      "message": "Versio $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "3.9.2"
+         }
+      }
+   },
+   "orenteraurl": {
+      "description": "Text box to enter a link to a custom filter list",
+      "message": "Tai syötä URL-osoite:"
+   },
+   "other": {
+      "description": "Multiple choice option",
+      "message": "Muu"
+   },
+   "otherfilters": {
+      "description": "Subtitle on the Filter lists tab: List of filter lists to block other elements that are not ads.",
+      "message": "Muut suodatinlistat"
+   },
+   "overlay_notification_button_no": {
+      "message": "Ei"
+   },
+   "overlay_notification_button_yes": {
+      "message": "Kyllä"
+   },
+   "page_is_whitelisted": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Sivu on sallittujen listalla ja näet mainoksen sen vuoksi."
+   },
+   "page_is_whitelisted_distraction": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Sivu on sallittujen listalla ja näet häiriön sen vuoksi."
+   },
+   "page_not_whitelisted": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Tämä sivu ei ole sallittujen listallasi."
+   },
+   "pagelanguagecheck": {
+      "description": "Question on ad report page",
+      "message": "Millä kielellä sivu on kirjoitettu?"
+   },
+   "parent_menu_item_site": {
+      "description": "menu item text on the statistics page of the Options page",
+      "message": "Estot sivustoittain"
+   },
+   "parent_menu_item_time": {
+      "description": "menu item text on the statistics page of the Options page",
+      "message": "Estot ajan mittaan"
+   },
+   "pause_adblock": {
+      "description": "Menu entry to pause AdBlock (stop blocking ads)",
+      "message": "Pysäytä AdBlock"
+   },
+   "pause_adblock_everywhere": {
+      "description": "Menu entry to pause AdBlock everywhere (stop blocking ads)",
+      "message": "Pysäytä kaikilla sivustoilla"
+   },
+   "pause_adblocking": {
+      "description": "Menu entry to pause the extension (stop blocking ads)",
+      "message": "Pysäytä mainosesto"
+   },
+   "pause_on_all_sites": {
+      "description": "First sentence in the aria-label of the pop-up menu action to pause blocking ads on all sites.",
+      "message": "Pysäytä kaikilla sivustoilla."
+   },
+   "pause_on_this_site": {
+      "description": "First sentence in the aria-label of the pop-up menu action to pause blocking ads on this site. This will be followed by the options 'Once' and 'Always'",
+      "message": "Pysäytä tällä sivustolla:"
+   },
+   "paused_not_blocking": {
+      "description": "Message for help flow in popup menu.",
+      "message": "AdBlock on tällä hetkellä pysäytetty, joten se ei estä mitään mainoksia."
+   },
+   "paused_not_blocking_distraction": {
+      "description": "panel text on the help flow in popup menu.",
+      "message": "AdBlock on tällä hetkellä pysäytetty, joten se ei estä mitään häiriöitä."
+   },
+   "paused_site_issue": {
+      "description": "Message for help flow in popup menu.",
+      "message": "AdBlock on tällä hetkellä pysäytetty, eli sivustolla näyttää olevan ongelma, joka ei liity AdBlockiin."
+   },
+   "personalize_experience": {
+      "description": "Description of Image Swap on the main Premium options page",
+      "message": "Mukauta selauskokemustasi saadaksesi vielä enemmän irtin AdBlockin $browser$-laajennuksesta.",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Chrome"
+         }
+      }
+   },
+   "please_click_confirm": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Paina tästä vahvistaaksesi, että haluat vastaanottaa tiimiltämme ajoittaisia sähköpostitiedotteita."
+   },
+   "please_confirm": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Vahvista jatkaaksesi"
+   },
+   "please_note": {
+      "description": "Description of the distraction control option",
+      "message": "Huomioi: "
+   },
+   "popup_menu": {
+      "description": "General text used to define the pop-up menu.",
+      "message": "ponnahdusvalikko"
+   },
+   "popup_menu_theme": {
+      "description": "Section title of the Themes tab of the Options page",
+      "message": "Ponnahdusvalikon teema"
+   },
+   "popup_menu_title": {
+      "description": "Title for the popup menu.",
+      "message": "AdBlock-ponnahdusvalikko"
+   },
+   "popups_disable_adblock": {
+      "description": "Description of Bypass Mode on the main Premium options page",
+      "message": "AdBlockin käytöstäpoistoa vaativat ponnahdukset ovat entistä yleisempiä."
+   },
+   "premium": {
+      "description": "Abbreviated name of the AdBlock upgrade.",
+      "message": "Premium"
+   },
+   "premium_access_without_disabling": {
+      "description": "GFC messaging on the popup menu",
+      "message": "AdBlock Premiumin uudet ominaisuudet tekevät haluamasi sisällön käytöstä helppoa ilman AdBlockin pysäytystarvetta."
+   },
+   "premium_benefits_explained": {
+      "description": "Main text of the teaser AdBlock Premium feature in the AdBlock Premium tab of the Options page",
+      "message": "Vastineeksi tukemisestamme AdBlock Premiumin käyttöönotolla saat käyttöösi viimeisimmät työkalut ja ominaisuudet heti niiden julkaisuhetkellä."
+   },
+   "premium_cta_button_text": {
+      "description": "button text on the statistics page of the Options page in the image swap panel",
+      "message": "Hanki premium"
+   },
+   "premium_cta_button_text_not_enabled": {
+      "description": "button text on the statistics page of the Options page in the image swap panel for premium users that haven't enabled image swap",
+      "message": "Ota käyttöön"
+   },
+   "premium_cta_msg": {
+      "description": "message body text on the statistics page of the Options page in the image swap panel",
+      "message": "Käytä Kuvavaihdon seurantaa ja paljon muuta Premiumilla."
+   },
+   "premium_cta_msg_not_enabled": {
+      "description": "message body text on the statistics page of the Options page in the image swap panel for premium users that haven't enabled image swap",
+      "message": "Näyttää siltä, ettei Kuvavaihto ole käytössä."
+   },
+   "premium_page_title": {
+      "description": "The text of the header the AdBlock Premium Options page",
+      "message": "AdBlock Premium: parempi tapa selata Internetiä."
+   },
+   "premium_status_msg": {
+      "description": "Message shown on the premium tab of the options page when the user is a licensed premium user",
+      "message": "Tukija alkaen $date$",
+      "placeholders": {
+         "date": {
+            "content": "$1",
+            "example": "January 2020"
+         }
+      }
+   },
+   "premium_status_short_msg": {
+      "description": "Message shown on the premium tab of the option page when user is a licensed premium user",
+      "message": "Aktiivinen"
+   },
+   "prevent_videos": {
+      "description": "Description of 'stop autoplay videos' on the distraction control options page",
+      "message": "Estä valtaosaa videoista toistumasta automaattisesti ja kelluvia videoita seuraamasta sinua selatessasi."
+   },
+   "preview_a_theme": {
+      "description": "Text in the aria-label attribute of an icon indicating that clicking will show the preview image of a theme on an extension page.",
+      "message": "Esikatsele teemaa $theme_name$ kohteelle $extension_page$",
+      "placeholders": {
+         "extension_page": {
+            "content": "$2",
+            "example": "options page"
+         },
+         "theme_name": {
+            "content": "$1",
+            "example": "Dark"
+         }
+      }
+   },
+   "preview_channel_image": {
+      "description": "Text in the alt attribute of an image previewed as part of the Image Swap feature.",
+      "message": "Esikatsele kuvaa kategoriasta $image_category$",
+      "placeholders": {
+         "image_category": {
+            "content": "$1",
+            "example": "Cats"
+         }
+      }
+   },
+   "privacy_policy": {
+      "description": "Link to AdBlock's privacy policy",
+      "message": "Tietosuojakäytäntö"
+   },
+   "problem_solved": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Mahtavaa! Ongelma ratkaistu."
+   },
+   "pwyw": {
+      "description": "Text of a payment request link",
+      "message": "Maksa mitä haluat!"
+   },
+   "pwyw2": {
+      "description": "Text of a payment request link",
+      "message": "Maksa mitä haluat!"
+   },
+   "rate_us": {
+      "description": "Text of a menu item in the popup menu asking users to leave us a review.",
+      "message": "Arvioi meidät"
+   },
+   "rebecca_purple_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Rebeccan violetti"
+   },
+   "reenableadsonebyone": {
+      "description": "Tells the user to re-enable the extensions one by one",
+      "message": "Hienoa! Selvitetäänpä nyt, mistä laajennuksesta ongelma johtuu. Ota laajennukset yksi kerrallaan käyttöön. Päästäksesi mainoksesta eroon sinun on poistettava se laajennus, jonka käyttöönoton myötä mainos palaa takaisin."
+   },
+   "refusetocheck": {
+      "description": "User is telling us they don't wish to investigate something for us",
+      "message": "En halua kokeilla tätä"
+   },
+   "reload_not_see_ad": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Päivitä sivu, jottet näe kyseistä mainosta enää!"
+   },
+   "reload_not_see_distraction": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Päivitä sivu, jottet näe kyseistä häiriötä enää!"
+   },
+   "reload_the_page": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Päivitä sivu"
+   },
+   "reload_when_ready": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Kun olet valmis, päivitä sivu painamalla alta."
+   },
+   "reloadadpage": {
+      "description": "Instruction on ad report page",
+      "message": "Päivitä sivu, joka sisältää mainoksen."
+   },
+   "reloadpageafterwhitelist": {
+      "description": "Checkbox in the allowlist wizard",
+      "message": "Lataa sivu uudelleen."
+   },
+   "remove_image": {
+      "description": "text on the remove / delete image modal on the image swap tab",
+      "message": "Poista kuva"
+   },
+   "remove_image_msg": {
+      "description": "text on the remove / delete image modal on the image swap tab",
+      "message": "Haluatko varmasti poistaa kuvan?"
+   },
+   "removed_url": {
+      "description": "Message for help flow in popup menu.",
+      "message": "OK! URL-osoite poistettiin sallittujen listalta."
+   },
+   "removefromlist": {
+      "description": "Label to remove a custom filter list",
+      "message": "Poista listalta"
+   },
+   "report_ad_on_page": {
+      "description": "Entry in the AdBlock button menu",
+      "message": "Ilmoita mainoksesta tällä sivulla"
+   },
+   "report_recieved": {
+      "description": "title text for help flow in popup menu.",
+      "message": "Ilmoitus on vastaanotettu"
+   },
+   "report_recieved_partI": {
+      "description": "Text for help flow in popup menu.",
+      "message": "Kiitos ilmoituksesta!"
+   },
+   "report_recieved_partII": {
+      "description": "Text for help flow in popup menu.",
+      "message": "Tiimillemme on ilmoitettu ja he tutkivat asiaa tarkemmin."
+   },
+   "reportfilterlistproblem": {
+      "description": "Telling the user to report an ad to a filter list maintainer",
+      "message": "Tämä on suodatinlistan ongelma. Ilmoita se tästä: $link$",
+      "placeholders": {
+         "link": {
+            "content": "[[]]",
+            "example": "The link could point to a filter list's forum, or to the email address of a filter list maintainer. For example, forums.lanik.us or someguy@list.com."
+         }
+      }
+   },
+   "reportpubliclyavailable": {
+      "description": "Ad report page string, when you're about to submit a report.",
+      "message": "Huomioi: Ilmoituksesi saatetaan julkaista. Pidä se mielessä ennen kuin sisällytät siihen mitään yksityistä."
+   },
+   "request_submission_permission": {
+      "description": "Title of panel in the help flow",
+      "message": "Lähetä URL"
+   },
+   "request_submission_url": {
+      "description": "text on panel in the help flow",
+      "message": "Auttaaksesi meitä vianmäärityksessä, arvostaisimme suuresti, jos voisit jakaa URL-osoitteen meille."
+   },
+   "require_restart_browser": {
+      "description": "Text displayed within an option to notify users to restart the browser to fully enable the option",
+      "message": "vaatii selaimen uudelleenkäynnistyksen"
+   },
+   "resourceblocktitle": {
+      "description": "Resource list page name",
+      "message": "Kaikki resurssit"
+   },
+   "resourcedomain": {
+      "description": "Resource list page: text shown when hovering over an item in the third-party column",
+      "message": "Ladattiin sivulla verkkotunnuksella:\n$domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "resume_blocking_ads": {
+      "description": "Link text to start blocking ads again, displayed immediately after 'AdBlock is paused on this site' or 'AdBlock is paused on all sites'",
+      "message": "Käynnistä mainosesto"
+   },
+   "resume_blocking_ads_period": {
+      "description": "First sentence in the aria-label of the pop-up menu action to resume blocking ads.",
+      "message": "Käynnistä mainosesto."
+   },
+   "resume_reload": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Haluatko käynnistää mainoseston ja päivittää sivun?"
+   },
+   "resume_reload_distraction": {
+      "description": "panel text on the help flow in popup menu.",
+      "message": "Haluatko ottaa AdBlockin käyttöön ja päivittää sivun?"
+   },
+   "retryaftersubscribe": {
+      "description": "Instructions on ad report page telling users to subscribe to a filter list and then check again to see whether the ad exists",
+      "message": "Tilaa suodatinlista ja yritä sitten uudelleen: $list_title$",
+      "placeholders": {
+         "list_title": {
+            "content": "$1",
+            "example": "French"
+         }
+      }
+   },
+   "safaributton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Customize Toolbar' should match the text that Safari displays in the toolbar's context menu.",
+      "message": "Piilottaaksesi painikkeen, klikkaa hiiren oikealla Safarin työkaluriviä ja valitse Mukauta työkaluriviä, sitten vedä AdBlock-painike pois työkaluriviltä. Voit näyttää sen uudelleen vetämällä sen takaisin työkaluriviin."
+   },
+   "safaricontentblocking": {
+      "description": "Checkbox on the 'General' tab of the Options page. 'Content Blocking' is the name of a different way of blocking resources introduced in Safari 9.",
+      "message": "Käytä Safarin sisällönestoa"
+   },
+   "safaricontentblockinglimitexceeded": {
+      "description": "Displayed when the number of rules in the subscribed filter lists is larger than the number supported by Safari Content Blocking, if that option is enabled.",
+      "message": "Suodatinlistojen sääntömäärä ylittää 50 000 säännön rajoituksen ja määrää on automaattisesti vähennetty. Lopeta joidenkin suodatinlistojen tilaukset tai poista Safarin sisällönesto käytöstä!"
+   },
+   "safaricontentblockingpausemessage": {
+      "description": "Alert displayed after clicking 'Pause AdBlock' in the AdBlock menu while Safari Content blocking is enabled.",
+      "message": "Jos haluat keskeyttää AdBlockin toiminnan, kun sisällönesto on käytössä, avaa valikosta Safari > Safari-laajennukset > Ja poista AdBlock-laajennuksen valinta"
+   },
+   "safarinotificationbody": {
+      "description": "Body of a notification shown to Safari Content Blocking users with too many filter list rules.",
+      "message": "Poista joitakin suodatinlistoja käytöstä. Lisätietoja AdBlockin asetuksissa."
+   },
+   "safarinotificationtitle": {
+      "description": "Title of a notification shown to Safari Content Blocking users with too many filter list rules.",
+      "message": "Sisällöneston sääntörajoitus on ylitetty"
+   },
+   "save_custom_settings_cta": {
+      "description": "Part 1 of a Premium call-to-action on the Options page",
+      "message": "Haluatko tallentaa omat mainosestoasetuksesi ja käyttää niitä kaikissa selaimissa?"
+   },
+   "save_settings_multiple": {
+      "description": "Sub-header describing Backup & Sync on the main Premium options page",
+      "message": "Tallenna useiden laitteiden AdBlock-asetukset"
+   },
+   "savebutton": {
+      "description": "Save button",
+      "message": "Tallenna"
+   },
+   "savereminder": {
+      "description": "Reminder to click 'Save'",
+      "message": "Muista tallentaa!"
+   },
+   "see_ad": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Näen mainoksen"
+   },
+   "see_ad_everywhere": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Näen tämän mainoksen kaikkialla"
+   },
+   "see_fewer_walls": {
+      "description": "Sub-header describing Bypass Mode on the main Premium options page",
+      "message": "Näe vähemmän mainoseston vastustusilmoituksia"
+   },
+   "see_photos_no_ads_description": {
+      "description": "The main text of a feature box in the MyAdBlock Options page",
+      "message": "Mainokset estetään edelleen, mutta osa niistä korvataan hienoilla kuvilla kissoista, koirista ja luonnosta."
+   },
+   "see_photos_no_ads_title": {
+      "description": "The title of a feature box in the MyAdBlock Options page",
+      "message": "Katsele kuvia, älä mainoksia"
+   },
+   "seeing_distractions": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Tällä sivustolla näkyy häiriöitä"
+   },
+   "seeing_distractions_title": {
+      "description": "panel title on the help flow in popup menu.",
+      "message": "Näkyy häiriöitä"
+   },
+   "selected": {
+      "description": "Text in the aria-label attribute of an icon showing an option is selected.",
+      "message": "Valittu"
+   },
+   "selectlanguage": {
+      "description": "First option in the language dropdown menu on the Filter lists tab. Include the ' -- ' on either side of your translation.",
+      "message": " -- Valitse kieli -- "
+   },
+   "selectlanguage2": {
+      "description": "First option in the language dropdown menu on the Filter lists tab.",
+      "message": "valitse kieli"
+   },
+   "senddebugdata": {
+      "description": "button text on the error message on the image swap tab",
+      "message": "Lähetä virheenjäljitystiedot"
+   },
+   "set_preferences_once": {
+      "description": "Description of Sync on Sync tab",
+      "message": "Määritä asetukset kerran, äläkä koskaan huolehdi tietojen menetyksestä tai saman muutoksen tekemisestä useille asennuksille uudelleen."
+   },
+   "set_up_once": {
+      "description": "Description of Backup & Sync on the main Premium options page",
+      "message": "Määritä AdBlock kerran ja pidä asetukset mukanasi!"
+   },
+   "settings": {
+      "description": "Text in the aria-label attribute of the gear icon on the pop-up menu.",
+      "message": "Asetukset"
+   },
+   "settings_changed": {
+      "description": "Part of Options page message letting users know of settings change.",
+      "message": "Tätä ennakoiden AdBlock toimii nyt eri tavalla ja jotkin asetuksesi ovat saattaneet muuttua."
+   },
+   "show_ads_except_for": {
+      "description": "Section title for the allowlisting section of Customize tab",
+      "message": "Näytä mainokset kaikkialla, poislukien nämä verkkotunnukset..."
+   },
+   "show_details": {
+      "description": "Toggle that shows the details section",
+      "message": "Näytä tiedot"
+   },
+   "show_devtools_panel": {
+      "description": "Checkbox letting user choose whether the AdBlock tab should be displayed in the developer tools window",
+      "message": "Näytä AdBlockin paneeli kehittäjätyökaluissa"
+   },
+   "show_language_options": {
+      "description": "Option to let the user choose AdBlock's display language.",
+      "message": "Anna minun valita AdBlockin näyttökieli"
+   },
+   "show_on_adblock_button": {
+      "description": "Checkbox letting user choose whether the toolbar button should show a badge with the number of ads blocked",
+      "message": "Näytä estettyjen mainosten määrä AdBlock-painikkeessa"
+   },
+   "show_on_adblock_menu": {
+      "description": "Checkbox letting user choose whether the AdBlock menu should show the number of ads blocked",
+      "message": "Näytä estettyjen mainosten määrä AdBlock-valikossa"
+   },
+   "show_on_button": {
+      "description": "Checkbox letting user choose whether the toolbar button should show a badge with the number of ads blocked",
+      "message": "Näytä estettyjen mainosten määrä painikkeessa"
+   },
+   "show_on_menu": {
+      "description": "Checkbox letting user choose whether the AdBlock menu should show the number of ads blocked",
+      "message": "Näytä estettyjen mainosten määrä valikossa"
+   },
+   "show_resourcelist": {
+      "description": "Menu entry to open the resource list page",
+      "message": "Näytä kaikki pyynnöt"
+   },
+   "show_some_love": {
+      "description": "Title of the tooltip of the rate us button CTA in the Options page.",
+      "message": "Näytä AdBlockille vähän rakkautta!"
+   },
+   "showcontextmenus2": {
+      "description": "Checkbox on the 'General' tab of the Options page.",
+      "message": "Lisää kohteet kontekstivalikkoon"
+   },
+   "showlinkstolists2": {
+      "description": "Label to display filter list links",
+      "message": "Näytä linkit suodatinlistoihin"
+   },
+   "sign_up_mailing": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Liity postituslistalle pysyäksesi ajan tasalla AdBlockin uutisista."
+   },
+   "sliderexplanation": {
+      "description": "'Block an ad' wizard usage explanation",
+      "message": "Jos ei, käytä liukusäädintä piilottaaksesi lisää kohteita sivulta:"
+   },
+   "slidertitle": {
+      "description": "'Block an ad' wizard title",
+      "message": "Vaihe 1: määritä, mitä estetään"
+   },
+   "sliderwarning": {
+      "description": "'Block an ad' wizard usage explanation",
+      "message": "Ole varovainen, liiallinen piilotus voi rikkoa joitakin sivun toimintoja"
+   },
+   "slows_down_extension": {
+      "description": "Text of an option telling users that the option slows down the extension",
+      "message": "hidastaa laajennusta"
+   },
+   "solarized_light_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Solarisoitu, vaalea"
+   },
+   "solarized_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Solarisoitu"
+   },
+   "something_else_going_on": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Hmm, jotain muuta täytyy olla pielessä."
+   },
+   "something_not_working": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Hmm, joku ei toimi."
+   },
+   "sourcecode": {
+      "description": "Link to the source code of AdBlock on the Support tab",
+      "message": "Tarkastele [[lähdekoodiamme]]"
+   },
+   "stats": {
+      "description": "Title of the statistics (metrics) tab of the Options page",
+      "message": "Tilastot"
+   },
+   "stats_ads_blocked": {
+      "description": "Text on the statistics page of the Options page within the ads blocked panel",
+      "message": "Mainosta estetty"
+   },
+   "stats_ads_blocked_aria_label": {
+      "description": "Text in the aria-label attribute of an icon for the Blocks by site column heading",
+      "message": "Estettyjen mainosten määrä"
+   },
+   "stats_already_opted": {
+      "description": "On page text of the statistics page of the Options page",
+      "message": "Olet jo sallinyt nimettömien käyttötietojen jaon kanssamme."
+   },
+   "stats_go_back_text_button": {
+      "description": "button text on page 2 of the delete modal box on the statistics page of the Options page",
+      "message": "Takaisin"
+   },
+   "stats_hide_data": {
+      "description": "text shown on panels during mouse over on the statistics page of the Options page within the ads blocked panel",
+      "message": "Piilota tilastot"
+   },
+   "stats_im_sure_text_button": {
+      "description": "button text on page 2 of delete modal box on the statistics page of the Options page",
+      "message": "Olen varma"
+   },
+   "stats_opt_in_data_collect": {
+      "description": "Text in the Opt In button on the statistics page of the Options page",
+      "message": "Auta parantamaan AdBlockia jakamalla [[nimettömiä käyttötietoja]]"
+   },
+   "stats_opt_in_header": {
+      "description": "On page text of the statistics page of the Options page",
+      "message": "Haluatko nähdä AdBlock tilastosi?"
+   },
+   "stats_opt_in_local_msg": {
+      "description": "On page text of the statistics page of the Options page",
+      "message": "Salli myös paikallisten tilastojen keräys nähdäksesi tilastoja AdBlockin toiminnasta, kuten millä sivustoilla on estetty eniten mainoksia ja seurantoja, estojen kokonaismäärän sekä Premium-käyttäjien Kuvavaihdon korvaamien kuvien määrän."
+   },
+   "stats_opt_in_local_text_button": {
+      "description": "Text in the Opt In button on the statistics page of the Options page",
+      "message": "Salli paikallisten tilastojen keräys"
+   },
+   "stats_opt_in_msg": {
+      "description": "On page text of the statistics page of the Options page",
+      "message": "Salli paikallisten tilastojen keräys nähdäksesi tilastoja AdBlockin toiminnasta, kuten millä sivustoilla on estetty eniten mainoksia ja seurantoja, estojen kokonaismäärän sekä Premium-käyttäjien Kuvavaihdon korvaamien kuvien määrän."
+   },
+   "stats_opt_in_text_button": {
+      "description": "Text in the Opt In button on the statistics page of the Options page",
+      "message": "Salli"
+   },
+   "stats_replaced_blocked": {
+      "description": "Text on the statistics page of the Options page within the ads blocked panel",
+      "message": "Kuvanvaihtoa"
+   },
+   "stats_replaced_blocked_aria_label": {
+      "description": "Text in the aria-label attribute of an icon for the Blocks by site column heading",
+      "message": "Korvattujen kuvien määrä"
+   },
+   "stats_show_data": {
+      "description": "text shown on panels during mouse over on the statistics page of the Options page within the ads blocked panel",
+      "message": "Näytä tilastot"
+   },
+   "stats_trackers_blocked": {
+      "description": "Text on the statistics page of the Options page within the ads blocked panel",
+      "message": "Seurantaa estetty"
+   },
+   "stats_trackers_blocked_aria_label": {
+      "description": "Text in the aria-label attribute of an icon for the Blocks by site column heading",
+      "message": "Estettyjen seurantojen määrä"
+   },
+   "statstitle": {
+      "description": "On page title of the statistics page of the Options page",
+      "message": "Tilastoinnin hallintapaneeli"
+   },
+   "status_allowlisted": {
+      "description": "Message shown in toolbar button when AdBlock is not running on a page or website",
+      "message": "Olet määrittänyt AdBlockin pysäytetyksi tällä sivustolla aina sitä käytettäessä."
+   },
+   "status_domain_paused": {
+      "description": "Message shown in toolbar button when AdBlock is not running on a specific domain",
+      "message": "AdBlock on pysäytetty tämän käyttökerran ajaksi. Saatat joutua päivittämään sivun nähdäksesi muutokset."
+   },
+   "status_paused": {
+      "description": "Message shown in toolbar button when AdBlock is not running",
+      "message": "AdBlock on pysäytetty."
+   },
+   "status_universal_paused": {
+      "description": "Message shown in toolbar button when AdBlock is not running on all domains",
+      "message": "AdBlock on pysäytetty kaikilla sivustoilla."
+   },
+   "stay_tuned": {
+      "description": "Text in theme box of the Themes tab of the Options page (no more than 30 characters)",
+      "message": "Pysy kuulolla"
+   },
+   "still_see_ad": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Näetkö mainoksen edelleen?"
+   },
+   "still_see_distraction": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Näetkö häiriön edelleen?"
+   },
+   "still_see_distractions": {
+      "description": "message text on the help flow in popup menu.",
+      "message": "Näetkö häiriön edelleen?"
+   },
+   "stop_autoplay_videos": {
+      "description": "Sub-header on the distraction control options page",
+      "message": "Pysäytä kelluvat videot"
+   },
+   "stop_blocking_ads": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Älä käytä mainosestoa:"
+   },
+   "stop_blocking_ads2": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Lopeta mainosesto"
+   },
+   "storage_quota_exceeded": {
+      "description": "Message shown when the user uses more storage than allowed by the browser.",
+      "message": "AdBlock on ylittänyt sille varatun tallennustilan. Lopeta joidenkin suodatinlistojen tilaukset!"
+   },
+   "sub_menu_item_all": {
+      "description": "sub menu item text on the statistics page of the Options page",
+      "message": "Koko ajalta"
+   },
+   "sub_menu_item_month": {
+      "description": "sub menu item text on the statistics page of the Options page",
+      "message": "Tässä kuussa"
+   },
+   "sub_menu_item_today": {
+      "description": "sub menu item text on the statistics page of the Options page",
+      "message": "Tänään"
+   },
+   "sub_menu_item_week": {
+      "description": "sub menu item text on the statistics page of the Options page",
+      "message": "Tällä viikolla"
+   },
+   "sub_menu_item_year": {
+      "description": "sub menu item text on the statistics page of the Options page",
+      "message": "Tänä vuonna"
+   },
+   "subframe": {
+      "description": "Resource list page: frame type",
+      "message": "Alikehys"
+   },
+   "subscribebutton": {
+      "description": "Subscribe to a filter list button",
+      "message": "Tilaa"
+   },
+   "subscribeconfirm": {
+      "description": "Prompt question before subscribing to a filter list",
+      "message": "Haluatko varmasti tilata suodatinlistan $title$?",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Prebake"
+         }
+      }
+   },
+   "subscribingfailed": {
+      "description": "abp: link subscriber unsuccessful result",
+      "message": "Virhe!"
+   },
+   "subscribingfinished": {
+      "description": "abp: link subscriber successful result",
+      "message": "Valmis!"
+   },
+   "subscribingtitle": {
+      "description": "abp: link subscriber title",
+      "message": "Tilataan suodatinlistaa..."
+   },
+   "success": {
+      "description": "Text in the aria-label attribute of an icon indicating successful results.",
+      "message": "Onnistui"
+   },
+   "successfully_whitelisted": {
+      "description": "Part of a message on the allowlist wizard",
+      "message": "Tämä URL-osoite on lisätty sallittujen listalle."
+   },
+   "sunshine_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Auringonpaiste"
+   },
+   "support_to_unlock": {
+      "description": "Text in theme box of the Themes tab of the Options page (no more than 30 characters)",
+      "message": "Tue avataksesi"
+   },
+   "support_with_a_review": {
+      "description": "Text of the tooltip of the rate us button CTA in the Options page.",
+      "message": "Tue tiimiämme arvostelulla."
+   },
+   "supportsite": {
+      "description": "Link to the support site on the Support tab",
+      "message": "Kerro siitä meille [[tukisivustollamme]]!"
+   },
+   "surveys": {
+      "description": "Checbox label text for help flow in popup menu.",
+      "message": "Kyselyt"
+   },
+   "swap_ads_for_images": {
+      "description": "Sub-header describing Image Swap on the main Premium options page",
+      "message": "Korvaa mainokset kuvilla"
+   },
+   "sync_delete_panel_title": {
+      "description": "Panel title text on the delete device overlay",
+      "message": "Poista synkronoitu laajennus"
+   },
+   "sync_device_name_list_updated_at_msg": {
+      "description": "message to users on when the sync page was last updated with the name of the extensions / devices (displayed in locale specific format)",
+      "message": "päivitetty viimeksi $timestamp$",
+      "placeholders": {
+         "timestamp": {
+            "content": "$1",
+            "example": "April 30, 2019 6:25 pm for US/English locale"
+         }
+      }
+   },
+   "sync_example": {
+      "description": "Text in the alt attribute of an image in the Options page mab that visualizes the Sync feature.",
+      "message": "Synkronointiesimerkki"
+   },
+   "sync_extension_name_placeholder": {
+      "description": "placeholder text in the extension / device name field on the sync page",
+      "message": "Nimeä laajennus, jotta erotat sen muista laajennuksistasi..."
+   },
+   "sync_extension_no_extension_msg": {
+      "description": "message to users on the sync page when the license is unavailable, inactive or a license ID hasn't been returned yet",
+      "message": "Sinulla ei ole synkronoituja laajennuksia."
+   },
+   "sync_extension_section_title": {
+      "description": "section title text on the Sync sub-tab of the Options page",
+      "message": "Laajennukset"
+   },
+   "sync_header_error_save_message_part_2": {
+      "description": "part 2 of a message to users on the Options pages when sending the sync data fails for some unknown reason.",
+      "message": "Laajennus ei ole ajan tasalla."
+   },
+   "sync_header_error_save_message_part_3": {
+      "description": "part 3 of a message to users on the Options pages when sending the sync data fails for some unknown reason.",
+      "message": "Yritä synkronointia myöhemmin manuaalisesti uudelleen."
+   },
+   "sync_header_message_error_prefix": {
+      "description": "Start of an sync error message to users on the Options page or AdBlock popup menu.",
+      "message": "Laajennus ei ollut ajan tasalla."
+   },
+   "sync_header_message_getting_license": {
+      "description": "message to users on the sync page when the extension is getting the license",
+      "message": "Tarkistetaan..."
+   },
+   "sync_header_message_in_progress": {
+      "description": "message to users on the options pages when syncing with the server is in progress",
+      "message": "Synkronoidaan..."
+   },
+   "sync_header_message_no_license": {
+      "description": "message to users on the sync page when the license is unavailable, inactive or a license ID hasn't been returned yet",
+      "message": "Odota hetki, kun synkronointia valmistellaan."
+   },
+   "sync_header_message_old_commit_version_customize_tab_part_2": {
+      "description": "part 2 of a message to users on the sync page when initial setup of sync fails for some unknown reason.",
+      "message": "Laajennus synkronoitiin ja muutoksesi perutaan."
+   },
+   "sync_header_message_old_commit_version_customize_tab_part_3": {
+      "description": "part 3 of a message to users on the sync page when initial setup of sync fails for some unknown reason.",
+      "message": "Kopioi omat sääntösi leikepöydälle, päivitä sivu ja tee muutoksesi uudelleen."
+   },
+   "sync_header_message_old_commit_version_part_2": {
+      "description": "part 2 of a message to users on the sync page and popup menu when initial setup of sync fails for some unknown reason.",
+      "message": "Laajennus synkronoitiin ja muutoksesi peruttiin."
+   },
+   "sync_header_message_old_commit_version_part_3": {
+      "description": "part 3 of a message to users on the sync page when initial setup of sync fails for some unknown reason.",
+      "message": "Päivitä sivu ja tee muutoksesi uudelleen."
+   },
+   "sync_header_message_setup_fail_part_2": {
+      "description": "message to users on the sync page when initial setup of sync fails for some unknown reason.",
+      "message": "Yritä asentaa laajennus muutaman minuutin kuluttua uudelleen."
+   },
+   "sync_header_message_setup_fail_prefix": {
+      "description": "start of error message to users on the sync page when sync fails.",
+      "message": "Synkronointivirhe:"
+   },
+   "sync_header_message_sync_complete": {
+      "description": "message to users on the option pages when syncing with the server server is complete",
+      "message": "Synkronointi on valmis"
+   },
+   "sync_message_old_version_part_1": {
+      "description": "button text on the Sync sub-tab of the Options page",
+      "message": "Käytät AdBlockin vanhaa versiota."
+   },
+   "sync_message_old_version_part_2": {
+      "description": "button text on the Sync sub-tab of the Options page",
+      "message": "[[Päivitä AdBlock]], jotta asetuksesi voidaan synkronoida."
+   },
+   "sync_now_btn_text": {
+      "description": "button text on the Sync sub-tab of the Options page",
+      "message": "Synkronoi nyt"
+   },
+   "sync_premium_cta": {
+      "description": "AdBlock Premium CTA on the Sync tab",
+      "message": "Tulet olemaan mainoseston ammattiosaaja synkronoinnin kaltaisilla Premium-ominaisuuksilla."
+   },
+   "sync_removed_error_msg_part_1": {
+      "description": "sync error message text on the popup menu",
+      "message": "Laajennusta ei ole synkronoitu"
+   },
+   "sync_removed_error_msg_part_2": {
+      "description": "sync error message text on the popup menu and options page",
+      "message": "Päivitä asetuksesi painamalla tästä"
+   },
+   "sync_tab_item": {
+      "description": "Title of the Sync sub-tab of the Options page",
+      "message": "Varmuuskopiointi ja synkronointi"
+   },
+   "sync_turn_on_duplicate_name_text": {
+      "description": "error message text on the Sync sub-tab of the Options page",
+      "message": "Tämä laajennusnimi on jo käytössä"
+   },
+   "sync_turn_on_invalid_name_text": {
+      "description": "error message text on the Sync sub-tab of the Options page",
+      "message": "Nimeä laajennus jatkaaksesi"
+   },
+   "sync_verify_turn_on_text": {
+      "description": "message text in the extension / device name field on the sync page",
+      "message": "Varmuuskopioinnin ja synkronoinnin käyttöönotto tyhjentää laajennuksen asetukset."
+   },
+   "sync_your_settings_description": {
+      "description": "The main text of a feature box in the MyAdBlock Options page",
+      "message": "Käytä omia mainosestosääntöjäsi ja asetuksiasi millä tahansa tietokoneella."
+   },
+   "sync_your_settings_title": {
+      "description": "The title of a feature box in the MyAdBlock Options page",
+      "message": "Synkronoi asetuksesi"
+   },
+   "tabcustomize": {
+      "description": "A tab on the Options page",
+      "message": "Mukauta"
+   },
+   "tabcustomizetitle": {
+      "description": "Title of the Customize tab of the Options page",
+      "message": "Mukauta AdBlockia"
+   },
+   "tabfilterlists": {
+      "description": "A tab on the Options page",
+      "message": "Suodatinlistat"
+   },
+   "tabgeneral": {
+      "description": "A tab on the Options page",
+      "message": "Yleiset"
+   },
+   "tabreloadcomplete": {
+      "description": "On the ad report page, alert notifying users that we've disabled all other extensions",
+      "message": "Valmis! Mainoksen sisältänyt sivu on päivitetty. Tarkasta näkyykö mainos sivulla edelleen. Pala sitten takaisin tälle sivulle ja vastaa alla olevaan kysymykseen."
+   },
+   "tabsupport": {
+      "description": "A tab on the Options page",
+      "message": "Tuki"
+   },
+   "tabtranslations": {
+      "description": "A tab on the Options page",
+      "message": "Käännökset"
+   },
+   "take_control": {
+      "description": "Description of the distraction control option",
+      "message": "Ota selain hallintaasi ja surffaa miten haluat!"
+   },
+   "take_control_easy": {
+      "description": "Description of Themes on the main Premium options page",
+      "message": "Hallitse AdBlockin ulkonäköä, tunnelmaa ja fonttikokoa helppokäyttöisillä valinnoilla. Tee AdBlockista omasi!"
+   },
+   "take_custom_with_you": {
+      "description": "Description of Backup & Sync on the main Premium options page",
+      "message": "Pidä omat mainosestosääntösi, suodatintilauksesi ja sallittujen listat mukanasi kaikissa Chrome-profiileissasi."
+   },
+   "text_body": {
+      "description": "Text in theme box of the Themes tab of the Options page (no more than 22 characters)",
+      "message": "perusteksti"
+   },
+   "thanks": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Kiitos"
+   },
+   "themes": {
+      "description": "Title of the Themes tab of the Options page",
+      "message": "Teemat"
+   },
+   "thirdparty": {
+      "description": "Resource list page: column title telling if the resource originates from a different domain",
+      "message": "Kolmas osapuoli"
+   },
+   "this_extension": {
+      "description": "description for name of the current extension",
+      "message": "(tämä laajennus)"
+   },
+   "topframe": {
+      "description": "Resource list page: frame type",
+      "message": "Pääkehys"
+   },
+   "trackers_button_text": {
+      "description": "button text on the statistics page of the Options page in the trackers panel",
+      "message": "Ota käyttöön"
+   },
+   "trackers_cta_header": {
+      "description": "Header text on the statistics page of the Options page in the trackers panel",
+      "message": "Seurannat"
+   },
+   "trackers_cta_msg": {
+      "description": "message body text on the statistics page of the Options page in the trackers panel",
+      "message": "Ota [[Easy Privacy]] -suodatinlista käyttöön aloittaaksesi seurantojen eston"
+   },
+   "translator_credit": {
+      "description": "This message will be followed by a list of names of the translators who contributed to the language AdBlock is currently displayed in. Do not add any names to this string.",
+      "message": "Kiitokset käännöksestä seuraaville:"
+   },
+   "translator_credit2": {
+      "description": "This message will be followed by a list of names of the translators who contributed to the language AdBlock is currently displayed in. Do not add any names to this string.",
+      "message": "Kiitokset käännöksestä seuraaville..."
+   },
+   "translators": {
+      "description": "A link on the Options page / translators tab to a KB article about how to help translate AdBlock",
+      "message": "Lue lisää siitä, miten voit auttaa AdBlockin käännöstyössä [[täältä]]"
+   },
+   "troubleshoot_an_ad": {
+      "description": "Entry in the AdBlock button menu",
+      "message": "Selvitä mainoksen ongelmia"
+   },
+   "try_backup_sync": {
+      "description": "Part 2 of a Premium call-to-action on the Options page",
+      "message": "Jos näin, kokeile Varmuuskopiointi ja synkronointi -ominaisuuttamme."
+   },
+   "try_manual_update": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Kokeile [[suodatinlistojen manuaalista päivitystä]]."
+   },
+   "try_pausing": {
+      "description": "Message for help flow in popup menu.",
+      "message": "OK, kokeillaan AdBlockin pysäytystä."
+   },
+   "typehiding": {
+      "description": "A resource type",
+      "message": "piilottaminen"
+   },
+   "typeimage": {
+      "description": "A resource type",
+      "message": "kuva"
+   },
+   "typemain_frame": {
+      "description": "A resource type",
+      "message": "sivu"
+   },
+   "typemedia": {
+      "description": "A resource type",
+      "message": "ääni tai video"
+   },
+   "typeobject": {
+      "description": "A resource type",
+      "message": "vuorovaikutusobjekti"
+   },
+   "typeobject_subrequest": {
+      "description": "A resource type",
+      "message": "object_subrequest"
+   },
+   "typeother": {
+      "description": "A resource type",
+      "message": "muu"
+   },
+   "typepage": {
+      "description": "A resource type",
+      "message": "sivu"
+   },
+   "typepopup": {
+      "description": "A resource type",
+      "message": "ponnahdus"
+   },
+   "typescript": {
+      "description": "A resource type",
+      "message": "komentosarja"
+   },
+   "typeselector": {
+      "description": "A resource type",
+      "message": "valitsin"
+   },
+   "typestylesheet": {
+      "description": "A resource type",
+      "message": "tyylimääritys"
+   },
+   "typesub_frame": {
+      "description": "A resource type",
+      "message": "kehys"
+   },
+   "typesubdocument": {
+      "description": "A resource type",
+      "message": "kehys"
+   },
+   "typeunknown": {
+      "description": "A resource type",
+      "message": "tuntematon"
+   },
+   "typewebsocket": {
+      "description": "A resource type",
+      "message": "websocket"
+   },
+   "typexmlhttprequest": {
+      "description": "A resource type",
+      "message": "xmlhttprequest"
+   },
+   "undo_last_block": {
+      "description": "Menu entry to let the user cancel the result of running the blocklist wizard.",
+      "message": "Kumoa estoni tässä verkkotunnuksessa"
+   },
+   "undo_last_block_site": {
+      "description": "Menu entry to let the user cancel the result of running the blocklist wizard.",
+      "message": "Kumoa kohteiden piilotukset"
+   },
+   "unexpected_filter_list_header": {
+      "description": "Error message shown when the user attempts to add a custom filter that has the format of a header (e.g. \"[Adblock Plus 2.0]\") which are only allowed in filter lists",
+      "message": "Suodatinlistojen otsikoita ei sallita tässä"
+   },
+   "unpause_adblock": {
+      "description": "Link text to start blocking ads again, displayed immediately after 'AdBlock is paused'",
+      "message": "Käynnistä AdBlock"
+   },
+   "unpause_adblocking": {
+      "description": "Menu entry to unpause the extension (start blocking ads again)",
+      "message": "Käynnistä mainosesto"
+   },
+   "unpaused_reload": {
+      "description": "Message for help flow in popup menu.",
+      "message": "AdBlock vain otettiin käyttöön ja sivu päivitettiin."
+   },
+   "unsubscribe_from_all_confirmation": {
+      "description": "Confirmation message shown to user if they try to unsubscribe from all filter lists. The user will have two options: OK and Cancel.",
+      "message": "AdBlock ei voi estää mainoksia, jos poistat kaikki suodatinlistat käytöstä. Suosittelemme sen sijaan pysäyttämään AdBlockin suojauksen. Haluatko silti lopettaa listan tilauksen?"
+   },
+   "unsubscribedlabel": {
+      "description": "Status label when unselecting a filter list",
+      "message": "Tilaus lopetettu."
+   },
+   "unsync_error_msg_part_1": {
+      "description": "sync error message text on the options menu",
+      "message": "Synkronointivirhe"
+   },
+   "unsync_error_msg_part_2": {
+      "description": "sync error message text on the popup menu",
+      "message": "Laajennusta ei enää synkronoida."
+   },
+   "unsync_error_msg_part_3": {
+      "description": "sync error message text on the Sync tab of the options page",
+      "message": "Päivitä sivu painamalla tästä ja sitten \"Lisää tämä laajennus\" synkronoidaksesi tämän laitteen"
+   },
+   "update_filter_lists_now": {
+      "description": "Text in the aria-label attribute of the 'update now' button on the Options page in the Filter Lists tab.",
+      "message": "Päivitä suodatinlistat nyt"
+   },
+   "update_preferences": {
+      "description": "message text on the help flow in popup menu.",
+      "message": "Asetuksesi on päivitetty."
+   },
+   "updateddayago": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty päivä sitten"
+   },
+   "updateddaysago": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty $days$ päivää sitten",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedhourago": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty tunti sitten"
+   },
+   "updatedhoursago": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty $hours$ tuntia sitten",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedminuteago": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty minuutti sitten"
+   },
+   "updatedminutesago": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty $minutes$ minuuttia sitten",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedrightnow": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty juuri nyt"
+   },
+   "updatedsecondsago": {
+      "description": "Label for filter list subscription",
+      "message": "päivitetty $seconds$ sekuntia sitten",
+      "placeholders": {
+         "seconds": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedtimestamp": {
+      "description": "Label for filter list subscription last updated timestamp",
+      "message": "päivitetty $ts$",
+      "placeholders": {
+         "ts": {
+            "content": "$1",
+            "example": "8/26/2019 10:23:44 PM"
+         }
+      }
+   },
+   "updatenowmessage2": {
+      "description": "Update filters text and button",
+      "message": "Automaattiset päivitykset ovat käytössä, mutta voit myös [[päivittää nyt]]"
+   },
+   "updateyourlists": {
+      "description": "Section header on the ad report page",
+      "message": "Varmista, että suodatinlistasi ovat ajan tasalla:"
+   },
+   "updating_filter_lists": {
+      "description": "Message for help flow in popup menu.",
+      "message": "AdBlock päivittää suodatinlistojasi parhaillaan tarkistaakseen johtuisiko ongelma siitä."
+   },
+   "updating_preferences": {
+      "description": "text on panel in the help flow",
+      "message": "AdBlock päivittää asetuksiasi parhaillaan."
+   },
+   "urgent_safari_changes": {
+      "description": "Title for Options page message letting users know of settings change.",
+      "message": "TÄRKEÄÄ: Apple muuttaa Safarin laajennuksia."
+   },
+   "valid_email_address": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Syötä kelvollinen sähköpostiosoite"
+   },
+   "visit_help_center": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Haluat ehkä [[käydä tukikeskuksessamme]] saadaksesi lisää vianmääritysvaihtoehtoja."
+   },
+   "vpn_coming_soon": {
+      "description": "Text of the tooltip of the rate us button CTA in the Options page.",
+      "message": "Katso mitä AdBlockilta on pian tulossa"
+   },
+   "want_stop_seeing": {
+      "description": "GFC messaging on the popup menu",
+      "message": "Etkö halua enää nähdä näitä?"
+   },
+   "want_to_remove": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Haluatko poistaa sen?"
+   },
+   "warning": {
+      "description": "Warns the user about an error.",
+      "message": "varoitus"
+   },
+   "warning_overrules_filters": {
+      "description": "Message on the 'Customize' tab of the options page, explaining the danger of adding a allowlist filter for all websites with only some exceptions.",
+      "message": "Varoitus: näet kaikilla muilla sivustoilla mainoksia!\nTämä kumoaa niillä sivustoilla kaikki muut suodattimet."
+   },
+   "watermelon_theme": {
+      "description": "Name of a theme in the Themes tab of the Options page",
+      "message": "Vesimeloni"
+   },
+   "website_broken": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Sivusto on rikki"
+   },
+   "website_still_broken": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Onko sivusto edelleen rikki?"
+   },
+   "whatmakesadblocktick": {
+      "description": "Subtitle on the Support tab. This section contains links to the AdBlock source code and contributors. In this context, 'tick' can be replaced with the word 'work'.",
+      "message": "Haluatko nähdä, miten AdBlock toimii?"
+   },
+   "whats_this": {
+      "description": "Text of a link pointing to the explanation of a new feature",
+      "message": "Mikä tämä on?"
+   },
+   "whatsnew": {
+      "description": "Link to display the changelog on the Support tab",
+      "message": "Katso viimeisimmät päivitykset [[muutoshistoriasta]]"
+   },
+   "where_to_enable_dc": {
+      "description": "text in the help flow",
+      "message": "Jos muutat mieltäsi, voit ottaa lisää Häiriöhallinnan ominaisuuksia käyttöön [[täältä]]."
+   },
+   "which_distractions": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Mitkä häiriöt?"
+   },
+   "whitelist_youtube_channel_v2": {
+      "description": "Menu entry to whitelist the channel of the current YouTube video or page. The channel name will appear on a line below this menu item.",
+      "message": "Salli mainokset YouTube-kanavalla:"
+   },
+   "whitelisted_a_site": {
+      "description": "Part 1 of a call-to-action on the allowlist wizard",
+      "message": "Lisäsit sivuston juuri sallittujen listalle!"
+   },
+   "whitelistertitle2": {
+      "description": "The title of the allowlist wizard (Don't run on this page/pages on this domain)",
+      "message": "Älä käytä AdBlockia..."
+   },
+   "wizard_premium_cta_part_I": {
+      "description": "Part of a message on the blocklist wizard",
+      "message": "Estit juuri jotain tältä sivustolta!"
+   },
+   "wizard_premium_cta_part_II": {
+      "description": "Part of a message on the blocklist wizard",
+      "message": "Käytä tätä asetusta kaikilla laitteillasi, niin varmistat varmuuskopioinnin ja synkronoinnin avulla, ettet koskaan menetä AdBlock-asetuksiasi."
+   },
+   "wizard_premium_cta_title": {
+      "description": "Part of a message on the blocklist wizard",
+      "message": "Hei, näyttää siltä, että saattaisit pitää AdBlock Premiumista"
+   },
+   "wizardcantrunonframesets": {
+      "description": "Alert shown when the user tries to use a blocklist/allowlist wizard on an old website",
+      "message": "Tämä AdBlockin ominaisuus ei toimi tällä sivustolla, koska se käytää vanhentunutta tekniikkaa. Voit sallia tai estää mainoksia manuaalisesti asetussivun 'Mukauta' -välilehdellä."
+   },
+   "wont_change_anything": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Mitään ei muuteta, joten näet mainoksen edelleen."
+   },
+   "wont_change_anything_distraction": {
+      "description": "Message for help flow in popup menu.",
+      "message": "Mitään ei muuteta, joten näet häiriöitä edelleen."
+   },
+   "wont_show_again": {
+      "description": "Message shown when user opts out of call-to-action",
+      "message": "OK, tätä viestiä ei näytetä uudestaan."
+   },
+   "work_around_hulu_problems": {
+      "description": "Advanced Options page checkbox, which users only need to use if Hulu.com videos break. It directs the user to restart their browser in order for changes to the checkbox to take effect.",
+      "message": "Kierrä Hulu.com-sivuston videoiden toimintaongelma (vaatii selaimen uudelleenkäynnistyksen)"
+   },
+   "yes": {
+      "description": "A positive response to a question",
+      "message": "Kyllä"
+   },
+   "you_can_slide_to_change": {
+      "description": "allowlist slider usage instructions. Sometimes only one slider will show, and sometimes two will show, and if possible the text should handle both cases.",
+      "message": "Voit raahata alla olevaa palkkia määrittääksesi sivut, joilla AdBlock ei ole käytössä."
+   },
+   "you_know_thats_a_bad_idea_right": {
+      "description": "Confirmation message shown to user if they try to subscribe to too many lists. The user will have two options: OK and Cancel.",
+      "message": "Mitä enemmän suodatinlistoja käytät, sitä hitaammin AdBlock toimii. Liian suuren määrän käyttö saattaa jopa kaataa selaimesi joillakin verkkosivustoilla. Paina OK tilataksesi listan silti."
+   },
+   "your_participation": {
+      "description": "Description of the distraction control option",
+      "message": "Osallistumisesi ja palautteesi auttaa meitä parantamaan sen laajuutta ja toimintaa myös jatkossa."
+   },
+   "youre_awesome": {
+      "description": "Text of a Options page lower menu button",
+      "message": "Kiitos, olet mahtava!"
+   },
+   "youtube_manage_subscribed": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Hallinnoi AdBlockin asetuksia suoraan YouTube-tilauksista"
+   },
+   "youtube_onpage_icon_allow_all_btn_text": {
+      "description": "The button text on the YouTube on page icon; shown on https://www.youtube.com/feed/channels",
+      "message": "Salli mainokset kaikilla"
+   },
+   "youtube_onpage_icon_allowed_complete_text": {
+      "description": "The message text on the YouTube on page panel; shown on https://www.youtube.com/feed/channels",
+      "message": "Kaikkien tilaamiesi kanavien mainokset on sallittu"
+   },
+   "youtube_onpage_icon_allowing_ads_on_channel": {
+      "description": "The message text on the YouTube on page panel; shown on https://www.youtube.com/feed/channels",
+      "message": "Kanavan mainokset sallitaan"
+   },
+   "youtube_onpage_icon_block_all_btn_text": {
+      "description": "The button text on the YouTube on page icon; shown on https://www.youtube.com/feed/channels",
+      "message": "Estä mainokset kaikilla"
+   },
+   "youtube_onpage_icon_blocked_complete_text": {
+      "description": "The message text on the YouTube on page panel; shown on https://www.youtube.com/feed/channels",
+      "message": "Kaikkien tilaamiesi kanavien mainokset on estetty"
+   },
+   "youtube_onpage_icon_blocking_ads_on_channel": {
+      "description": "The message text on the YouTube on page panel; shown on https://www.youtube.com/feed/channels",
+      "message": "Kanavan mainokset estetään"
+   },
+   "youtube_onpage_icon_msg": {
+      "description": "The message text on the YouTube on page icon; shown on https://www.youtube.com/feed/channels",
+      "message": "Hallinnoi tilaamiesi kanavien mainoksia:"
+   },
+   "youtube_onpage_icon_no_channels_text": {
+      "description": "The message text on the YouTube on page panel; shown on https://www.youtube.com/feed/channels",
+      "message": "Tilaa ainakin yksi YouTube-kanava hallinnoidaksesi tilaamiesi kanavien mainontaa."
+   },
+   "youtube_onpage_icon_one_moment_text": {
+      "description": "The message text on the YouTube on page panel; shown on https://www.youtube.com/feed/channels",
+      "message": "Pieni hetki..."
+   },
+   "youtube_onpage_icon_sign_in_text": {
+      "description": "The message text on the YouTube on page panel; shown on https://www.youtube.com/feed/channels",
+      "message": "Kirjaudu YouTube-tilillesi hallinnoidaksesi tilaamiesi kanavien mainontaa."
+   },
+   "youve_blocked_num_ads": {
+      "description": "Text of a menu item in the popup menu asking users to leave us a review. The $numBlocked$ will be replaced with the number of ads the users has blocked, starting at 10,000.",
+      "message": "Olet estänyt $numBlocked$ mainosta!",
+      "placeholders": {
+         "numBlocked": {
+            "content": "$1",
+            "example": "10,000"
+         }
+      }
+   },
+   "ytadblockupdates": {
+      "description": "Subtitle on the Support tab. Specific to the 'AdBlock on YouTube' extension.",
+      "message": "AdBlock YouTube -päivitykset"
+   }
+}

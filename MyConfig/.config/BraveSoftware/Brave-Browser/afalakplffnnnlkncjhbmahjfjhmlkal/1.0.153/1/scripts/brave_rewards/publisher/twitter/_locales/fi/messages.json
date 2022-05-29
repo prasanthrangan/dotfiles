@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Anna tälle twiitille tippi",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Tippi",
+    "description": "Icon label for tip button"
+  }
+}

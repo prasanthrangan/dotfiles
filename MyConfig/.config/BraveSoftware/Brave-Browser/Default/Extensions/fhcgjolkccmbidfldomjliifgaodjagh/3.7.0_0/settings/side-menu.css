@@ -1,0 +1,262 @@
+/**
+ * Copyright (c) 2022 CAD Team (https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/graphs/contributors)
+ * Licensed under MIT (https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/blob/3.X.X-Branch/LICENSE)
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+body {
+  color: #777;
+}
+
+.sidebar-version {
+  padding: 1em 0;
+  text-align: center;
+  width: 100%;
+}
+
+/*
+Add transition to containers so they can push in and out.
+*/
+
+.layout, .menu, .menu-link {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/*
+This is the parent `<div>` that contains the menu and the content area.
+*/
+
+.layout {
+  left: 0;
+  padding-left: 0;
+  position: relative;
+}
+
+.layout.active .menu {
+  left: 150px;
+  width: 150px;
+}
+
+.layout.active .menu-link {
+  left: 150px;
+  width: calc(100% - 150px);
+}
+
+/*
+The content `<div>` is where all your content goes.
+*/
+
+.content {
+  line-height: 1.6em;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 800px;
+  padding: 0 2em;
+}
+
+.header {
+  border-bottom: 1px solid #eee;
+  color: #333;
+  margin: 0;
+  padding: 2.5em 2em 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3em;
+  font-weight: 300;
+  margin: 0.2em 0;
+}
+
+.header h2 {
+  color: #ccc;
+  font-weight: 300;
+  margin-top: 0;
+  padding: 0;
+}
+
+
+/*
+The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
+appears on the left side of the page.
+*/
+
+.menu {
+  background: #191818;
+  bottom: 0;
+  left: 0;
+  margin-left: -150px; /* "#menu" width */
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  width: 150px;
+  z-index: 1000; /* so the menu or its navicon stays above all content */
+}
+
+/*
+All anchors inside the menu should be styled like this.
+*/
+
+.menu a {
+  border: none;
+  color: #999;
+}
+
+/*
+Remove all background/borders, since we are applying them to #menu.
+*/
+
+.menu .pure-menu, .menu .pure-menu ul {
+  background: transparent;
+  border: none;
+}
+
+/*
+Add that light border to separate items into groups.
+*/
+
+.menu .pure-menu ul {
+  border-top: 1px solid #333;
+}
+
+/*
+Change color of the anchor links on hover/focus.
+*/
+
+.menu .pure-menu li a:hover, .menu .pure-menu li a:focus {
+  background: #333;
+}
+
+/*
+This styles the selected menu item `<li>`.
+*/
+
+.menu .pure-menu-selected {
+  background: #1f8dd6;
+}
+
+/*
+This styles a link within a selected menu item `<li>`.
+*/
+
+.menu .pure-menu-selected a {
+  color: #fff;
+}
+
+/* -- Dynamic Button For Responsive Menu -------------------------------------*/
+
+/*
+The button to open/close the Menu is custom-made and not part of Pure. Here's
+how it works:
+*/
+
+/*
+`.menu-link` represents the responsive menu toggle that shows/hides on
+small screens.
+*/
+
+.menu-link {
+  background: #000;
+  background: rgba(0, 0, 0, 0.7);
+  display: block; /* Show this only on small screens */
+  height: auto;
+  left: 0; /* "#menu width" */
+  padding: 0.5em 1em;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.menu-link:hover, .menu-link:focus {
+  background: #000;
+}
+
+.menu-link span {
+  display: block;
+  position: relative;
+}
+
+.menu-link span, .menu-link span:before, .menu-link span:after {
+  background-color: #fff;
+  height: 0.2em;
+  width: 100%;
+}
+
+.menu-link span:before, .menu-link span:after {
+  content: " ";
+  margin-top: -0.6em;
+  position: absolute;
+}
+
+.menu-link span:after {
+  margin-top: 0.6em;
+}
+
+.menuLinkText {
+  color: white;
+}
+
+/* -- Responsive Styles (Media Queries) ------------------------------------- */
+
+
+/*
+Hides the menu at `48em`, but modify this based on your app's needs
+*/
+
+@media (min-width: 1024px) {
+  .header, .content {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .layout {
+    /* left col width "#menu" */
+    left: 0;
+    padding-left: 150px;
+  }
+
+  .menu {
+    left: 150px;
+  }
+
+  .menu-link {
+    display: none;
+    left: 150px;
+    position: fixed;
+  }
+
+  .layout.active .menu-link {
+    left: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Only apply this when the window is small. Otherwise, the following
+     case results in extra padding on the left:
+         * Make the window small
+         * Tap the menu to trigger the active state
+         * Make the window large again
+  */
+
+  .layout {
+    margin-top: 5em;
+  }
+
+  .layout.active {
+    margin-left: 150px;
+    position: relative;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Ge dricks till denna tweet",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Dricks",
+    "description": "Icon label for tip button"
+  }
+}

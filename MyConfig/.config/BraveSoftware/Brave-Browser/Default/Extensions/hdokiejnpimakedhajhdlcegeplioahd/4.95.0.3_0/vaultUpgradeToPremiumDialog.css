@@ -1,0 +1,163 @@
+#vaultUpgradeToPremiumDialog {
+    background: #fff;
+    border-radius: 18px;
+    max-width: 577px;
+    overflow: hidden;
+    letter-spacing: -0.5px;
+    min-height: 710px;
+}
+
+#vaultUpgradeToPremiumDialog .dialogContent {
+    padding: 0;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__header {
+    background-color: #E4E5F6;
+    padding: 8px 0;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__header img {
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__body .title {
+    margin: 24px auto 16px;
+    text-align: center;
+    color: #1D3049;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    min-height: 28px;
+    max-width: 359px;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__body .subtitle {
+    text-align: center;
+    color: #1D3049;
+    max-width: 440px;
+    margin: 16px auto;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#vaultUpgradeToPremiumDialog .features-list {
+    border: 1px solid #DCDFE4;
+    border-radius: 12px;
+    width: 384px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+#vaultUpgradeToPremiumDialog .features-list__header {
+    border-bottom: 1px solid #DCDFE4;
+}
+
+#vaultUpgradeToPremiumDialog .features-list__header p {
+    color: #1D3049;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 24px 0 16px;
+}
+
+#vaultUpgradeToPremiumDialog .feature-list__item {
+    display: flex;
+    margin: 16px 0;
+}
+
+#vaultUpgradeToPremiumDialog .feature-list__item__image {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#vaultUpgradeToPremiumDialog .feature-list__item__description__title {
+    color: #1D3049;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#vaultUpgradeToPremiumDialog .feature-list__item__description__subtext {
+    color: #41536B;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions {
+    margin: 24px auto 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__upgrade-btn {
+    border-radius: 25px;
+    display: block;
+    font-weight: 600;
+    padding: 14px 24px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    -moz-transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    -o-transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: box-shadow 225ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    color: #FFFFFF;
+    background-color: #D32D27;
+    box-shadow: 0px 1px 2px rgba(29, 48, 73, 0.04), 0px 2px 2px rgba(29, 48, 73, 0.04), 0px 0px 2px rgba(29, 48, 73, 0.16);
+    font-size: 14px;
+    margin: 0 0 8px;
+    border: 3px solid transparent;
+    transition: 225ms ease-out;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__upgrade-btn:hover {
+    background: #AD2520;
+    box-shadow: 0px 4px 8px rgba(29, 48, 73, 0.04), 0px 2px 4px rgba(29, 48, 73, 0.08), 0px 2px 4px rgba(29, 48, 73, 0.08);
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__upgrade-btn:active {
+    background: #871D19;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__upgrade-btn:focus {
+    background: #D32D27;
+    border: 3px solid #EFB2B0;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__learn-more {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2C405A;
+    border-radius: 4px;
+    padding: 11px 24px;
+    border: 3px solid transparent;
+    transition: 225ms ease-out;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__learn-more:hover {
+    background: #EDF2FB;
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__learn-more:active {
+    background: #DBE5F7;
+
+}
+
+#vaultUpgradeToPremiumDialog .vault-upgrade-to-premium-dialog__actions__learn-more:focus {
+    border: 3px solid #B5D9F1;
+}
+
+#vaultUpgradeToPremiumDialog #closeDialog {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+}

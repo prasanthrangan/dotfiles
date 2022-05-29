@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Adj borravalót erre a bejegyzésre",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Adomány",
+    "description": "Icon label for tip button"
+  }
+}

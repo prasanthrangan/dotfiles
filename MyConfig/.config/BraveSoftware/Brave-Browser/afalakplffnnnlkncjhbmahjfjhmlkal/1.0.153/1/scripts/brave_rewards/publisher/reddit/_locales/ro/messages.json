@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Dați bacșiș pentru această postare",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Indiciu",
+    "description": "Icon label for tip button"
+  }
+}

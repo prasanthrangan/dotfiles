@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Дать чаевые за этот твит",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Дать чаевые",
+    "description": "Icon label for tip button"
+  }
+}

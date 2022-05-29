@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "ለዚህ ትዊት ጠቃሚ ምክር ይለግሱ",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "ምክር",
+    "description": "Icon label for tip button"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Beri tip untuk tuit ini",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Tip",
+    "description": "Icon label for tip button"
+  }
+}

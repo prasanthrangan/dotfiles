@@ -1,0 +1,39 @@
+2022/05/29-11:56:18.574 3 Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/05/29-11:56:18.574 3 Recovering log #198
+2022/05/29-11:56:18.575 3 Reusing old log /home/tittu/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000198.log 
+2022/05/29-12:08:21.410 d Level-0 table #202: started
+2022/05/29-12:08:21.415 d Level-0 table #202: 46488 bytes OK
+2022/05/29-12:08:21.419 d Delete type=0 #198
+2022/05/29-12:15:09.176 11 Level-0 table #204: started
+2022/05/29-12:15:09.181 11 Level-0 table #204: 22345 bytes OK
+2022/05/29-12:15:09.187 11 Delete type=0 #201
+2022/05/29-12:15:09.188 11 Compacting 4@0 + 1@1 files
+2022/05/29-12:15:09.215 11 Generated table #205@0: 291 keys, 1328426 bytes
+2022/05/29-12:15:09.215 11 Compacted 4@0 + 1@1 files => 1328426 bytes
+2022/05/29-12:15:09.217 11 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/05/29-12:15:09.217 11 Delete type=2 #199
+2022/05/29-12:15:09.217 11 Delete type=2 #202
+2022/05/29-12:15:09.217 11 Delete type=2 #195
+2022/05/29-12:15:09.217 11 Delete type=2 #204
+2022/05/29-12:15:09.218 11 Delete type=2 #197
+2022/05/29-12:39:21.410 11 Level-0 table #207: started
+2022/05/29-12:39:21.412 11 Level-0 table #207: 22924 bytes OK
+2022/05/29-12:39:21.414 11 Delete type=0 #203
+2022/05/29-12:55:21.410 1f Level-0 table #209: started
+2022/05/29-12:55:21.416 1f Level-0 table #209: 45551 bytes OK
+2022/05/29-12:55:21.421 1f Delete type=0 #206
+2022/05/29-13:43:13.647 28 Level-0 table #211: started
+2022/05/29-13:43:13.650 28 Level-0 table #211: 33291 bytes OK
+2022/05/29-13:43:13.653 28 Delete type=0 #208
+2022/05/29-13:56:49.149 28 Level-0 table #213: started
+2022/05/29-13:56:49.151 28 Level-0 table #213: 45546 bytes OK
+2022/05/29-13:56:49.154 28 Delete type=0 #210
+2022/05/29-13:56:49.154 28 Compacting 4@0 + 1@1 files
+2022/05/29-13:56:49.169 28 Generated table #214@0: 337 keys, 1342168 bytes
+2022/05/29-13:56:49.169 28 Compacted 4@0 + 1@1 files => 1342168 bytes
+2022/05/29-13:56:49.171 28 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/05/29-13:56:49.171 28 Delete type=2 #209
+2022/05/29-13:56:49.172 28 Delete type=2 #213
+2022/05/29-13:56:49.172 28 Delete type=2 #205
+2022/05/29-13:56:49.172 28 Delete type=2 #207
+2022/05/29-13:56:49.172 28 Delete type=2 #211

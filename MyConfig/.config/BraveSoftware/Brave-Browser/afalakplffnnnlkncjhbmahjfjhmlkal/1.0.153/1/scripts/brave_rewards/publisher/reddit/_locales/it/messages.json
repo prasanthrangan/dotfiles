@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Dai una mancia per questo post",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Donazione",
+    "description": "Icon label for tip button"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "قم بالإرشاد بشأن هذا المنشور",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "مكافأة",
+    "description": "Icon label for tip button"
+  }
+}

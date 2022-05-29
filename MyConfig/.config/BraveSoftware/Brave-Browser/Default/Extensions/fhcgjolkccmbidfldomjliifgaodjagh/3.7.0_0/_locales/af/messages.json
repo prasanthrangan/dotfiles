@@ -1,0 +1,522 @@
+{
+   "aboutText": {
+      "description": "About",
+      "message": "Aangaande"
+   },
+   "activeModeDelayText": {
+      "description": "Delay Before Automatic Cleaning",
+      "message": "Vertraag voordat outomatiese skoonmaak"
+   },
+   "activeModeText": {
+      "description": "Enable Automatic Cleaning",
+      "message": "Aktiveer outomatiese skoonmaak"
+   },
+   "autoDeleteDisabledText": {
+      "description": "Auto-clean disabled",
+      "message": "Outo-skoonmaak gedeaktiveer"
+   },
+   "autoDeleteEnabledText": {
+      "description": "Auto-clean enabled",
+      "message": "Outo-skoonmaak geaktiveer"
+   },
+   "chromeDebugMode": {
+      "description": "Ensure 'Developer Mode' is enabled, then click on 'background page' under Inspect View. This is shown if debug mode is enabled.",
+      "message": "Maak seker dat 'ontwikkelaarmodus' geaktiveer is, en klik dan op 'agtergrondbladsy' onder Inspekteer."
+   },
+   "cleanIgnoringOpenTabsText": {
+      "description": "Clean, include open tabs. Found in the additional cleanup options in the popup.",
+      "message": "Maak skoon, insluitend oop oortjies"
+   },
+   "cleanText": {
+      "description": "Clean",
+      "message": "Maak skoon"
+   },
+   "cleanupActionsBypass": {
+      "description": "Warning - Actions below ignore settings! Found in the additional cleanup options in the popup.",
+      "message": "Waarskuwing - aksies hieronder ignoreer instellings!"
+   },
+   "cleanupDomainChangeText": {
+      "description": "Enable Cleanup on Domain Change",
+      "message": "Aktiveer opruiming met domeinverandering"
+   },
+   "cleanupLogText": {
+      "description": "Cleanup Log",
+      "message": "Opruim Log"
+   },
+   "clearLogsText": {
+      "description": "Clear Logs",
+      "message": "Maak log skoon"
+   },
+   "consoleDebugMode": {
+      "description": "Click on the Console Tab. Found after enabling debug mode.",
+      "message": "Klik op die konsole-oortjie"
+   },
+   "contextualIdentitiesEnabledText": {
+      "description": "Enable Support for Container Tabs. Currently only in Firefox.",
+      "message": "Aktiveer ondersteuning vir Firefox se houertabs"
+   },
+   "contributeText": {
+      "description": "Contribute",
+      "message": "Dra By"
+   },
+   "contributorsText": {
+      "description": "Contributors",
+      "message": "Bydraers"
+   },
+   "cookieCleanupIgnoreOpenTabsText": {
+      "description": "Run cleanup now, include cookies from open tabs. This is shown on mouseover from the available dropdown buttons.",
+      "message": "Ruim nou op, sluit domeine van oop oortjies in"
+   },
+   "cookieCleanupText": {
+      "description": "Run cleanup now, exclude domains from open tabs. This is shown on mouseover on the button.",
+      "message": "Begin nou opruiming, sluit domeine uit van oop oortjies"
+   },
+   "debugMode": {
+      "description": "Enable Debug Mode (Additional Console Outputs). Found in CAD Settings.",
+      "message": "Aktiveer ontfoutmodus (bykomende konsole-uitsette)"
+   },
+   "defaultSettingsText": {
+      "description": "Restore Default Settings",
+      "message": "Herstel oorspronklike instellings"
+   },
+   "disableAutoDeleteText": {
+      "description": "Toggle to disable automatic cleanup (manual mode)",
+      "message": "Wissel om outomatiese opruim (handmatige modus) te deaktiveer"
+   },
+   "documentationText": {
+      "description": "Documentation",
+      "message": "Dokumentasie"
+   },
+   "domainExpressionsText": {
+      "description": "Domain Expression",
+      "message": "Domein Uitdrukking"
+   },
+   "dropdownAdditionalCleaningOptions": {
+      "description": "(Screen-readers only) - Toggle Additional Cleaning Actions Dropdown",
+      "message": "Wissel van die aftreklys vir bykomende skoonmaakaksies"
+   },
+   "editExpressionText": {
+      "description": "Edit expression",
+      "message": "Wysig uitdrukking"
+   },
+   "enableAutoDeleteText": {
+      "description": "Toggle to enable automatic cleanup (automatic mode)",
+      "message": "Wissel om outomatiese opruim (outomatiese modus) te aktiveer"
+   },
+   "enableCleanupLogText": {
+      "description": "Enable Cleanup Log and Counter",
+      "message": "Aktiveer skoonmaaklogboek en toonbank"
+   },
+   "enableGreyListCleanup": {
+      "description": "Enable Greylist Cleanup on Browser Restart",
+      "message": "Aktiveer Greylist-opruiming met die herblaai van die blaaier"
+   },
+   "enableNewVersionPopup": {
+      "description": "Enable Popup when New Version is Released",
+      "message": "Aktiveer pop-up as die nuwe weergawe vrygestel word"
+   },
+   "errorText": {
+      "description": "Error!",
+      "message": "Fout!"
+   },
+   "exportSettingsText": {
+      "description": "Export Core Settings... Found in CAD Settings.",
+      "message": "Voer kerninstellings uit..."
+   },
+   "exportTitleTimestamp": {
+      "description": "A timestamp will be appended to the filename on export.",
+      "message": "'N Tydstempel word bygevoeg by die lêernaam wat uitgevoer word."
+   },
+   "exportURLSText": {
+      "description": "Export Expressions... Found in List of Expressions.",
+      "message": "Voer uitdrukkings uit..."
+   },
+   "extensionDescription": {
+      "description": "Control your cookies! Automatically delete unwanted cookies from your closed tabs while keeping the ones you want.",
+      "message": "Beheer jou koekies! Skrap ongebruikte koekies outomaties van jou geslote oortjies en behou die wat u nog wil gebruik."
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "faqText": {
+      "description": "Frequently Asked Questions, Common issues and solutions",
+      "message": "Algemene vrae, algemene probleme en oplossings"
+   },
+   "filterDebugMode": {
+      "description": "To see only debug outputs by this extension, filter output by the following line. Found after enabling debug mode.",
+      "message": "Filter slegs uitsette deur hierdie uitbreiding, filter die uitset volgens die volgende reël:"
+   },
+   "filterText": {
+      "description": "Filter",
+      "message": "Filter"
+   },
+   "greyListWordText": {
+      "description": "Greylist",
+      "message": "Gryslys"
+   },
+   "importCoreSettingsFailed": {
+      "description": "Import Core Settings Failed - Found unknown setting",
+      "message": "Invoer van kerninstellings misluk - Onbekende instelling gevind"
+   },
+   "importCoreSettingsText": {
+      "description": "Import Core Settings... Found in CAD Settings.",
+      "message": "Voer kerninstellings in..."
+   },
+   "importFileTypeInvalid": {
+      "description": "File given is not a type we handle",
+      "message": "Die gegewe lêer is nie 'n tipe wat ons hanteer nie"
+   },
+   "importFileValidationFailed": {
+      "description": "File given failed validation",
+      "message": "Validering van die lêer is misluk"
+   },
+   "importMissingKey": {
+      "description": "Missing identifier",
+      "message": "Ontbrekende identifiseerder"
+   },
+   "importURLSText": {
+      "description": "Import Expressions... Found in List of Expressions.",
+      "message": "Voer uitdrukkings in..."
+   },
+   "keepAllCookiesText": {
+      "description": "Keep All Cookies. Found in Expression Options. For Whitelist entries.",
+      "message": "Hou alle koekies"
+   },
+   "keepDefaultIcon": {
+      "description": "Keep Default Icons on all list types. Disabled: keep blue icon, grey for automatic cleaning disabled. Enabled: red/yellow/blue depending on matching expressions in list.",
+      "message": "Hou standaardikone by alle lystipes"
+   },
+   "keepLocalstorageText": {
+      "description": "Keep LocalStorage. Found in Expression Options. For Whitelist entries.",
+      "message": "Hou LocalStorage"
+   },
+   "keepText": {
+      "description": "Keep",
+      "message": "Hou"
+   },
+   "listTypeText": {
+      "description": "List Type",
+      "message": "Lys Tipe"
+   },
+   "matchedDomainExpressionText": {
+      "description": "Matched Domain Expression",
+      "message": "Gepaste Domein Uitdrukking"
+   },
+   "menuText": {
+      "description": "Menu. Only shown when the settings screen is small / when the hamburger icon shows / when the menu is collapsed.",
+      "message": "Kieslys"
+   },
+   "minutesText": {
+      "description": "minute(s)",
+      "message": "Minuut (e)"
+   },
+   "noCleanupLogText": {
+      "description": "No Cleanup Logs Found",
+      "message": "Geen Opruim logs gevind"
+   },
+   "noExpressionsText": {
+      "description": "No expressions defined.",
+      "message": "Geen uitdrukkings gedefinieer nie."
+   },
+   "noPrivateLogging": {
+      "description": "Cleanup Logs will not be generated for tabs in Private Browsing / Incognito / InPrivate.",
+      "message": "Opruimingslogboeke sal nie gegenereer word vir oortjies in privaat blaai / incognito / InPrivate nie."
+   },
+   "noRulesText": {
+      "description": "No rules matched this domain",
+      "message": "Geen reëls pas by hierdie domein."
+   },
+   "noneText": {
+      "description": "None",
+      "message": "Geen"
+   },
+   "notificationDisabledText": {
+      "description": "Notification disabled",
+      "message": "Kennisgewings gedeaktiveer"
+   },
+   "notificationEnabledText": {
+      "description": "Notification enabled",
+      "message": "Kennisgewings geaktiveer"
+   },
+   "notificationTitle": {
+      "description": "Cookies were deleted!  Used in Notification Title.",
+      "message": "Koekies is geskrap!"
+   },
+   "notifyCookieCleanupDelayText": {
+      "description": "Duration for Notifications",
+      "message": "Tydsduur vir kennisgewings"
+   },
+   "oldReleasesText": {
+      "description": "Older release notes can be viewed online at",
+      "message": "Ouer vrystellingsnotas kan aanlyn gesien word by"
+   },
+   "openDebugMode": {
+      "description": "To view the debug outputs, open a new tab and visit",
+      "message": "Maak 'n nuwe oortjie oop en besoek die foutuitsette"
+   },
+   "optionsText": {
+      "description": "Options",
+      "message": "Opsies"
+   },
+   "popupCookieCountText": {
+      "description": "Cookies. Due to visual formatting, Cookie Count will always be located on the right side after the colon. Found in Popup near top-right.",
+      "message": "Koekies"
+   },
+   "preferencesText": {
+      "description": "Settings",
+      "message": "Instellings"
+   },
+   "questionExpression": {
+      "description": "How do Expressions work?",
+      "message": "Hoe werk uitdrukkings?"
+   },
+   "reasonCleanCookieName": {
+      "description": "Partial clean because of matched $matchedExpression$ in the $listType$. Used in cleanup logs.",
+      "message": "Gedeeltelik skoon as gevolg van die gepaste $matchedExpression$ in die $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanGreyList": {
+      "description": "Clean because of startup cleanup and $matchedExpression$ is in the Greylist. Used in cleanup log.",
+      "message": "Maak skoon as gevolg van opstartopruiming en $matchedExpression$ is in die Greylist",
+      "placeholders": {
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonCleanNoList": {
+      "description": "Clean because $hostname$ is not in the White or Grey lists",
+      "message": "Maak skoon omdat $hostname$ nie in die wit- of gryslyste is nie",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonCleanStartupNoList": {
+      "description": "Clean because of startup cleanup and $hostname$ is not in the White or Grey lists",
+      "message": "Maak skoon as gevolg van opstartopruiming en $hostname$ is nie in die wit- of gryslyste nie",
+      "placeholders": {
+         "hostname": {
+            "content": "$1",
+            "example": "sub.google.com"
+         }
+      }
+   },
+   "reasonKeep": {
+      "description": "Keep because of matched $matchedExpression$ in the $listType$",
+      "message": "Hou as gevolg van die gepaste $matchedExpression$ in die $listType$",
+      "placeholders": {
+         "listType": {
+            "content": "$2",
+            "example": "Whitelist"
+         },
+         "matchedExpression": {
+            "content": "$1",
+            "example": "*.google.com"
+         }
+      }
+   },
+   "reasonKeepOpenTab": {
+      "description": "Keep because of open tabs of *.$mainDomain$",
+      "message": "Hou as gevolg van oop oortjies van *.$mainDomain$",
+      "placeholders": {
+         "mainDomain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "reasonTabsWereIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] and also open tabs were ignored",
+      "message": "en oop oortjies is ook geïgnoreer"
+   },
+   "reasonTabsWereNotIgnored": {
+      "description": "[Clean because of sub.google.com is not in the White or Grey lists] or in any open tabs",
+      "message": "of in enige oop oortjies"
+   },
+   "releaseNotesText": {
+      "description": "Release Notes",
+      "message": "Vrystelling Notas"
+   },
+   "removeAllExpressions": {
+      "description": "Remove All Expressions",
+      "message": "Verwyder alle uitdrukkings"
+   },
+   "removeAllExpressionsConfirm": {
+      "description": "Are you sure you want to remove ALL ($expressionCount$) saved expression(s) from ($listCount$) list(s)?\n\nTHIS CANNOT BE UNDONE!\n\nType [ $expressionCount$ ] and click OK to delete. Popup prompt if Delete All Expression is clicked.",
+      "message": "Is u seker dat u ALLE ($expressionCount$) gestoorde uitdrukking(s) van ($listCount$) lys(s) wil verwyder? \n\nDIT KAN NIE ONGEDAAN GEMAAK WORD NIE! \n\nTik [ $expressionCount$ ] en klik OK om te verwyder.",
+      "placeholders": {
+         "expressionCount": {
+            "content": "$1",
+            "example": "75"
+         },
+         "listCount": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "removeAllExpressionsNoneFound": {
+      "description": "No expressions to remove!",
+      "message": "Geen uitdrukkings om te verwyder nie!"
+   },
+   "removeExpressionText": {
+      "description": "Remove expression",
+      "message": "Verwyder uitdrukking"
+   },
+   "reportIssuesText": {
+      "description": "Report issues and suggest features",
+      "message": "Rapporteer probleme en stel funksies voor"
+   },
+   "resetExtensionDataText": {
+      "description": "Reset Extension Data",
+      "message": "Stel verlengingsdata terug"
+   },
+   "restoreText": {
+      "description": "Restore. Restores cookies that was cleaned up by this extension. Found in Activity Log entries.",
+      "message": "Laai terug"
+   },
+   "reviewLinkMessage": {
+      "description": "Thanks for trying out Cookie AutoDelete. If you liked it, then please give a review.",
+      "message": "Dankie dat u $cadTitle$ probeer het. As u daarvan hou, gee asseblief 'n resensie.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         }
+      }
+   },
+   "saveExpressionText": {
+      "description": "Save expression",
+      "message": "Stoor uitdrukking"
+   },
+   "secondsText": {
+      "description": "second(s)",
+      "message": "Sekonde (s)"
+   },
+   "settingGroupAutoClean": {
+      "description": "Automatic Cleaning Options",
+      "message": "Outomatiese skoonmaakopsies"
+   },
+   "settingGroupExpression": {
+      "description": "Expression Options",
+      "message": "Uitdrukkingsopsies"
+   },
+   "settingGroupExtension": {
+      "description": "Extension Options",
+      "message": "Uitbreidingsopsies"
+   },
+   "settingGroupOtherBrowsing": {
+      "description": "Other Browsing Data Cleanup Options",
+      "message": "Ander opsies vir opruiming van data"
+   },
+   "settingsText": {
+      "description": "$CAD$ Settings",
+      "message": "$CAD$ Opstelling",
+      "placeholders": {
+         "CAD": {
+            "content": "CAD",
+            "example": "CAD - Short form of Cookie AutoDelete"
+         }
+      }
+   },
+   "showNumberOfCookiesInIconText": {
+      "description": "Show Number of Cookies for that Domain over the Icon",
+      "message": "Toon aantal koekies vir daardie domein op die ikoon"
+   },
+   "sizePopupText": {
+      "description": "Size of Popup (in px). This sets the font size in the Popup.",
+      "message": "Grootte van die opspringer (in px)"
+   },
+   "sizeSettingText": {
+      "description": "Size of Setting Pages (in px). This sets the font size in the Setting Pages.",
+      "message": "Grootte van instellingsbladsye (in px)"
+   },
+   "stopEditingText": {
+      "description": "Stop editing",
+      "message": "Hou op wysig"
+   },
+   "successText": {
+      "description": "Success!",
+      "message": "Sukses!"
+   },
+   "toGreyListText": {
+      "description": "Add to Greylist (Clean on Browser Restart)",
+      "message": "Voeg by Gryslys (maak skoon op herlaaiing van blaaier)"
+   },
+   "toWhiteListText": {
+      "description": "Add to Whitelist (Never Clean)",
+      "message": "Voeg by Witlys (maak nooit skoon)"
+   },
+   "toggleNotificationText": {
+      "description": "Toggle to enable or disable notifications",
+      "message": "Wissel om kennisgewings te aktiveer of deaktiveer"
+   },
+   "toggleToGreyListWordText": {
+      "description": "Toggle to greylist",
+      "message": "Verwissel na gryslys"
+   },
+   "toggleToWhiteListWordText": {
+      "description": "Toggle to whitelist",
+      "message": "Verwissel na witlys"
+   },
+   "versionNumberText": {
+      "description": "$CAD$ version 3.2.1. The actual number is formatted differently and will be right below this text.",
+      "message": "$CAD$ weergawe",
+      "placeholders": {
+         "CAD": {
+            "content": "$1",
+            "example": "CAD or Cookie AutoDelete"
+         }
+      }
+   },
+   "versionText": {
+      "description": "Firefox version",
+      "message": "$browser$ weergawe",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         }
+      }
+   },
+   "welcomeMessage": {
+      "description": "Hi there! During this session, Cookie AutoDelete has deleted 123 cookies and in total 456 cookies.",
+      "message": "Haai daar! Tydens hierdie sessie, het $cadTitle$ $sessionDeleted$ koekies geskrap. In totaal is $totalDeleted$ koekies geskrap.",
+      "placeholders": {
+         "cadTitle": {
+            "content": "$1",
+            "example": "Cookie AutoDelete"
+         },
+         "sessionDeleted": {
+            "content": "$2",
+            "example": "123"
+         },
+         "totalDeleted": {
+            "content": "$3",
+            "example": "456"
+         }
+      }
+   },
+   "welcomeText": {
+      "description": "Welcome",
+      "message": "Welkom"
+   },
+   "whiteListWordText": {
+      "description": "Whitelist",
+      "message": "Witlys"
+   }
+}

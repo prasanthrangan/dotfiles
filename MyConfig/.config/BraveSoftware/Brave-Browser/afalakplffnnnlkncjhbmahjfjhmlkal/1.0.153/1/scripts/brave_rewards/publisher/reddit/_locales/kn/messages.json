@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "ಈ ಪೋಸ್ಟ್ ಸಲಹೆ ಮಾಡಿ",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "ಸಲಹೆ",
+    "description": "Icon label for tip button"
+  }
+}

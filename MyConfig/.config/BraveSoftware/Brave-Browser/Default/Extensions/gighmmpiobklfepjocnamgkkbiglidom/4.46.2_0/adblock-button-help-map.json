@@ -1,0 +1,943 @@
+{
+  "start": {
+    "title": "how_can_we_help",
+    "segues": [
+      {
+        "content": "see_ad",
+        "segueTo": "seeAd",
+        "segueToIfPaused": "seeAdPaused"
+      },
+      {
+        "content": "website_broken",
+        "segueTo": "websiteBroken",
+        "segueToIfPaused": "brokenPaused"
+      },
+      {
+        "content": "seeing_distractions",
+        "segueTo": "seeDistraction",
+        "segueToIfPaused": "seeDCPaused",
+        "showIfPremiumUser": true
+      }
+    ],
+    "footer": "dont_know_help_me"
+  },
+  "seeAd": {
+    "title": "see_ad",
+    "segues": [
+      {
+        "content": "first_time_seeing_ad",
+        "segueTo": "seeAdFirstTime"
+      },
+      {
+        "content": "see_ad_everywhere",
+        "segueTo": "seeAdEverywhere"
+      }
+    ]
+  },
+  "seeAdFirstTime": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "got_it"
+          },
+          {
+            "text": "check_whitelist"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "okCheckWhitelistAction"
+      }
+    ]
+  },
+  "seeDistraction": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "got_it"
+          },
+          {
+            "text": "check_whitelist"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "okCheckWhitelistDistractionsAction"
+      }
+    ]
+  },
+  "seeAdOnWhitelist": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "page_is_whitelisted"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "want_to_remove"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "dontRemoveWhitelistAction"
+      },
+      {
+        "text": "yes",
+        "action": "removeWhitelistAction"
+      }
+    ]
+  },
+  "seeDistractionOnWhitelist": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "page_is_whitelisted_distraction"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "want_to_remove"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "dontRemoveWhitelistDistractionAction"
+      },
+      {
+        "text": "yes",
+        "action": "removeWhitelistDistractionAction"
+      }
+    ]
+  },
+  "seeAdNotOnWhitelist": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "page_not_whitelisted"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "updating_filter_lists"
+          },
+          {
+            "text": "done_reload_page"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "reload_the_page",
+        "action": "reloadCheckAction"
+      }
+    ]
+  },
+  "seeDistractionNotOnWhitelist": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "page_not_whitelisted"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "updating_filter_lists"
+          },
+          {
+            "text": "done_reload_page"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "reload_the_page",
+        "action": "reloadCheckDistractionAction"
+      }
+    ]
+  },
+  "seeAdEverywhere": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "ad_everywhere_malware"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "learn_more_to_resolve",
+            "linkURL": "https://help.getadblock.com/support/solutions/articles/6000055822-how-do-i-remove-adware-or-malware-from-my-computer-"
+          }
+        ]
+      }
+    ]
+  },
+  "dontRemoveWhitelist": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "wont_change_anything"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "dontRemoveWhitelistDistraction": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "wont_change_anything_distraction"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "removeWhitelist": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "removed_url"
+          },
+          {
+            "text": "reload_not_see_ad"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "reload_the_page",
+        "action": "reloadFinishFlowAction"
+      }
+    ]
+  },
+  "removeWhitelistDistraction": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "removed_url"
+          },
+          {
+            "text": "reload_not_see_distraction"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "reload_the_page",
+        "action": "reloadFinishFlowAction"
+      }
+    ]
+  },
+  "checkedBasics": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "checked_basics"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "still_see_ad"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "problemSolvedAction"
+      },
+      {
+        "text": "yes",
+        "action": "stillSeeAdAction"
+      }
+    ]
+  },
+  "checkedDistractionBasics": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "checked_basics"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "still_see_distraction"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "distractionsProblemSolvedAction"
+      },
+      {
+        "text": "yes",
+        "action": "stillSeeDistractionAction"
+      }
+    ]
+  },
+  "problemSolved": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "problem_solved"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "done",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "seeAdFilterError": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "something_not_working"
+          },
+          {
+            "text": "try_manual_update",
+            "linkURL": "https://help.getadblock.com/support/solutions/articles/6000055734-how-do-i-manually-update-my-filter-lists-"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "additional_help"
+          },
+          {
+            "text": "contact_support",
+            "linkURL": "mailto:help@getadblock.com"
+          }
+        ]
+      }
+    ]
+  },
+  "seeAdFiltersGood": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "english_site"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "seeAdNotEnglishSiteAction"
+      },
+      {
+        "text": "yes",
+        "action": "seeAdEnglishSiteAction"
+      }
+    ]
+  },
+  "seeAdEnglishSite": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "visit_help_center",
+            "linkURL": "https://help.getadblock.com"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "additional_help"
+          },
+          {
+            "text": "contact_support",
+            "linkURL": "mailto:help@getadblock.com"
+          }
+        ]
+      }
+    ]
+  },
+  "seeAdNotEnglishSite": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "edit_filter_lists",
+            "linkURL": "https://help.getadblock.com/support/solutions/articles/6000066909-which-filter-lists-should-i-use-"
+          },
+          {
+            "text": "learn_more_filter_lists",
+            "linkURL": "https://help.getadblock.com/support/solutions/articles/6000161377-how-to-use-custom-filters"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "additional_help"
+          },
+          {
+            "text": "contact_support",
+            "linkURL": "mailto:help@getadblock.com"
+          }
+        ]
+      }
+    ]
+  },
+  "seeAdPaused": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "paused_not_blocking"
+          },
+          {
+            "text": "resume_reload"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "dontChangeSeeAdsAction"
+      },
+      {
+        "text": "yes",
+        "action": "unpauseAndReloadAction"
+      }
+    ]
+  },
+  "seeDCPaused": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "paused_not_blocking_distraction"
+          },
+          {
+            "text": "resume_reload_distraction"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no_thanks",
+        "action": "dontChangeSeeDistractionAction",
+        "secondaryButton": true
+      },
+      {
+        "text": "yes",
+        "action": "unpauseAndReloadActionDistraction"
+      }
+    ]
+  },
+  "unpauseAndReload": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "unpaused_reload"
+          },
+          {
+            "text": "still_see_ad"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "problemSolvedAction"
+      },
+      {
+        "text": "yes",
+        "action": "seeAdsUnpausedAction"
+      }
+    ]
+  },
+  "unpauseAndReloadDistraction": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "unpaused_reload"
+          },
+          {
+            "text": "still_see_distractions"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "distractionsProblemSolvedAction"
+      },
+      {
+        "text": "yes",
+        "action": "whichDistractionsAction"
+      }
+    ]
+  },
+  "dontChangeSeeAds": {
+    "title": "see_ad",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "no_changes_see_ad"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "dontChangeSeeDistraction": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "wont_change_anything_distraction"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "whichDistractions": {
+    "title": "which_distractions",
+    "segues": [
+      {
+        "content": "newsletter_popups",
+        "correlates_to_filter_list": "distraction-control-newsletter",
+        "action": "checkIfSubscribedToList"
+      },
+      {
+        "content": "autoplay_videos",
+        "action": "checkIfSubscribedToList",
+        "correlates_to_filter_list": "distraction-control-video"
+      },
+      {
+        "content": "surveys",
+        "correlates_to_filter_list": "distraction-control-survey",
+        "action": "checkIfSubscribedToList"
+      },
+      {
+        "content": "allow_notification_requests",
+        "correlates_to_filter_list": "distraction-control-push",
+        "action": "checkIfSubscribedToList"
+      }
+    ],
+    "dc_help_footer": "showDCHelpPanel"
+  },
+  "websiteBroken": {
+    "title": "website_broken",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "try_pausing"
+          },
+          {
+            "text": "reload_when_ready"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "reload_the_page",
+        "action": "reloadStillBrokenAction"
+      }
+    ]
+  },
+  "reloadStillBroken": {
+    "title": "website_broken",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "website_still_broken"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "stillBrokenAdBlockAction"
+      },
+      {
+        "text": "yes",
+        "action": "stillBrokenNotAdBlockAction"
+      }
+    ]
+  },
+  "stillBrokenNotAdBlock": {
+    "title": "website_broken",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "issue_unrelated_adblock"
+          },
+          {
+            "text": "contact_the_site"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "stillBrokenAdBlock": {
+    "title": "website_broken",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "something_else_going_on"
+          },
+          {
+            "text": "additional_troubleshooting",
+            "linkURL": "https://help.getadblock.com/support/solutions/articles/6000061205-a-web-page-doesn-t-work-or-looks-wrong-with-adblock-on"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "thanks",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "brokenPaused": {
+    "title": "website_broken",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "paused_site_issue"
+          },
+          {
+            "text": "contact_the_site"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "requestDCSubmission": {
+    "title": "request_submission_permission",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "request_submission_url"
+          },
+          {
+            "displayURL": true
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "buttonsubmit",
+        "action": "reportRecievedAction"
+      }
+    ]
+  },
+  "finishDCSubmission": {
+    "title": "report_recieved",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "report_recieved_partI"
+          },
+          {
+            "text": "report_recieved_partII"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ok",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "enableDCFeature": {
+    "title": {
+      "useSavedData": true
+    },
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "feature_disabled_text"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no_thanks",
+        "action": "distractionControlFeatureDisabled",
+        "secondaryButton": true
+      },
+      {
+        "text": "trackers_button_text",
+        "action": "subscribeToFilterList"
+      }
+    ]
+  },
+  "distractionControlFeatureDisabled": {
+    "title": "feature_disabled",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "got_it"
+          },
+          {
+            "text": "where_to_enable_dc",
+            "linkURL": "/options.html#distractioncontrol"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "done",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "waitToRefreshPage": {
+    "title": "reload_the_page",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "updating_preferences"
+          },
+          {
+            "text": "done_reload_page"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "icon": "loop",
+        "disabled": true,
+        "action": "reloadcheckedDistractions",
+        "rotateIcon": true
+      }
+    ]
+  },
+  "refreshPageReady": {
+    "title": "reload_the_page",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "updating_preferences"
+          },
+          {
+            "text": "done_reload_page"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "reload_the_page",
+        "action": "reloadCheckAction"
+      }
+    ]
+  },
+  "checkedDistractions": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "update_preferences"
+          },
+          {
+            "text": "still_see_distractions"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "no",
+        "action": "distractionsProblemSolvedAction"
+      },
+      {
+        "text": "yes",
+        "action": "requestDCSubmission"
+      }
+    ]
+  },
+  "seeingDistractionsProblemSolved": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "awesome_problem_solved"
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "done",
+        "action": "finishFlowAction"
+      }
+    ]
+  },
+  "showDCHelpPanel": {
+    "title": "seeing_distractions_title",
+    "sections": [
+      {
+        "content": [
+          {
+            "text": "distractions_control_details",
+            "linkURL": "https://help.getadblock.com/support/solutions/articles/6000250028-about-distraction-control"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "distractions_control_options",
+            "linkURL": "/options.html#distractioncontrol"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "text": "distractions_control_help",
+            "linkURL": "https://help.getadblock.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

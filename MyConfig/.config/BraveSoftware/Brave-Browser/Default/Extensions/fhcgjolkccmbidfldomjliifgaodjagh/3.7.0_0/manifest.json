@@ -1,0 +1,33 @@
+{
+   "author": "CAD Team",
+   "background": {
+      "scripts": [ "global_files/browserDetect.js", "global_files/browser-polyfill.min.js", "global_files/redux-webext.js", "bundles/common-background-popup-setting.bundle.js", "bundles/common-background.bundle.js", "bundles/background.bundle.js" ]
+   },
+   "browser_action": {
+      "browser_style": false,
+      "default_icon": {
+         "48": "icons/icon_48.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Cookie AutoDelete"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "differential_fingerprint": "1.2f1173ee3fc7cfebc5331e5111155ce12e930db591a29a080c4f0661284663fe",
+   "homepage_url": "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete",
+   "icons": {
+      "128": "icons/icon_128.png",
+      "48": "icons/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+kSDE83Gn3nh3ZlhHunZrIGdVRR/wGsrXmcZOMm6o38lzXWNVKlP1EZs/oKaLK27fExIwF+5RqBTSUsluqGoCrG6rQa6Ihh5waotN9L83Ht0lQyDkF/mjOWxP6U3+R19iuU2aoJENuYuf50uiLSHSzlYQzwfse8JSRM4dFHZ8HyxLpT5cTlSwSF8MqAkzxq8OwmKp/PuIueLbe8UDsErgxZibFm3OPTC07c6aZhcx5BKzmxqaJ1SVoieuF9OTMB6OKqpyOVC5mIB/JXt59WSPbr6cizNM0TjtI1Yebg9/K9fwjS4scCCU+bxoV+mBV55k424Ez/QfdqEqXxz6USO0QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "74",
+   "name": "__MSG_extensionName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "settings/settings.html"
+   },
+   "permissions": [ "activeTab", "alarms", "browsingData", "contextMenus", "cookies", "notifications", "storage", "tabs", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.7.0"
+}

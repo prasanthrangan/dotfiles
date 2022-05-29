@@ -1,0 +1,10 @@
+{
+  "redditTipsHoverText": {
+    "message": "Piešķirt šim postam dzeramnaudu",
+    "description": "Hover text for tip button"
+  },
+  "redditTipsIconLabel": {
+    "message": "Dzeramnauda",
+    "description": "Icon label for tip button"
+  }
+}

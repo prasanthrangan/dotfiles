@@ -1,0 +1,10 @@
+{
+  "twitterTipsHoverText": {
+    "message": "Bu tweete bahşiş ver",
+    "description": "Hover text for tip button"
+  },
+  "twitterTipsIconLabel": {
+    "message": "Bahşiş",
+    "description": "Icon label for tip button"
+  }
+}

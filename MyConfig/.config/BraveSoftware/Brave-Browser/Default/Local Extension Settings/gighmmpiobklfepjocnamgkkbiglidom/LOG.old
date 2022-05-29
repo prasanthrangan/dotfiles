@@ -1,0 +1,32 @@
+2022/05/29-11:56:19.003 c2f Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/05/29-11:56:19.003 c2f Recovering log #544
+2022/05/29-11:56:19.030 c2f Level-0 table #549: started
+2022/05/29-11:56:19.099 c2f Level-0 table #549: 7770547 bytes OK
+2022/05/29-11:56:19.104 c2f Delete type=0 #544
+2022/05/29-11:57:21.539 c38 Level-0 table #552: started
+2022/05/29-11:57:21.637 c38 Level-0 table #552: 7770637 bytes OK
+2022/05/29-11:57:21.639 c38 Delete type=0 #550
+2022/05/29-12:57:20.735 1800 Level-0 table #554: started
+2022/05/29-12:57:20.750 16f8 Current memtable full; waiting...
+2022/05/29-12:57:20.797 1800 Level-0 table #554: 7770555 bytes OK
+2022/05/29-12:57:20.799 1800 Delete type=0 #551
+2022/05/29-12:57:20.800 16f8 Level-0 table #556: started
+2022/05/29-12:57:20.873 16f8 Level-0 table #556: 7770552 bytes OK
+2022/05/29-12:57:20.876 16f8 Delete type=0 #553
+2022/05/29-12:57:20.877 16f8 Compacting 4@0 + 2@1 files
+2022/05/29-12:57:20.993 16f8 Generated table #557@0: 1 keys, 7770552 bytes
+2022/05/29-12:57:20.997 16f8 Generated table #558@0: 7 keys, 429 bytes
+2022/05/29-12:57:20.997 16f8 Compacted 4@0 + 2@1 files => 7770981 bytes
+2022/05/29-12:57:20.998 16f8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/05/29-12:57:20.998 16f8 Delete type=2 #547
+2022/05/29-12:57:20.998 16f8 Delete type=2 #549
+2022/05/29-12:57:20.998 16f8 Delete type=2 #552
+2022/05/29-12:57:20.998 16f8 Delete type=2 #556
+2022/05/29-12:57:20.998 16f8 Delete type=2 #554
+2022/05/29-12:57:20.998 16f8 Delete type=2 #546
+2022/05/29-13:46:31.588 1b7b Level-0 table #560: started
+2022/05/29-13:46:31.716 1b7b Level-0 table #560: 7770732 bytes OK
+2022/05/29-13:46:31.718 1b7b Delete type=0 #555
+2022/05/29-13:57:20.787 1cb6 Level-0 table #562: started
+2022/05/29-13:57:20.860 1cb6 Level-0 table #562: 7770626 bytes OK
+2022/05/29-13:57:20.862 1cb6 Delete type=0 #559
