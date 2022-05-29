@@ -36,3 +36,6 @@
 - spotify
     - spectify
 
+- qemu/kvm
+    - virtman
+
