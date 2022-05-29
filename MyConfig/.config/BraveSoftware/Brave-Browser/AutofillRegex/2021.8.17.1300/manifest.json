@@ -1,9 +1,0 @@
-{
-  "manifest_version": 2,
-  "name": "chromeAutofillRegexConstants",
-  "version": "2021.08.17.1300",
-  "imageName": "image.squash",
-  "squash": true,
-  "fsType": "squashfs",
-  "isRemovable": false
-}

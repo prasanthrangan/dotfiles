@@ -1,6 +1,0 @@
-2022/05/29-11:56:21.035 c2f Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/05/29-11:56:21.035 c2f Recovering log #110
-2022/05/29-11:56:21.037 c2f Reusing old log /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000110.log 
-2022/05/29-14:02:58.461 202d Level-0 table #116: started
-2022/05/29-14:02:58.492 202d Level-0 table #116: 1187878 bytes OK
-2022/05/29-14:02:58.498 202d Delete type=0 #110

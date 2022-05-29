@@ -1,9 +1,0 @@
-{
-  "manifest_version": 2,
-  "name": "Navtracking URL param filter lists",
-  "version": "2022.04.13.00",
-  "imageName": "image.squash",
-  "squash": true,
-  "fsType": "squashfs",
-  "isRemovable": false
-}

@@ -1,6 +1,0 @@
-2022/05/21-22:39:40.892 4cc2 Creating DB /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.citibank.co.in_0.indexeddb.leveldb since it was missing.
-2022/05/21-22:39:40.897 4cc2 Reusing MANIFEST /home/tittu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.citibank.co.in_0.indexeddb.leveldb/MANIFEST-000001
-2022/05/21-22:39:56.125 4e74 Level-0 table #5: started
-2022/05/21-22:39:56.127 4e74 Level-0 table #5: 1259 bytes OK
-2022/05/21-22:39:56.129 4e74 Delete type=0 #3
-2022/05/21-22:39:56.129 4e74 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
