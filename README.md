@@ -9,6 +9,7 @@
     - layan
 
 - ulauncher
+    - omni
 
 - kitty
     - zsh
