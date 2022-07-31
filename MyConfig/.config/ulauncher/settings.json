@@ -1,11 +1,13 @@
 {
-    "blacklisted-desktop-dirs": "/usr/share/locale:/usr/share/app-install:/usr/share/kservices5:/usr/share/fk5:/usr/share/kservicetypes5:/usr/share/applications/screensavers:/usr/share/kde4:/usr/share/mimelnk",
     "clear-previous-query": true,
-    "disable-desktop-filters": true,
+    "disable-desktop-filters": false,
+    "disable-window-shadow": false,
     "grab-mouse-pointer": false,
     "hotkey-show-app": "<Super>a",
+    "jump-keys": "1234567890abcdefghijklmnopqrstuvwxyz",
+    "raise-if-started": true,
     "render-on-screen": "mouse-pointer-monitor",
-    "show-indicator-icon": true,
+    "show-indicator-icon": false,
     "show-recent-apps": "5",
     "terminal-command": "",
     "theme-name": "Omni"

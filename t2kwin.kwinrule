@@ -1,0 +1,13 @@
+[Settings for .*]
+Description=Settings for .*
+noborder=true
+noborderrule=2
+wmclass=.*
+wmclassmatch=3
+
+[Settings for SteamDeck]
+Description=Settings for SteamDeck
+fullscreen=true
+fullscreenrule=2
+wmclass=steamwebhelper
+wmclassmatch=1

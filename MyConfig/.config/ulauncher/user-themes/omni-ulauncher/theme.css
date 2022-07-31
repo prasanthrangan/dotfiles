@@ -1,14 +1,14 @@
 
 /**
- * Dracula colors
+ * catppuccin colors
  */
-@define-color background #191622;
-@define-color current_line_background #483c52; /*#604c6e; #44475A;*/
-@define-color foreground #E1E1E6;
-@define-color foreground_lessimportant #585858;
-@define-color accent #BD93F9;
-@define-color highlight #8BE9FD;
-@define-color boder_color #483C67;
+@define-color background #302D41; /* #191622; */
+@define-color current_line_background #1E1D2F; /* #1F2638; #483c52; #604c6e; #44475A; */
+@define-color foreground #D9E0EE; /* #E1E1E6; */
+@define-color foreground_lessimportant #6E6C7E; /* #585858; */
+@define-color accent #F5E0DC; /* #BD93F9; */
+@define-color highlight #8BD5CA; /* #8BE9FD; */
+@define-color boder_color #C9CBFF; /* #483C67; */
 
 /**
  * App Window

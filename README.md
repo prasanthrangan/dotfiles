@@ -1,41 +1,57 @@
-# dotfiles
-
+# dotfiles #
 --// System Config for Manjaro KDE //--
 
 
-## install my apps
+## Theme
+    - App -> kvantum-dark
+    - Plasma -> lavender-round
+    - colors -> catppuccin
+    - window -> layan
+    - font -> google sans // mononoki nerd
+    - icon -> tela circle
+    - cursor -> vs11
+    - splash -> arch
 
-- kvantum
-    - layan
+## Desktop
+    - bg contrast
+    - blur
+    - shape corners
+    - sliding popup
+    - translucency
 
-- ulauncher
-    - omni
+## Kwin
+    - force blur
+    - window gaps
 
-- kitty
+## Window
+    - regular expression [.*] // no titlebar and frame // force
+
+## ulauncher
+    - omnipuccin
+
+## kitty
     - zsh
     - ohmyzsh
     - powerlevel10k
+    - catppuccin
     - neofetch
 
-- brave
-    - extension
-        - adblock
-        - augmented steam
-        - cookie auto delete
-        - keepa
-        - lastpass
-        - nighttab
-            - zeni theme
+## brave
+    - adblock
+    - augmented steam
+    - cookie auto delete
+    - keepa
+    - lastpass
+    - nighttab // zenitheme
 
-- mangohud
-    - goverlay
-
-- steam
+## steam
+    - mangohud // goverlay
     - gamemode
+    - vkbasalt
 
-- spotify
+## spotify
     - spectify
+    - catppuccin
 
-- qemu/kvm
+## qemu/kvm
     - virtman
-
