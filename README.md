@@ -1,5 +1,4 @@
-# dotfiles #
---// System Config for Manjaro KDE //--
+# --// Arch KDE dotfiles //-- #
 
 
 ## Theme
