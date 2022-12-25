@@ -39,6 +39,7 @@
     - adblock
     - augmented steam
     - cookie auto delete
+    - privacy badger
     - keepa
     - lastpass
     - nighttab // zenitheme
