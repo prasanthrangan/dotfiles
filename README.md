@@ -2,25 +2,30 @@
 
 
 ## Theme
-    - App -> kvantum-dark
-    - Plasma -> lavender-round
-    - colors -> catppuccin
+    - global -> graphite-dark
+    - app -> kvantum-dark
+    - plasma -> lavender-round
+    - colors -> catppuccin-mocha
     - window -> layan
-    - font -> google sans // mononoki nerd
-    - icon -> tela circle
-    - cursor -> vs11
-    - splash -> arch
+    - font -> noto sans // mononoki nerd
+    - icon -> tela circle grey dark
+    - cursor -> capitaine
+    - splash -> arch splash
+
+## General
+    - double click
 
 ## Desktop
     - bg contrast
     - blur
-    - shape corners
+    - lightly shaders
     - sliding popup
     - translucency
+    - slide back
 
 ## Kwin
     - force blur
-    - window gaps
+    - window gaps // tile gaps v6.3
 
 ## Window
     - regular expression [.*] // no titlebar and frame // force
@@ -51,10 +56,9 @@
     - mangohud // goverlay
     - gamemode
     - vkbasalt
+    - protonup
 
 ## spotify
     - spectify
     - catppuccin
 
-## qemu/kvm
-    - virtman

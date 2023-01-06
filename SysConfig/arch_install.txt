@@ -20,7 +20,7 @@ UUID=e42238f1-09d2-442f-9c40-0ab9d5712be5   /mnt/Sh1ro        ext4        defaul
 
 # pacman
 sudo pacman -Rdd discover
-sudo pacman -S zsh git kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia-dkms
+sudo pacman -S firefox neofetch zsh git kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia-dkms
 
 
 # yay
