@@ -36,10 +36,13 @@
     - neofetch
 
 ## brave
-    - adblock
-    - augmented steam
+    - ublock origin
     - cookie auto delete
     - privacy badger
+    - augmented steam
+    - steam db // proton db
+    - ultrawideo
+    - youtube dislike
     - keepa
     - lastpass
     - nighttab // zenitheme
