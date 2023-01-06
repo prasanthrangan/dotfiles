@@ -1,4 +1,4 @@
-# --// Arch KDE dotfiles //-- #
+# --// Arch KDE //-- #
 
 
 ## Theme
