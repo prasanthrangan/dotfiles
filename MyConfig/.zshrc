@@ -104,6 +104,7 @@ alias ll='exa -l --icons'
 alias l='exa -la --icons'
 alias in='sudo pacman -S'
 alias un='sudo pacman -Rns'
+alias up='sudo pacman -Syyu'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
