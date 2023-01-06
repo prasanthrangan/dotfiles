@@ -1,5 +1,5 @@
 # lts
-sudo pacman -S linux-lts nvidia-dkms
+sudo pacman -S linux-lts nvidia-dkms linux-lts-headers
 sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
