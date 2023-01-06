@@ -4,6 +4,7 @@ grep AutoEnable /etc/bluetooth/main.conf
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
 
+
 # fstab
 lsblk -f
 cat /etc/fstab
@@ -16,20 +17,27 @@ UUID=4509b32c-d4de-4828-b3ff-38b6b1d21813   /mnt/HinoKami     ext4        defaul
 # /dev/sda1
 UUID=e42238f1-09d2-442f-9c40-0ab9d5712be5   /mnt/Sh1ro        ext4        defaults    0  0
 
+
 # pacman
 sudo pacman -Rdd discover
 sudo pacman -S git kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia-dkms
+
 
 # yay
 mkdir ~/Clone
 git clone https://aur.archlinux.org/yay.git ~/Clone/yay
 ~/Clone/yay/makepkg -si
 
+
 # aur
 yay -S pamac-aur lightlyshaders-git ulauncher spotify-adblock goverlay
 
+
 # dots
 git clone https://github.com/prasanthrangan/dotfiles.git ~/Dots
+~/Dots/.git/config
+url = https://prasanthrangan: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@github.com/prasanthrangan/dotfiles.git
+
 
 # zsh
 sudo pacman -S zsh
