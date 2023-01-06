@@ -1,8 +1,9 @@
 # bluetooth fix
 lsmod | grep btusb
-grep AutoEnable /etc/bluetooth/main.conf
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
+sed -i "s/#AutoEnable=true/AutoEnable=true/" /etc/bluetooth/main.conf
+grep AutoEnable /etc/bluetooth/main.conf
 
 
 # fstab
@@ -20,13 +21,15 @@ UUID=e42238f1-09d2-442f-9c40-0ab9d5712be5   /mnt/Sh1ro        ext4        defaul
 
 # pacman
 sudo pacman -Rdd discover
-sudo pacman -S firefox neofetch zsh git flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia-dkms
+sudo pacman -S firefox neofetch zsh git code flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia-dkms nvidia-settings linux-lts
 
 
 # yay
+rmdir Documents Music Pictures Public Templates Videos
 mkdir ~/Clone
 git clone https://aur.archlinux.org/yay.git ~/Clone/yay
-~/Clone/yay/makepkg -si
+cd ~/Clone/yay
+makepkg -si
 
 
 # aur
