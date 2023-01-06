@@ -33,7 +33,7 @@ makepkg -si
 
 
 # aur
-yay -S pamac-aur lightlyshaders-git ulauncher spotify-adblock goverlay
+yay -S pamac-aur lightlyshaders-git latte-dock ulauncher spotify-adblock goverlay
 
 
 # dots
