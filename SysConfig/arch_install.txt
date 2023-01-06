@@ -1,6 +1,8 @@
-# lts
-sudo pacman -S linux-lts nvidia-dkms linux-lts-headers
-sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
+# kernel
+sudo pacman -S linux-zen nvidia-dkms linux-zen-headers
+sudo pacman -S linux-lts nvidia-lts linux-lts-headers
+sudo pacman -S linux nvidia linux-headers
+cat /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
@@ -16,7 +18,6 @@ grep AutoEnable /etc/bluetooth/main.conf
 lsblk -f
 cat /etc/fstab
 sudo mkdir /mnt/YoRHa /mnt/HinoKami /mnt/Sh1ro
-
 # /dev/sda1
 UUID=95830e44-5dd7-4158-9729-732493e0c0df   /mnt/YoRHa        ext4        defaults    0  0
 # /dev/sda2
@@ -54,10 +55,10 @@ url = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-flatpak install net.davidotek.pupgui2 com.github.Matoking.protontricks org.gimp.GIMP org.kde.krita com.belmoussaoui.Authenticator org.freedesktop.Piper org.openrgb.OpenRGB
 
+# flatpak
+flatpak install flathub net.davidotek.pupgui2 com.github.Matoking.protontricks org.gimp.GIMP org.kde.krita com.belmoussaoui.Authenticator org.freedesktop.Piper org.openrgb.OpenRGB
 
