@@ -30,17 +30,17 @@
 ## Window
     - regular expression [.*] // no titlebar and frame // force
 
-## ulauncher
+## Ulauncher
     - omnipuccin
 
-## kitty
+## Kitty
     - zsh
     - ohmyzsh
     - powerlevel10k
     - catppuccin
     - neofetch
 
-## brave
+## Firefox
     - ublock origin
     - cookie auto delete
     - privacy badger
@@ -52,13 +52,13 @@
     - lastpass
     - nighttab // zenitheme
 
-## steam
+## Steam
     - mangohud // goverlay
     - gamemode
     - vkbasalt
     - protonup
 
-## spotify
+## Spotify
     - spectify
     - catppuccin
 
