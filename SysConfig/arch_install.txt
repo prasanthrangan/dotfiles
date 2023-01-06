@@ -20,7 +20,7 @@ UUID=e42238f1-09d2-442f-9c40-0ab9d5712be5   /mnt/Sh1ro        ext4        defaul
 
 # pacman
 sudo pacman -Rdd discover
-sudo pacman -S git kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia-dkms
+sudo pacman -S zsh git kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia-dkms
 
 
 # yay
@@ -40,13 +40,10 @@ url = https://prasanthrangan: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@github.com
 
 
 # zsh
-sudo pacman -S zsh
 chsh -s $(which zsh)
-
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
 
