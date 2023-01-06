@@ -1,4 +1,10 @@
-# bluetooth fix
+# lts
+sudo pacman -S linux-lts nvidia-dkms
+sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+
+# bluetooth
 lsmod | grep btusb
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
@@ -53,4 +59,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 flatpak install net.davidotek.pupgui2 com.github.Matoking.protontricks org.gimp.GIMP org.kde.krita com.belmoussaoui.Authenticator org.freedesktop.Piper org.openrgb.OpenRGB
+
 
