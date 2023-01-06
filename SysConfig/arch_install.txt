@@ -36,7 +36,7 @@ yay -S pamac-aur lightlyshaders-git ulauncher spotify-adblock goverlay
 # dots
 git clone https://github.com/prasanthrangan/dotfiles.git ~/Dots
 ~/Dots/.git/config
-url = https://prasanthrangan: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@github.com/prasanthrangan/dotfiles.git
+url = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git
 
 
 # zsh
