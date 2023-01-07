@@ -41,8 +41,8 @@ vim /etc/default/grub
 GRUB_DEFAULT=saved
 GRUB_GFXMODE=2560x1080
 GRUB_THEME="/usr/share/grub/themes/catppuccin-latte-grub-theme/theme.txt"
+GRUB_THEME="/usr/share/grub/themes/Virtuaverse/theme.txt"
 GRUB_SAVEDEFAULT=true
-GRUB_DISABLE_SUBMENU=y
 
 sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
 sudo grub-mkconfig -o /boot/grub/grub.cfg
@@ -74,4 +74,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # flatpak
 flatpak install net.davidotek.pupgui2 com.github.Matoking.protontricks org.gimp.GIMP org.kde.krita com.belmoussaoui.Authenticator org.freedesktop.Piper org.openrgb.OpenRGB
+
 
