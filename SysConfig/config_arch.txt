@@ -62,6 +62,8 @@ yay -S pamac-aur lightlyshaders-git latte-dock ulauncher spotify-adblock goverla
 git clone https://github.com/prasanthrangan/dotfiles.git ~/Dots
 ~/Dots/.git/config
 url = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git
+git config --global user.email "prasanthrangan@rediffmail.com"
+git config --global user.name "Tittu"
 
 
 # zsh
