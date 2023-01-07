@@ -57,8 +57,13 @@
     - gamemode
     - vkbasalt
     - protonup
+    - metro // catppuccin
 
 ## Spotify
     - spectify
+    - catppuccin
+
+## VScode
+    - glassit
     - catppuccin
 
