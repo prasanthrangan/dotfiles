@@ -12,9 +12,6 @@
     - cursor -> capitaine
     - splash -> arch splash
 
-## General
-    - double click
-
 ## Desktop
     - bg contrast
     - blur
