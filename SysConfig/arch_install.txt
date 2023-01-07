@@ -2,8 +2,6 @@
 sudo pacman -S linux-zen nvidia-dkms linux-zen-headers
 sudo pacman -S linux-lts nvidia-lts linux-lts-headers
 sudo pacman -S linux nvidia linux-headers
-cat /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
 # bluetooth
@@ -27,15 +25,30 @@ UUID=e42238f1-09d2-442f-9c40-0ab9d5712be5   /mnt/Sh1ro        ext4        defaul
 
 
 # pacman
+rmdir Documents Music Pictures Public Templates Videos
 sudo pacman -Rdd discover
 sudo pacman -Rns kate
 sudo pacman -S firefox kitty neofetch zsh git code flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode nvidia-libgl nvidia nvidia-settings
 pacman -Qs nvidia
 
 
-# yay
-rmdir Documents Music Pictures Public Templates Videos
+# grub
 mkdir ~/Clone
+git clone https://github.com/catppuccin/grub.git ~/Clone/catgrub
+sudo cp -r ~/Clone/catgrub/src/* /usr/share/grub/themes/
+vim /etc/default/grub
+
+GRUB_DEFAULT=saved
+GRUB_GFXMODE=2560x1080
+GRUB_THEME="/usr/share/grub/themes/catppuccin-latte-grub-theme/theme.txt"
+GRUB_SAVEDEFAULT=true
+GRUB_DISABLE_SUBMENU=y
+
+sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+
+# yay
 git clone https://aur.archlinux.org/yay.git ~/Clone/yay
 cd ~/Clone/yay
 makepkg -si
