@@ -1,11 +1,12 @@
 # https://github.com/Etesam913/slick-fox
 
 // about:profiles
-    > cd /home/tittu/.mozilla/firefox/*.default-release
-    > mkdir chrome
-    > cat > chrome/userChrome.css
+  > cd /home/tittu/.mozilla/firefox/*.default-release
+  > mkdir chrome
+  > cat > chrome/userChrome.css
 // about:config
-    > toolkit.legacyUserProfileCustomizations.stylesheets - true
+  > toolkit.legacyUserProfileCustomizations.stylesheets - true
+  > browser.tabs.tabmanager.enabled - false
 
 
 --------------------------------------------------------------------------------
@@ -165,6 +166,7 @@ tab:not([selected]):hover .tab-background {
 }
 
 #urlbar[breakout][breakout-extend] {
+---------------------------
   top: 3px !important;
   left: 0 !important;
   width: 100% !important;
