@@ -14,33 +14,19 @@ popupHeight=432
 popupWidth=432
 wallpaperplugin=org.kde.image
 
-[Containments][17][Applets][122]
-immutability=1
-plugin=org.kde.plasma.bluetooth
-
-[Containments][17][Applets][122][Configuration]
-PreloadWeight=0
-
 [Containments][17][Applets][135]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][17][Applets][135][Configuration]
-PreloadWeight=18
-
-[Containments][17][Applets][136]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
-[Containments][17][Applets][136][Configuration]
-PreloadWeight=42
+PreloadWeight=2
 
 [Containments][17][Applets][88]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][17][Applets][88][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][17][Applets][89]
 immutability=1
@@ -54,7 +40,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][17][Applets][91][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][17][Applets][92]
 immutability=1
@@ -75,14 +61,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][17][Applets][94][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][17][Applets][95]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][17][Applets][95][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][17][Applets][96]
 immutability=1
@@ -146,7 +132,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][19][Applets][113][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][19][Applets][113][Configuration][Appearance]
 autoFontAndSize=false
@@ -165,7 +151,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][19][Applets][114][Configuration]
-PreloadWeight=100
+PreloadWeight=84
 SystrayContainmentId=17
 
 [Containments][19][Applets][116]
@@ -194,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][19][Applets][119][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 pressureUnit=5028
 showHumidityInTooltip=false
 showPressureInTooltip=false
@@ -219,21 +205,20 @@ plugin=org.kde.latte.plasmoid
 PreloadWeight=0
 
 [Containments][19][Applets][121][Configuration][General]
-hideAllTasks=true
+groupTasksByDefault=false
 isInLatteDock=true
 isPreferredForDroppedLaunchers=false
-launchers59=applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:firefox.desktop,applications:spotify.desktop,applications:steam.desktop,applications:code-oss.desktop,applications:org.kde.krita.desktop,file:///var/lib/flatpak/exports/share/applications/org.gimp.GIMP.desktop
+launchers59=applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:firefox.desktop,applications:spotify.desktop,applications:steam.desktop,applications:code-oss.desktop,applications:org.kde.krita.desktop,file:///home/tittu/.local/share/flatpak/exports/share/applications/org.gimp.GIMP.desktop
 manualScrollTasksType=Disabled
 showOnlyCurrentDesktop=true
 showOnlyCurrentScreen=true
-showWindowsOnlyFromLaunchers=true
 
 [Containments][19][Applets][123]
 immutability=1
 plugin=org.kde.plasma.dittomenu
 
 [Containments][19][Applets][123][Configuration]
-PreloadWeight=28
+PreloadWeight=12
 
 [Containments][19][Applets][123][Configuration][ConfigDialog]
 DialogHeight=518
@@ -251,9 +236,15 @@ useCustomButtonImage=true
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
+[Containments][19][Applets][137][Configuration]
+PreloadWeight=34
+
 [Containments][19][Applets][138]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
+
+[Containments][19][Applets][138][Configuration]
+PreloadWeight=34
 
 [Containments][19][Applets][138][Configuration][ConfigDialog]
 DialogHeight=518
@@ -316,7 +307,7 @@ padding=0.09000000357627869
 type=org.kde.latte.default
 
 [Containments][19][Indicator][org.kde.latte.default][General]
-reversed=true
+activeStyle=Dot
 
 [Containments][19][Indicator][org.kde.latte.plasma][General]
 lengthPadding=0.19
@@ -350,7 +341,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][25][Applets][128][Configuration]
-PreloadWeight=70
+PreloadWeight=54
 
 [Containments][25][Applets][128][Configuration][Appearance]
 chartFace=org.kde.ksysguard.horizontalbars
@@ -394,7 +385,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][25][Applets][130][Configuration]
-PreloadWeight=40
+PreloadWeight=24
 
 [Containments][25][Applets][130][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -427,7 +418,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][25][Applets][131][Configuration]
-PreloadWeight=55
+PreloadWeight=39
 
 [Containments][25][Applets][131][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -450,7 +441,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][25][Applets][132][Configuration]
-PreloadWeight=55
+PreloadWeight=39
 
 [Containments][25][Applets][132][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -469,7 +460,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][25][Applets][133][Configuration]
-PreloadWeight=53
+PreloadWeight=37
 
 [Containments][25][Applets][133][Configuration][Appearance]
 chartFace=org.kde.ksysguard.horizontalbars
