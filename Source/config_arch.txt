@@ -75,6 +75,15 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 
 # flatpak
-flatpak install net.davidotek.pupgui2 com.github.Matoking.protontricks org.gimp.GIMP org.kde.krita com.belmoussaoui.Authenticator org.freedesktop.Piper org.openrgb.OpenRGB
-
-
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install --user flathub 
+com.github.Matoking.protontricks
+net.davidotek.pupgui2
+com.github.tchx84.Flatseal
+org.gimp.GIMP
+org.kde.krita
+org.inkscape.Inkscape
+org.darktable.Darktable
+org.kde.audiotube
+org.freedesktop.Piper
+org.openrgb.OpenRGB
