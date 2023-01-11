@@ -1,27 +1,28 @@
 # --// Arch KDE //-- #
 
 
-## Theme
+## Theme 
     - global -> graphite-dark
-    - app -> kvantum-dark
-    - plasma -> lavender-round
+    - app -> kvantum-dark // graphite-dark
+    - plasma -> lavender-round //utterly-round
     - colors -> catppuccin-mocha
     - window -> layan
     - font -> noto sans // mononoki nerd
     - icon -> tela circle grey dark
-    - cursor -> capitaine
-    - splash -> arch splash
+    - cursor -> capitaine // bibata
+    - splash -> arch splash // paw arch
 
 ## Desktop
     - bg contrast
     - blur
-    - lightly shaders
+    - lightly shaders // shape corners
     - sliding popup
     - translucency
     - slide back
 
 ## Kwin
     - force blur
+    - shake
     - window gaps // tile gaps v6.3
 
 ## Window
@@ -43,7 +44,9 @@
     - privacy badger
     - augmented steam
     - steam db // proton db
+    - search by image
     - ultrawideo
+    - ambient light for youtube
     - youtube dislike
     - keepa
     - lastpass

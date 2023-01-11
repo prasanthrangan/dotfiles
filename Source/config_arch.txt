@@ -16,6 +16,7 @@ grep AutoEnable /etc/bluetooth/main.conf
 lsblk -f
 cat /etc/fstab
 sudo mkdir /mnt/YoRHa /mnt/HinoKami /mnt/Sh1ro
+
 # /dev/sda1
 UUID=95830e44-5dd7-4158-9729-732493e0c0df   /mnt/YoRHa        ext4        defaults    0  0
 # /dev/sda2
@@ -66,6 +67,14 @@ git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 
 
+# sddm
+git clone https://github.com/aczw/sddm-theme-corners.git ~/Clone/sddmcorn
+cp -r ~/Clone/sddmcorn/corners/ /usr/share/sddm/themes/
+echo /etc/sddm.conf.d/kde_settings.conf
+[Theme]
+Current=corners
+
+
 # zsh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -87,3 +96,9 @@ org.darktable.Darktable
 org.kde.audiotube
 org.freedesktop.Piper
 org.openrgb.OpenRGB
+com.usebottles.bottles
+org.gnome.World.PikaBackup
+com.belmoussaoui.Authenticator
+com.bitwarden.desktop
+
+
