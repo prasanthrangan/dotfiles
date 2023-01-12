@@ -6,7 +6,7 @@
     - app -> kvantum-dark // graphite-dark
     - plasma -> lavender-round //utterly-round
     - colors -> catppuccin-mocha
-    - window -> layan
+    - window -> layan // graphite-dark
     - font -> noto sans // mononoki nerd
     - icon -> tela circle grey dark
     - cursor -> capitaine // bibata
