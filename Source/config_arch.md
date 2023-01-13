@@ -98,10 +98,10 @@ sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthran
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 
-cp -r ~/Dots/MyConfig/.config/kitty ~/.config/
-cp -r ~/Dots/MyConfig/.config/neofetch ~/.config/
-cp -r ~/Dots/MyConfig/.config/ulauncher ~/.config/
-cp -r ~/Dots/MyConfig/.vim ~/
+cp -r ~/Dots/Configs/.config/kitty ~/.config/
+cp -r ~/Dots/Configs/.config/neofetch ~/.config/
+cp -r ~/Dots/Configs/.config/ulauncher ~/.config/
+cp -r ~/Dots/Configs/.vim ~/
 ```
 
 ## zsh
@@ -113,7 +113,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-cp ~/Dots/MyConfig/.zshrc ~/Dots/MyConfig/.p10k.zsh ~/
+cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
 ```
 
 ## grub
