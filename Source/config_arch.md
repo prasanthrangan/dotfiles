@@ -26,20 +26,20 @@ grep AutoEnable /etc/bluetooth/main.conf
 ## disk
 ```
 rmdir Documents Music Pictures Public Templates Videos
-sudo mkdir /mnt/YoRHa /mnt/HinoKami /mnt/Sh1ro
 mkdir ~/Clone ~/Dots
 lsblk -f
-cat /etc/fstab
-```
-```
-#/dev/sda1
-UUID=95830e44-5dd7-4158-9729-732493e0c0df   /mnt/YoRHa        ext4        defaults    0  0
+sudo cp /etc/fstab /etc/fstab.bkp
 
-#/dev/sda2
-UUID=4509b32c-d4de-4828-b3ff-38b6b1d21813   /mnt/HinoKami     ext4        defaults    0  0
-
-#/dev/sda1
-UUID=e42238f1-09d2-442f-9c40-0ab9d5712be5   /mnt/Sh1ro        ext4        defaults    0  0
+lsblk -f | grep sda | grep -v '^sda' | while read sdaList
+do
+    devName=`echo $sdaList | awk '{print $1}' | cut -c 5-`
+    fstName=`echo $sdaList | awk '{print $2}'`
+    dirName=`echo $sdaList | awk '{print $4}'`
+    uidName=`echo $sdaList | awk '{print $5}'`
+    #mkdir /mnt/$dirName
+    echo "\n#/dev/$devName"
+    echo "${uidName}   /mnt/${dirName} \t ${fstName} \t defaults \t 0  0"
+done
 ```
 
 
