@@ -111,3 +111,4 @@ alias up='sudo pacman -Syyu'
 
 neofetch
 
+export PATH=$PATH:/home/tittu/.spicetify
