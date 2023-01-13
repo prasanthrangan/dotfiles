@@ -109,9 +109,11 @@ cp -r ~/Dots/MyConfig/.vim ~/
 ```
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 cp ~/Dots/MyConfig/.zshrc ~/Dots/MyConfig/.p10k.zsh ~/
 ```
 
@@ -120,8 +122,7 @@ cp ~/Dots/MyConfig/.zshrc ~/Dots/MyConfig/.p10k.zsh ~/
 ark --batch --destination /usr/share/grub/themes/ ~/Dots/Source/arcs/CatppuccinGrub.zip
 sudo cp /etc/default/grub /etc/default/grub.bkp
 
-sed -i "
-/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
+sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
 /^GRUB_CMDLINE_LINUX_DEFAULT=/c\GRUB_CMDLINE_LINUX_DEFAULT=\"loglevel=3 quiet splash nvidia_drm.modeset=1\"
 /^GRUB_THEME=/c\GRUB_THEME=\"/usr/share/grub/themes/catppuccin/theme.txt\"
 /^GRUB_SAVEDEFAULT=/c\GRUB_SAVEDEFAULT=true" /etc/default/grub
@@ -136,5 +137,3 @@ ark --batch --destination /usr/share/sddm/themes/ ~/Dots/Source/arcs/CornersSddm
 sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
 sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 ```
-
-
