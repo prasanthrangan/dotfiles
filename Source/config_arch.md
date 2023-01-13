@@ -20,7 +20,6 @@ lsmod | grep btusb
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
 sed -i "s/#AutoEnable=true/AutoEnable=true/" /etc/bluetooth/main.conf
-grep AutoEnable /etc/bluetooth/main.conf
 ```
 
 ## disk
@@ -137,3 +136,4 @@ ark --batch --destination /usr/share/sddm/themes/ ~/Dots/Source/arcs/CornersSddm
 sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
 sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 ```
+
