@@ -118,7 +118,7 @@ cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
 
 ## grub
 ```
-ark --batch --destination /usr/share/grub/themes/ ~/Dots/Source/arcs/CatppuccinGrub.zip
+ark --batch --destination /usr/share/grub/themes/ ~/Dots/Source/arcs/Grub_Catppuccin.zip
 sudo cp /etc/default/grub /etc/default/grub.bkp
 
 sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
@@ -132,8 +132,13 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## sddm
 ```
-ark --batch --destination /usr/share/sddm/themes/ ~/Dots/Source/arcs/CornersSddm.zip
+ark --batch --destination /usr/share/sddm/themes/ ~/Dots/Source/arcs/Sddm_Corners.zip
 sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
 sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 ```
 
+## steam
+```
+mkdir -p ~/.local/share/Steam/Skins/
+ark --batch --destination ~/.local/share/Steam/Skins/ ~/Dots/Source/arcs/Steam_Metro.zip
+```
