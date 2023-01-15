@@ -63,7 +63,7 @@ cd ~
 
 ## aur
 ```
-yay -S pamac-aur kde-rounded-corners lightlyshaders-git latte-dock ulauncher spotify-adblock goverlay
+yay -S pamac-aur kde-rounded-corners lightlyshaders-git latte-dock-git ulauncher spotify-adblock goverlay
 ```
 
 ## flatpak
