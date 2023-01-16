@@ -142,3 +142,18 @@ sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 mkdir -p ~/.local/share/Steam/Skins/
 ark --batch --destination ~/.local/share/Steam/Skins/ ~/Dots/Source/arcs/Steam_Metro.zip
 ```
+
+## spotify
+```
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+
+git clone --depth=1 https://github.com/spicetify/spicetify-themes.git ~/Clone/spicetithemes
+cp -r ~/Clone/spicetithemes/* ~/.config/spicetify/Themes
+
+~/.spicetify/spicetify config current_theme Sleek
+~/.spicetify/spicetify config color_scheme Cherry
+~/.spicetify/spicetify apply
+```
+
