@@ -159,4 +159,3 @@ cp -r ~/Clone/spicetithemes/* ~/.config/spicetify/Themes
 ~/.spicetify/spicetify config color_scheme Cherry
 ~/.spicetify/spicetify apply
 ```
-
