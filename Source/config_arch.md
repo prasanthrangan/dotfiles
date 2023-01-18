@@ -50,7 +50,7 @@ done
 ```
 sudo pacman -Rdd discover
 sudo pacman -Rns kate
-sudo pacman -S firefox kitty neofetch zsh git code baobab flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode
+sudo pacman -S firefox kitty neofetch zsh git code rofi flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode
 ```
 
 ## yay
@@ -97,10 +97,14 @@ git clone https://github.com/prasanthrangan/dotfiles.git ~/Dots
 sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git" ~/Dots/.git/config
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
+```
 
+## config
+```
 cp -r ~/Dots/Configs/.config/kitty ~/.config/
 cp -r ~/Dots/Configs/.config/neofetch ~/.config/
 cp -r ~/Dots/Configs/.config/ulauncher ~/.config/
+cp -r ~/Dots/Configs/.config/rofi ~/.config/
 cp -r ~/Dots/Configs/.vim ~/
 ```
 
@@ -124,6 +128,7 @@ sudo cp /etc/default/grub /etc/default/grub.bkp
 sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
 /^GRUB_CMDLINE_LINUX_DEFAULT=/c\GRUB_CMDLINE_LINUX_DEFAULT=\"loglevel=3 quiet splash nvidia_drm.modeset=1\"
 /^GRUB_THEME=/c\GRUB_THEME=\"/usr/share/grub/themes/catppuccin/theme.txt\"
+/^GRUB_GFXMODE=/c\GRUB_GFXMODE=1280x1024x32
 /^GRUB_SAVEDEFAULT=/c\GRUB_SAVEDEFAULT=true" /etc/default/grub
 
 sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
