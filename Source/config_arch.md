@@ -99,15 +99,6 @@ git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 ```
 
-## config
-```
-cp -r ~/Dots/Configs/.config/kitty ~/.config/
-cp -r ~/Dots/Configs/.config/neofetch ~/.config/
-cp -r ~/Dots/Configs/.config/ulauncher ~/.config/
-cp -r ~/Dots/Configs/.config/rofi ~/.config/
-cp -r ~/Dots/Configs/.vim ~/
-```
-
 ## zsh
 ```
 chsh -s $(which zsh)
@@ -140,6 +131,13 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ark --batch --destination /usr/share/sddm/themes/ ~/Dots/Source/arcs/Sddm_Corners.zip
 sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
 sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
+```
+
+## rofi
+```
+cp -r ~/Dots/Configs/.config/* ~/.config/
+cp -r ~/Dots/Configs/.vim ~/
+sudo cp ~/Dots/Configs/.config/rofi/catsaw.rasi /usr/share/rofi/themes/catsaw.rasi
 ```
 
 ## steam
