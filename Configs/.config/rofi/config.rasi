@@ -179,4 +179,5 @@ configuration {
 	me-accept-custom: "Control+MouseDPrimary";
 */
 }
-@theme "/usr/share/rofi/themes/catsaw.rasi"
+
+@theme "/usr/share/rofi/themes/cat_chainsaw.rasi"

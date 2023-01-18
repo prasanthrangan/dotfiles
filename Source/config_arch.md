@@ -137,7 +137,7 @@ sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 ```
 cp -r ~/Dots/Configs/.config/* ~/.config/
 cp -r ~/Dots/Configs/.vim ~/
-sudo cp ~/Dots/Configs/.config/rofi/catsaw.rasi /usr/share/rofi/themes/catsaw.rasi
+sudo cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
 ```
 
 ## steam
