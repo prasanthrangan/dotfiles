@@ -97,6 +97,20 @@ git clone https://github.com/prasanthrangan/dotfiles.git ~/Dots
 sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git" ~/Dots/.git/config
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
+
+cp -r ~/Dots/Configs/.config/* ~/.config/
+cp -r ~/Dots/Configs/.vim ~/
+```
+
+## fonts
+```
+ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_CascadiaCode.zip
+ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_JetBrainsMono.zip
+ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_MononokiNerd.zip
+ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_UzumasaMini.zip
+
+fc-cache
+fc-list
 ```
 
 ## zsh
@@ -135,8 +149,6 @@ sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 
 ## rofi
 ```
-cp -r ~/Dots/Configs/.config/* ~/.config/
-cp -r ~/Dots/Configs/.vim ~/
 sudo cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
 ```
 
@@ -159,3 +171,4 @@ cp -r ~/Clone/spicetithemes/* ~/.config/spicetify/Themes
 ~/.spicetify/spicetify config color_scheme Cherry
 ~/.spicetify/spicetify apply
 ```
+
