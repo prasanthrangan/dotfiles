@@ -7,19 +7,19 @@ Switch to Next Keyboard Layout=Meta+Alt+K
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+]; Ctrl+PgDown
-Activate Previous Tab=Ctrl+PgUp; Ctrl+[
+Activate Next Tab=Ctrl+PgDown; Ctrl+]
+Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
-Back=Alt+Left; Back
+Back=Back; Alt+Left
 BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+W; Ctrl+Esc
+Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+Ins; Ctrl+C
+Copy=Ctrl+C; Ctrl+Ins
 CreateFolder=F10
 Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
@@ -38,7 +38,7 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Forward; Alt+Right
+Forward=Alt+Right; Forward
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
@@ -54,7 +54,7 @@ Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
 OpenRecent=
-Paste=Ctrl+V; Shift+Ins
+Paste=Shift+Ins; Ctrl+V
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -100,9 +100,10 @@ Toggle Touchpad=Touchpad Toggle
 
 [kded5][Global Shortcuts]
 Show System Activity=Ctrl+Esc
-display=Meta+P; Display
+display=Display; Meta+P
 
 [khotkeys][Global Shortcuts]
+{05bb5200-3372-4488-a648-7ed88f9f477f}=Meta+R
 {4b688c81-432b-487a-8840-7d33830ef20c}=Meta+Tab
 {b7883727-8bc1-41de-9335-fd1a25d213f9}=Meta+A
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=
@@ -120,7 +121,7 @@ mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Meta+L; Screensaver
+Lock Session=Screensaver; Meta+L
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 Reboot Without Confirmation=
@@ -129,7 +130,7 @@ Reboot Without Confirmation=
 Activate Window Demanding Attention=Meta+Ctrl+A
 Decrease Opacity=
 Expose=Ctrl+F9
-ExposeAll=Launch (C); Ctrl+F10
+ExposeAll=Ctrl+F10; Launch (C)
 ExposeClass=Ctrl+F7
 ExposeClassCurrentDesktop=
 Increase Opacity=
@@ -202,12 +203,12 @@ Walk Through Windows of Current Application Alternative=
 Walk Through Windows of Current Application Alternative (Reverse)=
 Window Above Other Windows=
 Window Below Other Windows=
-Window Close=Meta+Q
+Window Close=Meta+Q; Alt+F4
 Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
-Window Maximize=Meta+PgUp; Meta+M
+Window Maximize=Meta+M; Meta+PgUp
 Window Maximize Horizontal=
 Window Maximize Vertical=
 Window Minimize=Meta+PgDown; Meta+N
@@ -339,7 +340,10 @@ _launch=Meta+E
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Alt+F2; Search; Alt+Space
+_launch=Meta+S; Search
+
+[org.kde.plasma.emojier.desktop][Global Shortcuts]
+_launch=
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
@@ -354,35 +358,35 @@ Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
 
 [plasmashell][Global Shortcuts]
-activate task manager entry 1=Meta+1
+activate task manager entry 1=
 activate task manager entry 10=
-activate task manager entry 2=Meta+2
-activate task manager entry 3=Meta+3
-activate task manager entry 4=Meta+4
-activate task manager entry 5=Meta+5
-activate task manager entry 6=Meta+6
-activate task manager entry 7=Meta+7
-activate task manager entry 8=Meta+8
-activate task manager entry 9=Meta+9
+activate task manager entry 2=
+activate task manager entry 3=
+activate task manager entry 4=
+activate task manager entry 5=
+activate task manager entry 6=
+activate task manager entry 7=
+activate task manager entry 8=
+activate task manager entry 9=
 activate widget 24=
 activate widget 25=
-activate widget 3=Alt+F1
+activate widget 3=
 activate widget 52=
 activate widget 74=
 clear-history=
-clipboard_action=Meta+Ctrl+X
-cycle-panels=Meta+Alt+P
+clipboard_action=
+cycle-panels=
 cycleNextAction=
 cyclePrevAction=
 edit_clipboard=
 manage activities=
 next activity=
 previous activity=
-repeat_action=Meta+Ctrl+R
-show dashboard=Ctrl+F12
+repeat_action=
+show dashboard=
 show-barcode=
-show-on-mouse-pos=Meta+V
-stop current activity=Meta+S
+show-on-mouse-pos=
+stop current activity=
 switch to next activity=
 switch to previous activity=
 toggle do not disturb=
