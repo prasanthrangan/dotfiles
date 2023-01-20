@@ -107,9 +107,9 @@ cp -r ~/Dots/Configs/.vim ~/
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_CascadiaCode.zip
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_JetBrainsMono.zip
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_MononokiNerd.zip
-ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_UzumasaMini.zip
+ark --batch --destination ~/Dots/Source/arcs/ ~/Dots/Source/arcs/Font_UzumasaMini.zip ; sudo mv ~/Dots/Source/arcs/Uzumasa /usr/share/fonts/
 
-fc-cache
+fc-cache -f -v
 fc-list
 ```
 
