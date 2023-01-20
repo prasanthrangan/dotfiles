@@ -98,8 +98,7 @@ sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthran
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 
-cp -r ~/Dots/Configs/.config/* ~/.config/
-cp -r ~/Dots/Configs/.vim ~/
+cp -r ~/Dots/Configs/* ~/
 ```
 
 ## fonts
