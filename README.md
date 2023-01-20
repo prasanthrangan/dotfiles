@@ -4,6 +4,7 @@
 ## Theme 
     - global -> graphite-dark
     - app -> kvantum-dark // graphite-dark
+    - gtk -> rose-pine
     - plasma -> lavender-round //utterly-round
     - colors -> catppuccin-mocha
     - window -> layan // graphite-dark
@@ -19,6 +20,7 @@
     - sliding popup
     - translucency
     - slide back
+    - kinetic animations
 
 ## Kwin
     - force blur
@@ -27,6 +29,10 @@
 
 ## Window
     - regular expression [.*] // no titlebar and frame // force
+
+## Sddm
+    - nordic custom
+    - corner custom
 
 ## Ulauncher
     - omnipuccin
@@ -66,4 +72,3 @@
 ## VScode
     - glassit
     - catppuccin
-
