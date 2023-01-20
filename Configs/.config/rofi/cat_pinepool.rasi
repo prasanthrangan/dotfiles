@@ -52,7 +52,7 @@ window {
 /*****----- Main Box -----*****/
 mainbox {
     enabled:                     true;
-    spacing:                     20px;
+    spacing:                     25px;
     background-color:            transparent;
     orientation:                 vertical;
     children:                    [ "inputbar", "listbox", "mode-switcher" ];
@@ -105,7 +105,7 @@ dummy {
 /*****----- Mode Switcher -----*****/
 mode-switcher{
     enabled:                     true;
-    padding:                     15px;
+    padding:                     18px;
     spacing:                     10px;
     background-color:            transparent;
     text-color:                  @foreground;
