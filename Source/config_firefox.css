@@ -31,10 +31,10 @@
 #TabsToolbar .tabbrowser-tab .tab-stack,
 #TabsToolbar .tabbrowser-tab .tab-background,
 #TabsToolbar .tabbrowser-tab .tab-content {
-  border-top-left-radius: 10px !important;
-  border-top-right-radius: 10px !important;
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
   margin-top: 0px;
   max-height: 36px !important;
   text-align: center;
@@ -494,7 +494,7 @@ menu:not(.subviewbutton) > .menu-right image {
 /*tooltip*/
 #tabbrowser-tab-tooltip {
   -moz-appearance: none !important;
-  font-size: 1.4rem !important;
+  font-size: 1.0rem !important;
   width: 170px !important;
   height: auto;
   font-weight: normal !important;
@@ -515,8 +515,8 @@ window#places[title='Library'] {
 }
 menupopup {
   -moz-appearance: none !important;
-  padding: 8px !important;
-  border-radius: 15px !important;
+  padding: 0px !important;
+  border-radius: 10px !important;
   background: red !important;
   background: var(--toolbar-field-focus-background-color) !important;
   border: none !important;
@@ -617,11 +617,11 @@ menulist[open='true'] {
 #context-reload > .menu-iconic-left,
 #context-stop > .menu-iconic-left,
 #context-bookmarkpage > .menu-iconic-left {
-  transform: scale(1.8);
+  transform: scale(1.0);
 }
 .menu-iconic-left {
   -moz-appearance: none !important;
-  padding: 0px 5px 0px 9px !important;
+  padding: 0px 0px 0px 0px !important;
 }
 .menu-right {
   -moz-appearance: none !important;
