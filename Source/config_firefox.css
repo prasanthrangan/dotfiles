@@ -108,9 +108,10 @@ tab:not([selected]):hover .tab-background {
 }
 
 .titlebar-button {
-  padding-left: 10px !important;
-  padding-right: 15px !important;
-  padding-top: 10px !important;
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
 }
 
 #urlbar {
@@ -268,7 +269,7 @@ tab:not([selected]):hover .tab-background {
 }
 
 #TabsToolbar > .titlebar-buttonbox-container {
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 #urlbar,
@@ -624,4 +625,3 @@ menuitem[_moz-menuactive='true'] {
   -moz-font-smoothing-background-color: -moz-mac-active-menuitem;
   color: inherit !important;
 }
-
