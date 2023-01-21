@@ -98,7 +98,7 @@ sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthran
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 
-cp -r ~/Dots/Configs/* ~/
+cp -r ~/Dots/Configs/.* ~/
 ```
 
 ## fonts
@@ -151,6 +151,18 @@ sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 sudo cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
 ```
 
+## firefox
+```
+FoxRel=`ll ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
+mkdir ~/.mozilla/firefox/${FoxRel}/chrome
+cp ~/Dots/Source/config_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
+
+// about:profiles
+// about:config
+ -> toolkit.legacyUserProfileCustomizations.stylesheets - true
+ -> browser.tabs.tabmanager.enabled - false
+```
+
 ## steam
 ```
 mkdir -p ~/.local/share/Steam/Skins/
@@ -170,4 +182,3 @@ cp -r ~/Clone/spicetithemes/* ~/.config/spicetify/Themes
 ~/.spicetify/spicetify config color_scheme Cherry
 ~/.spicetify/spicetify apply
 ```
-

@@ -1,17 +1,3 @@
-# https://github.com/Etesam913/slick-fox
-
-// about:profiles
-  > cd /home/tittu/.mozilla/firefox/*.default-release
-  > mkdir chrome
-  > cat > chrome/userChrome.css
-// about:config
-  > toolkit.legacyUserProfileCustomizations.stylesheets - true
-  > browser.tabs.tabmanager.enabled - false
-
-
---------------------------------------------------------------------------------
-
-
 @namespace url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
 
 * {
