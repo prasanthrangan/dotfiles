@@ -29,15 +29,13 @@ mkdir ~/Clone ~/Dots
 lsblk -f
 sudo cp /etc/fstab /etc/fstab.bkp
 
-lsblk -f | grep sda | grep -v '^sda' | while read sdaList
+lsblk -io KNAME,TYPE,FSTYPE,UUID,MOUNTPOINT | awk '$1~/s.*[[:digit:]]/ && $2=="part" && $5==""' | while read sdaList
 do
-    devName=`echo $sdaList | awk '{print $1}' | cut -c 5-`
-    fstName=`echo $sdaList | awk '{print $2}'`
-    dirName=`echo $sdaList | awk '{print $4}'`
-    uidName=`echo $sdaList | awk '{print $5}'`
-    #mkdir /mnt/$dirName
-    echo "\n#/dev/$devName"
-    echo "${uidName}   /mnt/${dirName} \t ${fstName} \t defaults \t 0  0"
+    devName=`echo $sdaList | awk '{print $1}'`
+    fstName=`echo $sdaList | awk '{print $3}'`
+    uidName=`echo $sdaList | awk '{print $4}'`
+    dirName=`lsblk --noheadings --raw -o LABEL /dev/${devName}`
+    [ ! -z "$dirName" ] && mkdir /mnt/$dirName ; echo "\n#/dev/$devName \n${uidName}   /mnt/${dirName} \t ${fstName} \t nosuid,nodev,nofail,x-gvfs-show \t 0  0"
 done
 ```
 
