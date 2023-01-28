@@ -109,6 +109,9 @@ alias up='sudo pacman -Syyu'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-neofetch
+#Display specs
+#neofetch
 
-export PATH=$PATH:/home/tittu/.spicetify
+#Display Pokemon
+#pokemon-colorscripts --no-title -r 1,3,6
+

@@ -2,20 +2,20 @@
 
 
 ## kernel
-```
+```shell
 sudo pacman -S linux-zen nvidia-dkms linux-zen-headers
 sudo pacman -S linux-lts nvidia-lts linux-lts-headers
 sudo pacman -S linux nvidia linux-headers
 ```
 
 ## nvidia
-```
+```shell
 sudo pacman -S nvidia nvidia-settings nvidia-utils
 pacman -Qs nvidia
 ```
 
 ## bluetooth
-```
+```shell
 lsmod | grep btusb
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
@@ -23,7 +23,7 @@ sed -i "s/#AutoEnable=true/AutoEnable=true/" /etc/bluetooth/main.conf
 ```
 
 ## disk
-```
+```shell
 rmdir Documents Music Pictures Public Templates Videos
 mkdir ~/Clone ~/Dots
 lsblk -f
@@ -48,14 +48,14 @@ echo "$fstEntry" >> /etc/fstab
 
 
 ## pacman
-```
+```shell
 sudo pacman -Rdd discover
 sudo pacman -Rns kate
 sudo pacman -S firefox kitty neofetch zsh git code rofi flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode
 ```
 
 ## yay
-```
+```shell
 git clone https://aur.archlinux.org/yay.git ~/Clone/yay
 cd ~/Clone/yay
 makepkg -si
@@ -63,12 +63,12 @@ cd ~
 ```
 
 ## aur
-```
+```shell
 yay -S pamac-aur kde-rounded-corners lightlyshaders-git latte-dock-git ulauncher spotify-adblock goverlay
 ```
 
 ## flatpak
-```
+```shell
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install --user flathub 
 com.github.Matoking.protontricks
@@ -93,17 +93,17 @@ com.bitwarden.desktop
 
 
 ## git
-```
+```shell
 git clone https://github.com/prasanthrangan/dotfiles.git ~/Dots
 sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git" ~/Dots/.git/config
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 
-cp -r ~/Dots/Configs/.* ~/
+cp -r ~/Dots/Configs/.config/.* ~/.config/
 ```
 
 ## fonts
-```
+```shell
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_CascadiaCode.zip
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_JetBrainsMono.zip
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_MononokiNerd.zip
@@ -114,7 +114,7 @@ fc-list
 ```
 
 ## zsh
-```
+```shell
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -122,11 +122,14 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git ~/Clone/pokemon
+sudo ~/Clone/pokemon/install.sh
+
 cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
 ```
 
 ## grub
-```
+```shell
 ark --batch --destination /usr/share/grub/themes/ ~/Dots/Source/arcs/Grub_Catppuccin.zip
 sudo cp /etc/default/grub /etc/default/grub.bkp
 
@@ -141,19 +144,19 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ## sddm
-```
+```shell
 ark --batch --destination /usr/share/sddm/themes/ ~/Dots/Source/arcs/Sddm_Corners.zip
 sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
 sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 ```
 
 ## rofi
-```
+```shell
 sudo cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
 ```
 
 ## firefox
-```
+```shell
 FoxRel=`ll ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
 mkdir ~/.mozilla/firefox/${FoxRel}/chrome
 cp ~/Dots/Source/config_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
@@ -165,13 +168,13 @@ cp ~/Dots/Source/config_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChro
 ```
 
 ## steam
-```
+```shell
 mkdir -p ~/.local/share/Steam/Skins/
 ark --batch --destination ~/.local/share/Steam/Skins/ ~/Dots/Source/arcs/Steam_Metro.zip
 ```
 
 ## spotify
-```
+```shell
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
