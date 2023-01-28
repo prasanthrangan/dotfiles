@@ -123,8 +123,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git ~/Clone/pokemon
-sudo ~/Clone/pokemon/install.sh
-
+cd ~/Clone/pokemon
+sudo ./install.sh
 cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
 ```
 
@@ -159,7 +159,7 @@ sudo cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
 ```shell
 FoxRel=`ll ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
 mkdir ~/.mozilla/firefox/${FoxRel}/chrome
-cp ~/Dots/Source/config_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
+cp ~/Dots/Source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
 
 // about:profiles
 // about:config
