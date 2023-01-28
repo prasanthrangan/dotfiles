@@ -109,7 +109,7 @@ ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_JetBrain
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_MononokiNerd.zip
 ark --batch --destination ~/Dots/Source/arcs/ ~/Dots/Source/arcs/Font_UzumasaMini.zip ; sudo mv ~/Dots/Source/arcs/Uzumasa /usr/share/fonts/
 
-fc-cache -f -v
+fc-cache -vf
 fc-list
 ```
 
