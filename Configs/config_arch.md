@@ -35,7 +35,7 @@ do
     fstName=`echo $sdaList | awk '{print $3}'`
     uidName=`echo $sdaList | awk '{print $4}'`
     dirName=`lsblk --noheadings --raw -o LABEL /dev/${devName}`
-    [ ! -z "$dirName" ] && mkdir /mnt/$dirName ; fstEntry=`echo "\n${fstEntry}\n#/dev/$devName \nUUID=${uidName}   /mnt/${dirName} \t ${fstName} \t nosuid,nodev,nofail,x-gvfs-show \t 0  0"`
+    [ ! -z "$dirName" ] && mkdir /mnt/$dirName ; fstEntry=`echo "\n${fstEntry}\n# /dev/$devName \nUUID=${uidName}   /mnt/${dirName} \t ${fstName} \t nosuid,nodev,nofail,x-gvfs-show \t 0  0"`
 done
 
 sudo cp /etc/fstab /etc/fstab.bkp
