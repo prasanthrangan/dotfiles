@@ -52,6 +52,7 @@ echo "$fstEntry" >> /etc/fstab
 sudo pacman -Rdd discover
 sudo pacman -Rns kate
 sudo pacman -S firefox kitty neofetch zsh git code rofi flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode
+sudo rm /usr/share/applications/rofi*.desktop
 ```
 
 ## yay
@@ -64,13 +65,15 @@ cd ~
 
 ## aur
 ```shell
-yay -S pamac-aur kde-rounded-corners lightlyshaders-git latte-dock-git ulauncher spotify-adblock goverlay
+yay -S pamac-aur kde-rounded-corners latte-dock-git spotify-adblock goverlay
+# optinal alternatives --> lightlyshaders-git ulauncher
+yay -S oh-my-zsh-git zsh-theme-powerlevel10k-git zsh-syntax-highlighting-git zsh-autosuggestions-git pokemon-colorscripts-git
 ```
 
 ## flatpak
 ```shell
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install --user flathub 
+flatpak install --user flathub
 com.github.Matoking.protontricks
 net.davidotek.pupgui2
 com.github.tchx84.Flatseal
@@ -99,11 +102,12 @@ sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthran
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 
-cp -r ~/Dots/Configs/.config/.* ~/.config/
+cp -r ~/Dots/Configs/.config/* ~/.config/
 ```
 
 ## fonts
 ```shell
+mkdir ~/.local/share/fonts/
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_CascadiaCode.zip
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_JetBrainsMono.zip
 ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_MononokiNerd.zip
@@ -116,16 +120,8 @@ fc-list
 ## zsh
 ```shell
 chsh -s $(which zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git ~/Clone/pokemon
-cd ~/Clone/pokemon
-sudo ./install.sh
 cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
+#p10k configure
 ```
 
 ## grub
