@@ -35,11 +35,11 @@ do
     fstName=`echo $sdaList | awk '{print $3}'`
     uidName=`echo $sdaList | awk '{print $4}'`
     dirName=`lsblk --noheadings --raw -o LABEL /dev/${devName}`
-    [ ! -z "$dirName" ] && mkdir /mnt/$dirName ; fstEntry=`echo "\n${fstEntry}\n# /dev/$devName \nUUID=${uidName}   /mnt/${dirName} \t ${fstName} \t nosuid,nodev,nofail,x-gvfs-show \t 0  0"`
+    [ ! -z "$dirName" ] && sudo mkdir /mnt/$dirName ; fstEntry=`echo "\n${fstEntry}\n# /dev/$devName \nUUID=${uidName}   /mnt/${dirName} \t ${fstName} \t nosuid,nodev,nofail,x-gvfs-show \t 0  0"`
 done
 
 sudo cp /etc/fstab /etc/fstab.bkp
-echo "$fstEntry" >> /etc/fstab
+echo "$fstEntry" | sudo tee -a /etc/fstab
 ```
 
 
@@ -121,7 +121,7 @@ fc-list
 ```shell
 chsh -s $(which zsh)
 cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
-#p10k configure
+# to reconfigure --> p10k configure
 ```
 
 ## grub
@@ -182,4 +182,3 @@ cp -r ~/Clone/spicetithemes/* ~/.config/spicetify/Themes
 ~/.spicetify/spicetify config color_scheme Cherry
 ~/.spicetify/spicetify apply
 ```
-
