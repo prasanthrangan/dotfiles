@@ -51,7 +51,7 @@ echo "$fstEntry" | sudo tee -a /etc/fstab
 ```shell
 sudo pacman -Rdd discover
 sudo pacman -Rns kate
-sudo pacman -S firefox kitty neofetch zsh git code rofi flatpak kvantum exa gwenview imagemagick qt5-imageformats steam gamemode
+sudo pacman -S firefox kitty neofetch zsh git code rofi kvantum exa gwenview imagemagick qt5-imageformats steam gamemode
 sudo rm /usr/share/applications/rofi*.desktop
 ```
 
@@ -66,8 +66,8 @@ cd ~
 ## aur
 ```shell
 yay -S pamac-aur kde-rounded-corners latte-dock-git spotify-adblock goverlay
-# optinal alternatives --> lightlyshaders-git ulauncher
 yay -S oh-my-zsh-git zsh-theme-powerlevel10k-git zsh-syntax-highlighting-git zsh-autosuggestions-git pokemon-colorscripts-git
+# optinal alternatives --> lightlyshaders-git ulauncher
 ```
 
 ## flatpak
@@ -99,6 +99,7 @@ com.bitwarden.desktop
 ```shell
 git clone https://github.com/prasanthrangan/dotfiles.git ~/Dots
 sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git" ~/Dots/.git/config
+
 git config --global user.email "prasanthrangan@rediffmail.com"
 git config --global user.name "Tittu"
 
@@ -108,10 +109,10 @@ cp -r ~/Dots/Configs/.config/* ~/.config/
 ## fonts
 ```shell
 mkdir ~/.local/share/fonts/
-ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_CascadiaCode.zip
-ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_JetBrainsMono.zip
-ark --batch --destination ~/.local/share/fonts/ ~/Dots/Source/arcs/Font_MononokiNerd.zip
-ark --batch --destination ~/Dots/Source/arcs/ ~/Dots/Source/arcs/Font_UzumasaMini.zip ; sudo mv ~/Dots/Source/arcs/Uzumasa /usr/share/fonts/
+tar -xvzf ~/Dots/Source/arcs/Font_CascadiaCove.tar.gz -C ~/.local/share/fonts/
+tar -xvzf ~/Dots/Source/arcs/Font_MononokiNerd.tar.gz -C ~/.local/share/fonts/
+tar -xvzf ~/Dots/Source/arcs/Font_JetBrainsMono.tar.gz -C ~/.local/share/fonts/
+tar -xvzf ~/Dots/Source/arcs/Font_UzumasaMini.tar.gz -C /usr/share/fonts/
 
 fc-cache -vf
 fc-list
@@ -126,7 +127,8 @@ cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
 
 ## grub
 ```shell
-ark --batch --destination /usr/share/grub/themes/ ~/Dots/Source/arcs/Grub_Catppuccin.zip
+
+sudo tar -xvzf ~/Dots/Source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
 sudo cp /etc/default/grub /etc/default/grub.bkp
 
 sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
