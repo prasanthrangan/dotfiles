@@ -40,6 +40,9 @@ done
 
 sudo cp /etc/fstab /etc/fstab.bkp
 echo "$fstEntry" | sudo tee -a /etc/fstab
+
+e2label /dev/nvme0n1p2 Arch
+e2label /dev/nvme0n1p3 Tittu
 ```
 
 
