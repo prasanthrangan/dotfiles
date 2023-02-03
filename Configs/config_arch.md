@@ -145,7 +145,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## sddm
 ```shell
-ark --batch --destination /usr/share/sddm/themes/ ~/Dots/Source/arcs/Sddm_Corners.zip
+sudo tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
 sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
 sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 ```
