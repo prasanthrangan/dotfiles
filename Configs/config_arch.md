@@ -68,7 +68,7 @@ cd ~
 
 ## aur
 ```shell
-yay -S pamac-aur kde-rounded-corners latte-dock-git spotify-adblock goverlay
+yay -S pamac-aur kde-rounded-corners latte-dock-git spotify-adblock spicetify-cli spicetify-themes-git goverlay
 yay -S oh-my-zsh-git zsh-theme-powerlevel10k-git zsh-syntax-highlighting-git zsh-autosuggestions-git pokemon-colorscripts-git
 # optinal alternatives --> lightlyshaders-git ulauncher
 ```
@@ -170,20 +170,18 @@ cp ~/Dots/Source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.c
 ## steam
 ```shell
 mkdir -p ~/.local/share/Steam/Skins/
-ark --batch --destination ~/.local/share/Steam/Skins/ ~/Dots/Source/arcs/Steam_Metro.zip
+tar -xvzf ~/Dots/Source/arcs/Steam_Metro.tar.gz -C ~/.local/share/Steam/Skins/
+
 ```
 
 ## spotify
 ```shell
-curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 
-git clone --depth=1 https://github.com/spicetify/spicetify-themes.git ~/Clone/spicetithemes
-cp -r ~/Clone/spicetithemes/* ~/.config/spicetify/Themes
-
-~/.spicetify/spicetify config current_theme Sleek
-~/.spicetify/spicetify config color_scheme Cherry
-~/.spicetify/spicetify apply
+spicetify backup apply
+spicetify config current_theme Sleek
+spicetify config color_scheme Cherry
+spicetify apply
 ```
 
