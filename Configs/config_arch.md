@@ -3,14 +3,14 @@
 
 ## kernel
 ```shell
-sudo pacman -S linux-zen nvidia-dkms linux-zen-headers
-sudo pacman -S linux-lts nvidia-lts linux-lts-headers
-sudo pacman -S linux nvidia linux-headers
+sudo pacman -S linux-zen linux-zen-headers nvidia-dkms
+sudo pacman -S linux-lts linux-lts-headers nvidia-lts
+sudo pacman -S linux linux-headers nvidia
 ```
 
 ## nvidia
 ```shell
-sudo pacman -S nvidia nvidia-settings nvidia-utils
+sudo pacman -S nvidia-dkms nvidia-utils
 pacman -Qs nvidia
 ```
 
@@ -171,7 +171,6 @@ cp ~/Dots/Source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.c
 ```shell
 mkdir -p ~/.local/share/Steam/Skins/
 tar -xvzf ~/Dots/Source/arcs/Steam_Metro.tar.gz -C ~/.local/share/Steam/Skins/
-
 ```
 
 ## spotify
