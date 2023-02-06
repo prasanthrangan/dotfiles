@@ -102,9 +102,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='exa --icons'
-alias ll='exa -l --icons'
-alias l='exa -la --icons'
+alias l='exa -l --icons'
+alias ls='exa -1 --icons'
+alias ll='exa -la --icons'
+alias ld='exa -lD --icons'
 alias in='sudo pacman -S'
 alias un='sudo pacman -Rns'
 alias up='sudo pacman -Syyu'
@@ -117,3 +118,4 @@ alias up='sudo pacman -Syyu'
 
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
+
