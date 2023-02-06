@@ -117,5 +117,8 @@ alias up='sudo pacman -Syyu'
 #neofetch
 
 #Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
+#pokemon-colorscripts --no-title -r 1,3,6
+
+#Display gif
+#kitten icat --align left ~/.config/neofetch/pochita.gif
 
