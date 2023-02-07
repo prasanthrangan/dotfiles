@@ -102,13 +102,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias l='exa -l --icons'
-alias ls='exa -1 --icons'
+alias  l='exa -l  --icons'
+alias ls='exa -1  --icons'
 alias ll='exa -la --icons'
 alias ld='exa -lD --icons'
-alias in='sudo pacman -S'
-alias un='sudo pacman -Rns'
-alias up='sudo pacman -Syyu'
+
+alias in='sudo pacman -S' # install package
+alias un='sudo pacman -Rns' # uninstall package
+alias up='sudo pacman -Syu' # update system/package/aur
+alias pl='pacman -Qs' # list installed package
+alias pa='pacman -Ss' # list availabe package
+alias pc='sudo pacman -Sc' # remove unused cache
+alias po='pacman -Qtdq | grep . && sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
+
+alias gs='zsh ~/Dots/Scripts/git_sync.sh' # sync my git repo
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -117,7 +124,7 @@ alias up='sudo pacman -Syyu'
 #neofetch
 
 #Display Pokemon
-#pokemon-colorscripts --no-title -r 1,3,6
+pokemon-colorscripts --no-title -r 1,3,6
 
 #Display gif
 #kitten icat --align left ~/.config/neofetch/pochita.gif
