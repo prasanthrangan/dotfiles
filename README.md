@@ -7,7 +7,7 @@
     - gtk -> rose-pine
     - plasma -> lavender-round //utterly-round
     - colors -> catppuccin-mocha
-    - window -> layan // graphite-dark
+    - window -> layan // utterly-round
     - font -> noto sans // mononoki nerd
     - icon -> tela circle grey dark
     - cursor -> capitaine // bibata
@@ -21,14 +21,22 @@
     - translucency
     - slide back
     - kinetic animations
+    - tv glitch
 
 ## Kwin
     - force blur
     - shake
+    - synchronize skip
     - window gaps // tile gaps v6.3
 
 ## Window
     - regular expression [.*] // no titlebar and frame // force
+
+## Widgets
+    - plasma customization saver
+    - ditto menu
+    - mediacontroller plus
+    - modern clock
 
 ## Sddm
     - nordic custom

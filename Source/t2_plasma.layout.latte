@@ -33,7 +33,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller_plus
 
 [Containments][17][Applets][162][Configuration]
-PreloadWeight=44
+PreloadWeight=0
 
 [Containments][17][Applets][88]
 immutability=1
@@ -54,7 +54,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][17][Applets][91][Configuration]
-PreloadWeight=3
+PreloadWeight=0
 
 [Containments][17][Applets][92]
 immutability=1
@@ -75,7 +75,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][17][Applets][94][Configuration]
-PreloadWeight=0
+PreloadWeight=11
 
 [Containments][17][Applets][95]
 immutability=1
@@ -147,7 +147,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][19][Applets][113][Configuration]
-PreloadWeight=22
+PreloadWeight=0
 
 [Containments][19][Applets][113][Configuration][Appearance]
 autoFontAndSize=false
@@ -158,7 +158,7 @@ fontFamily=Noto Sans
 use24hFormat=0
 
 [Containments][19][Applets][113][Configuration][ConfigDialog]
-DialogHeight=512
+DialogHeight=515
 DialogWidth=720
 
 [Containments][19][Applets][114]
@@ -166,7 +166,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][19][Applets][114][Configuration]
-PreloadWeight=92
+PreloadWeight=76
 SystrayContainmentId=17
 
 [Containments][19][Applets][116]
@@ -195,7 +195,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][19][Applets][119][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 pressureUnit=5028
 showHumidityInTooltip=false
 showPressureInTooltip=false
@@ -224,11 +224,10 @@ animationWindowAddedInGroup=false
 animationWindowRemovedFromGroup=false
 hoverAction=PreviewWindows
 isInLatteDock=true
-isPreferredForDroppedLaunchers=false
 launchers59=applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code-oss.desktop,applications:firefox.desktop,applications:spotify.desktop,applications:steam.desktop
 manualScrollTasksType=Disabled
-showOnlyCurrentDesktop=true
-showOnlyCurrentScreen=true
+showOnlyCurrentActivity=false
+showWindowActions=true
 
 [Containments][19][Applets][123]
 immutability=1
@@ -285,6 +284,7 @@ autoDecreaseIconSize=false
 autoSizeEnabled=false
 backgroundAllCorners=true
 backgroundRadius=25
+closeActiveWindowEnabled=true
 configurationSticker=true
 dragActiveWindowEnabled=true
 floatingInternalGapIsForced=false
@@ -293,14 +293,14 @@ iconSize=20
 inConfigureAppletsMode=true
 lastWindowsVisibilityMode=7
 lengthExtMargin=5
-lockedZoomApplets=113
+lockedZoomApplets=113;123;119;137;118;116;117;138
 maxLength=85
 minLength=80
 mouseWheelActions=false
 panelPosition=10
 panelShadows=false
 panelSize=0
-panelTransparency=10
+panelTransparency=25
 screenEdgeMargin=5
 shadowOpacity=25
 shadows=None
@@ -524,8 +524,8 @@ backgroundStyle=0
 color=darkgrey
 customBackground=
 customTextColor=
-disableBordersForMaximizedWindows=true
-icon=
+disableBordersForMaximizedWindows=false
+icon=desktop-environment-kde
 lastUsedActivity=
 launchers=
 popUpMargin=-1
