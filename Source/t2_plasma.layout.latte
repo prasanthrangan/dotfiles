@@ -75,7 +75,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][17][Applets][94][Configuration]
-PreloadWeight=11
+PreloadWeight=0
 
 [Containments][17][Applets][95]
 immutability=1
@@ -166,7 +166,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][19][Applets][114][Configuration]
-PreloadWeight=76
+PreloadWeight=72
 SystrayContainmentId=17
 
 [Containments][19][Applets][116]
@@ -266,6 +266,13 @@ PreloadWeight=0
 DialogHeight=518
 DialogWidth=720
 
+[Containments][19][Applets][196]
+immutability=1
+plugin=com.pajuelo.plasmaConfSaver
+
+[Containments][19][Applets][196][Configuration]
+PreloadWeight=49
+
 [Containments][19][ConfigDialog]
 DialogHeight=1254
 DialogWidth=529
@@ -278,15 +285,13 @@ activeWindowFilter=FromAllScreens
 advanced=true
 alignment=10
 alignmentUpgraded=true
-appletOrder=137;119;113;118;123;121;116;114;117;138
+appletOrder=137;119;196;113;118;123;121;116;114;117;138
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
 autoSizeEnabled=false
 backgroundAllCorners=true
 backgroundRadius=25
-closeActiveWindowEnabled=true
 configurationSticker=true
-dragActiveWindowEnabled=true
 floatingInternalGapIsForced=false
 hideFloatingGapForMaximized=true
 iconSize=20
@@ -305,8 +310,8 @@ screenEdgeMargin=5
 shadowOpacity=25
 shadows=None
 shadowsUpgraded=true
-splitterPosition=5
-splitterPosition2=8
+splitterPosition=6
+splitterPosition2=9
 taskScrollAction=ScrollNone
 tasksUpgraded=true
 thickMargin=1
@@ -320,6 +325,9 @@ enabled=true
 enabledForApplets=true
 padding=0.09000000357627869
 type=org.kde.latte.default
+
+[Containments][19][Indicator][org.kde.latte.default][General]
+lengthPadding=0.1
 
 [Containments][19][Indicator][org.kde.latte.plasma][General]
 lengthPadding=0.19

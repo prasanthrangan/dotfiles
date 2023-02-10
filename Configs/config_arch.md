@@ -41,8 +41,8 @@ done
 sudo cp /etc/fstab /etc/fstab.bkp
 echo "$fstEntry" | sudo tee -a /etc/fstab
 
-e2label /dev/nvme0n1p2 Arch
-e2label /dev/nvme0n1p3 Tittu
+sudo e2label /dev/nvme0n1p2 Arch
+sudo e2label /dev/nvme0n1p3 Tittu
 ```
 
 
@@ -115,7 +115,7 @@ mkdir ~/.local/share/fonts/
 tar -xvzf ~/Dots/Source/arcs/Font_CascadiaCove.tar.gz -C ~/.local/share/fonts/
 tar -xvzf ~/Dots/Source/arcs/Font_MononokiNerd.tar.gz -C ~/.local/share/fonts/
 tar -xvzf ~/Dots/Source/arcs/Font_JetBrainsMono.tar.gz -C ~/.local/share/fonts/
-tar -xvzf ~/Dots/Source/arcs/Font_UzumasaMini.tar.gz -C /usr/share/fonts/
+sudo tar -xvzf ~/Dots/Source/arcs/Font_UzumasaMini.tar.gz -C /usr/share/fonts/
 
 fc-cache -vf
 fc-list
@@ -133,7 +133,7 @@ cp ~/Dots/Configs/.zshrc ~/Dots/Configs/.p10k.zsh ~/
 sudo tar -xvzf ~/Dots/Source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
 sudo cp /etc/default/grub /etc/default/grub.bkp
 
-sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
+sudo sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
 /^GRUB_CMDLINE_LINUX_DEFAULT=/c\GRUB_CMDLINE_LINUX_DEFAULT=\"loglevel=3 quiet splash nvidia_drm.modeset=1\"
 /^GRUB_GFXMODE=/c\GRUB_GFXMODE=1280x1024x32
 /^#GRUB_THEME=/c\GRUB_THEME=\"/usr/share/grub/themes/pochita/theme.txt\"
@@ -147,7 +147,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```shell
 sudo tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
 sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
-sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
+sudo sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
 ```
 
 ## rofi
