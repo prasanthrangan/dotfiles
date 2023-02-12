@@ -6,12 +6,6 @@
 
 source global_fn.sh
 
-if (( $EUID != 0 ))
-then
-    echo "you dont have permission to enable services, please run as sudo..."
-    exit 1
-fi
-
 # steam
 if pkg_installed steam
 then
@@ -37,27 +31,27 @@ then
 fi
 
 # sddm
-tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
+sudo tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
 
 if [ ! -d /etc/sddm.conf.d ]
 then
-    mkdir /etc/sddm.conf.d
+    sudo mkdir /etc/sddm.conf.d
 fi
 
-mv /usr/share/sddm/themes/corners/kde_settings.conf /etc/sddm.conf.d/
+sudo mv /usr/share/sddm/themes/corners/kde_settings.conf /etc/sddm.conf.d/
 
 # grub
-tar -xvzf ~/Dots/Source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
-cp /etc/default/grub /etc/default/grub.bkp
+sudo tar -xvzf ~/Dots/Source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
+sudo cp /etc/default/grub /etc/default/grub.bkp
 
-sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
+sudo sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
 /^GRUB_CMDLINE_LINUX_DEFAULT=/c\GRUB_CMDLINE_LINUX_DEFAULT=\"loglevel=3 quiet splash nvidia_drm.modeset=1\"
 /^GRUB_GFXMODE=/c\GRUB_GFXMODE=1280x1024x32
 /^#GRUB_THEME=/c\GRUB_THEME=\"/usr/share/grub/themes/pochita/theme.txt\"
 /^#GRUB_SAVEDEFAULT=true/c\GRUB_SAVEDEFAULT=true" /etc/default/grub
 
-cp /boot/grub/grub.cfg /boot/grub/grub.bkp
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # zsh
 chsh -s $(which zsh)
