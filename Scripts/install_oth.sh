@@ -6,17 +6,58 @@
 
 source global_fn.sh
 
+if (( $EUID != 0 ))
+then
+    echo "you dont have permission to enable services, please run as sudo..."
+    exit 1
+fi
+
+# steam
+if pkg_installed steam
+then
+    if [ ! -d ~/.local/share/Steam/Skins/ ]
+    then
+        mkdir -p ~/.local/share/Steam/Skins/
+    fi
+    tar -xvzf ~/Dots/Source/arcs/Steam_Metro.tar.gz -C ~/.local/share/Steam/Skins/
+fi
+
+# sfirefox
 if pkg_installed firefox
 then
     FoxRel=`ls -l ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
-    mkdir ~/.mozilla/firefox/${FoxRel}/chrome
+
+    if [ ! -d ~/.mozilla/firefox/${FoxRel}/chrome ]
+    then
+        mkdir ~/.mozilla/firefox/${FoxRel}/chrome
+    fi
     cp ~/Dots/Source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
     echo 'user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);' > ~/.mozilla/firefox/${FoxRel}/user.js
     echo 'user_pref("browser.tabs.tabmanager.enabled", false);' >> ~/.mozilla/firefox/${FoxRel}/user.js
 fi
 
-if pkg_installed steam
+# sddm
+tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
+
+if [ ! -d /etc/sddm.conf.d ]
 then
-    mkdir -p ~/.local/share/Steam/Skins/
-    tar -xvzf ~/Dots/Source/arcs/Steam_Metro.tar.gz -C ~/.local/share/Steam/Skins/
+    mkdir /etc/sddm.conf.d
 fi
+
+mv /usr/share/sddm/themes/corners/kde_settings.conf /etc/sddm.conf.d/
+
+# grub
+tar -xvzf ~/Dots/Source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
+cp /etc/default/grub /etc/default/grub.bkp
+
+sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
+/^GRUB_CMDLINE_LINUX_DEFAULT=/c\GRUB_CMDLINE_LINUX_DEFAULT=\"loglevel=3 quiet splash nvidia_drm.modeset=1\"
+/^GRUB_GFXMODE=/c\GRUB_GFXMODE=1280x1024x32
+/^#GRUB_THEME=/c\GRUB_THEME=\"/usr/share/grub/themes/pochita/theme.txt\"
+/^#GRUB_SAVEDEFAULT=true/c\GRUB_SAVEDEFAULT=true" /etc/default/grub
+
+cp /boot/grub/grub.cfg /boot/grub/grub.bkp
+grub-mkconfig -o /boot/grub/grub.cfg
+
+# zsh
+chsh -s $(which zsh)

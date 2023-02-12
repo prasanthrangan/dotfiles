@@ -58,3 +58,7 @@ if [ -d ~/Videos ]
 then
     rmdir ~/Videos
 fi
+
+sudo pacman -Sc
+pacman -Qtdq | sudo pacman -Rns -
+pacman -Qqd | sudo pacman -Rsu -
