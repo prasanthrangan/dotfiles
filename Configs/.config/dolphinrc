@@ -1,0 +1,35 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[General]
+ShowSelectionToggle=false
+Version=202
+ViewPropsTimestamp=2023,2,12,18,49,11.818
+
+[IconsMode]
+IconSize=80
+MaximumTextLines=1
+PreviewSize=80
+
+[InformationPanel]
+dateFormat=ShortFormat
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+DP-0 Height 2560x1080 DP-0=573
+DP-0 Width 2560x1080 DP-0=458
+DP-1 Height 2560x1080 DP-1=573
+DP-1 Width 2560x1080 DP-1=458
+DP-1 Window-Maximized 2560x1080 DP-1=true
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail

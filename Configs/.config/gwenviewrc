@@ -1,0 +1,49 @@
+DP-0 Window-Maximized 2560x1080 DP-0=true
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAACgAAAAPnAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[FullScreen]
+FullScreenModeActive=true
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+
+[MainWindow]
+DP-0=DP-0
+DP-0 Height 2560x1080 DP-0=702
+DP-0 Width 2560x1080 DP-0=1078
+DP-0 XPosition 2560x1080 DP-0=0
+DP-0 YPosition 2560x1080 DP-0=0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABDYAAAKNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/krita-tcd.png
+File2[$e]=$HOME/Downloads/castle.mocha.jpg
+File3[$e]=$HOME/Downloads/cat_tcd.png
+File4[$e]=$HOME/Dots/Wallpapers/nord_space.jpeg
+File5[$e]=$HOME/Downloads/ismail-inceoglu-nightshifter.jpg
+File6[$e]=$HOME/Dots/Wallpapers/cat_lofi_cafe.jpg
+File7[$e]=$HOME/cat_lofi_cafe.jpg
+File8[$e]=$HOME/Downloads/chainsaw_makima_pink.png
+Name1[$e]=krita-tcd.png
+Name2[$e]=castle.mocha.jpg
+Name3[$e]=cat_tcd.png
+Name4[$e]=nord_space.jpeg
+Name5[$e]=ismail-inceoglu-nightshifter.jpg
+Name6[$e]=cat_lofi_cafe.jpg
+Name7[$e]=cat_lofi_cafe.jpg
+Name8[$e]=chainsaw_makima_pink.png
+
+[SideBar]
+InformationSplitterSizes=232,243
+SideBarSplitterSizes=209,2350

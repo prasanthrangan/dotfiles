@@ -1,0 +1,9 @@
+[General]
+ActivateWhenTypingOnDesktop=false
+ActivityAware=false
+FreeFloating=true
+HistoryEnabled=false
+RetainPriorSearch=false
+
+[PlasmaRunnerManager]
+migrated=true

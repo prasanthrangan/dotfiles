@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 50 50"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#f67400" fill-opacity="1" stroke="none" transform="matrix(0.0552956,0,0,-0.0552959,-0.969795,49.6405)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M469.653,-6.50151 C719.35,-6.50151 921.769,195.917 921.769,445.614 C921.769,695.306 719.35,897.725 469.653,897.725 C219.958,897.725 17.5384,695.306 17.5384,445.614 C17.5384,195.917 219.958,-6.50151 469.653,-6.50151 "/>
+</g>
+
+<g fill="#eff0f1" fill-opacity="1" stroke="none" transform="matrix(0.0552956,0,0,-0.0552959,-0.969795,49.6405)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M213.173,445.607 L726.137,445.607"/>
+</g>
+
+<g fill="none" stroke="#eff0f1" stroke-opacity="1" stroke-width="120" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(0.0552956,0,0,-0.0552959,-0.969795,49.6405)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M213.173,445.607 L726.137,445.607"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

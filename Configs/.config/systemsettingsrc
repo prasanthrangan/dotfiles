@@ -1,0 +1,27 @@
+[FileDialogSize]
+DP-0 Height 2560x1080 DP-0=601
+DP-0 Width 2560x1080 DP-0=1366
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+Recent Files[$e]=t2.shortcut.kksrc,file:$HOME/Dots/Wallpapers/cat_lofi_cafe.jpg,file:$HOME/Dots/Source/t2.rofi.khotkeys,file:$HOME/Dots/Source/t2.kwinrule,file:$HOME/Dots/Source/t2_tanjiro.png,file:$HOME/Dots/Source/t2.shortcut.kksrc
+Recent URLs[$e]=file:$HOME/Dots/Source/,file:$HOME/,file:$HOME/Dots/,file:$HOME/Dots/Wallpapers/
+detailViewIconSize=16
+iconViewIconSize=64
+
+[MainWindow]
+DP-0=DP-0
+DP-0 Height 2560x1080 DP-0=700
+DP-0 Width 2560x1080 DP-0=1706
+DP-0 XPosition 2560x1080 DP-0=122
+DP-0 YPosition 2560x1080 DP-0=274
+DP-1 Height 2560x1080 DP-1=955
+DP-1 Width 2560x1080 DP-1=1514
+DP-1 Window-Maximized 2560x1080 DP-1=true
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAACgAAAAQYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=false

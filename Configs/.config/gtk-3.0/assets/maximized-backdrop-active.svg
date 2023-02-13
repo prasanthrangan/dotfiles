@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 50 50"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#27ae60" fill-opacity="1" stroke="none" transform="matrix(0.0548323,0,0,-0.0548326,-4.16213,50.1607)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M531.846,2.93074 C783.648,2.93074 987.778,207.06 987.778,458.864 C987.778,710.669 783.648,914.798 531.846,914.798 C280.037,914.798 75.9066,710.669 75.9066,458.864 C75.9066,207.06 280.037,2.93074 531.846,2.93074 "/>
+</g>
+
+<g fill="#eff0f1" fill-opacity="1" stroke="none" transform="matrix(0.0616553,0,0,-0.0611325,-1.69666,51.4028)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M446.704,759.054 L446.715,506.856 C446.717,470.972 476.145,427.15 511.418,427.152 L757.383,427.163 L446.704,759.054 M423.337,356.938 C423.335,392.825 392.503,419.455 358.645,421.629 L108.615,421.631 L423.348,104.737 L423.337,356.938"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
