@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=Squash windows when they are minimized
+
+Icon=preferences-system-windows-effect-squash
+Name=Minimize Kinetic
+
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Category=Appearance
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=kwin4_effect_minimize_kinetic
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-Ordering=60
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-KWin-Exclusive-Category=minimize

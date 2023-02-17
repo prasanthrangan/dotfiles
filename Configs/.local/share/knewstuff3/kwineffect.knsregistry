@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="209">
+  <name>Kinetic Animations - Minimize</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>zbeep</author>
+  <homepage>https://store.kde.org/p/1915780</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>66</rating>
+  <downloads>3151</downloads>
+  <installedfile>/home/tittu/.local/share/kwin/effects/kwin4_effect_minimize_kinetic</installedfile>
+  <id>1915780</id>
+  <releasedate>2022-10-05</releasedate>
+  <summary>Snappy yet fluid minimize and restore animations with latency reduction for better responsiveness.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/68/28/92/1915780/kinetic.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/68/28/92/1915780/kinetic.gif</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjUwMDAwMTIiLCJvIjoiMSIsInMiOiJhZDA1M2U4OGNjM2UxYjYyODA2ZGRkMTAxNWVmYjBkZmU2ZTlmNWVlNTE3YjAzNWQyMzQxNDczMjI1YTZhMTdmZjI0MTA5OWJmZTE5ODkxN2FiMzFiNmRlZGUxMTQ1MWE2MmY5MjE0MTI0YjlkNTViMTk4NDU1OWFiZmFjZWRjYiIsInQiOjE2NzYyMTQ5NDUsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.iQyB-gJEqyhzciWP7nDcZvFi1HdRAgFBziYcVn0hhIA/kwin4-effect-minimize-kinetic.tar.gz</payload>
+  <tags>animation,unix,minimize,linux,kinetic,kwin,effect</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="209">
+  <name>TV Glitch [Burn-My-Windows]</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>schneegans</author>
+  <homepage>https://store.kde.org/p/1982142</homepage>
+  <licence></licence>
+  <version>26</version>
+  <rating>69</rating>
+  <downloads>643</downloads>
+  <installedfile>/home/tittu/.local/share/kwin/effects/kwin4_effect_tv_glitch</installedfile>
+  <id>1982142</id>
+  <releasedate>2023-02-04</releasedate>
+  <summary>This is the KWin port of the TV-Glitch effect of the Burn-My-Windows GNOME Shell extension. Add some intentional graphics issues to your windows! &lt;a href="https://github.com/Schneegans/Burn-My-Windows#%EF%B8%8F-installation-kwin" target="_blank" rel="nofollow">You can find a list of all...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/67/07/53/1982142/tv-glitch.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/67/07/53/1982142/tv-glitch.gif</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzU1MTI3NzQiLCJvIjoiMSIsInMiOiIwMzVmOTM2NjY4OTdkMzA5NmYwZGIyNTVmNDE2ZTU5MGM1NjdhMzU4MmVhMTI0N2RjOWQzYzExNzc0MmE2ZTc5MWVjZmFmMjI2YmRlMTdkZmQ2NzE3NTIwMDdmOWE2ZmEzYmJjNDVmMzU1YTJlN2MzNjk2MTE0ZjUwYjEzYmYyZSIsInQiOjE2NzYyMTQ4ODYsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.ap1YxLYO_IxBAxJKpPZ53m3TKketqLM9sI9gOt2QbAE/kwin4-effect-tv-glitch.tar.gz</payload>
+  <tags>unix,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="209">
+  <name>Kinetic Animations - Popup Menu Fade</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>zbeep</author>
+  <homepage>https://store.kde.org/p/1915783</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>64</rating>
+  <downloads>2712</downloads>
+  <installedfile>/home/tittu/.local/share/kwin/effects/kwin4_effect_fadingpopups_kinetic</installedfile>
+  <id>1915783</id>
+  <releasedate>2022-10-05</releasedate>
+  <summary>Snappy popup menu fade in/out animation with latency reduction for better responsiveness.&lt;br />
+&lt;br />
+The default kwin effect/animation for this is SO SLOW! This mod improves on that and has additional latency reduction so that opening right click menus will never feel sluggish again.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/68/28/92/1915783/kinetic-popup.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/68/28/92/1915783/kinetic-popup.gif</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjUwMDMzOTYiLCJvIjoiMSIsInMiOiIwODQ3MWQ2NWQxMjYwODY2MTA0Y2E4NjdkYjA4ZTljMWZmZjYwMzZhYWFhZGIyNDIyMWIyYWQ5YzY4ZmRiYWNkZjg5NjQzNzhjNGE1Y2NjZDE3NzJmN2M4MmE1MDkzNGM0MDkzNmJkN2Y3YjIzMDJkNzUwZTBiZTE0YjBhY2I1NyIsInQiOjE2NzYyMTQ5MzQsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.cpXifdWXgT9szntayMNurtUyMTJNd-ZlRQkBLTrabXs/kwin4-effect-fadingpopups-kinetic.tar.gz</payload>
+  <tags>unix,popup,kinetic,kwin,linux,gplv2-later,effect,efi,animation</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="209">
+  <name>Kinetic Animations - Maximize</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>zbeep</author>
+  <homepage>https://store.kde.org/p/1915750</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>64</rating>
+  <downloads>2927</downloads>
+  <installedfile>/home/tittu/.local/share/kwin/effects/kwin4_effect_maximize_kinetic</installedfile>
+  <id>1915750</id>
+  <releasedate>2022-10-05</releasedate>
+  <summary>Snappy yet fluid maximize and unmaximize animations with latency reduction for better responsiveness.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/68/28/92/1915750/kinetic.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/68/28/92/1915750/kinetic.gif</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjQ5OTk1MTAiLCJvIjoiMSIsInMiOiJlOTc1NGI5NWEyN2MxZTczNTliNDA5ZmU2MTBkNjEyMjFmNGFhNjkzOGNlMzNiNjE4MzU1ZTMxOTNmZDJiOTJmOTMxZWNjYzNlZTg4MzlkOTM2MGU3ZTQ4ZTM2NjQ0MTQ1NjhmMTk3ZjNhNmE2YjRlZmFhZTI5MmNmY2NiMzgzMiIsInQiOjE2NzYyMTQ5NDYsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.fLjsLNjHk2bxDkumatEXNllTtDsg5Fzzivr2u_hLE3Y/kwin4-effect-maximize-kinetic.tar.gz</payload>
+  <tags>animation,unix,linux,maximize,effect,gplv2-later,kwin,kinetic</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

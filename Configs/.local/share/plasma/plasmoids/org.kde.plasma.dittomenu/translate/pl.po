@@ -1,0 +1,177 @@
+# Translation of dittomenu in pl
+# Copyright (C) 2022
+# This file is distributed under the same license as the dittomenu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dittomenu\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
+"POT-Creation-Date: 2022-04-21 22:12-0300\n"
+"PO-Revision-Date: 2022-04-05 10:40+0100\n"
+"Last-Translator: Krzysztof Korab <korapps@outlook.com>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../metadata.desktop
+msgid "Ditto Menu"
+msgstr ""
+
+#: ../metadata.desktop
+msgid "A configurable launcher menu"
+msgstr "Konfigurowalne menu uruchamiania programów"
+
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Usuń z ulubionych"
+
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr "Dodaj do ulubionych"
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr "Na wszystkich aktywnościach"
+
+#: ../contents/code/tools.js
+msgid "On The Current Activity"
+msgstr "Na bieżącej aktywności"
+
+#: ../contents/code/tools.js
+msgid "Show In Favorites"
+msgstr "Pokaż w ulubionych"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Ogólne"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr "Ikona:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Wybierz..."
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Wyczyść ikonę"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Behavior"
+msgstr "Zachowanie"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show applications as:"
+msgstr "Pokazuj programy jako:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name only"
+msgstr "Tylko nazwa"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description only"
+msgstr "Tylko opis"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name (Description)"
+msgstr "Nazwa (Opis)"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description (Name)"
+msgstr "Opis (Nazwa)"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show favorites first"
+msgstr "Najpierw pokaż ulubione"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Menu position:"
+msgstr "Położenie menu:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Default"
+msgstr "Domyślne"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center"
+msgstr "Wyśrodkowane"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center bottom"
+msgstr "Wyśrodkowane, na dole"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Search"
+msgstr "Szukaj"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Rozszerz wyszukiwanie na zakładki, pliki i pocztę"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show user icon"
+msgstr "Pokaż ikonę użytkownika"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show labels in two lines"
+msgstr "Pokaż podpisy w dwóch liniach"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Grid"
+msgstr "Siatka"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of columns in grid"
+msgstr "Liczba kolumn w siatce"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of rows in grid"
+msgstr "Liczba wierszy w siatce"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhide all hidden applications"
+msgstr "Uwidocznij wszystkie ukryte aplikacje"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhidden!"
+msgstr "Wszystkie programy są widoczne!"
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications..."
+msgstr "Edytuj programy..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "System Preferences"
+msgstr "Ustawienia systemowe"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "User Home"
+msgstr "Katalog domowy"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgctxt "@action"
+msgid "Lock Screen"
+msgstr "Zablokuj ekran"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Hi, "
+msgstr "Cześć, "
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Type here to search ..."
+msgstr "Wpisz tutaj, aby wyszukać..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Favorites"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "All apps"
+msgstr ""

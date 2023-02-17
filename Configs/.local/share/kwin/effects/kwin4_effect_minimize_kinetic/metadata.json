@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Category": "Appearance",
+        "Description": "Squash windows when they are minimized",
+        "EnabledByDefault": false,
+        "Icon": "preferences-system-windows-effect-squash",
+        "Id": "kwin4_effect_minimize_kinetic",
+        "License": "GPL",
+        "Name": "Minimize Kinetic",
+        "ServiceTypes": [
+            "KWin/Effect"
+        ],
+        "Version": "1",
+        "Website": ""
+    },
+    "X-KDE-Ordering": "60",
+    "X-KDE-ParentApp": "",
+    "X-KWin-Exclusive-Category": "minimize",
+    "X-KWin-Video-Url": "https://files.kde.org/plasma/kwin/effect-videos/minimize.ogv",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}

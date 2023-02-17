@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="210">
+  <name>Force Blur</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>esjeon</author>
+  <homepage>https://store.kde.org/p/1294604</homepage>
+  <licence></licence>
+  <version>0.5</version>
+  <rating>90</rating>
+  <downloads>146150</downloads>
+  <installedfile>/home/tittu/.local/share/kwin/scripts/forceblur</installedfile>
+  <id>1294604</id>
+  <releasedate>2022-02-17</releasedate>
+  <summary>Force-enable blur effect for user-specified windows</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/52/02/16/1294604/25d2a853b8055b383e5ede66db535b5c9a68.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/52/02/16/1294604/25d2a853b8055b383e5ede66db535b5c9a68.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDUxMDIyODkiLCJvIjoiMSIsInMiOiIyNDg2YjNjZDQ0ZjA3NmZiNDNkNWMyNGFlZGQ1OWNlMTg0MDg2ZDRhYWQ4MGNhNTAwYWI5OGQ0MGRlYjUwNzY1NzE2NDhhYzM3ZThiOWIzZjE1NmUwM2E2NTkxYjdmYzQyMTA5N2NlODRmNWNiNTYyNWQ5MzY4ZGI3OWM3ZjhiMSIsInQiOjE2NzYyMTM1MTMsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.ZpQ1qrFv0jVE_HzGiD5FjQGwDhqDSDgu31qtc3nZ5GU/forceblur-0.6.1.kwinscript</payload>
+  <tags>unix,linux,mit-license,kwin,original-product,blur</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="210">
+  <name>Window Gaps</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>nclarius</author>
+  <homepage>https://store.kde.org/p/1619642</homepage>
+  <licence></licence>
+  <version>v8.0</version>
+  <rating>71</rating>
+  <downloads>16464</downloads>
+  <installedfile>/home/tittu/.local/share/kwin/scripts/tilegaps</installedfile>
+  <id>1619642</id>
+  <releasedate>2022-11-27</releasedate>
+  <summary>Adds space around windows touching a screen edge or other window.&lt;br />
+&lt;br />
+The size of the gap and the layouts and applications to be gapped are configurable.&lt;br />
+&lt;br />
+Please note this script does not do any automatic tiling. Its purpose is to reshape windows that have been manually...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/63/33/24/1619642/icon.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/63/33/24/1619642/icon.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDI5ODEwMDMiLCJvIjoiMSIsInMiOiIwM2MwYWNkNjQ2YTFmMmE3ZTAxY2FjMmZkYjZlNDQxMTVhMDU1MjBkMzE1MjdkYjcwMDZhYmU4N2I0YjdhZTY1MDIwNzk0MWY1YWNmMzA1NTkyZjFhYmE0MDkzZDYxOTcxYjM2ZTMzZDBkNmMzODI0ODBkYTAyMjM3Y2ZjNzA3OSIsInQiOjE2NzYzNTA3MzgsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI3LjU3In0.0kaLdS_mhOJ3OeIcQzKkZ-Xu5FPaE-5ji8hJuEUjba0/tile-gaps_v6.3.kwinscript</payload>
+  <tags>original-product,margins,linux,gaps,gplv3,space,tiling,unix,windows</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

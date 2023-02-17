@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="104">
+  <name>Utterly Round</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/1901768</homepage>
+  <licence></licence>
+  <version>1.5</version>
+  <rating>60</rating>
+  <downloads>250</downloads>
+  <installedfile>/home/tittu/.local/share/plasma/desktoptheme/Utterly-Round</installedfile>
+  <id>1901768</id>
+  <releasedate>2023-02-17</releasedate>
+  <summary>A round cornered theme for KDE Plasma 5 desktop environment that follows all color scheme with transparency and blur&lt;br />
+&lt;br />
+NOTE: The Application menu in the Screenshot is &lt;a href="https://store.kde.org/p/1819888" target="_blank" rel="nofollow">Simple Application Launcher&lt;/a>&lt;br />
+&lt;br />
+Key features:&lt;br />
+&lt;br />
+* Rounded corners for all widget elements&lt;br />
+* Follows any color scheme and hence is usable with any Global Themes&lt;br />
+* Material You clock widget&lt;br />
+* Supports transparency: Go to `System Settings &amp;gt; Workspace Behavior &amp;gt; Desktop Effects` and enable `Blur`, `Background Contrast` and `Tranlucency` for best result.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/1901768/screenshot-391.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/1901768/screenshot-391.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzY2MDg1NTciLCJvIjoiMSIsInMiOiI4YjU1ZDZmNGZlZGIyMjVmNDFjZjYwNjE3YjBmOGYzMjQwYTZmNDhlMjI2MDk5NzMyNzI1OWVhMWZiODYwMWVmMDNhNTI2MTc3NjM5Y2FhZDlmYjNkNmU1YmYwMjI2ZTA5NGZjZGFlZTA5YmFkMzllYTgxMjdiNGRmYTEyZTVjYiIsInQiOjE2NzY2MzM2MzcsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjE3LjIwMi4xODAifQ.NrSDBeWWTrjLdEvZuVUFfFaFkrY7OIpex8mRGyU3zso/Utterly-Round-Desktop.tar.xz</payload>
+  <tags>widgets,rounded,plasma,original-product,theme,unix,linux,gplv2-later,kde,blurry</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

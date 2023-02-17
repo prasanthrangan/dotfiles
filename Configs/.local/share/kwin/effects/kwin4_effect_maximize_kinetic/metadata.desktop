@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment=Animation for a window going to maximize/restore from maximize
+Icon=preferences-system-windows-effect-maximize
+Name=Maximize Kinetic
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Category=Appearance
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=kwin4_effect_maximize_kinetic
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-Ordering=60
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/maximize.js
+X-KWin-Video-Url=https://files.kde.org/plasma/kwin/effect-videos/maximize.ogv

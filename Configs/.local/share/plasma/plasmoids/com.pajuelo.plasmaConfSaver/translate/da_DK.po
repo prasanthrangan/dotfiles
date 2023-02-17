@@ -1,0 +1,70 @@
+# Translation of plasmaConfSaver in Danish
+# Copyright (C) 2019
+# This file is distributed under the same license as the plasmaConfSaver package.
+# Magnus Larsen <magnuslarsen@hotmail.com>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmaConfSaver \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-20 19:20+0200\n"
+"PO-Revision-Date: 2019-09-17 10:00+1\n"
+"Last-Translator: Magnus Larsen <magnuslarsen@hotmail.com>\n"
+"Language-Team: Magnus Larsen <magnuslarsen@hotmail.com>\n"
+"Language: Danish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/FullRepresentation.qml:89
+msgid "Enter customization title"
+msgstr "Indtast navn til layoutændring"
+
+#: ../contents/ui/FullRepresentation.qml:105
+msgid "Save"
+msgstr "Gem"
+
+#: ../contents/ui/FullRepresentation.qml:106
+msgid "Save your current customization"
+msgstr "Gem din nuværende layoutændring"
+
+#: ../contents/ui/FullRepresentation.qml:192
+msgid "Import"
+msgstr "Importer"
+
+#: ../contents/ui/FullRepresentation.qml:193
+msgid "Import a customization"
+msgstr "Importer en layoutændring"
+
+#: ../contents/ui/FullRepresentation.qml:291
+msgid "Load"
+msgstr "Indlæs"
+
+#: ../contents/ui/FullRepresentation.qml:292
+msgid "Load this customization"
+msgstr "Indlæs denne layoutændring"
+
+#: ../contents/ui/FullRepresentation.qml:324
+msgid "Update"
+msgstr ""
+
+#: ../contents/ui/FullRepresentation.qml:325
+msgid "Save this customization again"
+msgstr ""
+
+#: ../contents/ui/FullRepresentation.qml:358
+msgid "Export"
+msgstr "Eksporter"
+
+#: ../contents/ui/FullRepresentation.qml:359
+msgid "Export this customization"
+msgstr "Eksporter denne layoutændring"
+
+#: ../contents/ui/FullRepresentation.qml:382
+msgid "Delete"
+msgstr "Slet"
+
+#: ../contents/ui/FullRepresentation.qml:383
+msgid "Delete this customization"
+msgstr "Slet denne layoutændring"

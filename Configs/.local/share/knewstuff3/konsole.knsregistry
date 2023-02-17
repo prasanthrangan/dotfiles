@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="462">
+  <name>Scratchy</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/1896005</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>517</downloads>
+  <installedfile>/home/tittu/.local/share/konsole/Scratchy.colorscheme</installedfile>
+  <id>1896005</id>
+  <releasedate>2023-01-14</releasedate>
+  <summary>Dark theme, based on the catppuccin macchiato color palette.&lt;br />
+https://github.com/catppuccin/catppuccin&lt;br />
+&lt;br />
+Scratchy plasma theme: https://www.pling.com/p/1896013/</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/73/13/1896005/scratchy-konsole-logo1.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/73/13/1896005/scratchy-konsole-logo1.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzM3MjIzOTQiLCJvIjoiMSIsInMiOiIyMzhkMjliMjY0ZDJmYmUwNmZiMDI2YzhkZGI1YjgwZjU5MDc5ODE4MmNkZjYxNjViNzliYWZhNDQxYjhjYWRlOTEzZGQyZDNjNzMxZjM2OWVhNjk0ZmRlMzI1M2M5NWM5N2ViZmI1MjRhZTY1Y2Q3YWM4NTgxZjQ5N2ZjY2UyMCIsInQiOjE2NzYyMTg5OTcsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.LDa_u2Xa2NQitV696_4yF4U9uo-JFF_G9sEIigXolWA/Scratchy.colorscheme</payload>
+  <tags>gplv3,addon</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

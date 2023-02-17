@@ -1,0 +1,31 @@
+[Desktop Entry]
+Name=Ditto Menu
+Comment=A configurable launcher menu
+
+Type=Service
+Icon=start-here-kde
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-Provides=org.kde.plasma.launchermenu
+
+X-KDE-PluginInfo-Author=adhe
+X-KDE-PluginInfo-Email=adhemarks[at]gmail.com
+X-KDE-PluginInfo-Name=org.kde.plasma.dittomenu
+X-KDE-PluginInfo-Version=0.30
+X-KDE-PluginInfo-Category=Application Launchers
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL v2+
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-Website=https://store.kde.org/p/1312669/
+
+Name[ko]=Ditto 메뉴
+Name[nl]=Ditto-menu
+Name[pt_BR]=Ditto Menu
+Name[tr]=Ditto Menu
+Comment[ko]=프로그램 실행기
+Comment[nl]=Een instelbare programmastarter
+Comment[pl]=Konfigurowalne menu uruchamiania programów
+Comment[pt_BR]=Configuração do Menu Iniciar
+Comment[tr]=Yapılandırılabilir bir başlatıcı menüsü

@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
+"POT-Creation-Date: 2022-04-21 22:12-0300\n"
+"PO-Revision-Date: 2021-09-29 09:43+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../metadata.desktop
+msgid "Ditto Menu"
+msgstr "Ditto 메뉴"
+
+#: ../metadata.desktop
+msgid "A configurable launcher menu"
+msgstr "프로그램 실행기"
+
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr "즐겨찾기에서 제거"
+
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr "즐겨찾기에 추가"
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr "모든 활동"
+
+#: ../contents/code/tools.js
+msgid "On The Current Activity"
+msgstr "현재 활동만"
+
+#: ../contents/code/tools.js
+msgid "Show In Favorites"
+msgstr "즐겨찾기에 표시"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "일반"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr "아이콘:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "선택..."
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "아이콘 초기화"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Behavior"
+msgstr "행동"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show applications as:"
+msgstr "프로그램 표시 형식:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name only"
+msgstr "이름만"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description only"
+msgstr "설명만"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name (Description)"
+msgstr "이름 (설명)"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description (Name)"
+msgstr "설명 (이름)"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show favorites first"
+msgstr "즐겨찾기 먼저 표시"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Menu position:"
+msgstr "메뉴 위치:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Default"
+msgstr "기본"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center"
+msgstr "가운데"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center bottom"
+msgstr "가운데 밑"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Search"
+msgstr "검색"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Expand search to bookmarks, files and emails"
+msgstr "책갈피, 파일, 이메일도 검색하기"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show user icon"
+msgstr "사용자 아이콘 표시"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show labels in two lines"
+msgstr "라벨 두 줄로 표시"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Grid"
+msgstr "배열"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of columns in grid"
+msgstr "열 개수"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of rows in grid"
+msgstr "행 개수"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhide all hidden applications"
+msgstr "모든 숨겨진 프로그램 복구"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhidden!"
+msgstr "복구됨!"
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications..."
+msgstr "프로그램 편집..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "System Preferences"
+msgstr "시스템 설정"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "User Home"
+msgstr "사용자 홈"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgctxt "@action"
+msgid "Lock Screen"
+msgstr "잠금"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Hi, "
+msgstr "안녕하세요, "
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Type here to search ..."
+msgstr "검색..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Favorites"
+msgstr "즐겨찾기"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "All apps"
+msgstr "모든 프로그램"
+
+#~ msgid "Search ..."
+#~ msgstr "검색..."
+
+#~ msgid "Center buttom"
+#~ msgstr "가운데 밑"
+
+#~ msgid "Lock Screen"
+#~ msgstr "잠금"
+
+#~ msgid "Leave ..."
+#~ msgstr "떠나기..."

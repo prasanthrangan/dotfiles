@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="135">
+  <name>Rose Pine GTK Theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>fkorpsvart</author>
+  <homepage>https://store.kde.org/p/1810530</homepage>
+  <licence></licence>
+  <version>0.5</version>
+  <rating>72</rating>
+  <downloads>654</downloads>
+  <installedfile>/home/tittu/.themes/RosePine-Main-BL/*</installedfile>
+  <id>1810530</id>
+  <releasedate>2023-01-12</releasedate>
+  <summary>&lt;strong>Rosé Pine GTK Themes&lt;/strong>&lt;br />
+&lt;br />
+&lt;span style="text-decoration: underline;">Rosé Pine&lt;/span> is a GTK theme based on the colour palette of the &lt;a href="https://github.com/rose-pine/neovim" target="_blank" rel="nofollow">Rosé Pine for Neovim&lt;/a> by &lt;a...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/50/03/00/1810530/rosepine-logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/50/03/00/1810530/rosepine-logo.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzM0ODQ4NTYiLCJvIjoiMSIsInMiOiIxMTU0NTg3YWU5YjIzMTk0NWEzMzQ4NDIyMTNhZTY3NjU5ODVhZTA5NzExMWUwNDBiZWRlZjM4YjQ3OGE1MGQ5OGNlYTM0NDI1MTJlYmI3MmFkMWMzNDNhMjg0NGU4ZTdlZTllNWU4OWFkNTgxMDI4ODU1NTRjMWJhYTI1OTZiMiIsInQiOjE2NzYzMTc1MzcsInN0ZnAiOm51bGwsInN0aXAiOiIxMDYuMTk3LjI5LjI1NCJ9.eiLxh5qTvwwJ08-GX6SKB9K4eTMbBy-_tjQqPGrIdVw/RosePine-Main-BL.zip</payload>
+  <tags>theme,unix,original-product,linux,fedora,gplv3,gnome</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="135">
+  <name>Layan gtk theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1309214</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>92</rating>
+  <downloads>14699</downloads>
+  <installedfile>/home/tittu/.themes/Layan-Dark/*</installedfile>
+  <id>1309214</id>
+  <releasedate>2022-10-08</releasedate>
+  <summary>Layan is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell&lt;br />
+---------------------&lt;br />
+&lt;strong>Icon theme&lt;/strong>: Tela icon theme&lt;br />
+&lt;a href="https://www.pling.com/p/1279924/" target="_blank" rel="nofollow">https://www.pling.com/p/1279924/&lt;/a>&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1309214/2da0d54f02aa8c1841810cbf1cd204a841b9.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1309214/2da0d54f02aa8c1841810cbf1cd204a841b9.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjUyMjE1NDMiLCJvIjoiMSIsInMiOiJlYzI2YWQ0OGU5NWRiMWZlZjU1ZDNmMDZlZGFjNDI1YzRmNjQ5MDg1YTEwYzkyYmUwOTA5NGI3MjU0N2VhMmRjNjMzZDlkOGQzZmY2NmQ3YmI5OGVkZGVlNGZmODU0NDhhMDVlMTA2Yjk0OGYwYWEzMjFmNDA5Nzc5MmUwMGQ2OCIsInQiOjE2NzY2MzM3NDEsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjE3LjIwMi4xODAifQ.aimfpSqIuGlYxygu3Ma8WjfwWsCaZ39l-bUoX0DZKMo/Layan-Dark.tar.xz</payload>
+  <tags>theme,unix,linux,gplv3,gnome,original-product</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

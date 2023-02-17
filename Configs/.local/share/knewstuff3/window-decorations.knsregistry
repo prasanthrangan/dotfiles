@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="114">
+  <name>Utterly Round</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>himdek</author>
+  <homepage>https://store.kde.org/p/1903823</homepage>
+  <licence></licence>
+  <version>1.2</version>
+  <rating>50</rating>
+  <downloads>8423</downloads>
+  <installedfile>/home/tittu/.local/share/aurorae/themes/Utterly-Round/*</installedfile>
+  <id>1903823</id>
+  <releasedate>2023-01-27</releasedate>
+  <summary>Rounded Window borders for KDE Plasma 5 desktop environment that follows all color scheme with transparency and blur&lt;br />
+&lt;br />
+* To blend window decoration with background, install and use the Color Scheme, Kvantum Theme and Konsole Color Scheme from the below Global Theme&lt;br />
+&lt;a...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/66/42/38/1903823/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/66/42/38/1903823/logo.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzQ4MTIxMzgiLCJvIjoiMSIsInMiOiI5YjVkYTg1NWQ2ZDY4NzNhOTE5YWZjYzc4YWYyZGMwNzdiZGNlYmU0ZDg4OTg0YTUwYTlmYjM3YTFlNDM4ZTMyN2ZlNGU4OWRhMDFkYmU0Y2RiYjNiMmU3ZDFhMTczZGQ4MTYwMjg4NDFiZGM5YzcyNzAxOWEyYzMyMmM2NDBkZCIsInQiOjE2NzYyMTE0NjEsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.hnLDfRUPeZwgS6Ilp7RUzJf0KuR1setE76sGnUfsG3g/Utterly-Round-Aurorae.tar.xz</payload>
+  <tags>kde,linux,macos,mac,gplv2-later,windowdeco,original-product,round,plasma,theme,unix,aurorae</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

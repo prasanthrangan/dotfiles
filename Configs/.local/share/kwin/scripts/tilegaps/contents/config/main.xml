@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="">
+        <entry name="gapTop" type="int">
+            <label>Size of the gap between a window and the top screen edge</label>
+            <default>12</default>
+        </entry>
+        <entry name="gapLeft" type="int">
+            <label>Size of the gap between a window and the left screen edge</label>
+            <default>12</default>
+        </entry>
+        <entry name="gapMid" type="int">
+            <label>Size of the gap between adjacent windows</label>
+            <default>12</default>
+        </entry>
+        <entry name="gapRight" type="int">
+            <label>Size of the gap between a window and the right screen edge</label>
+            <default>12</default>
+        </entry>
+        <entry name="gapBottom" type="int">
+            <label>Size of the gap between a window and the bottom screen edge</label>
+            <default>12</default>
+        </entry>
+        <entry name="includeMaximized" type="bool">
+            <label>Whether to gap maximized windows</label>
+            <default>false</default>
+        </entry>
+        <entry name="tolerance" type="int">
+            <label>Divergence margin within which to consider windows tiled</label>
+            <default>24</default>
+        </entry>
+        <entry name="excludeMode" type="bool">
+            <label>Whether to gap all except the specified applications</label>
+            <default>true</default>
+        </entry>
+        <entry name="includeMode" type="bool">
+            <label>Whether to gap no except the specified applications</label>
+            <default>false</default>
+        </entry>
+        <entry name="excludedApps" type="string">
+            <label>List of applications to be excluded</label>
+            <default></default>
+        </entry>
+        <entry name="includedApps" type="string">
+            <label>List of applications to be included</label>
+            <default></default>
+        </entry>
+    </group>
+</kcfg>

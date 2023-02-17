@@ -1,0 +1,177 @@
+# Translation of dittomenu in LANGUAGE
+# Copyright (C) 2022
+# This file is distributed under the same license as the dittomenu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dittomenu\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
+"POT-Creation-Date: 2022-04-21 22:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../metadata.desktop
+msgid "Ditto Menu"
+msgstr ""
+
+#: ../metadata.desktop
+msgid "A configurable launcher menu"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "On The Current Activity"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "Show In Favorites"
+msgstr ""
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Behavior"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show applications as:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name only"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description only"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name (Description)"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description (Name)"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show favorites first"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Menu position:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Default"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center bottom"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Search"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Expand search to bookmarks, files and emails"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show user icon"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show labels in two lines"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Grid"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of columns in grid"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of rows in grid"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhide all hidden applications"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhidden!"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications..."
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "System Preferences"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "User Home"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgctxt "@action"
+msgid "Lock Screen"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Hi, "
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Type here to search ..."
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Favorites"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "All apps"
+msgstr ""

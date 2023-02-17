@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 22 22"
+   version="1.0"
+   height="22"
+   width="22"
+   id="svg120"
+   sodipodi:docname="battery.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1517"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.8068182"
+     inkscape:cx="-35.185309"
+     inkscape:cy="-19.025042"
+     inkscape:window-width="1366"
+     inkscape:window-height="736"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg120" />
+  <metadata
+     id="metadata121">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5">
+    <style
+       type="text/css"
+       id="current-color-scheme">.ColorScheme-Text {
+            color:#232629;
+        }
+        .ColorScheme-PositiveText {
+            color:#27ae60;
+        }
+        .ColorScheme-NeutralText {
+            color:#f67400;
+        }
+        .ColorScheme-NegativeText {
+            color:#ff2244;
+        }
+        .ColorScheme-Highlight {
+            color:#3daee9;
+        }</style>
+  </defs>
+  <g
+     transform="translate(360,23)"
+     id="Fill10">
+    <g
+       fill="#ff4d62"
+       transform="translate(0,-24)"
+       id="g1075">
+      <path
+         d="m3-34c-2.216 0-4 1.784-4 4v6c0 2.216 1.784 4 4 4h18c2.216 0 4-1.784 4-4v-6c0-2.216-1.784-4-4-4zm0 2h18c1.108 0 2 0.892 2 2v6c0 1.108-0.892 2-2 2h-18c-1.108 0-2-0.892-2-2v-6c0-1.108 0.892-2 2-2z"
+         id="path1069" />
+      <path
+         d="m26-29v4h0.5a2.25 2.1237 0 0 0 1.5-2.0013 2.25 2.1237 0 0 0-1.5-1.9987z"
+         id="path1071" />
+      <rect
+         ry="1"
+         height="8"
+         width="2"
+         y="-31"
+         x="2"
+         id="rect1073" />
+    </g>
+    <rect
+       fill="none"
+       height="32"
+       width="32"
+       y="-67"
+       x="-3"
+       id="rect1077" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(-154.45 -379.51)"
+     class="ColorScheme-Text"
+     id="Fill100">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1022" />
+    <rect
+       stroke-width=".8528"
+       ry="1"
+       rx="0"
+       height="8"
+       width="20"
+       y="348.51"
+       x="194.45"
+       id="rect1028" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(-114.45,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill90">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1042" />
+    <rect
+       stroke-width=".849"
+       ry="1"
+       rx="0"
+       height="8"
+       width="18"
+       y="348.51"
+       x="194.43"
+       id="rect1044" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(-79.45,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill80">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1048" />
+    <rect
+       stroke-width=".8438"
+       ry="1"
+       rx="0"
+       height="8"
+       width="16"
+       y="348.51"
+       x="194.43"
+       id="rect1050" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(-40.45,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill70">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1054" />
+    <rect
+       stroke-width=".83726"
+       ry="1"
+       rx="0"
+       height="8"
+       width="14"
+       y="348.51"
+       x="194.43"
+       id="rect1056" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(-4.45,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill60">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1060" />
+    <rect
+       stroke-width=".82877"
+       ry="1"
+       rx="0"
+       height="8"
+       width="12"
+       y="348.51"
+       x="194.43"
+       id="rect1062" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(30.55,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill50">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1066" />
+    <rect
+       stroke-width=".81731"
+       ry="1"
+       rx="0"
+       height="8"
+       width="10"
+       y="348.51"
+       x="194.43"
+       id="rect1068" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(70.55,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill40">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1072" />
+    <rect
+       stroke-width=".801"
+       ry="1"
+       rx="0"
+       height="8"
+       width="8"
+       y="348.51"
+       x="194.43"
+       id="rect1074" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(105.55,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill30">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1078" />
+    <rect
+       stroke-width=".77589"
+       ry="1"
+       rx="0"
+       height="8"
+       width="6"
+       y="348.51"
+       x="194.43"
+       id="rect1080" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(137.55,-379.51)"
+     class="ColorScheme-Text"
+     id="Fill20">
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="336.51"
+       x="189.44"
+       id="rect1084" />
+    <rect
+       stroke-width=".73212"
+       ry="1"
+       rx="0"
+       height="8"
+       width="4"
+       y="348.51"
+       x="194.43"
+       id="rect1086" />
+  </g>
+  <g
+     transform="translate(-69.54,-403.51)"
+     id="AcAdapter">
+    <g
+       transform="translate(-228,47)"
+       id="g1133">
+      <rect
+         opacity="0"
+         ry="0"
+         rx="0"
+         height="32"
+         width="32"
+         y="314.51"
+         x="211.54"
+         id="rect1129" />
+    </g>
+    <g
+       id="g1139">
+      <path
+         fill="currentColor"
+         d="m-3.4643 369.51c-0.554 0-1 0.446-1 1v3h-2c3.908e-4 3.3259 1.6723 6.1922 4 6.8574v4.1426c0 0.554 0.446 1 1 1s1-0.446 1-1v-4.1426c2.3277-0.66518 3.9996-3.5315 4-6.8574h-2v-3c0-0.554-0.446-1-1-1s-1 0.446-1 1v3h-2v-3c0-0.554-0.446-1-1-1z"
+         id="path1137"
+         class="ColorScheme-PositiveText" />
+    </g>
+  </g>
+  <g
+     transform="translate(-167.54,-433.51)"
+     id="22-22-AcAdapter">
+    <g
+       transform="translate(-128,-3)"
+       id="g1153">
+      <g
+         transform="translate(50,8)"
+         id="g1149">
+        <rect
+           opacity="0"
+           ry="0"
+           rx="0"
+           height="22"
+           width="22"
+           y="428.51"
+           x="164.54"
+           id="rect1147" />
+      </g>
+    </g>
+    <path
+       d="m-119.5 35c-0.277 0-0.5 0.223-0.5 0.5v1.5h-2a4.5 6 0 0 0 4 5.9609v2.5391c0 0.277 0.223 0.5 0.5 0.5s0.5-0.223 0.5-0.5v-2.5371a4.5 6 0 0 0 4-5.9629h-2v-1.5c0-0.277-0.223-0.5-0.5-0.5s-0.5 0.223-0.5 0.5v1.5h-3v-1.5c0-0.277-0.223-0.5-0.5-0.5z"
+       transform="translate(214.54,404.51)"
+       id="path1155"
+       fill="currentColor"
+       class="ColorScheme-PositiveText" />
+  </g>
+  <g
+     fill="currentColor"
+     transform="translate(-210.25 -400.22)"
+     class="ColorScheme-Text"
+     id="battery-ups">
+    <g
+       transform="translate(1,27)"
+       id="g297">
+      <path
+         opacity=".5"
+         d="m-139-36c-2.216 0-4 1.784-4 4v6c0 2.216 1.784 4 4 4h18c2.216 0 4-1.784 4-4v-6c0-2.216-1.784-4-4-4zm0 1h11l-7 7h5l-2.5 5h-6.5c-1.662 0-3-1.338-3-3v-6c0-1.662 1.338-3 3-3zm11.5 0h6.5c1.662 0 3 1.338 3 3v6c0 1.662-1.338 3-3 3h-11l7-7h-5zm11.5 4v4a2 2 0 0 0 2-2 2 2 0 0 0-2-2z"
+         transform="translate(213.54,377.51)"
+         id="path275" />
+      <path
+         d="m-139-34c-1.108 0-2 0.892-2 2v6c0 1.108 0.892 2 2 2h5.8828l1.5-3h-3.3828c-0.89064-3.51e-4 -1.3366-1.077-0.70703-1.707l5.293-5.293zm12.117 0-1.5 3h3.3828c0.89064 3.51e-4 1.3366 1.077 0.70703 1.707l-5.293 5.293h8.5859c1.108 0 2-0.892 2-2v-6c0-1.108-0.892-2-2-2z"
+         transform="translate(213.54,377.51)"
+         id="rect281" />
+    </g>
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="32"
+       width="32"
+       y="359.51"
+       x="69.536"
+       id="rect1110" />
+  </g>
+  <g
+     transform="translate(-220.54 -409.02)"
+     fill="currentColor"
+     class="ColorScheme-Text"
+     id="22-22-battery-ups">
+    <path
+       d="m-116 12c-0.554 0-1 0.446-1 1v5c0 0.554 0.446 1 1 1h4.8106l0.6582-1.4941h-2.4688c-0.87296 5.7e-4 -1.3276-1.0392-0.73438-1.6797l3.5293-3.8262zm9.2051 0-0.66797 1.5059h2.4629c0.86964 8.8e-4 1.3239 1.0346 0.73633 1.6758l-3.5137 3.8184h5.7773c0.554 0 1-0.446 1-1v-5c0-0.554-0.446-1-1-1z"
+       transform="translate(214.54,404.51)"
+       id="rect1160" />
+    <rect
+       opacity="0"
+       ry="0"
+       rx="0"
+       height="22"
+       width="22"
+       y="408.51"
+       x="95.536"
+       id="rect930" />
+    <path
+       opacity=".5"
+       d="m-116 10c-1.662 0-3 1.338-3 3v5c0 1.662 1.338 3 3 3h14c1.662 0 3-1.338 3-3v-5c0-1.662-1.338-3-3-3h-5zm0 1h8.0781l-5.0781 5.5059h4l-1.5371 3.4941h-5.4629c-1.108 0-2-0.892-2-2v-5c0-1.108 0.89199-2 2-2zm8.5566 0h5.4434c1.108 0 2 0.892 2 2v5c0 1.108-0.89199 2-2 2h-8.0566l5.0566-5.4941h-4z"
+       transform="translate(214.54,404.51)"
+       id="path965" />
+    <path
+       opacity=".5"
+       d="m116.54 418.59v2.8262a1.5 1.5 0 0 0 1-1.4141 1.5 1.5 0 0 0-1-1.4121z"
+       id="path1139" />
+  </g>
+  <g
+     transform="translate(-166.54,-471.51)"
+     id="Unavailable">
+    <path
+       fill="none"
+       d="m 118.48074,428.5 h 33 v 32 h -33 z"
+       id="rect4480"
+       style="stroke-width:1.0155" />
+    <g
+       id="g4580">
+      <rect
+         fill="currentColor"
+         ry="6"
+         rx="6"
+         height="12"
+         width="12"
+         y="446.5"
+         x="139.54"
+         id="rect4577"
+         class="ColorScheme-NegativeText" />
+      <path
+         fill="currentColor"
+         d="m148.36 450.38-0.70699-0.707-2.1213 2.1213-2.1213-2.1213-0.70711 0.70711 2.1214 2.1212-2.1214 2.1214 0.70711 0.70711 2.1213-2.1216 2.1213 2.1216 0.70711-0.70711-2.1214-2.1214z"
+         class="ColorScheme-Text"
+         id="rect4622-0" />
+    </g>
+  </g>
+  <g
+     transform="translate(-300.54,-433.51)"
+     id="22-22-Unavailable">
+    <path
+       fill="none"
+       d="m258.54 426.5h22v22h-22z"
+       id="rect4614" />
+    <g
+       id="g4631">
+      <rect
+         fill="currentColor"
+         ry="4.5"
+         rx="4.5"
+         height="9"
+         width="9"
+         y="439.5"
+         x="271.54"
+         id="rect4577-9-1"
+         class="ColorScheme-NegativeText" />
+      <path
+         fill="currentColor"
+         d="m277.89 442.77-0.61861-0.61862-1.2375 1.2375-1.2375-1.2375-0.61861 0.61862 1.2375 1.2375-1.2375 1.2373 0.61861 0.61862 1.2375-1.2373 1.2374 1.2374 0.61863-0.61862-1.2374-1.2374z"
+         class="ColorScheme-Text"
+         id="rect4622" />
+    </g>
+  </g>
+  <g
+     transform="translate(-1,23)"
+     id="Battery">
+    <g
+       fill="currentColor"
+       class="ColorScheme-Text"
+       transform="translate(0,-24)"
+       id="g995">
+      <path
+         d="m3-34c-2.216 0-4 1.784-4 4v6c0 2.216 1.784 4 4 4h18c2.216 0 4-1.784 4-4v-6c0-2.216-1.784-4-4-4zm0 2h18c1.108 0 2 0.892 2 2v6c0 1.108-0.892 2-2 2h-18c-1.108 0-2-0.892-2-2v-6c0-1.108 0.892-2 2-2z"
+         id="rect939" />
+      <path
+         d="m26-29v4h0.5a2.25 2.1237 0 0 0 1.5-2.0013 2.25 2.1237 0 0 0-1.5-1.9987z"
+         id="path944" />
+    </g>
+    <rect
+       fill="none"
+       height="32"
+       width="32"
+       y="-67"
+       x="-3"
+       id="rect997" />
+  </g>
+  <g
+     transform="translate(39,-27)"
+     id="22-22-Fill100">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect971" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="12"
+       y="32"
+       x="3"
+       id="rect969" />
+  </g>
+  <g
+     transform="translate(66,-27)"
+     id="22-22-Fill90">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect977" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="11"
+       y="32"
+       x="3"
+       id="rect979" />
+  </g>
+  <g
+     transform="translate(95,-27)"
+     id="22-22-Fill80">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect983" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="10"
+       y="32"
+       x="3"
+       id="rect985" />
+  </g>
+  <g
+     transform="translate(123.5,-27)"
+     id="22-22-Fill70">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect989" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="9"
+       y="32"
+       x="3"
+       id="rect991" />
+  </g>
+  <g
+     transform="translate(155.5,-27)"
+     id="22-22-Fill60">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect995" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="8"
+       y="32"
+       x="3"
+       id="rect998" />
+  </g>
+  <g
+     transform="translate(190,-27)"
+     id="22-22-Fill50">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect1002" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="7"
+       y="32"
+       x="3"
+       id="rect1004" />
+  </g>
+  <g
+     transform="translate(219,-27)"
+     id="22-22-Fill40">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect1008" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="5"
+       y="32"
+       x="3"
+       id="rect1011" />
+  </g>
+  <g
+     transform="translate(249,-27)"
+     id="22-22-Fill30">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect1015" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="4"
+       y="32"
+       x="3"
+       id="rect1017" />
+  </g>
+  <g
+     transform="translate(279,-27)"
+     id="22-22-Fill20">
+    <rect
+       opacity="0"
+       height="22"
+       width="22"
+       y="24"
+       id="rect1021" />
+    <rect
+       fill="currentColor"
+       class="ColorScheme-Text"
+       ry="1"
+       height="6"
+       width="3"
+       y="32"
+       x="3"
+       id="rect1024" />
+  </g>
+  <g
+     transform="translate(402,23)"
+     id="Fill0">
+    <g
+       fill="#ff4d62"
+       transform="translate(0,-24)"
+       id="g1087">
+      <path
+         d="m3-34c-2.216 0-4 1.784-4 4v6c0 2.216 1.784 4 4 4h18c2.216 0 4-1.784 4-4v-6c0-2.216-1.784-4-4-4zm0 2h18c1.108 0 2 0.892 2 2v6c0 1.108-0.892 2-2 2h-18c-1.108 0-2-0.892-2-2v-6c0-1.108 0.892-2 2-2z"
+         id="path1081" />
+      <path
+         d="m26-29v4h0.5a2.25 2.1237 0 0 0 1.5-2.0013 2.25 2.1237 0 0 0-1.5-1.9987z"
+         id="path1083" />
+    </g>
+    <rect
+       fill="none"
+       height="32"
+       width="32"
+       y="-67"
+       x="-3"
+       id="rect1089" />
+  </g>
+  <g
+     id="22-22-Battery">
+    <rect
+       fill="none"
+       height="22"
+       width="22"
+       id="rect972" />
+    <path
+       fill="currentColor"
+       class="ColorScheme-Text"
+       d="m20 9v4h0.5a1.5 2 0 0 0 1.5-2 1.5 2 0 0 0-1.5-2z"
+       id="path963" />
+    <path
+       fill="currentColor"
+       class="ColorScheme-Text"
+       d="m3.9766 5c-2.2035 0-3.9766 1.773-3.9766 3.9766v4.0469c0 2.2035 1.773 3.9766 3.9766 3.9766h11.047c2.2035 0 3.9766-1.773 3.9766-3.9766v-4.0469c0-2.2035-1.773-3.9766-3.9766-3.9766h-11.047zm0.023438 2h11c1.108 0 2 0.892 2 2v4c0 1.108-0.892 2-2 2h-11c-1.108 0-2-0.892-2-2v-4c0-1.108 0.892-2 2-2z"
+       id="rect942" />
+  </g>
+  <g
+     transform="translate(-6,-20)"
+     id="22-22-Fill10">
+    <rect
+       fill="none"
+       height="22"
+       width="22"
+       y="17"
+       x="313"
+       id="rect952" />
+    <path
+       fill="#ff4d62"
+       d="m333 26v4h0.5a1.5 2 0 0 0 1.5-2 1.5 2 0 0 0-1.5-2z"
+       id="path954" />
+    <path
+       fill="#ff4d62"
+       d="m316.98 22c-2.2035 0-3.9766 1.773-3.9766 3.9766v4.0469c0 2.2035 1.773 3.9766 3.9766 3.9766h11.047c2.2035 0 3.9766-1.773 3.9766-3.9766v-4.0469c0-2.2035-1.773-3.9766-3.9766-3.9766zm0.02344 2h11c1.108 0 2 0.892 2 2v4c0 1.108-0.892 2-2 2h-11c-1.108 0-2-0.892-2-2v-4c0-1.108 0.892-2 2-2z"
+       id="path956" />
+    <rect
+       fill="#ff4d62"
+       ry="1"
+       height="6"
+       width="2"
+       y="25"
+       x="316"
+       id="rect960" />
+  </g>
+  <g
+     transform="translate(30,-20)"
+     id="22-22-Fill0">
+    <rect
+       fill="none"
+       height="22"
+       width="22"
+       y="17"
+       x="313"
+       id="rect973" />
+    <path
+       fill="#ff4d62"
+       d="m333 26v4h0.5a1.5 2 0 0 0 1.5-2 1.5 2 0 0 0-1.5-2z"
+       id="path975" />
+    <path
+       fill="#ff4d62"
+       d="m316.98 22c-2.2035 0-3.9766 1.773-3.9766 3.9766v4.0469c0 2.2035 1.773 3.9766 3.9766 3.9766h11.047c2.2035 0 3.9766-1.773 3.9766-3.9766v-4.0469c0-2.2035-1.773-3.9766-3.9766-3.9766zm0.02344 2h11c1.108 0 2 0.892 2 2v4c0 1.108-0.892 2-2 2h-11c-1.108 0-2-0.892-2-2v-4c0-1.108 0.892-2 2-2z"
+       id="path977" />
+  </g>
+  <g
+     id="profile-powersave"
+     transform="translate(-275.01523,-371.18941)">
+    <rect
+       y="404.50504"
+       x="214.53572"
+       height="22"
+       width="22"
+       id="rect4447-6"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path1061"
+       class="ColorScheme-PositiveText"
+       d="m 15.050781,2.4824219 c -0.10815,0.31659 -0.248239,0.6272975 -0.417969,0.9296875 -0.889737,1.585728 -2.593823,2.9286078 -4.7988276,3.5195312 -3.5238487,0.939332 -5.7781586,4.3276274 -5.1875,7.6445314 l 0.046875,0.11914 C 3.6351386,15.877576 3,17.367828 3,19 h 1.0019531 c 0,-1.390389 0.5575067,-2.680439 1.4960938,-3.705078 0.099008,0.07518 0.1979979,0.151067 0.296875,0.226562 0.076258,0.05301 0.1542715,0.103905 0.2324219,0.154297 0.00348,0.0022 0.00628,0.0056 0.00977,0.0078 1.2451501,0.80015 2.7251079,1.265625 4.3124992,1.265625 4.41235,0 8,-3.58765 8,-8.0000002 0,-2.6559101 -1.301668,-5.0110469 -3.298828,-6.4667969 z m 0.345703,1.6171875 c 1.209175,1.2569406 1.953125,2.9636697 1.953125,4.8496094 0,3.8718202 -3.12818,7.0000002 -7,7.0000002 -1.5415443,0 -2.9610278,-0.499769 -4.115234,-1.341797 0.738531,-0.590148 1.6264635,-1.045558 2.6152344,-1.31836 C 10.751884,12.836818 12.392428,11.70102 13.5,10.158203 V 8.0917969 C 12.694081,10.117146 10.977375,11.679832 8.8496094,12.259766 7.6118998,12.562104 6.4903722,13.118542 5.5683594,13.863281 5.406003,11.269325 7.2775578,8.689412 10.09375,7.8964844 10.996075,7.6716869 11.828472,7.2577523 12.626953,6.8125 13.799176,6.0965642 14.752709,5.1590187 15.396484,4.0996094 Z"
+       transform="translate(214.53572,404.50504)"
+       fill="currentColor" />
+    <path
+       id="rect11595"
+       class="ColorScheme-PositiveText"
+       d="M 9,10 8.3808594,11 7.5,13 H 8.75 L 9,11.5 9.5,10 Z M 11.320312,11.619141 10,12.5 13.25,13.230469 14,13 v -0.5 l -1,-0.119141 z"
+       transform="translate(214.53572,404.50504)"
+       fill="currentColor" />
+  </g>
+  <g
+     id="profile-performance"
+     transform="translate(-275.01523,-349.18941)">
+    <rect
+       y="404.50504"
+       x="214.53572"
+       height="22"
+       width="22"
+       id="rect12815"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="rect14342"
+       class="ColorScheme-NeutralText"
+       d="M 10.519531,2.5 6,12.449219 V 13 h 5 v 6.5 h 0.480469 L 16,9.5507812 V 9 H 11 V 2.5 Z M 10,6.6191406 V 10 h 4.449219 L 12,15.380859 V 12 H 7.5507812 Z"
+       transform="translate(214.53572,404.50504)"
+       fill="currentColor" />
+  </g>
+</svg>

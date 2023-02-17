@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="488">
+  <name>KDE Splash Paw</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>menelkir</author>
+  <homepage>https://store.kde.org/p/1304763</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>68</rating>
+  <downloads>5279</downloads>
+  <installedfile>/home/tittu/.local/share/plasma/look-and-feel/kdesplash-paw-arch</installedfile>
+  <id>1304763</id>
+  <releasedate>2019-05-10</releasedate>
+  <summary>A splash theme for KDE 5 based on the plymouth theme paw-arch</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/03/89/86/1304763/a2a265faf62cbeddd67fc2e61357272235a5.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/03/89/86/1304763/a2a265faf62cbeddd67fc2e61357272235a5.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NTc0NzkzNTYiLCJvIjoiMSIsInMiOiJmZjE5YjU2ZWM4M2E4NjMwZWMzMWI0ZDY0MGUyMTEwY2QyMmRlMjA3YWVhZjBiNTFmNTQyMjY1ODVhOTQ4ODZhOGUxZWZjZWRmZWFhYTNjN2Y3OTFlN2RhM2JmZDBhZDZmMjYzZmMyMDc4OGY5ZGM3N2Y0NDYyMGFiZDg2NzM2ZiIsInQiOjE2NzYyMTE3MDUsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.hM-oJ_FnW_Ht-5jYfBs4cMQ08RefHiD5irgmqkpEIhY/kdesplash-paw-v1.0.zip</payload>
+  <tags>plasma##majorversion=5,plasma,theme,splashscreen,splash,unix,linux,gplv3,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

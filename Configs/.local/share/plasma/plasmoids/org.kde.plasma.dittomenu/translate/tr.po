@@ -1,0 +1,180 @@
+# Translation of dittomenu in tr
+# Copyright (C) 2022
+# This file is distributed under the same license as the dittomenu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dittomenu\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
+"POT-Creation-Date: 2022-04-21 22:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: tr_TR\n"
+"X-Source-Language: C\n"
+
+#: ../metadata.desktop
+msgid "Ditto Menu"
+msgstr "Ditto Menu"
+
+#: ../metadata.desktop
+msgid "A configurable launcher menu"
+msgstr "Yapılandırılabilir bir başlatıcı menüsü"
+
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Favorilerden Çıkar"
+
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr "Favorilerden Ekle"
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
+
+#: ../contents/code/tools.js
+msgid "On The Current Activity"
+msgstr "Mevcut Etkinlik Üzerine"
+
+#: ../contents/code/tools.js
+msgid "Show In Favorites"
+msgstr "Favorilerde Göster"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Genel"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr "Sİmge:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Seçmek..."
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Simgeyi Temizle"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Behavior"
+msgstr "Davranış"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show applications as:"
+msgstr "Uygulamaları şu şekilde göster:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name only"
+msgstr "Sadece isim"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description only"
+msgstr "Yalnızca açıklama"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Name (Description)"
+msgstr "İsim (Açıklama)"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Description (Name)"
+msgstr "Açıklama (İsim)"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show favorites first"
+msgstr "Önce favorileri göster"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Menu position:"
+msgstr "Menü konumu:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Default"
+msgstr "Varsayılan"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center"
+msgstr "Orta"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center bottom"
+msgstr "Orta alt"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Search"
+msgstr "Ara"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Aramayı yer imlerine, dosyalara ve e-postalara genişletin"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show user icon"
+msgstr "Kullanıcı simgesini göster"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show labels in two lines"
+msgstr "Etiketleri iki satırda göster"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Grid"
+msgstr "Izgara"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of columns in grid"
+msgstr "Izgaradaki sütun sayısı"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of rows in grid"
+msgstr "Izgaradaki satır sayısı"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhide all hidden applications"
+msgstr "Tüm gizli uygulamaları göster"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhidden!"
+msgstr "Gizli!"
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications..."
+msgstr "Uygulamaları Düzenle..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "System Preferences"
+msgstr "Sistem Tercihleri"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "User Home"
+msgstr "Kullanıcı Ana Sayfası"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgctxt "@action"
+msgid "Lock Screen"
+msgstr "Kilit Ekranı"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Hi, "
+msgstr "Merhaba, "
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Type here to search ..."
+msgstr "Aramak için buraya yazınız ..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Favorites"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "All apps"
+msgstr ""

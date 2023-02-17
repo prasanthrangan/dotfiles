@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="107">
+  <name>Bibata Modern Ice</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>Kaiz</author>
+  <homepage>https://store.kde.org/p/1197198</homepage>
+  <licence></licence>
+  <version>v2.0.3</version>
+  <rating>91</rating>
+  <downloads>10789</downloads>
+  <installedfile>/home/tittu/.icons/Bibata-Modern-Ice/*</installedfile>
+  <id>1197198</id>
+  <releasedate>2022-12-06</releasedate>
+  <summary>Bibata is one of the most popular cursors set in the Linux community so far and is now available for freely with multiple colors and size options for Windows as well. The aim of this project is to provide the personalized cursors to users.&lt;br />
+&lt;br />
+Check &lt;a...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/47/77/78/1197198/bibata-ice-modern.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/47/77/78/1197198/bibata-ice-modern.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzAzMjI1OTgiLCJvIjoiMSIsInMiOiJlYjQ1YTkzNTgzMmVlNmMyOTZkMmNiNGE5ZjM0MzVlMDI5Y2FiZWIyYWY2YmJiZjM0ZDAxNmY1MDQ5MGFkZWUyYzU4OTkxZGNhZTVlODRmZmMzYmMxZGMxZWE5ODY1YWE1Mzc2MGMwMjVjNGFiNmQ0OTZmYjUyNGQ2MTRmZjdhZSIsInQiOjE2NzYyMTE1OTIsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.fticYtz61tatJDVQevKAruD-FnIv-3CaaMPViqNugYs/Bibata-Modern-Ice.tar.gz</payload>
+  <tags>unix,xcursor,windows,gplv3,original-product,linux,cursor,bibata</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

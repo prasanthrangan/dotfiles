@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="420">
+  <name>mediacontroller_plus</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>ismail0f</author>
+  <homepage>https://store.kde.org/p/1317639</homepage>
+  <licence></licence>
+  <version>0.3.1</version>
+  <rating>86</rating>
+  <downloads>29844</downloads>
+  <installedfile>/home/tittu/.local/share/plasma/plasmoids/org.kde.plasma.mediacontroller_plus</installedfile>
+  <id>1317639</id>
+  <releasedate>2021-08-28</releasedate>
+  <summary>This is a modified version of the offical mediacontroller plasma5 widget.&lt;br />
+&lt;br />
+Add your media controller to your plasma panel or latte dock, and configure it to your liking, by enabling or disabling album artwork, track information, playback controls and playback progress bar.&lt;br />
+&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/12/80/1317639/83041c2f39e2305f73a134442be2a329dfbb4d60b2a3d50adb77f1f3a2d5ae9c1043.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/12/80/1317639/83041c2f39e2305f73a134442be2a329dfbb4d60b2a3d50adb77f1f3a2d5ae9c1043.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MzAxNjYzNzQiLCJvIjoiMSIsInMiOiJlMDY3NDRmODQ3MGU4YTg5Yzg2MjU5NzIwNzhlZWQ4MTU0MzczNTAzZGMwZTMyNTIzYTIzMjU3ODBjZmNkZjMxY2U4Yjk3OTI4NTlkNzZmNGE2NjIyNjc1MGZkMDM0Nzg1ZjdmNWI5MzMwOTE0NzFmYmEyNThmOTNmOTZmZWJiNCIsInQiOjE2NzYzMTc4MjUsInN0ZnAiOm51bGwsInN0aXAiOiIxMDYuMTk3LjI5LjI1NCJ9._UWa-hXJaHBufPontlW2XbO8QGJwG_5K9nr08sfSx0E/MediaController+_0.3.1.plasmoid</payload>
+  <tags>linux,mpris,multimedia,kde,gplv2-later,extension,efi,unix,panel,plasma,plasma##majorversion=5,widget</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="105">
+  <name>Plasma Customization Saver</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>paju</author>
+  <homepage>https://store.kde.org/p/1298955</homepage>
+  <licence></licence>
+  <version>1.6</version>
+  <rating>86</rating>
+  <downloads>21155</downloads>
+  <installedfile>/home/tittu/.local/share/plasma/plasmoids/com.pajuelo.plasmaConfSaver</installedfile>
+  <id>1298955</id>
+  <releasedate>2022-02-12</releasedate>
+  <summary>This is a widget to save and manage your desktop customizations, you can save your current desktop customization and it will list all your past saved ones, you can restore the customization with just one click, also you can export/import customization to other machines.&lt;br />
+&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/14/60/66/1298955/9795004b23f5eef53a328ed399b4ee5f34ee1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/14/60/66/1298955/9795004b23f5eef53a328ed399b4ee5f34ee1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDQ2NjEyMjYiLCJvIjoiMSIsInMiOiI1NTAwM2NhN2NhNGE0Mjk3MGJhNTIyN2YzYzc5ZmY1ZDFmZTAwMTJkNDI2OWMxZjBmMzZhYTA2OGUzZDQ3Zjk0MjZjNDM0MmU5NjdmN2Y4ODU5YmQ1NGZhZmI4MDZiY2I1YjZiZjlhZTNkODAzMDhjMjVlNjdkMGRhNzljNmI0ZiIsInQiOjE2NzYzMTcwOTAsInN0ZnAiOm51bGwsInN0aXAiOiIxMDYuMTk3LjI5LjI1NCJ9.cppVCCJzbr_3zQkHK1yNGT-MFzJH6SR8Kwj5jUWUnpc/com.pajuelo.plasmaConfSaver-1.6.tar.gz</payload>
+  <tags>extension,gplv3,kde,layouts,original-product,linux,manager,config,unix,widget,plasma,plasma##majorversion=5</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="399">
+  <name>Modern Clock</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>prayagjain</author>
+  <homepage>https://store.kde.org/p/1779868</homepage>
+  <licence></licence>
+  <version>0.0.1</version>
+  <rating>64</rating>
+  <downloads>16769</downloads>
+  <installedfile>/home/tittu/.local/share/plasma/plasmoids/com.github.prayag2.modernclock</installedfile>
+  <id>1779868</id>
+  <releasedate>2022-05-19</releasedate>
+  <summary>A simple yet modern looking clock for KDE Plasma! &lt;br />
+Please note that this clock does not work on panels.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/60/43/39/1779868/logo.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/60/43/39/1779868/logo.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NTI5NzIyMTciLCJvIjoiMSIsInMiOiI0NzNiYTdkMmE5ZTY2OWMyN2FhZTc3NWJhZWE3MzY3ZmVjMTBhMGU3NGUxNmYwZjQ2NzVjYjE5ZDAyNTNhOWUzZjU1YWNiYzgwOWM5MjZjOWQ0OThmMzgwNzdmYmU1MzRhZDk0OTFhMDAxNmRmMWFhM2M5NjYxMWUyMTdkOTdlNiIsInQiOjE2NzYzMTc4MDMsInN0ZnAiOm51bGwsInN0aXAiOiIxMDYuMTk3LjI5LjI1NCJ9.JZwnKqTloG7ww38GquNXC-Ncm9JblyI_wvEMM5EcVsk/modernclock-0.2.0.tar.gz</payload>
+  <tags>kde,gplv3,extension,date,clock,linux,modern,original-product,plasma##majorversion=5,plasma,simple,widget,unix,time</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="398">
+  <name>Ditto Menu</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1312669</homepage>
+  <licence></licence>
+  <version>0.321</version>
+  <rating>81</rating>
+  <downloads>3749</downloads>
+  <installedfile>/home/tittu/.local/share/plasma/plasmoids/org.kde.plasma.dittomenu</installedfile>
+  <id>1312669</id>
+  <releasedate>2022-12-21</releasedate>
+  <summary>&lt;span style="text-decoration: underline;">&lt;strong>Ditto menu for plasma.&lt;/strong>&lt;/span> &lt;br />
+&lt;br />
+Configurable grid of application icons.&lt;br />
+&lt;br />
+&lt;strong>Based on &lt;/strong>&lt;br />
++ DashBoard Menu &lt;br />
++ SimpleMenu&lt;br />
+&lt;br />
+&lt;span style="color: #00aa7f;">&lt;span...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1312669/qqqqq.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1312669/qqqqq.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzE1ODIzNDIiLCJvIjoiMSIsInMiOiI5ZDA3NzA4ZDgwZGQ2OTIzNGExZDhmMWRlZDQyMjg3OTY4MzFkZDE2YWUxODQ5Mjc1NTFmNmM2YWI0ZWI4NzQ4ZjI1NGNkOTJmYWQ4YmZkY2FjNzBhNWEyYjgwYTMyM2FiZjcwMWJiN2I4NjMxYmQ4MWU5Nzk4MjY1MmU5ZjQyMCIsInQiOjE2NzYyMTQwNjgsInN0ZnAiOm51bGwsInN0aXAiOiIxMTcuMjEzLjI2LjczIn0.rwpm5zhv53KttL-7upO7kN4d0jehV20jDyV8a-X6t5o/org.kde.plasma.dittomenu.tar.gz</payload>
+  <tags>unix,plasma##majorversion=5,plasma,widget,linux,menu,original-product,extension,kde,cc-by-sa</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

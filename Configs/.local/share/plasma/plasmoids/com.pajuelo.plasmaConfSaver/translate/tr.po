@@ -1,0 +1,70 @@
+# Translation of plasmaConfSaver in LANGUAGE
+# Copyright (C) 2020
+# This file is distributed under the same license as the plasmaConfSaver package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmaConfSaver \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-20 19:20+0200\n"
+"PO-Revision-Date: 2020-07-17 12:55+0300\n"
+"Last-Translator: Alef <alefben@pm.me>\n"
+"Language-Team: Turkish\n"
+"Language: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/FullRepresentation.qml:89
+msgid "Enter customization title"
+msgstr "Şablonlarınızda arayın..."
+
+#: ../contents/ui/FullRepresentation.qml:105
+msgid "Save"
+msgstr "Kaydet"
+
+#: ../contents/ui/FullRepresentation.qml:106
+msgid "Save your current customization"
+msgstr "Mevcut masaüstü şablonunuzu kaydedin"
+
+#: ../contents/ui/FullRepresentation.qml:192
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: ../contents/ui/FullRepresentation.qml:193
+msgid "Import a customization"
+msgstr "Bir masaüstü şablonunu içe aktarın"
+
+#: ../contents/ui/FullRepresentation.qml:291
+msgid "Load"
+msgstr "Yükle"
+
+#: ../contents/ui/FullRepresentation.qml:292
+msgid "Load this customization"
+msgstr "Bu masaüstü şablonunu yükleyin"
+
+#: ../contents/ui/FullRepresentation.qml:324
+msgid "Update"
+msgstr "Güncelle"
+
+#: ../contents/ui/FullRepresentation.qml:325
+msgid "Save this customization again"
+msgstr "Bu masaüstü şablonunu yeniden kaydedin"
+
+#: ../contents/ui/FullRepresentation.qml:358
+msgid "Export"
+msgstr "Dışa Aktar"
+
+#: ../contents/ui/FullRepresentation.qml:359
+msgid "Export this customization"
+msgstr "Bu masaüstü şablonunu dışa aktarın"
+
+#: ../contents/ui/FullRepresentation.qml:382
+msgid "Delete"
+msgstr "Sil"
+
+#: ../contents/ui/FullRepresentation.qml:383
+msgid "Delete this customization"
+msgstr "Bu masaüstü şablonunu silin"
