@@ -7,6 +7,13 @@
 source global_fn.sh
 
 
+# rofi
+if pkg_installed rofi
+then
+    cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
+fi
+
+
 # steam
 if pkg_installed steam
 then
