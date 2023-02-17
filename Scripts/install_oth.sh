@@ -10,7 +10,7 @@ source global_fn.sh
 # rofi
 if pkg_installed rofi
 then
-    cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
+    sudo cp ~/Dots/Configs/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
 fi
 
 
