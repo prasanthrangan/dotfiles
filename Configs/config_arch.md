@@ -77,17 +77,23 @@ yay -S oh-my-zsh-git zsh-theme-powerlevel10k-git zsh-syntax-highlighting-git zsh
 ```shell
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install --user flathub
+com.obsproject.Studio
+com.discordapp.Discord
+org.gnome.Boxes
+com.usebottles.bottles
+com.github.tchx84.Flatseal
 com.github.Matoking.protontricks
 net.davidotek.pupgui2
-com.github.tchx84.Flatseal
+net.werwolv.ImHex
 org.gimp.GIMP
 org.kde.krita
 org.inkscape.Inkscape
 org.darktable.Darktable
-org.kde.audiotube
+com.github.rafostar.Clapper
+com.github.unrud.VideoDownloader
+io.github.seadve.Mousai
 org.freedesktop.Piper
 org.openrgb.OpenRGB
-com.usebottles.bottles
 org.gnome.World.PikaBackup
 com.belmoussaoui.Authenticator
 com.bitwarden.desktop
