@@ -40,7 +40,11 @@ then
         echo 'user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);' > ~/.mozilla/firefox/${FoxRel}/user.js
         echo 'user_pref("browser.tabs.tabmanager.enabled", false);' >> ~/.mozilla/firefox/${FoxRel}/user.js
     else
-        echo "firefox not launched..."
+        echo "launching firefox..."
+        /usr/bin/firefox &
+        ffox_pid=$!
+        sleep 5
+        kill -9 $ffox_pid
     fi
 fi
 
