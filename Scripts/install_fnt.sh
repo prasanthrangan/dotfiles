@@ -15,7 +15,7 @@ tgt=`eval "echo $tgt"`
 
 if [ ! -d "${tgt}" ]
 then
-    mkdir ${tgt}
+    mkdir -p ${tgt}
     echo "${tgt} directory created..."
 fi
 

@@ -6,9 +6,9 @@
 
 source global_fn.sh
 
-if pkg_installed discover
+if pkg_installed plasma-welcome
 then
-    sudo pacman -Rdd discover
+    sudo pacman -Rdd plasma-welcome
 fi
 
 if pkg_installed kate
@@ -16,14 +16,9 @@ then
     sudo pacman -Rns kate
 fi
 
-if pkg_installed packagekit-qt5
-then
-    sudo pacman -Rns packagekit-qt5
-fi
-
 if pkg_installed rofi
 then
-    if [ -f /usr/share/applications/rofi*.desktop ]
+    if [ -f /usr/share/applications/rofi.desktop ]
     then
         sudo rm /usr/share/applications/rofi*.desktop
     fi

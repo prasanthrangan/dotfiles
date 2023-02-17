@@ -6,6 +6,7 @@
 
 source global_fn.sh
 
+
 # steam
 if pkg_installed steam
 then
@@ -16,19 +17,26 @@ then
     tar -xvzf ~/Dots/Source/arcs/Steam_Metro.tar.gz -C ~/.local/share/Steam/Skins/
 fi
 
-# sfirefox
+
+# firefox
 if pkg_installed firefox
 then
-    FoxRel=`ls -l ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
-
-    if [ ! -d ~/.mozilla/firefox/${FoxRel}/chrome ]
+    if [ -d ~/.mozilla/firefox/*.default-release ]
     then
-        mkdir ~/.mozilla/firefox/${FoxRel}/chrome
+        FoxRel=`ls -l ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
+
+        if [ ! -d ~/.mozilla/firefox/${FoxRel}/chrome ]
+        then
+            mkdir ~/.mozilla/firefox/${FoxRel}/chrome
+        fi
+        cp ~/Dots/Source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
+        echo 'user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);' > ~/.mozilla/firefox/${FoxRel}/user.js
+        echo 'user_pref("browser.tabs.tabmanager.enabled", false);' >> ~/.mozilla/firefox/${FoxRel}/user.js
+    else
+        echo "firefox not launched..."
     fi
-    cp ~/Dots/Source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
-    echo 'user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);' > ~/.mozilla/firefox/${FoxRel}/user.js
-    echo 'user_pref("browser.tabs.tabmanager.enabled", false);' >> ~/.mozilla/firefox/${FoxRel}/user.js
 fi
+
 
 # sddm
 sudo tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
@@ -39,6 +47,7 @@ then
 fi
 
 sudo mv /usr/share/sddm/themes/corners/kde_settings.conf /etc/sddm.conf.d/
+
 
 # grub
 sudo tar -xvzf ~/Dots/Source/arcs/Grub_Pochita.tar.gz -C /usr/share/grub/themes/
@@ -53,5 +62,7 @@ sudo sed -i "/^GRUB_DEFAULT=/c\GRUB_DEFAULT=saved
 sudo cp /boot/grub/grub.cfg /boot/grub/grub.bkp
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
+
 # zsh
 chsh -s $(which zsh)
+

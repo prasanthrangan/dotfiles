@@ -6,6 +6,8 @@
 
 source global_fn.sh
 
+cp -r $HOME/Dots/Configs/plasma/.* $HOME/
+
 while read lst
 do
 
@@ -38,3 +40,4 @@ do
 done
 
 done < customize_cfg.lst
+
