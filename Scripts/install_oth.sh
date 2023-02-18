@@ -28,6 +28,12 @@ fi
 # firefox
 if pkg_installed firefox
 then
+    echo "launching firefox..."
+    /usr/bin/firefox &
+    ffox_pid=$!
+    sleep 5
+    kill -9 $ffox_pid
+
     if [ -d ~/.mozilla/firefox/*.default-release ]
     then
         FoxRel=`ls -l ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
@@ -39,12 +45,6 @@ then
         cp ~/Dots/Source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
         echo 'user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);' > ~/.mozilla/firefox/${FoxRel}/user.js
         echo 'user_pref("browser.tabs.tabmanager.enabled", false);' >> ~/.mozilla/firefox/${FoxRel}/user.js
-    else
-        echo "launching firefox..."
-        /usr/bin/firefox &
-        ffox_pid=$!
-        sleep 5
-        kill -9 $ffox_pid
     fi
 fi
 

@@ -41,7 +41,7 @@ done
 sudo cp /etc/fstab /etc/fstab.bkp
 echo "$fstEntry" | sudo tee -a /etc/fstab
 
-sudo e2label /dev/nvme0n1p2 Arch
+sudo e2label /dev/nvme0n1p2 Arch #sudo btrfs filesystem label / Arch
 sudo e2label /dev/nvme0n1p3 Tittu
 ```
 
