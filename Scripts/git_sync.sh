@@ -26,7 +26,7 @@ fi
 if [[ `grep '@github.com' ~/Dots/.git/config | awk '{print $1}'` == "url" ]]
 then
     git pull
-    if [ `git config --list | egrep "user.email|user.name" | wc -l` -eq 2 ]
+    if [ `git config --list | grep -E "user.email|user.name" | wc -l` -eq 2 ]
     then
         git add .
         git status
