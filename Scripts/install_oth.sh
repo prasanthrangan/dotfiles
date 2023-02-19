@@ -37,9 +37,11 @@ then
     sudo chmod a+wr /opt/spotify
     sudo chmod a+wr /opt/spotify/Apps -R
 
-    spicetify restore
-    spicetify clear
-    spicetify backup apply
+    if [ $(ls -A ~/.config/spicetify/Backup | wc -l) -eq 0 ]
+    then
+        spicetify backup apply
+    fi
+
     spicetify config current_theme Sleek
     spicetify config color_scheme Cherry
     spicetify apply
