@@ -96,4 +96,5 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # zsh
 chsh -s $(which zsh)
+kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
 
