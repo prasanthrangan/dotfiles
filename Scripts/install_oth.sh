@@ -25,6 +25,27 @@ then
 fi
 
 
+# spotify
+if pkg_installed spotify
+then
+    echo "launching spotify..."
+    /usr/bin/spotify &
+    spoty_pid=$!
+    sleep 5
+    kill -9 $spoty_pid
+
+    sudo chmod a+wr /opt/spotify
+    sudo chmod a+wr /opt/spotify/Apps -R
+
+    spicetify restore
+    spicetify clear
+    spicetify backup apply
+    spicetify config current_theme Sleek
+    spicetify config color_scheme Cherry
+    spicetify apply
+fi
+
+
 # firefox
 if pkg_installed firefox
 then
@@ -50,13 +71,12 @@ fi
 
 
 # sddm
-sudo tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
-
 if [ ! -d /etc/sddm.conf.d ]
 then
     sudo mkdir /etc/sddm.conf.d
 fi
 
+sudo tar -xvzf ~/Dots/Source/arcs/Sddm_Corners.tar.gz -C /usr/share/sddm/themes/
 sudo mv /usr/share/sddm/themes/corners/kde_settings.conf /etc/sddm.conf.d/
 
 
