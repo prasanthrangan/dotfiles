@@ -6,7 +6,10 @@
 
 source global_fn.sh
 
-cp -r $HOME/Dots/Configs/plasma/. $HOME
+if pkg_installed plasma-meta
+then
+    cp -r $HOME/Dots/Configs/plasma/. $HOME
+fi
 
 while read lst
 do
@@ -39,5 +42,5 @@ do
     fi
 done
 
-done < customize_cfg.lst
+done < restore_cfg.lst
 

@@ -21,7 +21,7 @@ fi
 
 sudo tar -xvzf ~/Dots/Source/arcs/${fnt}.tar.gz -C ${tgt}/
 
-done < customize_fnt.lst
+done < restore_fnt.lst
 
 fc-cache -vf
 fc-list

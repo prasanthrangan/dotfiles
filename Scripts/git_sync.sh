@@ -26,10 +26,13 @@ fi
 if [[ `grep '@github.com' ~/Dots/.git/config | awk '{print $1}'` == "url" ]]
 then
     git pull
-    git add .
-    git status
-    git commit -m "updates"
-    git push
+    if [ `git config --list | egrep "user.email|user.name" | wc -l` -eq 2 ]
+    then
+        git add .
+        git status
+        git commit -m "updates"
+        git push
+    fi
 else
     echo "git token not configured..."
     echo 'sed -i "/url = /c\\\turl = https://prasanthrangan:<token>@github.com/prasanthrangan/dotfiles.git" ~/Dots/.git/config'
