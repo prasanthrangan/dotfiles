@@ -1,8 +1,8 @@
 # --// Arch KDE //-- #
 
-## Video
 
 https://user-images.githubusercontent.com/106020512/221370896-6a1766eb-644b-4fda-8410-187b123de4bc.mp4
+
 
 
 ## Theme 
