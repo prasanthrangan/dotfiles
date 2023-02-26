@@ -56,4 +56,4 @@ fi
 
 sudo pacman -Sc
 pacman -Qtdq | sudo pacman -Rns -
-pacman -Qqd | sudo pacman -Rsu -
+#pacman -Qqd | sudo pacman -Rsu -
